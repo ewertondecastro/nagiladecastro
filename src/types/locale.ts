@@ -36,7 +36,9 @@ export interface ProductItem {
   titleLine2: string;
   description: string;
   cta: string;
-  whatsappText: string;
+  whatsappText?: string;
+  downloadUrl?: string;
+  downloadFilename?: string;
 }
 
 export interface LocaleDict {

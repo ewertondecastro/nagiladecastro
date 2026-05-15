@@ -229,8 +229,9 @@
         "titleLine1": "Guide",
         "titleLine2": "First 30 days of sleep",
         "description": "Free PDF with the basics for you to start organizing your baby's sleep today, even before any consultation.",
-        "cta": "Get it on WhatsApp",
-        "whatsappText": "Hi Nagila, I came from the site — I'd like the free guide First 30 days of sleep"
+        "cta": "Download PDF",
+        "downloadUrl": "/guides/guia-30-dias-do-sono.pdf",
+        "downloadFilename": "Guide-First-30-days-of-sleep.pdf"
       },
       {
         "kind": "paid",

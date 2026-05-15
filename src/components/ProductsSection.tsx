@@ -29,14 +29,24 @@ function ProductCard({ item, delay }: { item: ProductItem; delay: number }) {
         {item.description}
       </p>
 
-      <a
-        href={whatsAppUrl(item.whatsappText)}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="self-start font-barlow-condensed text-xs tracking-widest uppercase px-5 py-2.5 bg-rose-accent text-background font-semibold hover:bg-text-primary transition-colors duration-200"
-      >
-        {item.cta}
-      </a>
+      {item.downloadUrl ? (
+        <a
+          href={item.downloadUrl}
+          download={item.downloadFilename}
+          className="self-start font-barlow-condensed text-xs tracking-widest uppercase px-5 py-2.5 bg-rose-accent text-background font-semibold hover:bg-text-primary transition-colors duration-200"
+        >
+          {item.cta}
+        </a>
+      ) : (
+        <a
+          href={whatsAppUrl(item.whatsappText ?? "")}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="self-start font-barlow-condensed text-xs tracking-widest uppercase px-5 py-2.5 bg-rose-accent text-background font-semibold hover:bg-text-primary transition-colors duration-200"
+        >
+          {item.cta}
+        </a>
+      )}
     </FadeIn>
   );
 }

@@ -229,8 +229,9 @@
         "titleLine1": "Guia",
         "titleLine2": "Primeiros 30 dias do sono",
         "description": "PDF gratuito com as bases pra você começar a organizar o sono do seu bebê ainda hoje, mesmo antes de qualquer consultoria.",
-        "cta": "Receber pelo WhatsApp",
-        "whatsappText": "Oi Nagila, vim pelo site — quero receber o guia gratuito Primeiros 30 dias do sono"
+        "cta": "Baixar PDF",
+        "downloadUrl": "/guides/guia-30-dias-do-sono.pdf",
+        "downloadFilename": "Guia-Primeiros-30-dias-do-sono.pdf"
       },
       {
         "kind": "paid",
