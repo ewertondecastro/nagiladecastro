@@ -53,6 +53,24 @@ export default function AboutSection({ dict }: Props) {
             </p>
           ))}
 
+          {/* Credentials */}
+          <div className="mt-6 pt-6 border-t border-cream-line flex flex-col gap-3">
+            <span className="font-barlow-condensed text-[10px] tracking-[0.3em] text-text-muted uppercase">
+              {about.credentials.label}
+            </span>
+            <ul className="flex flex-col gap-1.5">
+              {about.credentials.items.map((item, i) => (
+                <li
+                  key={i}
+                  className="font-barlow text-text-primary leading-snug pl-3 border-l-2 border-rose-accent"
+                  style={{ fontSize: "clamp(13px, 1vw, 15px)" }}
+                >
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
           {/* Partner credit */}
           <a
             href={about.partner.url}

@@ -67,6 +67,10 @@ export interface LocaleDict {
     titleLine2: string;
     titleLine3: string;
     body: string[];
+    credentials: {
+      label: string;
+      items: string[];
+    };
     partner: {
       label: string;
       handle: string;
