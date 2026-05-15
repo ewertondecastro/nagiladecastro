@@ -1,4 +1,43 @@
 export type Locale = "pt" | "en" | "es";
+export type MentoriaSlug = "sono" | "maternidade" | "homeschool" | "meti";
+
+export interface MentoriaDetail {
+  eyebrow: string;
+  headlineLine1: string;
+  headlineLine2: string;
+  intro: string;
+  whyTitle: string;
+  whyBody: string[];
+  journeyTitle: string;
+  journeyBody: string[];
+  forWhomTitle: string;
+  forWhomItems: string[];
+  ctaLabel: string;
+  ctaWhatsappText: string;
+  backToHome: string;
+}
+
+export interface MentoriaCard {
+  slug: MentoriaSlug;
+  number: string;
+  titleLine1: string;
+  titleLine2: string;
+  description: string;
+  learnMore: string;
+  contactCta: string;
+  whatsappText: string;
+  detail: MentoriaDetail;
+}
+
+export interface ProductItem {
+  kind: "free" | "paid";
+  badge: string;
+  titleLine1: string;
+  titleLine2: string;
+  description: string;
+  cta: string;
+  whatsappText: string;
+}
 
 export interface LocaleDict {
   meta: {
@@ -42,22 +81,21 @@ export interface LocaleDict {
   services: {
     sectionTitle: string;
     sectionSubtitle: string;
-    cards: Array<{
-      number: string;
-      titleLine1: string;
-      titleLine2: string;
-      description: string;
-      cta: string;
-      ctaUrl: string;
-    }>;
+    cards: MentoriaCard[];
   };
-  instagram: {
+  products: {
+    sectionTitle: string;
+    sectionSubtitle: string;
+    placeholderNote: string;
+    items: ProductItem[];
+  };
+  contact: {
     titleLine1: string;
     titleLine2: string;
     subtitle: string;
     handle: string;
     cta: string;
-    url: string;
+    whatsappText: string;
   };
   footer: {
     name: string;

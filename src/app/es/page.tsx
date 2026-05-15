@@ -4,7 +4,8 @@ import QuoteSection from "@/components/QuoteSection";
 import AboutSection from "@/components/AboutSection";
 import FamilySection from "@/components/FamilySection";
 import ServicesSection from "@/components/ServicesSection";
-import InstagramSection from "@/components/InstagramSection";
+import ProductsSection from "@/components/ProductsSection";
+import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
@@ -45,8 +46,9 @@ export default async function PageES() {
       <QuoteSection dict={dict} />
       <AboutSection dict={dict} />
       <FamilySection dict={dict} />
-      <ServicesSection dict={dict} />
-      <InstagramSection dict={dict} />
+      <ServicesSection dict={dict} locale="es" />
+      <ProductsSection dict={dict} />
+      <ContactSection dict={dict} />
       <Footer dict={dict} />
     </main>
   );

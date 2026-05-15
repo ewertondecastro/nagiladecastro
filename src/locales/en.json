@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Nagila Decastro",
-    "description": "Mother of two girls, wife, homeschool educator and mentor to mothers. Helping families rest better and live motherhood with presence.",
+    "description": "Mother of two girls, wife, homeschool educator, and mentor to mothers. Sleep consulting, real motherhood, homeschool, and METI Mentorship.",
     "locale": "en_US"
   },
   "nav": {
@@ -10,12 +10,12 @@
     "es": "ES"
   },
   "hero": {
-    "tags": "MOTHER · WIFE · EDUCATOR · ENTREPRENEUR",
+    "tags": "MOTHER · WIFE · HOMESCHOOLER · MENTOR",
     "firstName": "Nagila",
     "lastName": "Decastro",
     "tagline": [
       "Motherhood with presence.",
-      "Sleep with ease.",
+      "Education with intention.",
       "Family with purpose."
     ],
     "location": "CAPE COD, MASSACHUSETTS",
@@ -32,8 +32,8 @@
     "body": [
       "I am Nagila — mother to Helena and Catharina, wife to Ewerton, living on Cape Cod. Every birth rewrote what I understood about rest, presence and home.",
       "I learned firsthand that a baby's sleep is not a technical detail — it is the oxygen of an entire family. When a mother sleeps again, she returns to herself.",
-      "I chose to educate my daughters at home not as a rejection of the world, but as a deep yes to time — the kind of time that does not come twice.",
-      "Today I walk alongside mothers who want more than to survive motherhood. Mothers who want to live inside it, with clarity, ease and purpose."
+      "I have homeschooled my two daughters from day one. Not as a rejection of the world, but as a deep yes to time — the time that does not come twice, the time it takes to pass character on at the child's own pace.",
+      "Today I walk alongside mothers and families who want more than to survive motherhood and parenting. Families who want to live inside it all with clarity, ease and purpose."
     ],
     "partner": {
       "label": "Wife of",
@@ -51,41 +51,185 @@
   },
   "services": {
     "sectionTitle": "How I walk with you",
-    "sectionSubtitle": "Three fronts, one root: caring for the mother is caring for the whole house.",
+    "sectionSubtitle": "Four mentorship fronts, one root: caring for the mother and the home is caring for everything that comes after.",
     "cards": [
       {
+        "slug": "sono",
         "number": "01",
         "titleLine1": "Sleep",
         "titleLine2": "Consulting",
         "description": "A human, personalized plan for your baby's sleep — honoring the bond, the child's temperament and your family's real rhythm. No harsh formulas, no guilt.",
-        "cta": "I want to sleep again",
-        "ctaUrl": "https://instagram.com/nagila.decastro"
+        "learnMore": "Learn more",
+        "contactCta": "Message on WhatsApp",
+        "whatsappText": "Hi Nagila, I came from your site — I'd like to know more about Sleep Consulting",
+        "detail": {
+          "eyebrow": "MENTORSHIP · 01",
+          "headlineLine1": "Sleep that rests",
+          "headlineLine2": "the whole home.",
+          "intro": "If you're here, sleep is not happening. Maybe it never has. Maybe it did for a while and then regressed. Maybe you can't even remember the last full night you slept — and you're exhausted enough that you don't know what to try anymore.",
+          "whyTitle": "Why it matters",
+          "whyBody": [
+            "A baby's sleep is not a technical detail. It is the oxygen of the family. Sleep-deprived mothers lose clarity, patience and self-trust — and the relationship with the partner, the other children, and their own faith silently pays the price.",
+            "It is not weakness, it is physiology. And there is a real path forward — without rigid methods and without promising what cannot be promised."
+          ],
+          "journeyTitle": "How we walk together",
+          "journeyBody": [
+            "I listen first. I don't show up with a ready-made plan for your baby — I show up with questions to understand the bond, your child's temperament, and the realistic rhythm of your home.",
+            "Then we leave with an honest plan: what you do tonight, what we adjust next week, what we revisit together. Ongoing support, not a one-time consult."
+          ],
+          "forWhomTitle": "Who this is for",
+          "forWhomItems": [
+            "Mothers of babies between 4 and 18 months",
+            "Mothers tired of method X, method Y, formulas that ignore who your child actually is",
+            "Mothers who want to sleep again without giving up who they are"
+          ],
+          "ctaLabel": "Let's talk on WhatsApp",
+          "ctaWhatsappText": "Hi Nagila, I came from the Sleep Consulting page — I'd like to talk about my baby's sleep",
+          "backToHome": "Back to home"
+        }
       },
       {
+        "slug": "maternidade",
         "number": "02",
         "titleLine1": "Real",
         "titleLine2": "Motherhood",
-        "description": "Mentoring for mothers in transition: first child, second child, identity after birth, marriage after baby. Honest talk, practical tools, gentle support.",
-        "cta": "Let's talk",
-        "ctaUrl": "https://instagram.com/nagila.decastro"
+        "description": "Mentorship for mothers in transition: first child, second child, identity after birth, marriage after baby. Honest talk, practical tools, gentle support.",
+        "learnMore": "Learn more",
+        "contactCta": "Message on WhatsApp",
+        "whatsappText": "Hi Nagila, I came from your site — I'd like to know more about Real Motherhood Mentorship",
+        "detail": {
+          "eyebrow": "MENTORSHIP · 02",
+          "headlineLine1": "Motherhood lived,",
+          "headlineLine2": "not merely survived.",
+          "intro": "Motherhood is not a miracle that happens to you. It is a crossing you cross — and almost no one is honest about what it's like from the inside. Identity that comes apart. Marriage that shifts. Body that returns different. Career on pause. And the silent question: \"am I still me?\".",
+          "whyTitle": "Why it matters",
+          "whyBody": [
+            "When motherhood is lived alone, it becomes survival. And mothers who survive for too long eventually collapse — into exhaustion, into anger, into distance.",
+            "It is not moral weakness. It is the absence of company. A mother needs another mother who has been through it, who has cried in the shower, who has come back to herself."
+          ],
+          "journeyTitle": "How we walk together",
+          "journeyBody": [
+            "We talk. Really talk. This isn't spreadsheet coaching, it's woman-to-woman mentorship. I have been through the first child, the second, the marriage that needed to be relearned, the slow return to identity.",
+            "I listen, I ask questions back, I give you concrete tools. And I come back next week, and the week after, until you no longer need me."
+          ],
+          "forWhomTitle": "Who this is for",
+          "forWhomItems": [
+            "First-time mothers feeling lost in the middle of the obvious",
+            "Second-child mothers who feel they are starting from zero",
+            "Mothers who lost themselves in the work of raising people",
+            "Mothers who want to be whole — not only mothers"
+          ],
+          "ctaLabel": "Let's talk on WhatsApp",
+          "ctaWhatsappText": "Hi Nagila, I came from the Real Motherhood Mentorship page — I'd like to talk",
+          "backToHome": "Back to home"
+        }
       },
       {
+        "slug": "homeschool",
         "number": "03",
         "titleLine1": "Home",
         "titleLine2": "Education",
-        "description": "For mothers who feel the call to homeschool but don't know where to start. Routine, materials, a simple curriculum and the courage for the first week.",
-        "cta": "I want to start",
-        "ctaUrl": "https://instagram.com/nagila.decastro"
+        "description": "For mothers who feel the call to homeschool but don't know where to start. Routine, materials, a simple curriculum and the courage for the first week — and all the weeks after.",
+        "learnMore": "Learn more",
+        "contactCta": "Message on WhatsApp",
+        "whatsappText": "Hi Nagila, I came from your site — I'd like to know more about Homeschool Mentorship",
+        "detail": {
+          "eyebrow": "MENTORSHIP · 03",
+          "headlineLine1": "Homeschool with ease,",
+          "headlineLine2": "method and purpose.",
+          "intro": "You feel the call to educate at home. You've felt it since before the first child, or you started feeling it now that they're school age. But you don't know where to start — and every time you ask, someone scares you with paperwork, curriculum, isolation, or lack of time.",
+          "whyTitle": "Why it matters",
+          "whyBody": [
+            "Homeschooling is not a rejection of the world. It is a deep yes to time — the time to learn at the child's own pace, the time to build a bond while teaching, the time to pass on values that don't fit into a school schedule.",
+            "I have homeschooled my two daughters from day one, and it is the decision that has most redesigned our family. It is not easy. It is worth every hour."
+          ],
+          "journeyTitle": "How we walk together",
+          "journeyBody": [
+            "I don't hand you a ready-made curriculum, because every home is different. I help you design yours: what values to pass on, what subjects to include, what routine fits your reality, what resources to use (free and paid).",
+            "Continuous mentorship, not a one-off class — so you have someone in the first week, the fifth, and the twentieth when the excitement fades and the method has to carry the house."
+          ],
+          "forWhomTitle": "Who this is for",
+          "forWhomItems": [
+            "Mothers considering homeschool for the first time",
+            "Families who have started but feel lost",
+            "Mothers already homeschooling who feel alone in the journey",
+            "Christian families wanting to align faith and education inside their own home"
+          ],
+          "ctaLabel": "Let's talk on WhatsApp",
+          "ctaWhatsappText": "Hi Nagila, I came from the Homeschool Mentorship page — I'd like to talk about educating at home",
+          "backToHome": "Back to home"
+        }
+      },
+      {
+        "slug": "meti",
+        "number": "04",
+        "titleLine1": "METI",
+        "titleLine2": "Mentorship",
+        "description": "Method of Intentional Traditional Education. Parental education that recovers clear limits, family hierarchy and character formation — with the intentionality modern parenting forgot.",
+        "learnMore": "Learn more",
+        "contactCta": "Message on WhatsApp",
+        "whatsappText": "Hi Nagila, I came from your site — I'd like to know more about METI Mentorship (Parental Education)",
+        "detail": {
+          "eyebrow": "MENTORSHIP · 04",
+          "headlineLine1": "Raising as before,",
+          "headlineLine2": "with the intention of now.",
+          "intro": "METI is the Method of Intentional Traditional Education — a way of raising children that recovers what modern parenting has forgotten (clear limits, family hierarchy, character formation, real family life) without falling into rigidity without purpose. It is parenting as before — but choosing every gesture.",
+          "whyTitle": "Why it matters",
+          "whyBody": [
+            "Most families today raise by improvisation. They react to children's behavior, copy what they saw in their own homes, outsource to school or screen. The result is a generation of exhausted parents and children without direction.",
+            "Not because parents don't love — but because no one taught them that raising is a vocation that has method. Tradition is not blind repetition; it is tested wisdom we choose to honor with intention."
+          ],
+          "journeyTitle": "How we walk together",
+          "journeyBody": [
+            "In METI mentorship we work the pillars of the method applied to your specific family: how to establish limits without emotional punishment, how to build family liturgies (meals, prayer, rest), how to return authority to its place without becoming authoritarian, how to raise for character, not performance.",
+            "Regular meetings, continuous adjustments, real-life accompaniment of your actual home — not loose theory."
+          ],
+          "forWhomTitle": "Who this is for",
+          "forWhomItems": [
+            "Parents who feel raising children has become 24-hour negotiation",
+            "Families wanting to return to the intentionality they saw in their grandparents, adapted to today",
+            "Couples who want to align how they raise before the children grow up picking sides",
+            "Families of faith who want education to reflect what they believe, lived at home every day"
+          ],
+          "ctaLabel": "Let's talk on WhatsApp",
+          "ctaWhatsappText": "Hi Nagila, I came from the METI Mentorship page — I'd like to talk about parental education",
+          "backToHome": "Back to home"
+        }
       }
     ]
   },
-  "instagram": {
-    "titleLine1": "If you made it here,",
-    "titleLine2": "the conversation continues there.",
-    "subtitle": "I share daily what I'm learning as a mother, wife, home educator and whole woman. No filter, no pre-packaged recipe.",
+  "products": {
+    "sectionTitle": "Resources",
+    "sectionSubtitle": "Practical materials so you don't have to wait for the next conversation to begin.",
+    "placeholderNote": "Example items — soon to be replaced with the real materials.",
+    "items": [
+      {
+        "kind": "free",
+        "badge": "FREE",
+        "titleLine1": "Guide",
+        "titleLine2": "First 30 days of sleep",
+        "description": "Free PDF with the basics for you to start organizing your baby's sleep today, even before any consultation.",
+        "cta": "Get it on WhatsApp",
+        "whatsappText": "Hi Nagila, I came from the site — I'd like the free guide First 30 days of sleep"
+      },
+      {
+        "kind": "paid",
+        "badge": "E-BOOK",
+        "titleLine1": "Home, routine",
+        "titleLine2": "and time",
+        "description": "30-page e-book on how to design a home routine that holds everything else up — sleep, education, marriage, faith. Read in one evening, apply this week.",
+        "cta": "I want the e-book",
+        "whatsappText": "Hi Nagila, I came from the site — I'd like to buy the e-book Home, routine and time"
+      }
+    ]
+  },
+  "contact": {
+    "titleLine1": "If something resonated,",
+    "titleLine2": "the conversation starts here.",
+    "subtitle": "Real motherhood, intentional self-care, and the life of a home that chose time. No performance, no pre-packaged recipe.",
     "handle": "@nagila.decastro",
-    "cta": "Follow on Instagram",
-    "url": "https://instagram.com/nagila.decastro"
+    "cta": "Message on WhatsApp",
+    "whatsappText": "Hi Nagila, I came from your site — I'd like to talk"
   },
   "footer": {
     "name": "Nagila Decastro",
