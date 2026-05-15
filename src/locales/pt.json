@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Nagila Decastro",
+    "description": "Mãe de duas meninas, esposa, educadora em casa e mentora de mães. Ajudo famílias a dormirem melhor e a viverem a maternidade com presença.",
+    "locale": "pt_BR"
+  },
+  "nav": {
+    "pt": "PT",
+    "en": "EN",
+    "es": "ES"
+  },
+  "hero": {
+    "tags": "MÃE · ESPOSA · EDUCADORA · EMPREENDEDORA",
+    "firstName": "Nagila",
+    "lastName": "Decastro",
+    "tagline": [
+      "Maternidade com presença.",
+      "Sono com leveza.",
+      "Família com propósito."
+    ],
+    "location": "CAPE COD, MASSACHUSETTS",
+    "scrollLabel": "ROLE"
+  },
+  "quote": {
+    "text": "O lar que se cuida primeiro sustenta tudo o que vem depois.",
+    "attribution": "NAGILA DECASTRO"
+  },
+  "about": {
+    "titleLine1": "Mãe de meninas,",
+    "titleLine2": "educadora em casa,",
+    "titleLine3": "mentora de mães.",
+    "body": [
+      "Sou a Nagila, mãe da Helena e da Catharina, esposa do Ewerton e moradora de Cape Cod. Cada parto reescreveu o que eu entendia por descanso, por presença e por casa.",
+      "Aprendi na pele que o sono do bebê não é um detalhe técnico — é o oxigênio de uma família inteira. Quando uma mãe volta a dormir, ela volta a si.",
+      "Escolhi educar minhas filhas em casa não como uma rejeição ao mundo, mas como um sim profundo ao tempo. Tempo que não passa duas vezes.",
+      "Hoje acompanho mães que querem mais do que sobreviver à maternidade. Mães que querem viver dentro dela com clareza, leveza e propósito."
+    ],
+    "partner": {
+      "label": "Esposa de",
+      "handle": "@ewerton.decastro",
+      "url": "https://instagram.com/ewerton.decastro"
+    }
+  },
+  "family": {
+    "titleLine1": "O motivo,",
+    "titleLine2": "todos os dias.",
+    "body": [
+      "Helena chegou em 2021. Catharina em 2024. Ewerton em 2017.",
+      "Antes de qualquer mãe que eu acompanho, existe esta casa. É dela que eu falo, é nela que eu volto, é dentro dela que tudo o que ensino foi primeiro vivido."
+    ]
+  },
+  "services": {
+    "sectionTitle": "Como eu acompanho",
+    "sectionSubtitle": "Três frentes, uma mesma raiz: cuidar da mãe é cuidar da casa inteira.",
+    "cards": [
+      {
+        "number": "01",
+        "titleLine1": "Consultoria",
+        "titleLine2": "de Sono",
+        "description": "Um plano humano e personalizado para o sono do seu bebê, respeitando o vínculo, o temperamento da criança e o ritmo real da sua família. Sem fórmulas duras, sem culpa.",
+        "cta": "Quero dormir de novo",
+        "ctaUrl": "https://instagram.com/nagila.decastro"
+      },
+      {
+        "number": "02",
+        "titleLine1": "Maternidade",
+        "titleLine2": "Real",
+        "description": "Mentoria para mães em transição: primeiro filho, segundo filho, retomada de identidade, casamento depois do bebê. Conversa franca, ferramentas práticas, acolhimento.",
+        "cta": "Quero conversar",
+        "ctaUrl": "https://instagram.com/nagila.decastro"
+      },
+      {
+        "number": "03",
+        "titleLine1": "Educação",
+        "titleLine2": "em Casa",
+        "description": "Para mães que sentem o chamado do homeschool mas não sabem por onde começar. Rotina, materiais, currículo simples e a coragem para a primeira semana.",
+        "cta": "Quero começar",
+        "ctaUrl": "https://instagram.com/nagila.decastro"
+      }
+    ]
+  },
+  "instagram": {
+    "titleLine1": "Se você chegou até aqui,",
+    "titleLine2": "a conversa continua lá.",
+    "subtitle": "Compartilho diariamente o que aprendo sendo mãe, esposa, educadora em casa e mulher inteira. Sem maquiagem, sem receita pronta.",
+    "handle": "@nagila.decastro",
+    "cta": "Seguir no Instagram",
+    "url": "https://instagram.com/nagila.decastro"
+  },
+  "footer": {
+    "name": "Nagila Decastro",
+    "copy": "2026 · Cape Cod, Massachusetts"
+  }
+}
