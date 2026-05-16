@@ -1,5 +1,4 @@
 import FadeIn from "./FadeIn";
-import { whatsAppUrl } from "@/lib/whatsapp";
 import type { LocaleDict } from "@/types/locale";
 
 interface Props {
@@ -24,7 +23,7 @@ export default function ContactSection({ dict }: Props) {
         </p>
 
         <a
-          href={whatsAppUrl(contact.whatsappText)}
+          href={contact.url}
           target="_blank"
           rel="noopener noreferrer"
           className="group inline-flex items-center gap-3 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 bg-rose-accent text-background font-semibold hover:bg-text-primary transition-colors duration-200"

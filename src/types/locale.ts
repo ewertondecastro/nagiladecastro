@@ -101,7 +101,7 @@ export interface LocaleDict {
     subtitle: string;
     handle: string;
     cta: string;
-    whatsappText: string;
+    url: string;
   };
   footer: {
     name: string;
