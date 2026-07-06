@@ -230,18 +230,36 @@
         "description": "PDF gratuito com as bases pra você começar a organizar o sono do seu bebê ainda hoje, mesmo antes de qualquer consultoria.",
         "cta": "Baixar PDF",
         "downloadUrl": "/guides/guia-30-dias-do-sono.pdf",
-        "downloadFilename": "Guia-Primeiros-30-dias-do-sono.pdf"
+        "downloadFilename": "Guia-Primeiros-30-dias-do-sono.pdf",
+        "gated": true
       },
       {
         "kind": "paid",
         "badge": "E-BOOK",
         "titleLine1": "Casa, rotina",
         "titleLine2": "e tempo",
-        "description": "E-book com 30 páginas sobre como desenhar uma rotina de casa que sustenta o resto — sono, educação, casamento, fé. Pra ler em uma noite, aplicar na semana.",
+        "description": "E-book com 25 páginas sobre como desenhar uma rotina de casa que sustenta o resto — sono, educação, casamento, fé. Pra ler em uma noite, aplicar na semana.",
         "cta": "Quero o e-book",
         "whatsappText": "Oi Nagila, vim pelo site — quero comprar o e-book Casa, rotina e tempo"
       }
     ]
+  },
+  "leadForm": {
+    "eyebrow": "Antes de baixar",
+    "title": "Só um passo",
+    "subtitle": "Preencha para receber o material. Sem spam, prometo.",
+    "name": "Nome",
+    "email": "E-mail",
+    "city": "Cidade",
+    "state": "Estado",
+    "country": "País",
+    "submit": "Baixar agora",
+    "sending": "Enviando...",
+    "cancel": "Fechar",
+    "errorRequired": "Preencha todos os campos.",
+    "errorEmail": "Digite um e-mail válido.",
+    "errorGeneric": "Algo deu errado. Tente novamente.",
+    "privacy": "Seus dados são usados só para enviar este material e novidades da Nagila."
   },
   "contact": {
     "titleLine1": "Se algo aqui ressoou,",

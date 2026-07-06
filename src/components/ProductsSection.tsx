@@ -1,4 +1,8 @@
+"use client";
+
+import { useState } from "react";
 import FadeIn from "./FadeIn";
+import LeadCaptureModal from "./LeadCaptureModal";
 import { whatsAppUrl } from "@/lib/whatsapp";
 import type { LocaleDict, ProductItem } from "@/types/locale";
 
@@ -6,8 +10,23 @@ interface Props {
   dict: LocaleDict;
 }
 
-function ProductCard({ item, delay }: { item: ProductItem; delay: number }) {
+const ctaClass =
+  "self-start font-barlow-condensed text-xs tracking-widest uppercase px-5 py-2.5 bg-rose-accent text-background font-semibold hover:bg-text-primary transition-colors duration-200";
+
+function ProductCard({
+  item,
+  delay,
+  leadForm,
+  locale,
+}: {
+  item: ProductItem;
+  delay: number;
+  leadForm: LocaleDict["leadForm"];
+  locale: string;
+}) {
+  const [modalOpen, setModalOpen] = useState(false);
   const isFree = item.kind === "free";
+
   return (
     <FadeIn delay={delay} className="relative flex flex-col bg-background border border-cream-line p-8 md:p-10 overflow-hidden group hover:border-rose-accent transition-colors duration-300">
       <span
@@ -29,12 +48,12 @@ function ProductCard({ item, delay }: { item: ProductItem; delay: number }) {
         {item.description}
       </p>
 
-      {item.downloadUrl ? (
-        <a
-          href={item.downloadUrl}
-          download={item.downloadFilename}
-          className="self-start font-barlow-condensed text-xs tracking-widest uppercase px-5 py-2.5 bg-rose-accent text-background font-semibold hover:bg-text-primary transition-colors duration-200"
-        >
+      {item.gated ? (
+        <button type="button" onClick={() => setModalOpen(true)} className={ctaClass}>
+          {item.cta}
+        </button>
+      ) : item.downloadUrl ? (
+        <a href={item.downloadUrl} download={item.downloadFilename} className={ctaClass}>
           {item.cta}
         </a>
       ) : (
@@ -42,17 +61,26 @@ function ProductCard({ item, delay }: { item: ProductItem; delay: number }) {
           href={whatsAppUrl(item.whatsappText ?? "")}
           target="_blank"
           rel="noopener noreferrer"
-          className="self-start font-barlow-condensed text-xs tracking-widest uppercase px-5 py-2.5 bg-rose-accent text-background font-semibold hover:bg-text-primary transition-colors duration-200"
+          className={ctaClass}
         >
           {item.cta}
         </a>
+      )}
+
+      {modalOpen && (
+        <LeadCaptureModal
+          leadForm={leadForm}
+          item={item}
+          locale={locale}
+          onClose={() => setModalOpen(false)}
+        />
       )}
     </FadeIn>
   );
 }
 
 export default function ProductsSection({ dict }: Props) {
-  const { products } = dict;
+  const { products, leadForm, meta } = dict;
 
   return (
     <section className="w-full py-24 md:py-36 px-8 md:px-16 lg:px-20 bg-background-soft">
@@ -71,7 +99,13 @@ export default function ProductsSection({ dict }: Props) {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 max-w-5xl">
         {products.items.map((item, i) => (
-          <ProductCard key={i} item={item} delay={i * 0.1} />
+          <ProductCard
+            key={i}
+            item={item}
+            delay={i * 0.1}
+            leadForm={leadForm}
+            locale={meta.locale}
+          />
         ))}
       </div>
     </section>

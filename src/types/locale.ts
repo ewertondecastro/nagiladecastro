@@ -39,6 +39,8 @@ export interface ProductItem {
   whatsappText?: string;
   downloadUrl?: string;
   downloadFilename?: string;
+  // Quando true, abre o formulário de captura antes de entregar o material.
+  gated?: boolean;
 }
 
 export interface LocaleDict {
@@ -94,6 +96,23 @@ export interface LocaleDict {
     sectionSubtitle: string;
     placeholderNote: string;
     items: ProductItem[];
+  };
+  leadForm: {
+    eyebrow: string;
+    title: string;
+    subtitle: string;
+    name: string;
+    email: string;
+    city: string;
+    state: string;
+    country: string;
+    submit: string;
+    sending: string;
+    cancel: string;
+    errorRequired: string;
+    errorEmail: string;
+    errorGeneric: string;
+    privacy: string;
   };
   contact: {
     titleLine1: string;

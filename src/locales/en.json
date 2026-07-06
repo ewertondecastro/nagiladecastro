@@ -230,18 +230,36 @@
         "description": "Free PDF with the basics for you to start organizing your baby's sleep today, even before any consultation.",
         "cta": "Download PDF",
         "downloadUrl": "/guides/guia-30-dias-do-sono.pdf",
-        "downloadFilename": "Guide-First-30-days-of-sleep.pdf"
+        "downloadFilename": "Guide-First-30-days-of-sleep.pdf",
+        "gated": true
       },
       {
         "kind": "paid",
         "badge": "E-BOOK",
         "titleLine1": "Home, routine",
         "titleLine2": "and time",
-        "description": "30-page e-book on how to design a home routine that holds everything else up — sleep, education, marriage, faith. Read in one evening, apply this week.",
+        "description": "25-page e-book on how to design a home routine that holds everything else up — sleep, education, marriage, faith. Read in one evening, apply this week.",
         "cta": "I want the e-book",
         "whatsappText": "Hi Nagila, I came from the site — I'd like to buy the e-book Home, routine and time"
       }
     ]
+  },
+  "leadForm": {
+    "eyebrow": "Before you download",
+    "title": "Just one step",
+    "subtitle": "Fill this in to get the material. No spam, promise.",
+    "name": "Name",
+    "email": "Email",
+    "city": "City",
+    "state": "State",
+    "country": "Country",
+    "submit": "Download now",
+    "sending": "Sending...",
+    "cancel": "Close",
+    "errorRequired": "Please fill in all fields.",
+    "errorEmail": "Enter a valid email.",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "privacy": "Your data is only used to send this material and updates from Nagila."
   },
   "contact": {
     "titleLine1": "If something resonated,",
