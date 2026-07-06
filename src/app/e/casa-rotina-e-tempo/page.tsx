@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 // Link de download direto do PDF (Google Drive). O arquivo fica no Drive,
-// não no repositório — só este botão aponta para ele.
+// não no repositório, só este botão aponta para ele.
 const DOWNLOAD_URL =
   "https://drive.google.com/uc?export=download&id=1UKdY5U3xZQvBUWWeu6a5hEWFvhDmaEnp";
 
 export const metadata: Metadata = {
-  title: "Casa, rotina e tempo — seu e-book",
+  title: "Casa, rotina e tempo: seu e-book",
   // Página de entrega: não deve aparecer no Google.
   robots: { index: false, follow: false },
 };
@@ -38,7 +38,7 @@ export default function EntregaCasaRotinaTempo() {
           style={{ fontSize: "clamp(15px, 1.4vw, 17px)" }}
         >
           Obrigada pela sua confiança. São 25 páginas pra você desenhar uma
-          rotina de casa que sustenta o resto — sono, educação, casamento, fé.
+          rotina de casa que sustenta o resto: sono, educação, casamento, fé.
           Leia em uma noite, aplique na semana.
         </p>
 
@@ -50,7 +50,7 @@ export default function EntregaCasaRotinaTempo() {
         </a>
 
         <p className="font-barlow text-[13px] text-text-muted leading-relaxed mt-8 max-w-sm mx-auto">
-          Guarde este link com carinho — ele é só seu. Qualquer problema com o
+          Guarde este link com carinho, ele é só seu. Qualquer problema com o
           download, é só me chamar no WhatsApp.
         </p>
       </div>

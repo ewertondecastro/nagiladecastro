@@ -31,9 +31,9 @@
     "titleLine3": "mentora de madres.",
     "body": [
       "Soy Nagila, madre de Helena y Catharina, esposa de Ewerton, viviendo en Cape Cod. Cada nacimiento reescribió lo que yo entendía por descanso, por presencia y por hogar.",
-      "Aprendí en carne propia que el sueño del bebé no es un detalle técnico — es el oxígeno de una familia entera. Cuando una madre vuelve a dormir, vuelve a sí misma.",
-      "Eduqué a mis dos hijas en casa desde el primer día. Homeschool no como un rechazo al mundo, sino como un sí profundo al tiempo — el tiempo que no vuelve dos veces, el tiempo de transmitir carácter al ritmo del niño.",
-      "Hoy acompaño a madres y familias que quieren más que sobrevivir a la maternidad y a la crianza — con base en formación seria, no en intuición. Familias que quieren vivirla con claridad, ligereza y propósito."
+      "Aprendí en carne propia que el sueño del bebé no es un detalle técnico, es el oxígeno de una familia entera. Cuando una madre vuelve a dormir, vuelve a sí misma.",
+      "Eduqué a mis dos hijas en casa desde el primer día. Homeschool no como un rechazo al mundo, sino como un sí profundo al tiempo, el tiempo que no vuelve dos veces, el tiempo de transmitir carácter al ritmo del niño.",
+      "Hoy acompaño a madres y familias que quieren más que sobrevivir a la maternidad y a la crianza, con base en formación seria, no en intuición. Familias que quieren vivirla con claridad, ligereza y propósito."
     ],
     "credentials": {
       "label": "Formación",
@@ -68,21 +68,21 @@
         "description": "Un plan humano y personalizado para el sueño de tu bebé, respetando el vínculo, el temperamento del niño y el ritmo real de tu familia. Sin fórmulas duras, sin culpa.",
         "learnMore": "Saber más",
         "contactCta": "Hablar por WhatsApp",
-        "whatsappText": "Hola Nagila, vengo de tu sitio — quiero saber más sobre la Consultoría de Sueño",
+        "whatsappText": "Hola Nagila, vengo de tu sitio, quiero saber más sobre la Consultoría de Sueño",
         "detail": {
           "eyebrow": "MENTORÍA · 01",
           "headlineLine1": "Sueño que descansa",
           "headlineLine2": "la casa entera.",
-          "intro": "Si estás aquí, es porque el sueño no está sucediendo. Tal vez nunca sucedió. Tal vez sucedió por un tiempo y ahora regresó. Tal vez ya no recuerdas la última vez que dormiste una noche seguida — y estás demasiado agotada para saber qué intentar.",
+          "intro": "Si estás aquí, es porque el sueño no está sucediendo. Tal vez nunca sucedió. Tal vez sucedió por un tiempo y ahora regresó. Tal vez ya no recuerdas la última vez que dormiste una noche seguida, y estás demasiado agotada para saber qué intentar.",
           "whyTitle": "Por qué importa",
           "whyBody": [
-            "El sueño del bebé no es un detalle técnico. Es el oxígeno de la familia. Las madres privadas de sueño pierden claridad, paciencia y confianza en sí mismas — y la relación con la pareja, con los otros hijos y con la propia fe va pagando el precio en silencio.",
-            "No es debilidad, es fisiología. Y hay un camino real — sostenido en neurociencia del sueño infantil y en el respeto al vínculo, sin método rígido y sin prometer lo imposible."
+            "El sueño del bebé no es un detalle técnico. Es el oxígeno de la familia. Las madres privadas de sueño pierden claridad, paciencia y confianza en sí mismas, y la relación con la pareja, con los otros hijos y con la propia fe va pagando el precio en silencio.",
+            "No es debilidad, es fisiología. Y hay un camino real, sostenido en neurociencia del sueño infantil y en el respeto al vínculo, sin método rígido y sin prometer lo imposible."
           ],
           "journeyTitle": "Cómo caminamos juntas",
           "journeyBody": [
-            "Te escucho primero. No llego con un plan listo para tu bebé — llego con preguntas para entender el vínculo, el temperamento del niño y el ritmo posible de tu casa. Evaluación individual antes de cualquier técnica: cada bebé es un bebé.",
-            "Trabajo como Consultora de Sueño Especializada con formación seria — sin dejar llorar hasta dormir, sin protocolo único para todo bebé. Sueño y comportamiento no son problemas separados; trato a los dos juntos.",
+            "Te escucho primero. No llego con un plan listo para tu bebé, llego con preguntas para entender el vínculo, el temperamento del niño y el ritmo posible de tu casa. Evaluación individual antes de cualquier técnica: cada bebé es un bebé.",
+            "Trabajo como Consultora de Sueño Especializada con formación seria, sin dejar llorar hasta dormir, sin protocolo único para todo bebé. Sueño y comportamiento no son problemas separados; trato a los dos juntos.",
             "Después salimos con un plan honesto: lo que haces esta noche, lo que ajustamos la próxima semana, lo que revisitamos juntas. Acompañamiento a lo largo del proceso, no consulta única."
           ],
           "forWhomTitle": "Para quién es",
@@ -93,7 +93,7 @@
             "Madres que quieren volver a dormir sin renunciar a quiénes son"
           ],
           "ctaLabel": "Hablemos por WhatsApp",
-          "ctaWhatsappText": "Hola Nagila, vengo de la página de Consultoría de Sueño — quiero hablar sobre el sueño de mi bebé",
+          "ctaWhatsappText": "Hola Nagila, vengo de la página de Consultoría de Sueño, quiero hablar sobre el sueño de mi bebé",
           "backToHome": "Volver al inicio"
         }
       },
@@ -105,23 +105,23 @@
         "description": "Mentoría para madres en transición: primer hijo, segundo hijo, identidad después del parto, matrimonio después del bebé. Conversación franca, herramientas prácticas, acogida.",
         "learnMore": "Saber más",
         "contactCta": "Hablar por WhatsApp",
-        "whatsappText": "Hola Nagila, vengo de tu sitio — quiero saber más sobre la Mentoría Maternidad Real",
+        "whatsappText": "Hola Nagila, vengo de tu sitio, quiero saber más sobre la Mentoría Maternidad Real",
         "detail": {
           "eyebrow": "MENTORÍA · 02",
           "headlineLine1": "Maternidad vivida,",
           "headlineLine2": "no apenas sobrevivida.",
-          "intro": "La maternidad no es un milagro que te sucede. Es una travesía que atraviesas — y casi nadie es honesta sobre cómo es por dentro. Identidad que se desmonta. Matrimonio que cambia. Cuerpo que vuelve diferente. Carrera en pausa. Amigas que desaparecen. Y la pregunta silenciosa: \"¿sigo siendo yo?\"",
+          "intro": "La maternidad no es un milagro que te sucede. Es una travesía que atraviesas, y casi nadie es honesta sobre cómo es por dentro. Identidad que se desmonta. Matrimonio que cambia. Cuerpo que vuelve diferente. Carrera en pausa. Amigas que desaparecen. Y la pregunta silenciosa: \"¿sigo siendo yo?\"",
           "whyTitle": "Por qué importa",
           "whyBody": [
-            "Cuando la maternidad se vive sola, se vuelve supervivencia. Y las madres que sobreviven demasiado tiempo eventualmente colapsan — en agotamiento, en ira, en distancia.",
-            "No es debilidad moral. Es falta de compañía, y a veces falta de información — muchas vivencias del posparto parecen caos personal y son en realidad fisiología y psicología del desarrollo bien estudiadas. Solo necesitas a alguien que lo reconozca, te oriente y se quede cerca.",
-            "Una madre necesita otra madre que ya vivió, que ya lloró en la ducha, que ya volvió a sí — con base, no solo con afecto."
+            "Cuando la maternidad se vive sola, se vuelve supervivencia. Y las madres que sobreviven demasiado tiempo eventualmente colapsan, en agotamiento, en ira, en distancia.",
+            "No es debilidad moral. Es falta de compañía, y a veces falta de información, muchas vivencias del posparto parecen caos personal y son en realidad fisiología y psicología del desarrollo bien estudiadas. Solo necesitas a alguien que lo reconozca, te oriente y se quede cerca.",
+            "Una madre necesita otra madre que ya vivió, que ya lloró en la ducha, que ya volvió a sí, con base, no solo con afecto."
           ],
           "journeyTitle": "Cómo caminamos juntas",
           "journeyBody": [
-            "Conversamos de verdad. No es coaching de planilla, es mentoría de mujer a mujer — sostenida en mi experiencia como madre de Helena y Catharina y en mi formación como Educadora Parental Certificada.",
+            "Conversamos de verdad. No es coaching de planilla, es mentoría de mujer a mujer, sostenida en mi experiencia como madre de Helena y Catharina y en mi formación como Educadora Parental Certificada.",
             "Trabajamos juntas lo que pesa ahora: identidad en el posparto, matrimonio después del bebé, agotamiento acumulado, culpa materna sin razón y con razón, decisiones entre trabajo y maternidad, recuperación de la fe y de las amistades que la maternidad sacudió, armar la rutina cuando hay más de un hijo en la casa.",
-            "Encuentros regulares, sin plazo apretado, sin método rígido. Te escucho, te devuelvo preguntas, te entrego herramientas concretas — y vuelvo la próxima semana, y la siguiente, hasta que ya no me necesites."
+            "Encuentros regulares, sin plazo apretado, sin método rígido. Te escucho, te devuelvo preguntas, te entrego herramientas concretas, y vuelvo la próxima semana, y la siguiente, hasta que ya no me necesites."
           ],
           "forWhomTitle": "Para quién es",
           "forWhomItems": [
@@ -129,10 +129,10 @@
             "Madres del segundo hijo que sienten que están empezando de cero, y con culpa por ello",
             "Madres que se perdieron de sí en medio del trabajo de criar personas",
             "Madres que sienten que el matrimonio quedó en segundo plano y no saben cómo volver",
-            "Madres que quieren ser enteras — no solo madres"
+            "Madres que quieren ser enteras, no solo madres"
           ],
           "ctaLabel": "Hablemos por WhatsApp",
-          "ctaWhatsappText": "Hola Nagila, vengo de la página de Maternidad Real — quiero conversar",
+          "ctaWhatsappText": "Hola Nagila, vengo de la página de Maternidad Real, quiero conversar",
           "backToHome": "Volver al inicio"
         }
       },
@@ -141,26 +141,26 @@
         "number": "03",
         "titleLine1": "Educación",
         "titleLine2": "en Casa",
-        "description": "Para madres que sienten el llamado del homeschool, pero no saben por dónde empezar. Rutina, materiales, currículo simple y el valor para la primera semana — y para todas las demás.",
+        "description": "Para madres que sienten el llamado del homeschool, pero no saben por dónde empezar. Rutina, materiales, currículo simple y el valor para la primera semana, y para todas las demás.",
         "learnMore": "Saber más",
         "contactCta": "Hablar por WhatsApp",
-        "whatsappText": "Hola Nagila, vengo de tu sitio — quiero saber más sobre la Mentoría de Homeschool",
+        "whatsappText": "Hola Nagila, vengo de tu sitio, quiero saber más sobre la Mentoría de Homeschool",
         "detail": {
           "eyebrow": "MENTORÍA · 03",
           "headlineLine1": "Homeschool con ligereza,",
           "headlineLine2": "método y propósito.",
-          "intro": "Sientes el llamado de educar en casa. Lo sientes desde antes del primer hijo, o empezaste a sentirlo ahora que está en edad escolar. Pero no sabes por dónde empezar — y cada vez que preguntas, alguien te asusta con burocracia, currículo, aislamiento o falta de tiempo.",
+          "intro": "Sientes el llamado de educar en casa. Lo sientes desde antes del primer hijo, o empezaste a sentirlo ahora que está en edad escolar. Pero no sabes por dónde empezar, y cada vez que preguntas, alguien te asusta con burocracia, currículo, aislamiento o falta de tiempo.",
           "whyTitle": "Por qué importa",
           "whyBody": [
-            "Educar en casa no es un rechazo al mundo. Es un sí profundo al tiempo — al tiempo de aprender al ritmo del niño, al tiempo de construir vínculo mientras se enseña, al tiempo de transmitir valores que no caben en un horario escolar.",
+            "Educar en casa no es un rechazo al mundo. Es un sí profundo al tiempo, al tiempo de aprender al ritmo del niño, al tiempo de construir vínculo mientras se enseña, al tiempo de transmitir valores que no caben en un horario escolar.",
             "Yo eduqué a mis dos hijas en casa desde el primer día, y es la decisión que más rediseñó nuestra familia. No es fácil. Vale cada hora.",
-            "Y sí, se puede hacer con ligereza — sin volverte profesora particular de tiempo completo, sin perder la alegría de ser madre, sin aislar a la familia del mundo. Pero requiere método, no improvisación."
+            "Y sí, se puede hacer con ligereza, sin volverte profesora particular de tiempo completo, sin perder la alegría de ser madre, sin aislar a la familia del mundo. Pero requiere método, no improvisación."
           ],
           "journeyTitle": "Cómo caminamos juntas",
           "journeyBody": [
-            "No te entrego un currículo hecho, porque cada casa es diferente. Te ayudo a diseñar el tuyo — empezando por el POR QUÉ (los valores que quieren transmitir) antes que por el CÓMO (materias, método, materiales).",
-            "Cubrimos juntas: legalización y burocracia donde vives; elección del método de enseñanza (clásico, Charlotte Mason, ecléctico, unschool — el que conversa con tu familia); armar la rutina real, diaria y semanal; recursos gratuitos y pagos para empezar ligero; cómo integrar distintas edades cuando hay más de un hijo; el papel del padre en el homeschool; qué hacer con un bebé pequeño mientras el mayor estudia; estrategias para las semanas en las que crees que vas a desistir.",
-            "Mentoría continua, no una clase suelta — para que tengas a alguien la primera semana, la quinta y la vigésima cuando se acabe el entusiasmo y el método tenga que sostener la casa."
+            "No te entrego un currículo hecho, porque cada casa es diferente. Te ayudo a diseñar el tuyo, empezando por el POR QUÉ (los valores que quieren transmitir) antes que por el CÓMO (materias, método, materiales).",
+            "Cubrimos juntas: legalización y burocracia donde vives; elección del método de enseñanza (clásico, Charlotte Mason, ecléctico, unschool, el que conversa con tu familia); armar la rutina real, diaria y semanal; recursos gratuitos y pagos para empezar ligero; cómo integrar distintas edades cuando hay más de un hijo; el papel del padre en el homeschool; qué hacer con un bebé pequeño mientras el mayor estudia; estrategias para las semanas en las que crees que vas a desistir.",
+            "Mentoría continua, no una clase suelta, para que tengas a alguien la primera semana, la quinta y la vigésima cuando se acabe el entusiasmo y el método tenga que sostener la casa."
           ],
           "forWhomTitle": "Para quién es",
           "forWhomItems": [
@@ -172,7 +172,7 @@
             "Familias cristianas que quieren alinear fe y educación dentro de la propia casa"
           ],
           "ctaLabel": "Hablemos por WhatsApp",
-          "ctaWhatsappText": "Hola Nagila, vengo de la página de Mentoría de Homeschool — quiero conversar sobre educar en casa",
+          "ctaWhatsappText": "Hola Nagila, vengo de la página de Mentoría de Homeschool, quiero conversar sobre educar en casa",
           "backToHome": "Volver al inicio"
         }
       },
@@ -181,26 +181,26 @@
         "number": "04",
         "titleLine1": "Mentoría",
         "titleLine2": "METI",
-        "description": "Método de Educación Tradicional Intencional. Educación parental que recupera límites claros, jerarquía familiar y formación de carácter — con la intención que la parentalidad moderna olvidó.",
+        "description": "Método de Educación Tradicional Intencional. Educación parental que recupera límites claros, jerarquía familiar y formación de carácter, con la intención que la parentalidad moderna olvidó.",
         "learnMore": "Saber más",
         "contactCta": "Hablar por WhatsApp",
-        "whatsappText": "Hola Nagila, vengo de tu sitio — quiero saber más sobre la Mentoría METI (Educación Parental)",
+        "whatsappText": "Hola Nagila, vengo de tu sitio, quiero saber más sobre la Mentoría METI (Educación Parental)",
         "detail": {
           "eyebrow": "MENTORÍA · 04",
           "headlineLine1": "Criar como antes,",
           "headlineLine2": "con la intención de hoy.",
-          "intro": "METI — Método de Educación Tradicional Intencional — es una metodología seria de educación parental, construida como respuesta a la parentalidad reactiva de nuestro tiempo. Como Educadora Parental Certificada, traigo sus principios dentro de tu familia: criar como antes, pero eligiendo cada gesto, sostenido en neurociencia, en virtud y en orden.",
+          "intro": "METI, Método de Educación Tradicional Intencional, es una metodología seria de educación parental, construida como respuesta a la parentalidad reactiva de nuestro tiempo. Como Educadora Parental Certificada, traigo sus principios dentro de tu familia: criar como antes, pero eligiendo cada gesto, sostenido en neurociencia, en virtud y en orden.",
           "whyTitle": "Por qué importa",
           "whyBody": [
             "La mayoría de las familias hoy educa improvisando. Reaccionan al comportamiento de los hijos, copian lo que vieron en su propia casa, tercerizan a la escuela o a la pantalla. El resultado es una generación de padres agotados y de niños ansiosos, sin dirección.",
-            "El METI se sostiene en pilares que la parentalidad moderna desaprendió: autoridad parental en lugar de negociación infinita; orden y previsibilidad que dan seguridad emocional al hijo; formación del carácter por las virtudes cardinales — coraje, prudencia, justicia, templanza — en lugar de premio por buen comportamiento; límites puestos con firmeza y respeto, nunca con castigo emocional.",
+            "El METI se sostiene en pilares que la parentalidad moderna desaprendió: autoridad parental en lugar de negociación infinita; orden y previsibilidad que dan seguridad emocional al hijo; formación del carácter por las virtudes cardinales (coraje, prudencia, justicia, templanza) en lugar de premio por buen comportamiento; límites puestos con firmeza y respeto, nunca con castigo emocional.",
             "La tradición no es repetición ciega. Es sabiduría probada que elegimos honrar con intención, gesto a gesto."
           ],
           "journeyTitle": "Cómo caminamos juntas",
           "journeyBody": [
-            "Partimos de tu familia real — el temperamento de cada hijo, el ritmo del matrimonio, lo que ya funciona y lo que te está agotando. No es teoría de manual: cada casa entra distinta.",
+            "Partimos de tu familia real, el temperamento de cada hijo, el ritmo del matrimonio, lo que ya funciona y lo que te está agotando. No es teoría de manual: cada casa entra distinta.",
             "Aplicamos los pilares del METI a tu día: cómo devolver autoridad sin volverse autoritarismo, cómo construir liturgias diarias (comida, oración, sueño, descanso) que sostienen la casa solas, cómo educar por el carácter sin tercerizar a la escuela, a la pantalla o a la suerte.",
-            "Encuentros regulares, ajustes continuos, acompañamiento de la vida real — no teoría suelta en un cuadernillo."
+            "Encuentros regulares, ajustes continuos, acompañamiento de la vida real, no teoría suelta en un cuadernillo."
           ],
           "forWhomTitle": "Para quién es",
           "forWhomItems": [
@@ -211,7 +211,7 @@
             "Padres que quieren volver a la intencionalidad que vieron en sus abuelos, adaptada al hoy"
           ],
           "ctaLabel": "Hablemos por WhatsApp",
-          "ctaWhatsappText": "Hola Nagila, vengo de la página de Mentoría METI — quiero conversar sobre educación parental",
+          "ctaWhatsappText": "Hola Nagila, vengo de la página de Mentoría METI, quiero conversar sobre educación parental",
           "backToHome": "Volver al inicio"
         }
       }
@@ -220,7 +220,7 @@
   "products": {
     "sectionTitle": "Recursos",
     "sectionSubtitle": "Materiales prácticos para que no esperes la próxima conversación para empezar.",
-    "placeholderNote": "Items de ejemplo — pronto serán reemplazados por los materiales reales.",
+    "placeholderNote": "Items de ejemplo, pronto serán reemplazados por los materiales reales.",
     "items": [
       {
         "kind": "free",
@@ -238,9 +238,9 @@
         "badge": "E-BOOK",
         "titleLine1": "Casa, rutina",
         "titleLine2": "y tiempo",
-        "description": "E-book de 25 páginas sobre cómo diseñar una rutina de casa que sostiene todo lo demás — sueño, educación, matrimonio, fe. Leer en una noche, aplicar esta semana.",
+        "description": "E-book de 25 páginas sobre cómo diseñar una rutina de casa que sostiene todo lo demás: sueño, educación, matrimonio, fe. Leer en una noche, aplicar esta semana.",
         "cta": "Quiero el e-book",
-        "whatsappText": "Hola Nagila, vengo del sitio — quiero comprar el e-book Casa, rutina y tiempo"
+        "whatsappText": "Hola Nagila, vengo del sitio, quiero comprar el e-book Casa, rutina y tiempo"
       }
     ]
   },

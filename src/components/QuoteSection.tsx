@@ -16,7 +16,7 @@ export default function QuoteSection({ dict }: Props) {
           “{quote.text}”
         </blockquote>
         <p className="font-barlow-condensed text-[11px] tracking-[0.3em] text-text-secondary uppercase">
-          — {quote.attribution}
+          {quote.attribution}
         </p>
       </FadeIn>
     </section>

@@ -1,4 +1,4 @@
-// Lead capture — envia o cadastro para o Google Apps Script,
+// Lead capture, envia o cadastro para o Google Apps Script,
 // que grava na planilha e dispara o e-mail de aviso.
 //
 // Configuração: cole a URL /exec do seu Apps Script em FALLBACK_ENDPOINT
@@ -24,10 +24,10 @@ export interface LeadPayload {
 
 export async function submitLead(payload: LeadPayload): Promise<void> {
   if (!LEAD_ENDPOINT_CONFIGURED) {
-    // Endpoint ainda não configurado — não bloqueia o usuário,
+    // Endpoint ainda não configurado, não bloqueia o usuário,
     // mas avisa no console para não perdermos leads silenciosamente.
     console.warn(
-      "[leadCapture] NEXT_PUBLIC_LEAD_ENDPOINT / FALLBACK_ENDPOINT vazio — lead não enviado."
+      "[leadCapture] NEXT_PUBLIC_LEAD_ENDPOINT / FALLBACK_ENDPOINT vazio, lead não enviado."
     );
     return;
   }
