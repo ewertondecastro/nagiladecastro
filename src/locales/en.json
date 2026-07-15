@@ -229,9 +229,8 @@
         "titleLine2": "First 30 days of sleep",
         "description": "Free PDF with the basics for you to start organizing your baby's sleep today, even before any consultation.",
         "cta": "Download PDF",
-        "downloadUrl": "/guides/guia-30-dias-do-sono.pdf",
-        "downloadFilename": "Guide-First-30-days-of-sleep.pdf",
-        "gated": true
+        "gated": true,
+        "resourceKey": "sono"
       },
       {
         "kind": "free",
@@ -240,9 +239,8 @@
         "titleLine2": "for Little Ones",
         "description": "20 illustrated cards to print, teaching kids the basics of Portuguese: nouns, verbs, sentences, punctuation, accents and syllable stress. Made to play and learn together.",
         "cta": "Download PDF",
-        "downloadUrl": "/guides/cartoes-portugues-para-os-pequenos.pdf",
-        "downloadFilename": "Portuguese-Cards-for-Little-Ones.pdf",
-        "gated": true
+        "gated": true,
+        "resourceKey": "cartoes"
       },
       {
         "kind": "paid",

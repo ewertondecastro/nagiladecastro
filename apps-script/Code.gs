@@ -1,33 +1,41 @@
 /**
- * Nagila Decastro: Endpoint de captura de leads
+ * Nagila Decastro: Endpoint de captura de leads (gate de verdade)
  *
- * Recebe os cadastros do site, grava cada um numa aba da planilha
- * e envia um e-mail de aviso.
+ * Recebe os cadastros do site, grava na planilha, envia e-mail de aviso
+ * e SÓ ENTÃO devolve o link secreto de download. Como o link nunca
+ * aparece no código da página, não dá pra baixar sem preencher.
  *
- * Como publicar:
- * 1. Crie uma planilha nova no Google Sheets (ex.: "Leads Nagila").
- * 2. Menu Extensões > Apps Script. Apague o conteúdo e cole ESTE código.
- * 3. Ajuste NOTIFY_EMAIL abaixo (pode ter vários, separados por vírgula).
- * 4. Salvar (ícone de disquete).
- * 5. Implantar > Nova implantação.
- *      Tipo (engrenagem): App da Web
- *      Executar como: Eu
- *      Quem tem acesso: Qualquer pessoa
- *    Clique em Implantar e autorize (a primeira vez pede permissão).
- * 6. Copie a URL que termina em /exec.
- * 7. No site, cole essa URL em FALLBACK_ENDPOINT (src/lib/leadCapture.ts)
- *    OU defina a env NEXT_PUBLIC_LEAD_ENDPOINT no Netlify e faça deploy.
+ * Como atualizar (você já publicou uma vez):
+ * 1. Extensões > Apps Script na planilha.
+ * 2. Apague tudo e cole ESTE código. Salvar (disquete).
+ * 3. Implantar > Gerenciar implantações > (lápis para editar) >
+ *    Versão: Nova versão > Implantar. A URL /exec continua a mesma.
  *
- * Sempre que mudar este código, faça "Gerenciar implantações" >
- * editar > Nova versão, para a URL passar a usar a versão nova.
+ * IMPORTANTE: os links em RESOURCES abaixo são secretos. Não divulgue.
  */
 
 var NOTIFY_EMAIL = "nagiladecastro@icloud.com"; // separe vários por vírgula
 var SHEET_NAME = "Leads";
 
+// Mapa dos materiais gratuitos: chave -> link secreto, nome do arquivo, rótulo.
+var RESOURCES = {
+  "cartoes": {
+    url: "https://nagiladecastro.netlify.app/guides/dl-71c61bf8c3f36a188763.pdf",
+    filename: "Cartoes-de-Portugues-para-os-Pequenos.pdf",
+    label: "Cartões de Português para os Pequenos"
+  },
+  "sono": {
+    url: "https://nagiladecastro.netlify.app/guides/dl-c397bd0e1e0faf240556.pdf",
+    filename: "Guia-Primeiros-30-dias-do-sono.pdf",
+    label: "Guia: Primeiros 30 dias do sono"
+  }
+};
+
 function doPost(e) {
   try {
     var data = JSON.parse(e.postData.contents);
+    var res = RESOURCES[data.resourceKey] || null;
+    var label = res ? res.label : (data.resource || "");
 
     var ss = SpreadsheetApp.getActiveSpreadsheet();
     var sheet = ss.getSheetByName(SHEET_NAME);
@@ -47,21 +55,26 @@ function doPost(e) {
       data.city || "",
       data.state || "",
       data.country || "",
-      data.resource || "",
+      label,
       data.locale || "",
       data.page || ""
     ]);
 
-    sendNotification(data, now);
-    return json({ ok: true });
+    sendNotification(data, label, now);
+
+    return json({
+      ok: true,
+      downloadUrl: res ? res.url : "",
+      downloadFilename: res ? res.filename : ""
+    });
   } catch (err) {
     return json({ ok: false, error: String(err) });
   }
 }
 
-function sendNotification(data, now) {
+function sendNotification(data, label, now) {
   if (!NOTIFY_EMAIL) return;
-  var subject = "Novo lead: " + (data.resource || "material") +
+  var subject = "Novo lead: " + (label || "material") +
                 " (" + (data.name || "sem nome") + ")";
   var body =
     "Novo cadastro no site da Nagila:\n\n" +
@@ -70,7 +83,7 @@ function sendNotification(data, now) {
     "Cidade:  " + (data.city || "") + "\n" +
     "Estado:  " + (data.state || "") + "\n" +
     "País:    " + (data.country || "") + "\n\n" +
-    "Material: " + (data.resource || "") + "\n" +
+    "Material: " + (label || "") + "\n" +
     "Idioma:   " + (data.locale || "") + "\n" +
     "Data:     " + now + "\n" +
     "Página:   " + (data.page || "") + "\n";

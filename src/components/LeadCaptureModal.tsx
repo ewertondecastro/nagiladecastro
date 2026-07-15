@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import { submitLead } from "@/lib/leadCapture";
-import { whatsAppUrl } from "@/lib/whatsapp";
 import type { LocaleDict, ProductItem } from "@/types/locale";
 
 interface Props {
@@ -37,17 +36,13 @@ export default function LeadCaptureModal({ leadForm, item, locale, onClose }: Pr
     };
   }, [onClose]);
 
-  function deliver() {
-    if (item.downloadUrl) {
-      const a = document.createElement("a");
-      a.href = item.downloadUrl;
-      if (item.downloadFilename) a.download = item.downloadFilename;
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
-    } else if (item.whatsappText) {
-      window.open(whatsAppUrl(item.whatsappText), "_blank", "noopener,noreferrer");
-    }
+  function download(url: string, filename?: string) {
+    const a = document.createElement("a");
+    a.href = url;
+    if (filename) a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
   }
 
   async function handleSubmit(e: React.FormEvent) {
@@ -67,21 +62,28 @@ export default function LeadCaptureModal({ leadForm, item, locale, onClose }: Pr
     setStatus("sending");
     const resource = `${item.titleLine1} ${item.titleLine2}`.trim();
     try {
-      await submitLead({
+      const result = await submitLead({
         name: form.name.trim(),
         email: form.email.trim(),
         city: form.city.trim(),
         state: form.state.trim(),
         country: form.country.trim(),
         resource,
+        resourceKey: item.resourceKey ?? "",
         locale,
       });
-      deliver();
-      onClose();
+
+      // O link vem do servidor (gate de verdade). Sem link = não entrega.
+      if (result.ok && result.downloadUrl) {
+        download(result.downloadUrl, result.downloadFilename);
+        onClose();
+      } else {
+        setStatus("idle");
+        setError(leadForm.errorGeneric);
+      }
     } catch {
-      // Não perde o lead nem trava o usuário: entrega mesmo assim.
-      deliver();
-      onClose();
+      setStatus("idle");
+      setError(leadForm.errorGeneric);
     }
   }
 

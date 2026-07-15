@@ -41,6 +41,9 @@ export interface ProductItem {
   downloadFilename?: string;
   // Quando true, abre o formulário de captura antes de entregar o material.
   gated?: boolean;
+  // Chave do material no Apps Script (gate de verdade): o link de download
+  // vem na resposta do servidor após salvar o lead, nunca fica no código.
+  resourceKey?: string;
 }
 
 export interface LocaleDict {
