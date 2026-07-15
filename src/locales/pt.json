@@ -220,7 +220,7 @@
   "products": {
     "sectionTitle": "Recursos",
     "sectionSubtitle": "Materiais práticos pra você não esperar a próxima conversa pra começar.",
-    "placeholderNote": "Itens de exemplo, em breve substituídos pelos materiais reais.",
+    "placeholderNote": "",
     "items": [
       {
         "kind": "free",
@@ -231,6 +231,17 @@
         "cta": "Baixar PDF",
         "downloadUrl": "/guides/guia-30-dias-do-sono.pdf",
         "downloadFilename": "Guia-Primeiros-30-dias-do-sono.pdf",
+        "gated": true
+      },
+      {
+        "kind": "free",
+        "badge": "GRATUITO",
+        "titleLine1": "Cartões de Português",
+        "titleLine2": "para os Pequenos",
+        "description": "20 cartões ilustrados para imprimir e ensinar as primeiras noções de português: substantivo, verbo, frase, pontuação, acentuação e sílaba tônica. Para brincar e aprender junto.",
+        "cta": "Baixar PDF",
+        "downloadUrl": "/guides/cartoes-portugues-para-os-pequenos.pdf",
+        "downloadFilename": "Cartoes-de-Portugues-para-os-Pequenos.pdf",
         "gated": true
       },
       {

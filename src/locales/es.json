@@ -220,7 +220,7 @@
   "products": {
     "sectionTitle": "Recursos",
     "sectionSubtitle": "Materiales prácticos para que no esperes la próxima conversación para empezar.",
-    "placeholderNote": "Items de ejemplo, pronto serán reemplazados por los materiales reales.",
+    "placeholderNote": "",
     "items": [
       {
         "kind": "free",
@@ -231,6 +231,17 @@
         "cta": "Descargar PDF",
         "downloadUrl": "/guides/guia-30-dias-do-sono.pdf",
         "downloadFilename": "Guia-Primeros-30-dias-del-sueno.pdf",
+        "gated": true
+      },
+      {
+        "kind": "free",
+        "badge": "GRATUITO",
+        "titleLine1": "Tarjetas de Portugués",
+        "titleLine2": "para los Pequeños",
+        "description": "20 tarjetas ilustradas para imprimir y enseñar las primeras nociones de portugués: sustantivo, verbo, frase, puntuación, acentuación y sílaba tónica. Para jugar y aprender juntos.",
+        "cta": "Descargar PDF",
+        "downloadUrl": "/guides/cartoes-portugues-para-os-pequenos.pdf",
+        "downloadFilename": "Tarjetas-de-Portugues-para-los-Pequenos.pdf",
         "gated": true
       },
       {

@@ -92,9 +92,11 @@ export default function ProductsSection({ dict }: Props) {
         <p className="font-barlow text-text-secondary leading-relaxed mb-3" style={{ fontSize: "clamp(15px, 1.2vw, 18px)" }}>
           {products.sectionSubtitle}
         </p>
-        <p className="font-barlow-condensed text-[10px] tracking-[0.25em] text-text-muted uppercase">
-          {products.placeholderNote}
-        </p>
+        {products.placeholderNote && (
+          <p className="font-barlow-condensed text-[10px] tracking-[0.25em] text-text-muted uppercase">
+            {products.placeholderNote}
+          </p>
+        )}
       </FadeIn>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 max-w-5xl">

@@ -220,7 +220,7 @@
   "products": {
     "sectionTitle": "Resources",
     "sectionSubtitle": "Practical materials so you don't have to wait for the next conversation to begin.",
-    "placeholderNote": "Example items, soon to be replaced with the real materials.",
+    "placeholderNote": "",
     "items": [
       {
         "kind": "free",
@@ -231,6 +231,17 @@
         "cta": "Download PDF",
         "downloadUrl": "/guides/guia-30-dias-do-sono.pdf",
         "downloadFilename": "Guide-First-30-days-of-sleep.pdf",
+        "gated": true
+      },
+      {
+        "kind": "free",
+        "badge": "FREE",
+        "titleLine1": "Portuguese Cards",
+        "titleLine2": "for Little Ones",
+        "description": "20 illustrated cards to print, teaching kids the basics of Portuguese: nouns, verbs, sentences, punctuation, accents and syllable stress. Made to play and learn together.",
+        "cta": "Download PDF",
+        "downloadUrl": "/guides/cartoes-portugues-para-os-pequenos.pdf",
+        "downloadFilename": "Portuguese-Cards-for-Little-Ones.pdf",
         "gated": true
       },
       {
