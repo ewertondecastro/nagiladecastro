@@ -43,7 +43,7 @@ export default async function EntregaCartoes() {
         <CartoesDelivery leadForm={dict.leadForm} />
 
         <p className="font-barlow text-[13px] text-text-muted leading-relaxed mt-8 max-w-sm mx-auto">
-          Imprima em papel comum ou um pouco mais grosso, recorte e brinque.
+          Imprima em papel comum ou um pouco mais grosso, recorte e plastifique.
           Qualquer dúvida, é só me chamar no WhatsApp.
         </p>
       </div>
