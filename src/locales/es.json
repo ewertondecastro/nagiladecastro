@@ -242,6 +242,15 @@
         "description": "E-book de 25 páginas sobre cómo diseñar una rutina de casa que sostiene todo lo demás: sueño, educación, matrimonio, fe. Leer en una noche, aplicar esta semana.",
         "cta": "Quiero el e-book",
         "whatsappText": "Hola Nagila, vengo del sitio, quiero comprar el e-book Casa, rutina y tiempo"
+      },
+      {
+        "kind": "paid",
+        "badge": "TARJETAS",
+        "titleLine1": "Portugués",
+        "titleLine2": "en Tarjetas",
+        "description": "40 tarjetas de doble cara de gramática, fonología y puntuación para alfabetizar jugando. Archivo digital para imprimir en casa.",
+        "cta": "Ver y comprar",
+        "linkUrl": "/cartoes-loja"
       }
     ]
   },

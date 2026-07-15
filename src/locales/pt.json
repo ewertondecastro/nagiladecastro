@@ -242,6 +242,15 @@
         "description": "E-book com 25 páginas sobre como desenhar uma rotina de casa que sustenta o resto: sono, educação, casamento, fé. Pra ler em uma noite, aplicar na semana.",
         "cta": "Quero o e-book",
         "whatsappText": "Oi Nagila, vim pelo site, quero comprar o e-book Casa, rotina e tempo"
+      },
+      {
+        "kind": "paid",
+        "badge": "CARTÕES",
+        "titleLine1": "Português",
+        "titleLine2": "em Cartões",
+        "description": "40 cartões frente e verso de gramática, fonologia e pontuação para alfabetizar brincando. Arquivo digital para imprimir em casa.",
+        "cta": "Ver e comprar",
+        "linkUrl": "/cartoes-loja"
       }
     ]
   },

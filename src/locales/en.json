@@ -242,6 +242,15 @@
         "description": "25-page e-book on how to design a home routine that holds everything else up: sleep, education, marriage, faith. Read in one evening, apply this week.",
         "cta": "I want the e-book",
         "whatsappText": "Hi Nagila, I came from the site, I'd like to buy the e-book Home, routine and time"
+      },
+      {
+        "kind": "paid",
+        "badge": "CARDS",
+        "titleLine1": "Portuguese",
+        "titleLine2": "in Cards",
+        "description": "40 double-sided cards of grammar, phonology and punctuation to teach reading through play. Digital file to print at home.",
+        "cta": "See and buy",
+        "linkUrl": "/cartoes-loja"
       }
     ]
   },

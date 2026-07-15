@@ -52,6 +52,10 @@ function ProductCard({
         <button type="button" onClick={() => setModalOpen(true)} className={ctaClass}>
           {item.cta}
         </button>
+      ) : item.linkUrl ? (
+        <a href={item.linkUrl} className={ctaClass}>
+          {item.cta}
+        </a>
       ) : item.downloadUrl ? (
         <a href={item.downloadUrl} download={item.downloadFilename} className={ctaClass}>
           {item.cta}
