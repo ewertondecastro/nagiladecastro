@@ -10,7 +10,7 @@ import {
 } from "framer-motion";
 
 // ─── Configuração (troque quando o Hotmart estiver pronto) ───────────
-const HOTMART_URL = "#"; // <-- cole aqui o link de checkout do Hotmart
+const HOTMART_URL = "https://pay.hotmart.com/P106749101E"; // checkout do Hotmart
 const PRICE = "R$ 14,99";
 const PRICE_NOTE = "pagamento único, acesso vitalício";
 // ─────────────────────────────────────────────────────────────────────
@@ -127,13 +127,13 @@ export default function SalesPage() {
             <span className="italic block text-rose-accent">em Cartões</span>
           </h1>
           <p className="font-barlow-condensed text-[12px] md:text-[13px] tracking-[0.25em] uppercase text-text-secondary mt-5">
-            20 flashcards de gramática, fonologia e pontuação
+            40 flashcards de gramática, fonologia e pontuação
           </p>
           <p
             className="font-barlow text-text-secondary leading-relaxed mt-5 max-w-xl mx-auto"
             style={{ fontSize: "clamp(15px, 1.4vw, 18px)" }}
           >
-            Arquivo digital com 20 cartões educativos frente e verso para
+            Arquivo digital com 40 cartões educativos frente e verso para
             imprimir, dobrar e plastificar.
           </p>
           <div className="mt-8 flex flex-col items-center gap-3">
@@ -191,7 +191,7 @@ export default function SalesPage() {
             O que tem dentro
           </span>
           <h2 className="font-playfair font-normal mt-3 mb-4" style={{ fontSize: "clamp(30px, 4.5vw, 52px)" }}>
-            20 cartões,<br />40 faces de conteúdo
+            40 cartões,<br />80 faces de conteúdo
           </h2>
           <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(15px, 1.2vw, 18px)" }}>
             Cada cartão traz frente e verso lado a lado: uma cena pra observar,
@@ -327,13 +327,13 @@ export default function SalesPage() {
             Leve para a sua casa
           </span>
           <h2 className="font-playfair leading-tight mt-3 mb-8" style={{ fontSize: "clamp(32px, 5vw, 56px)" }}>
-            <span className="font-bold block text-text-primary">20 cartões frente e verso</span>
+            <span className="font-bold block text-text-primary">40 cartões frente e verso</span>
             <span className="italic block text-rose-accent">para imprimir em casa</span>
           </h2>
 
           <ul className="text-left max-w-sm mx-auto mb-9 flex flex-col gap-2.5">
             {[
-              "20 cartões completos (40 faces de conteúdo)",
+              "40 cartões completos (80 faces de conteúdo)",
               "Arquivo digital pronto para impressão",
               "Frente e verso posicionados lado a lado",
               "Explicações curtas e exemplos infantis",
