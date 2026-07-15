@@ -1,18 +1,18 @@
 /**
- * Nagila Decastro — Endpoint de captura de leads
+ * Nagila Decastro: Endpoint de captura de leads
  *
  * Recebe os cadastros do site, grava cada um numa aba da planilha
  * e envia um e-mail de aviso.
  *
- * ── Como publicar ──────────────────────────────────────────────
+ * Como publicar:
  * 1. Crie uma planilha nova no Google Sheets (ex.: "Leads Nagila").
  * 2. Menu Extensões > Apps Script. Apague o conteúdo e cole ESTE código.
  * 3. Ajuste NOTIFY_EMAIL abaixo (pode ter vários, separados por vírgula).
  * 4. Salvar (ícone de disquete).
  * 5. Implantar > Nova implantação.
- *      - Tipo (engrenagem): App da Web
- *      - Executar como: Eu
- *      - Quem tem acesso: Qualquer pessoa
+ *      Tipo (engrenagem): App da Web
+ *      Executar como: Eu
+ *      Quem tem acesso: Qualquer pessoa
  *    Clique em Implantar e autorize (a primeira vez pede permissão).
  * 6. Copie a URL que termina em /exec.
  * 7. No site, cole essa URL em FALLBACK_ENDPOINT (src/lib/leadCapture.ts)
@@ -20,7 +20,6 @@
  *
  * Sempre que mudar este código, faça "Gerenciar implantações" >
  * editar > Nova versão, para a URL passar a usar a versão nova.
- * ───────────────────────────────────────────────────────────────
  */
 
 var NOTIFY_EMAIL = "nagiladecastro@icloud.com"; // separe vários por vírgula
@@ -62,7 +61,7 @@ function doPost(e) {
 
 function sendNotification(data, now) {
   if (!NOTIFY_EMAIL) return;
-  var subject = "Novo lead — " + (data.resource || "material") +
+  var subject = "Novo lead: " + (data.resource || "material") +
                 " (" + (data.name || "sem nome") + ")";
   var body =
     "Novo cadastro no site da Nagila:\n\n" +

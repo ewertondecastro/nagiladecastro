@@ -5,7 +5,8 @@
 // abaixo, OU defina a env NEXT_PUBLIC_LEAD_ENDPOINT (ex.: no Netlify).
 // A env, se existir, tem prioridade.
 
-const FALLBACK_ENDPOINT = ""; // <-- cole aqui a URL do Apps Script (/exec)
+const FALLBACK_ENDPOINT =
+  "https://script.google.com/macros/s/AKfycbw-jRrLn6lFpbCV8s9C-q_TbQwQ3XJzga-utodQeZ6WrpbW4uz5gUfiNizCUIkGJSI-/exec";
 
 export const LEAD_ENDPOINT =
   process.env.NEXT_PUBLIC_LEAD_ENDPOINT || FALLBACK_ENDPOINT;
