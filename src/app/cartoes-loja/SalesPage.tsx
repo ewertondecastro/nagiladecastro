@@ -11,7 +11,7 @@ import {
 
 // ─── Configuração (troque quando o Hotmart estiver pronto) ───────────
 const HOTMART_URL = "#"; // <-- cole aqui o link de checkout do Hotmart
-const PRICE = "R$ 27";
+const PRICE = "R$ 14,99";
 const PRICE_NOTE = "pagamento único, acesso vitalício";
 // ─────────────────────────────────────────────────────────────────────
 
