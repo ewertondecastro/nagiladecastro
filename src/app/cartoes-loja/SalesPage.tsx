@@ -117,26 +117,29 @@ export default function SalesPage() {
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
         >
           <span className="font-barlow-condensed text-[11px] tracking-[0.4em] uppercase text-rose-accent mb-5">
-            Alfabetização com leveza
+            Flashcards de Português
           </span>
           <h1
             className="font-playfair leading-[1.05] max-w-3xl"
-            style={{ fontSize: "clamp(34px, 6.5vw, 68px)" }}
+            style={{ fontSize: "clamp(38px, 7vw, 74px)" }}
           >
-            <span className="font-bold block text-text-primary">Cartões de Português</span>
-            <span className="italic block text-rose-accent">para os Pequenos</span>
+            <span className="font-bold block text-text-primary">Português</span>
+            <span className="italic block text-rose-accent">em Cartões</span>
           </h1>
+          <p className="font-barlow-condensed text-[12px] md:text-[13px] tracking-[0.25em] uppercase text-text-secondary mt-5">
+            20 flashcards de gramática, fonologia e pontuação
+          </p>
           <p
-            className="font-barlow text-text-secondary leading-relaxed mt-6 max-w-xl mx-auto"
+            className="font-barlow text-text-secondary leading-relaxed mt-5 max-w-xl mx-auto"
             style={{ fontSize: "clamp(15px, 1.4vw, 18px)" }}
           >
-            80 cartões ilustrados para ensinar seu filho a ler, escrever e amar
-            as palavras. Imprima, recorte, plastifique e aprenda brincando.
+            Arquivo digital com 20 cartões educativos frente e verso para
+            imprimir, dobrar e plastificar.
           </p>
           <div className="mt-8 flex flex-col items-center gap-3">
             <CtaButton>Quero os cartões</CtaButton>
             <span className="font-barlow text-[12px] text-text-muted">
-              Material digital para imprimir em casa
+              Imprima, dobre e plastifique
             </span>
           </div>
         </motion.div>
@@ -175,8 +178,8 @@ export default function SalesPage() {
             className="font-playfair italic text-text-primary leading-snug"
             style={{ fontSize: "clamp(24px, 3.4vw, 40px)" }}
           >
-            Cada palavra vira uma pequena história. E cada história, um convite
-            pra criança querer aprender mais.
+            Transforme o estudo da Língua Portuguesa em um momento mais visual,
+            organizado e agradável.
           </p>
         </motion.div>
       </section>
@@ -188,11 +191,12 @@ export default function SalesPage() {
             O que tem dentro
           </span>
           <h2 className="font-playfair font-normal mt-3 mb-4" style={{ fontSize: "clamp(30px, 4.5vw, 52px)" }}>
-            80 cartões, 20 temas,<br />uma jornada completa
+            20 cartões,<br />40 faces de conteúdo
           </h2>
           <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(15px, 1.2vw, 18px)" }}>
-            Das primeiras palavras à gramática, cada dupla traz uma cena pra
-            observar e um conceito pra descobrir, com um desafio no fim.
+            Cada cartão traz frente e verso lado a lado: uma cena pra observar,
+            o conceito explicado com exemplos do dia a dia e um pequeno desafio
+            pra fixar.
           </p>
         </motion.div>
 
@@ -279,9 +283,9 @@ export default function SalesPage() {
         </motion.div>
         <div className="max-w-4xl mx-auto grid gap-8 md:grid-cols-3">
           {[
-            { n: "01", t: "Imprima", d: "Em papel comum ou um pouco mais grosso, na sua impressora de casa." },
-            { n: "02", t: "Recorte e plastifique", d: "Recorte nas linhas e plastifique para os cartões durarem muito tempo." },
-            { n: "03", t: "Brinque e aprenda", d: "Um cartão por dia, no ritmo da criança, sem pressa e com afeto." },
+            { n: "01", t: "Imprima", d: "Só de um lado, em papel comum ou de maior gramatura. Selecione tamanho real (100%) na impressora." },
+            { n: "02", t: "Recorte e dobre", d: "Recorte cada cartão e dobre ao meio: frente e verso prontos, sem impressão dupla." },
+            { n: "03", t: "Plastifique e use", d: "Plastifique para durar e reutilize em revisões, jogos de perguntas e consultas." },
           ].map((s, i) => (
             <motion.div
               key={s.n}
@@ -308,9 +312,9 @@ export default function SalesPage() {
             Pra quem é
           </h2>
           <div className="flex flex-col gap-4 font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(15px, 1.3vw, 18px)" }}>
-            <p>Mães e pais que educam em casa e querem material sério, bonito e pronto pra usar.</p>
-            <p>Crianças de 4 a 8 anos começando a ler e escrever.</p>
-            <p>Famílias que acreditam que aprender e brincar caminham juntos.</p>
+            <p>Famílias homeschoolers e pais que ensinam em casa.</p>
+            <p>Professores e reforço escolar que querem material pronto pra usar.</p>
+            <p>Crianças que aprendem melhor com recursos concretos e visuais.</p>
           </div>
         </motion.div>
       </section>
@@ -322,19 +326,36 @@ export default function SalesPage() {
           <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-rose-accent">
             Leve para a sua casa
           </span>
-          <h2 className="font-playfair leading-tight mt-3 mb-6" style={{ fontSize: "clamp(32px, 5vw, 56px)" }}>
-            <span className="font-bold block text-text-primary">80 cartões para</span>
-            <span className="italic block text-rose-accent">imprimir e brincar</span>
+          <h2 className="font-playfair leading-tight mt-3 mb-8" style={{ fontSize: "clamp(32px, 5vw, 56px)" }}>
+            <span className="font-bold block text-text-primary">20 cartões frente e verso</span>
+            <span className="italic block text-rose-accent">para imprimir em casa</span>
           </h2>
+
+          <ul className="text-left max-w-sm mx-auto mb-9 flex flex-col gap-2.5">
+            {[
+              "20 cartões completos (40 faces de conteúdo)",
+              "Arquivo digital pronto para impressão",
+              "Frente e verso posicionados lado a lado",
+              "Explicações curtas e exemplos infantis",
+              "Perguntas e desafios para revisão",
+              "Material reutilizável após a plastificação",
+            ].map((item) => (
+              <li key={item} className="flex items-start gap-3 font-barlow text-text-secondary text-[15px] leading-snug">
+                <span className="text-rose-accent mt-0.5 shrink-0">✓</span>
+                {item}
+              </li>
+            ))}
+          </ul>
+
           <div className="font-playfair text-text-primary mb-1" style={{ fontSize: "clamp(40px, 6vw, 60px)" }}>
             {PRICE}
           </div>
           <p className="font-barlow text-text-muted text-sm mb-9">{PRICE_NOTE}</p>
           <div className="flex flex-col items-center gap-4">
             <CtaButton>Comprar agora</CtaButton>
-            <p className="font-barlow text-[13px] text-text-secondary max-w-sm">
-              Material digital em PDF. Você baixa e imprime quantas vezes quiser,
-              para todos os seus filhos.
+            <p className="font-barlow text-[13px] text-text-secondary max-w-md">
+              Produto digital: nenhum material físico é enviado. As cores podem
+              variar conforme a tela, a impressora e o papel utilizado.
             </p>
           </div>
         </motion.div>

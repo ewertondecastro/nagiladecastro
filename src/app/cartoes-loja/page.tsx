@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import SalesPage from "./SalesPage";
 
 export const metadata: Metadata = {
-  title: "Cartões de Português para os Pequenos | Nagila Decastro",
+  title:
+    "Português em Cartões — 20 Flashcards de Gramática, Fonologia e Pontuação para Imprimir",
   description:
-    "80 cartões ilustrados para alfabetizar brincando: substantivo, verbo, frase, pontuação, acentuação e muito mais. Material digital para imprimir em casa.",
+    "Arquivo digital com 20 cartões educativos frente e verso (40 faces de conteúdo) para imprimir, dobrar e plastificar. Gramática, fonologia e pontuação com exemplos infantis e desafios.",
 };
 
 export default function CartoesLojaPage() {
