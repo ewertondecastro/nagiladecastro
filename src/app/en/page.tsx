@@ -43,11 +43,11 @@ export default async function PageEN() {
   return (
     <main>
       <HeroSection dict={dict} locale="en" />
+      <ServicesSection dict={dict} locale="en" />
+      <ProductsSection dict={dict} />
       <QuoteSection dict={dict} />
       <AboutSection dict={dict} />
       <FamilySection dict={dict} />
-      <ServicesSection dict={dict} locale="en" />
-      <ProductsSection dict={dict} />
       <ContactSection dict={dict} />
       <Footer dict={dict} />
     </main>
