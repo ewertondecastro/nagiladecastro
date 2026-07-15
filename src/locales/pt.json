@@ -235,16 +235,6 @@
         "resourceKey": "sono"
       },
       {
-        "kind": "free",
-        "badge": "GRATUITO",
-        "titleLine1": "Cartões de Português",
-        "titleLine2": "para os Pequenos",
-        "description": "20 cartões ilustrados para imprimir e ensinar as primeiras noções de português: substantivo, verbo, frase, pontuação, acentuação e sílaba tônica. Para brincar e aprender junto.",
-        "cta": "Baixar PDF",
-        "gated": true,
-        "resourceKey": "cartoes"
-      },
-      {
         "kind": "paid",
         "badge": "E-BOOK",
         "titleLine1": "Casa, rotina",

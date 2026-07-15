@@ -235,16 +235,6 @@
         "resourceKey": "sono"
       },
       {
-        "kind": "free",
-        "badge": "FREE",
-        "titleLine1": "Portuguese Cards",
-        "titleLine2": "for Little Ones",
-        "description": "20 illustrated cards to print, teaching kids the basics of Portuguese: nouns, verbs, sentences, punctuation, accents and syllable stress. Made to play and learn together.",
-        "cta": "Download PDF",
-        "gated": true,
-        "resourceKey": "cartoes"
-      },
-      {
         "kind": "paid",
         "badge": "E-BOOK",
         "titleLine1": "Home, routine",

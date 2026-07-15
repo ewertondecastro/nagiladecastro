@@ -235,16 +235,6 @@
         "resourceKey": "sono"
       },
       {
-        "kind": "free",
-        "badge": "GRATUITO",
-        "titleLine1": "Tarjetas de Portugués",
-        "titleLine2": "para los Pequeños",
-        "description": "20 tarjetas ilustradas para imprimir y enseñar las primeras nociones de portugués: sustantivo, verbo, frase, puntuación, acentuación y sílaba tónica. Para jugar y aprender juntos.",
-        "cta": "Descargar PDF",
-        "gated": true,
-        "resourceKey": "cartoes"
-      },
-      {
         "kind": "paid",
         "badge": "E-BOOK",
         "titleLine1": "Casa, rutina",
