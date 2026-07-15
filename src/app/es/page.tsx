@@ -4,7 +4,7 @@ import QuoteSection from "@/components/QuoteSection";
 import AboutSection from "@/components/AboutSection";
 import FamilySection from "@/components/FamilySection";
 import ServicesSection from "@/components/ServicesSection";
-import ProductsSection from "@/components/ProductsSection";
+import ResourcesTeaser from "@/components/ResourcesTeaser";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import type { Metadata } from "next";
@@ -44,7 +44,7 @@ export default async function PageES() {
     <main>
       <HeroSection dict={dict} locale="es" />
       <ServicesSection dict={dict} locale="es" />
-      <ProductsSection dict={dict} />
+      <ResourcesTeaser dict={dict} locale="es" />
       <QuoteSection dict={dict} />
       <AboutSection dict={dict} />
       <FamilySection dict={dict} />

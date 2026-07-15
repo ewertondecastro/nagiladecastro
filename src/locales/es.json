@@ -19,7 +19,8 @@
       "Familia con propósito."
     ],
     "location": "CAPE COD, MASSACHUSETTS",
-    "scrollLabel": "DESLIZA"
+    "scrollLabel": "DESLIZA",
+    "cta": "Ver mentorías"
   },
   "quote": {
     "text": "La casa que se cuida primero sostiene todo lo demás.",
@@ -58,7 +59,7 @@
   },
   "services": {
     "sectionTitle": "Cómo te acompaño",
-    "sectionSubtitle": "Cuatro frentes de mentoría, una misma raíz: cuidar a la madre y a la casa es cuidar todo lo que viene después.",
+    "sectionSubtitle": "Cuatro caminos, una raíz: cuidar de la madre y de la casa. Toca la mentoría para ver cómo funciona y empieza una conversación.",
     "cards": [
       {
         "slug": "sono",
@@ -221,6 +222,7 @@
     "sectionTitle": "Recursos",
     "sectionSubtitle": "Materiales prácticos para que no esperes la próxima conversación para empezar.",
     "placeholderNote": "",
+    "teaserCta": "Ver todos los recursos",
     "items": [
       {
         "kind": "free",

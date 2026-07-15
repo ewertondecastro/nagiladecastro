@@ -19,7 +19,8 @@
       "Família com propósito."
     ],
     "location": "CAPE COD, MASSACHUSETTS",
-    "scrollLabel": "ROLE"
+    "scrollLabel": "ROLE",
+    "cta": "Ver mentorias"
   },
   "quote": {
     "text": "O lar que se cuida primeiro sustenta tudo o que vem depois.",
@@ -58,7 +59,7 @@
   },
   "services": {
     "sectionTitle": "Como eu acompanho",
-    "sectionSubtitle": "Quatro frentes de mentoria, uma mesma raiz: cuidar da mãe e da casa é cuidar de tudo o que vem depois.",
+    "sectionSubtitle": "Quatro caminhos, uma raiz: cuidar da mãe e da casa. Toque na mentoria pra ver como funciona e comece uma conversa.",
     "cards": [
       {
         "slug": "sono",
@@ -221,6 +222,7 @@
     "sectionTitle": "Recursos",
     "sectionSubtitle": "Materiais práticos pra você não esperar a próxima conversa pra começar.",
     "placeholderNote": "",
+    "teaserCta": "Ver todos os recursos",
     "items": [
       {
         "kind": "free",

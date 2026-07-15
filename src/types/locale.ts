@@ -64,6 +64,7 @@ export interface LocaleDict {
     tagline: string[];
     location: string;
     scrollLabel: string;
+    cta: string;
   };
   quote: {
     text: string;
@@ -98,6 +99,7 @@ export interface LocaleDict {
     sectionTitle: string;
     sectionSubtitle: string;
     placeholderNote: string;
+    teaserCta: string;
     items: ProductItem[];
   };
   leadForm: {

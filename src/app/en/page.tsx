@@ -4,7 +4,7 @@ import QuoteSection from "@/components/QuoteSection";
 import AboutSection from "@/components/AboutSection";
 import FamilySection from "@/components/FamilySection";
 import ServicesSection from "@/components/ServicesSection";
-import ProductsSection from "@/components/ProductsSection";
+import ResourcesTeaser from "@/components/ResourcesTeaser";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import type { Metadata } from "next";
@@ -44,7 +44,7 @@ export default async function PageEN() {
     <main>
       <HeroSection dict={dict} locale="en" />
       <ServicesSection dict={dict} locale="en" />
-      <ProductsSection dict={dict} />
+      <ResourcesTeaser dict={dict} locale="en" />
       <QuoteSection dict={dict} />
       <AboutSection dict={dict} />
       <FamilySection dict={dict} />

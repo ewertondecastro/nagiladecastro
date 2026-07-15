@@ -19,7 +19,8 @@
       "Family with purpose."
     ],
     "location": "CAPE COD, MASSACHUSETTS",
-    "scrollLabel": "SCROLL"
+    "scrollLabel": "SCROLL",
+    "cta": "See mentorships"
   },
   "quote": {
     "text": "The home cared for first holds everything else up.",
@@ -58,7 +59,7 @@
   },
   "services": {
     "sectionTitle": "How I walk with you",
-    "sectionSubtitle": "Four mentorship fronts, one root: caring for the mother and the home is caring for everything that comes after.",
+    "sectionSubtitle": "Four paths, one root: caring for the mother and the home. Tap a mentorship to see how it works and start a conversation.",
     "cards": [
       {
         "slug": "sono",
@@ -221,6 +222,7 @@
     "sectionTitle": "Resources",
     "sectionSubtitle": "Practical materials so you don't have to wait for the next conversation to begin.",
     "placeholderNote": "",
+    "teaserCta": "See all resources",
     "items": [
       {
         "kind": "free",
