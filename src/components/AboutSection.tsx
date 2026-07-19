@@ -1,5 +1,6 @@
 import Image from "next/image";
 import FadeIn from "./FadeIn";
+import Parallax from "./Parallax";
 import type { LocaleDict } from "@/types/locale";
 
 interface Props {
@@ -26,14 +27,20 @@ export default function AboutSection({ dict }: Props) {
 
           {/* Portrait */}
           <div className="relative aspect-[4/5] overflow-hidden rounded-sm bg-cream-line max-w-sm">
-            <Image
-              src="/images/couple.jpg"
-              alt="Nagila e Ewerton Decastro"
-              fill
-              className="object-cover object-top"
-              sizes="(max-width: 768px) 100vw, 40vw"
-            />
-            <div className="absolute inset-x-0 bottom-0 h-1 bg-rose-accent opacity-70" />
+            <Parallax
+              className="absolute inset-0"
+              innerClassName="absolute -inset-y-[10%] inset-x-0"
+              distance={34}
+            >
+              <Image
+                src="/images/couple.jpg"
+                alt="Nagila e Ewerton Decastro"
+                fill
+                className="object-cover object-top"
+                sizes="(max-width: 768px) 100vw, 40vw"
+              />
+            </Parallax>
+            <div className="absolute inset-x-0 bottom-0 h-1 bg-rose-accent opacity-70 z-10" />
           </div>
         </FadeIn>
 

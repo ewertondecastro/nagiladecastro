@@ -62,6 +62,7 @@ export interface LocaleDict {
     es: string;
   };
   siteNav: {
+    home: string;
     about: string;
     mentorias: string;
     recursos: string;

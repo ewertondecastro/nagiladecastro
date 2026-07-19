@@ -21,16 +21,17 @@ export default function FadeIn({
 
   const initial = {
     opacity: 0,
-    y: direction === "up" ? 32 : 0,
-    x: direction === "left" ? -32 : direction === "right" ? 32 : 0,
+    y: direction === "up" ? 52 : direction === "none" ? 24 : 0,
+    x: direction === "left" ? -52 : direction === "right" ? 52 : 0,
+    scale: 0.975,
   };
 
   return (
     <motion.div
       ref={ref}
       initial={initial}
-      animate={isInView ? { opacity: 1, y: 0, x: 0 } : initial}
-      transition={{ duration: 0.7, delay, ease: [0.25, 0.1, 0.25, 1] }}
+      animate={isInView ? { opacity: 1, y: 0, x: 0, scale: 1 } : initial}
+      transition={{ duration: 0.9, delay, ease: [0.22, 1, 0.36, 1] }}
       className={className}
     >
       {children}
