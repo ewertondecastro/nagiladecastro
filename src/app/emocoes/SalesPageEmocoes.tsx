@@ -140,14 +140,6 @@ export default function SalesPageEmocoes() {
   });
   const heroSmooth = useSpring(heroProgress, { stiffness: 70, damping: 22, mass: 0.6 });
 
-  const galleryRef = useRef<HTMLDivElement>(null);
-  const { scrollYProgress: galProgress } = useScroll({
-    target: galleryRef,
-    offset: ["start end", "end start"],
-  });
-  const galX = useTransform(galProgress, [0, 1], ["4%", "-38%"]);
-  const galXSmooth = useSpring(galX, { stiffness: 60, damping: 24 });
-
   const fade = {
     initial: { opacity: 0, y: 40 },
     whileInView: { opacity: 1, y: 0 },
@@ -337,7 +329,7 @@ export default function SalesPageEmocoes() {
           className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-6"
           style={{ perspective: "1400px" }}
         >
-          {GALLERY.slice(0, 8).map((c, i) => (
+          {GALLERY.map((c, i) => (
             <motion.figure
               key={c.src}
               className="flex flex-col items-center"
@@ -358,20 +350,6 @@ export default function SalesPageEmocoes() {
             </li>
           ))}
         </motion.ul>
-      </section>
-
-      {/* ───────── GALERIA 3D ───────── */}
-      <section ref={galleryRef} className="py-24 md:py-32 bg-background-soft overflow-hidden">
-        <motion.h2 {...fade} className="font-playfair font-normal text-center mb-14 px-6" style={{ fontSize: "clamp(28px, 4vw, 46px)" }}>
-          Feitos para encantar
-        </motion.h2>
-        <motion.div style={{ x: galXSmooth, perspective: "1000px" }} className="flex gap-6 md:gap-8 pl-[6vw] w-max">
-          {GALLERY.map((c, i) => (
-            <div key={c.src} className="shrink-0 w-[210px] md:w-[250px]" style={{ transform: `rotate(${i % 2 === 0 ? -4 : 4}deg)` }}>
-              <img src={c.src} alt={c.alt} className="w-full rounded-[12px] shadow-2xl shadow-text-primary/20 ring-1 ring-cream-line" draggable={false} />
-            </div>
-          ))}
-        </motion.div>
       </section>
 
       {/* ───────── O QUE MUDA NA SUA CASA ───────── */}
