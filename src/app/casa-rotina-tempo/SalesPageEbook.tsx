@@ -176,7 +176,7 @@ export default function SalesPageEbook() {
           </h1>
           <p
             className="font-barlow text-text-secondary leading-relaxed mt-6 max-w-xl mx-auto"
-            style={{ fontSize: "clamp(15px, 1.4vw, 18px)" }}
+            style={{ fontSize: "clamp(17px, 1.5vw, 21px)" }}
           >
             O guia prático e afetuoso para a mãe que vive correndo atrás do
             próprio dia. Diagnóstico da casa, nove capítulos, ferramentas para
@@ -224,7 +224,7 @@ export default function SalesPageEbook() {
           >
             O dia começa antes de você decidir como ele vai ser.
           </p>
-          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(15px, 1.3vw, 18px)" }}>
+          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(17px, 1.5vw, 21px)" }}>
             A casa corre atrás de si mesma, as tarefas se acumulam, o cansaço
             chega antes da noite e fica sempre a sensação de improviso. Se é
             assim, este e-book foi escrito para você.
@@ -257,7 +257,7 @@ export default function SalesPageEbook() {
           <h2 className="font-playfair font-normal mt-3 mb-4" style={{ fontSize: "clamp(30px, 4.5vw, 52px)" }}>
             Nove capítulos,<br />um caminho completo
           </h2>
-          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(15px, 1.2vw, 18px)" }}>
+          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}>
             Da rotina à fé no cotidiano. Cada capítulo termina em prática, com
             uma ferramenta para você preencher e aplicar já na próxima manhã.
           </p>
@@ -276,7 +276,7 @@ export default function SalesPageEbook() {
               <span className="font-playfair italic text-rose-accent/70 text-lg shrink-0 w-8">{c.n}</span>
               <div>
                 <h3 className="font-barlow font-semibold text-text-primary text-[17px] leading-tight">{c.t}</h3>
-                <p className="font-barlow text-text-secondary text-[14px] mt-0.5">{c.s}</p>
+                <p className="font-barlow text-text-secondary text-[16px] mt-0.5">{c.s}</p>
               </div>
             </motion.div>
           ))}
@@ -292,7 +292,7 @@ export default function SalesPageEbook() {
           <h2 className="font-playfair font-normal mt-3 mb-4" style={{ fontSize: "clamp(30px, 4.5vw, 52px)" }}>
             Um guia para preencher e viver
           </h2>
-          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(15px, 1.2vw, 18px)" }}>
+          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}>
             Você começa com um diagnóstico honesto da sua casa e termina com um
             plano de 7 dias. No meio, ferramentas simples que saem do papel para
             a vida real.
@@ -328,7 +328,7 @@ export default function SalesPageEbook() {
             Para a mulher que volta<br />para casa todos os dias
           </h2>
         </motion.div>
-        <div className="max-w-2xl mx-auto flex flex-col gap-4 font-barlow text-text-secondary leading-relaxed text-center" style={{ fontSize: "clamp(15px, 1.3vw, 18px)" }}>
+        <div className="max-w-2xl mx-auto flex flex-col gap-4 font-barlow text-text-secondary leading-relaxed text-center" style={{ fontSize: "clamp(17px, 1.5vw, 21px)" }}>
           <motion.p {...fade}>Para a mãe cansada de acordar sem saber por onde começar.</motion.p>
           <motion.p {...fade}>Para quem quer ritmo e leveza, sem virar escrava de uma rotina rígida.</motion.p>
           <motion.p {...fade}>Para a casa que quer direção, presença e paz, mesmo na semana cheia.</motion.p>
@@ -345,7 +345,7 @@ export default function SalesPageEbook() {
             Não escrevo como quem já chegou, mas como quem está no caminho e
             aprendeu algumas coisas que funcionam de verdade.
           </p>
-          <p className="font-barlow text-text-secondary leading-relaxed mt-5" style={{ fontSize: "clamp(15px, 1.3vw, 18px)" }}>
+          <p className="font-barlow text-text-secondary leading-relaxed mt-5" style={{ fontSize: "clamp(17px, 1.5vw, 21px)" }}>
             Nágila Decastro, autora e mentora, mãe que já viveu a casa no
             improviso e reaprendeu a conduzi-la. Menos teoria bonita, mais o que
             dá para começar a fazer amanhã de manhã.
@@ -374,7 +374,7 @@ export default function SalesPageEbook() {
               "2ª edição revista e ampliada",
               "Arquivo digital em PDF, seu para sempre",
             ].map((item) => (
-              <li key={item} className="flex items-start gap-3 font-barlow text-text-secondary text-[15px] leading-snug">
+              <li key={item} className="flex items-start gap-3 font-barlow text-text-secondary text-[17px] leading-snug">
                 <span className="text-rose-accent mt-0.5 shrink-0">✓</span>
                 {item}
               </li>
@@ -389,7 +389,7 @@ export default function SalesPageEbook() {
           <div className="flex flex-col items-center gap-4">
             <CtaButton>Quero o e-book agora</CtaButton>
             <TrustRow />
-            <p className="font-barlow text-[13px] text-text-secondary max-w-md mt-2">
+            <p className="font-barlow text-[14px] text-text-secondary max-w-md mt-2">
               Produto digital: nenhum material físico é enviado. Você recebe o
               PDF e lê no celular, tablet ou computador.
             </p>
@@ -413,7 +413,7 @@ export default function SalesPageEbook() {
               transition={{ duration: 0.5, delay: i * 0.06 }}
             >
               <h3 className="font-barlow font-semibold text-text-primary text-[17px] mb-2">{item.q}</h3>
-              <p className="font-barlow text-text-secondary leading-relaxed text-[15px]">{item.a}</p>
+              <p className="font-barlow text-text-secondary leading-relaxed text-[17px]">{item.a}</p>
             </motion.div>
           ))}
         </div>
@@ -426,7 +426,7 @@ export default function SalesPageEbook() {
             <span className="font-bold block text-text-primary">Sua casa merece</span>
             <span className="italic block text-rose-accent">direção, ritmo e paz</span>
           </h2>
-          <p className="font-barlow text-text-secondary leading-relaxed mb-8" style={{ fontSize: "clamp(15px, 1.3vw, 18px)" }}>
+          <p className="font-barlow text-text-secondary leading-relaxed mb-8" style={{ fontSize: "clamp(17px, 1.5vw, 21px)" }}>
             Você recebe agora e a primeira manhã diferente pode ser amanhã.
           </p>
           <div className="flex flex-col items-center gap-3">

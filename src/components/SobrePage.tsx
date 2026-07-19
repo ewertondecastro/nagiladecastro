@@ -36,7 +36,7 @@ export default function SobrePage({
               <span className="font-normal text-text-primary block">{about.titleLine2}</span>
               <span className="italic text-rose-accent block">{about.titleLine3}</span>
             </h1>
-            <p className="font-barlow text-text-secondary leading-relaxed max-w-xl" style={{ fontSize: "clamp(16px, 1.3vw, 19px)" }}>
+            <p className="font-barlow text-text-secondary leading-relaxed max-w-xl" style={{ fontSize: "clamp(18px, 1.5vw, 22px)" }}>
               {introPara}
             </p>
           </FadeIn>
@@ -67,7 +67,7 @@ export default function SobrePage({
                   className={`font-barlow leading-relaxed ${
                     i === restBody.length - 1 ? "text-text-primary font-medium" : "text-text-secondary"
                   }`}
-                  style={{ fontSize: "clamp(16px, 1.25vw, 19px)" }}
+                  style={{ fontSize: "clamp(18px, 1.5vw, 22px)" }}
                 >
                   {paragraph}
                 </p>
@@ -85,7 +85,7 @@ export default function SobrePage({
                   <li
                     key={i}
                     className="font-barlow text-text-primary leading-snug pl-3 border-l-2 border-rose-accent"
-                    style={{ fontSize: "clamp(14px, 1vw, 16px)" }}
+                    style={{ fontSize: "clamp(16px, 1.2vw, 18px)" }}
                   >
                     {item}
                   </li>
@@ -117,7 +117,7 @@ export default function SobrePage({
             src="/images/family.jpg"
             alt="Família Decastro"
             fill
-            className="object-cover object-center"
+            className="object-cover object-top"
             sizes="100vw"
           />
         </FadeIn>
@@ -137,7 +137,7 @@ export default function SobrePage({
                   className={`font-barlow leading-relaxed ${
                     i === family.body.length - 1 ? "text-text-primary font-medium" : "text-text-secondary"
                   }`}
-                  style={{ fontSize: "clamp(16px, 1.25vw, 19px)" }}
+                  style={{ fontSize: "clamp(18px, 1.5vw, 22px)" }}
                 >
                   {paragraph}
                 </p>

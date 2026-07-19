@@ -35,7 +35,7 @@ export default function EntregaCasaRotinaTempo() {
 
         <p
           className="font-barlow text-text-secondary leading-relaxed mb-10 max-w-md mx-auto"
-          style={{ fontSize: "clamp(15px, 1.4vw, 17px)" }}
+          style={{ fontSize: "clamp(17px, 1.4vw, 20px)" }}
         >
           Obrigada pela sua confiança. São 25 páginas pra você desenhar uma
           rotina de casa que sustenta o resto: sono, educação, casamento, fé.
@@ -49,7 +49,7 @@ export default function EntregaCasaRotinaTempo() {
           Baixar o e-book (PDF)
         </a>
 
-        <p className="font-barlow text-[13px] text-text-muted leading-relaxed mt-8 max-w-sm mx-auto">
+        <p className="font-barlow text-[14px] text-text-muted leading-relaxed mt-8 max-w-sm mx-auto">
           Guarde este link com carinho, ele é só seu. Qualquer problema com o
           download, é só me chamar no WhatsApp.
         </p>

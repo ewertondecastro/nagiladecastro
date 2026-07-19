@@ -65,7 +65,7 @@ export default function ServicesAccordion({
                   <div className="pb-8 md:pl-14 max-w-2xl">
                     <p
                       className="font-barlow text-text-secondary leading-relaxed mb-6"
-                      style={{ fontSize: "clamp(14px, 1vw, 16px)" }}
+                      style={{ fontSize: "clamp(16px, 1.2vw, 18px)" }}
                     >
                       {card.description}
                     </p>

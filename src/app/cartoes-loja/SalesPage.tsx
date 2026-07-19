@@ -155,7 +155,7 @@ export default function SalesPage() {
           </h1>
           <p
             className="font-barlow text-text-secondary leading-relaxed mt-6 max-w-xl mx-auto"
-            style={{ fontSize: "clamp(15px, 1.4vw, 18px)" }}
+            style={{ fontSize: "clamp(17px, 1.5vw, 21px)" }}
           >
             40 cartões ilustrados, frente e verso, que transformam gramática,
             fonologia e pontuação em brincadeira. Baixe agora e comece ainda hoje.
@@ -202,7 +202,7 @@ export default function SalesPage() {
           >
             Você quer ensinar as primeiras palavras com calma.
           </p>
-          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(15px, 1.3vw, 18px)" }}>
+          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(17px, 1.5vw, 21px)" }}>
             Mas a apostila cansa, a criança dispersa, e a tela sempre parece o
             caminho mais fácil. Dá pra ser diferente. Aprender português pode ser
             um momento concreto, visual e gostoso, que a criança pede pra repetir.
@@ -219,7 +219,7 @@ export default function SalesPage() {
           <h2 className="font-playfair font-normal mt-3 mb-4" style={{ fontSize: "clamp(30px, 4.5vw, 52px)" }}>
             Como funciona cada cartão
           </h2>
-          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(15px, 1.2vw, 18px)" }}>
+          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}>
             Um lado traz uma cena do dia a dia da criança. O outro explica o
             conceito com exemplos simples e um pequeno desafio. Ela observa,
             entende e fixa, sem perceber que está estudando.
@@ -266,7 +266,7 @@ export default function SalesPage() {
           <h2 className="font-playfair font-normal mt-3 mb-4" style={{ fontSize: "clamp(30px, 4.5vw, 52px)" }}>
             40 cartões,<br />80 faces de conteúdo
           </h2>
-          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(15px, 1.2vw, 18px)" }}>
+          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}>
             Da primeira letra à sílaba tônica. Gramática, fonologia e pontuação,
             tudo com exemplos infantis e um desafio em cada cartão.
           </p>
@@ -352,7 +352,7 @@ export default function SalesPage() {
               <span className="text-rose-accent font-playfair text-2xl leading-none shrink-0">✦</span>
               <div>
                 <h3 className="font-barlow font-semibold text-text-primary text-base mb-1.5">{b.t}</h3>
-                <p className="font-barlow text-text-secondary leading-relaxed text-[14px]">{b.d}</p>
+                <p className="font-barlow text-text-secondary leading-relaxed text-[16px]">{b.d}</p>
               </div>
             </motion.div>
           ))}
@@ -385,7 +385,7 @@ export default function SalesPage() {
             >
               <span className="font-playfair italic text-rose-accent" style={{ fontSize: "clamp(34px, 4vw, 48px)" }}>{s.n}</span>
               <h3 className="font-barlow font-semibold text-text-primary text-lg mt-2 mb-2">{s.t}</h3>
-              <p className="font-barlow text-text-secondary leading-relaxed text-[15px]">{s.d}</p>
+              <p className="font-barlow text-text-secondary leading-relaxed text-[17px]">{s.d}</p>
             </motion.div>
           ))}
         </div>
@@ -401,7 +401,7 @@ export default function SalesPage() {
             Feito por Nagila Decastro, educadora parental certificada e mãe que
             educa as duas filhas em casa.
           </p>
-          <p className="font-barlow text-text-secondary leading-relaxed mt-5" style={{ fontSize: "clamp(15px, 1.3vw, 18px)" }}>
+          <p className="font-barlow text-text-secondary leading-relaxed mt-5" style={{ fontSize: "clamp(17px, 1.5vw, 21px)" }}>
             O mesmo cuidado que ela usa todos os dias com a Helena e a Catharina,
             agora pronto para a sua casa.
           </p>
@@ -420,7 +420,7 @@ export default function SalesPage() {
             <span className="italic block text-rose-accent">para imprimir em casa</span>
           </h2>
 
-          <p className="font-barlow text-text-secondary leading-relaxed mb-8" style={{ fontSize: "clamp(15px, 1.3vw, 17px)" }}>
+          <p className="font-barlow text-text-secondary leading-relaxed mb-8" style={{ fontSize: "clamp(17px, 1.4vw, 20px)" }}>
             Um baralho educativo impresso custa muito mais, e um dia acaba. Aqui
             você recebe o arquivo completo, imprime quantas vezes quiser, para
             todos os seus filhos, para sempre.
@@ -435,7 +435,7 @@ export default function SalesPage() {
               "Perguntas e desafios para revisão",
               "Material reutilizável após a plastificação",
             ].map((item) => (
-              <li key={item} className="flex items-start gap-3 font-barlow text-text-secondary text-[15px] leading-snug">
+              <li key={item} className="flex items-start gap-3 font-barlow text-text-secondary text-[17px] leading-snug">
                 <span className="text-rose-accent mt-0.5 shrink-0">✓</span>
                 {item}
               </li>
@@ -453,7 +453,7 @@ export default function SalesPage() {
           <div className="flex flex-col items-center gap-4">
             <CtaButton>Comprar agora</CtaButton>
             <TrustRow />
-            <p className="font-barlow text-[13px] text-text-secondary max-w-md mt-2">
+            <p className="font-barlow text-[14px] text-text-secondary max-w-md mt-2">
               Produto digital: nenhum material físico é enviado. As cores podem
               variar conforme a tela, a impressora e o papel utilizado.
             </p>
@@ -477,7 +477,7 @@ export default function SalesPage() {
               transition={{ duration: 0.5, delay: i * 0.06 }}
             >
               <h3 className="font-barlow font-semibold text-text-primary text-[17px] mb-2">{item.q}</h3>
-              <p className="font-barlow text-text-secondary leading-relaxed text-[15px]">{item.a}</p>
+              <p className="font-barlow text-text-secondary leading-relaxed text-[17px]">{item.a}</p>
             </motion.div>
           ))}
         </div>
@@ -490,7 +490,7 @@ export default function SalesPage() {
             <span className="font-bold block text-text-primary">Comece hoje mesmo</span>
             <span className="italic block text-rose-accent">a ensinar com leveza</span>
           </h2>
-          <p className="font-barlow text-text-secondary leading-relaxed mb-8" style={{ fontSize: "clamp(15px, 1.3vw, 18px)" }}>
+          <p className="font-barlow text-text-secondary leading-relaxed mb-8" style={{ fontSize: "clamp(17px, 1.5vw, 21px)" }}>
             Você baixa em minutos e a primeira brincadeira pode ser ainda hoje.
           </p>
           <div className="flex flex-col items-center gap-3">

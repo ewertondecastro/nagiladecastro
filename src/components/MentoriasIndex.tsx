@@ -31,7 +31,7 @@ export default function MentoriasIndex({
           <h1 className="font-playfair font-normal text-text-primary mt-5 mb-5" style={{ fontSize: "clamp(40px, 6vw, 72px)" }}>
             {services.sectionTitle}
           </h1>
-          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(16px, 1.3vw, 19px)" }}>
+          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(18px, 1.5vw, 22px)" }}>
             {services.sectionSubtitle}
           </p>
         </FadeIn>
@@ -53,7 +53,7 @@ export default function MentoriasIndex({
                   <span className="font-bold text-text-primary block">{card.titleLine1}</span>
                   <span className="italic text-rose-accent block">{card.titleLine2}</span>
                 </h2>
-                <p className="font-barlow text-text-secondary leading-relaxed flex-1 mb-6" style={{ fontSize: "clamp(14px, 1.05vw, 16px)" }}>
+                <p className="font-barlow text-text-secondary leading-relaxed flex-1 mb-6" style={{ fontSize: "clamp(16px, 1.15vw, 18px)" }}>
                   {card.description}
                 </p>
                 <span className="font-barlow-condensed text-xs tracking-[0.2em] uppercase text-rose-accent inline-flex items-center gap-2">

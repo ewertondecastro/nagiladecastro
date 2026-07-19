@@ -172,7 +172,7 @@ export default function SalesPageEmocoes() {
           </h1>
           <p
             className="font-barlow text-text-secondary leading-relaxed mt-6 max-w-xl mx-auto"
-            style={{ fontSize: "clamp(15px, 1.4vw, 18px)" }}
+            style={{ fontSize: "clamp(17px, 1.5vw, 21px)" }}
           >
             20 cartões ilustrados que transformam raiva, medo, ciúme e alegria em
             conversa. A criança aprende a perceber, nomear e responder a cada
@@ -220,7 +220,7 @@ export default function SalesPageEmocoes() {
           >
             &ldquo;Ele explode e não sabe dizer o que está sentindo.&rdquo;
           </p>
-          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(15px, 1.3vw, 18px)" }}>
+          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(17px, 1.5vw, 21px)" }}>
             A birra vem antes da palavra. A criança sente muito e ainda não tem
             nome para o que sente, então grita, bate a porta ou se fecha. Quando
             ela aprende a reconhecer e nomear a emoção, a casa inteira respira
@@ -238,7 +238,7 @@ export default function SalesPageEmocoes() {
           <h2 className="font-playfair font-normal mt-3 mb-4" style={{ fontSize: "clamp(30px, 4.5vw, 52px)" }}>
             Como funciona cada cartão
           </h2>
-          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(15px, 1.2vw, 18px)" }}>
+          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}>
             Uma frente com a cena que a criança reconhece na própria vida. E um
             verso com um caminho simples para atravessar a emoção, passo a passo.
           </p>
@@ -284,7 +284,7 @@ export default function SalesPageEmocoes() {
           <h2 className="font-playfair font-normal mt-3 mb-4" style={{ fontSize: "clamp(30px, 4.5vw, 52px)" }}>
             Cinco passos para<br />atravessar cada emoção
           </h2>
-          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(15px, 1.2vw, 18px)" }}>
+          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}>
             O mesmo caminho se repete em todos os cartões. A criança aprende uma
             vez e passa a usar sozinha, em qualquer sentimento.
           </p>
@@ -303,7 +303,7 @@ export default function SalesPageEmocoes() {
               <span className="font-playfair italic text-rose-accent/70 text-2xl shrink-0 w-8">{i + 1}</span>
               <div>
                 <h3 className="font-barlow-condensed tracking-[0.15em] uppercase text-text-primary text-sm font-semibold mb-1.5">{m.k}</h3>
-                <p className="font-barlow text-text-secondary leading-relaxed text-[15px]">{m.d}</p>
+                <p className="font-barlow text-text-secondary leading-relaxed text-[17px]">{m.d}</p>
               </div>
             </motion.div>
           ))}
@@ -319,7 +319,7 @@ export default function SalesPageEmocoes() {
           <h2 className="font-playfair font-normal mt-3 mb-4" style={{ fontSize: "clamp(30px, 4.5vw, 52px)" }}>
             20 emoções,<br />40 faces de conteúdo
           </h2>
-          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(15px, 1.2vw, 18px)" }}>
+          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}>
             Das mais fáceis às mais difíceis de falar. Cada uma com sua cena, suas
             sensações no corpo e o caminho para lidar com ela.
           </p>
@@ -380,7 +380,7 @@ export default function SalesPageEmocoes() {
               <span className="text-rose-accent font-playfair text-2xl leading-none shrink-0">✦</span>
               <div>
                 <h3 className="font-barlow font-semibold text-text-primary text-base mb-1.5">{b.t}</h3>
-                <p className="font-barlow text-text-secondary leading-relaxed text-[14px]">{b.d}</p>
+                <p className="font-barlow text-text-secondary leading-relaxed text-[16px]">{b.d}</p>
               </div>
             </motion.div>
           ))}
@@ -413,7 +413,7 @@ export default function SalesPageEmocoes() {
             >
               <span className="font-playfair italic text-rose-accent" style={{ fontSize: "clamp(34px, 4vw, 48px)" }}>{s.n}</span>
               <h3 className="font-barlow font-semibold text-text-primary text-lg mt-2 mb-2">{s.t}</h3>
-              <p className="font-barlow text-text-secondary leading-relaxed text-[15px]">{s.d}</p>
+              <p className="font-barlow text-text-secondary leading-relaxed text-[17px]">{s.d}</p>
             </motion.div>
           ))}
         </div>
@@ -429,7 +429,7 @@ export default function SalesPageEmocoes() {
             Feito por Nágila Decastro, educadora parental certificada e mãe que
             educa as duas filhas em casa.
           </p>
-          <p className="font-barlow text-text-secondary leading-relaxed mt-5" style={{ fontSize: "clamp(15px, 1.3vw, 18px)" }}>
+          <p className="font-barlow text-text-secondary leading-relaxed mt-5" style={{ fontSize: "clamp(17px, 1.5vw, 21px)" }}>
             O mesmo cuidado que ela usa todos os dias com a Helena e a Catharina,
             agora pronto para a sua casa, com leveza e ancorado na fé.
           </p>
@@ -448,7 +448,7 @@ export default function SalesPageEmocoes() {
             <span className="italic block text-rose-accent">para imprimir em casa</span>
           </h2>
 
-          <p className="font-barlow text-text-secondary leading-relaxed mb-8" style={{ fontSize: "clamp(15px, 1.3vw, 17px)" }}>
+          <p className="font-barlow text-text-secondary leading-relaxed mb-8" style={{ fontSize: "clamp(17px, 1.4vw, 20px)" }}>
             Um material socioemocional pronto custa muito mais, e um dia acaba.
             Aqui você recebe o arquivo completo, imprime quantas vezes quiser,
             para todos os seus filhos, para sempre.
@@ -463,7 +463,7 @@ export default function SalesPageEmocoes() {
               "Base cristã, leve e sem imposição",
               "Arquivo digital reutilizável, seu para sempre",
             ].map((item) => (
-              <li key={item} className="flex items-start gap-3 font-barlow text-text-secondary text-[15px] leading-snug">
+              <li key={item} className="flex items-start gap-3 font-barlow text-text-secondary text-[17px] leading-snug">
                 <span className="text-rose-accent mt-0.5 shrink-0">✓</span>
                 {item}
               </li>
@@ -481,7 +481,7 @@ export default function SalesPageEmocoes() {
           <div className="flex flex-col items-center gap-4">
             <CtaButton>Comprar agora</CtaButton>
             <TrustRow />
-            <p className="font-barlow text-[13px] text-text-secondary max-w-md mt-2">
+            <p className="font-barlow text-[14px] text-text-secondary max-w-md mt-2">
               Produto digital: nenhum material físico é enviado. As cores podem
               variar conforme a tela, a impressora e o papel utilizado.
             </p>
@@ -505,7 +505,7 @@ export default function SalesPageEmocoes() {
               transition={{ duration: 0.5, delay: i * 0.06 }}
             >
               <h3 className="font-barlow font-semibold text-text-primary text-[17px] mb-2">{item.q}</h3>
-              <p className="font-barlow text-text-secondary leading-relaxed text-[15px]">{item.a}</p>
+              <p className="font-barlow text-text-secondary leading-relaxed text-[17px]">{item.a}</p>
             </motion.div>
           ))}
         </div>
@@ -518,7 +518,7 @@ export default function SalesPageEmocoes() {
             <span className="font-bold block text-text-primary">Dê nome ao que</span>
             <span className="italic block text-rose-accent">seu filho sente</span>
           </h2>
-          <p className="font-barlow text-text-secondary leading-relaxed mb-8" style={{ fontSize: "clamp(15px, 1.3vw, 18px)" }}>
+          <p className="font-barlow text-text-secondary leading-relaxed mb-8" style={{ fontSize: "clamp(17px, 1.5vw, 21px)" }}>
             Você baixa em minutos e a primeira conversa diferente pode ser ainda hoje.
           </p>
           <div className="flex flex-col items-center gap-3">

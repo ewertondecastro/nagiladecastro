@@ -47,7 +47,7 @@ export default function AboutSection({ dict }: Props) {
                   ? "text-text-primary font-medium"
                   : "text-text-secondary"
               }`}
-              style={{ fontSize: "clamp(15px, 1.2vw, 17px)" }}
+              style={{ fontSize: "clamp(17px, 1.4vw, 20px)" }}
             >
               {paragraph}
             </p>
@@ -81,7 +81,7 @@ export default function AboutSection({ dict }: Props) {
             <span className="font-barlow-condensed text-[10px] tracking-[0.3em] text-text-muted uppercase">
               {about.partner.label}
             </span>
-            <span className="font-playfair italic text-rose-accent group-hover:text-text-primary transition-colors duration-300" style={{ fontSize: "clamp(15px, 1.2vw, 18px)" }}>
+            <span className="font-playfair italic text-rose-accent group-hover:text-text-primary transition-colors duration-300" style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}>
               {about.partner.handle}
             </span>
           </a>

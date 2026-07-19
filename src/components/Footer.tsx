@@ -63,7 +63,7 @@ export default function Footer({ dict, locale = "pt" }: Props) {
               target="_blank"
               rel="noopener noreferrer"
               className="font-playfair italic text-rose-accent hover:text-text-primary transition-colors duration-200"
-              style={{ fontSize: "clamp(15px, 1.2vw, 18px)" }}
+              style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}
             >
               {contact.handle}
             </a>

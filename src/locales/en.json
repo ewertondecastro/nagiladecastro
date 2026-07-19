@@ -291,12 +291,20 @@
     "privacy": "Your data is only used to send this material and updates from Nagila."
   },
   "contact": {
-    "titleLine1": "If something resonated,",
+    "titleLine1": "If something here spoke to you,",
     "titleLine2": "the conversation starts here.",
     "subtitle": "Real motherhood, intentional self-care, and the life of a home that chose time. No performance, no pre-packaged recipe.",
     "handle": "@nagila.decastro",
     "cta": "DM me on Instagram",
-    "url": "https://ig.me/m/nagila.decastro"
+    "url": "https://ig.me/m/nagila.decastro",
+    "formEyebrow": "Prefer to write?",
+    "formTitle": "Leave your contact",
+    "interestLabel": "Interest",
+    "interestPlaceholder": "Select a topic",
+    "interestOptions": ["Sleep Consulting", "Real Motherhood", "Homeschool", "METI Mentorship", "Materials and resources", "Other"],
+    "formSubmit": "Send",
+    "formSending": "Sending...",
+    "formSuccess": "I got your message! I'll get back to you soon."
   },
   "footer": {
     "name": "Nagila Decastro",

@@ -137,6 +137,14 @@ export interface LocaleDict {
     handle: string;
     cta: string;
     url: string;
+    formEyebrow: string;
+    formTitle: string;
+    interestLabel: string;
+    interestPlaceholder: string;
+    interestOptions: string[];
+    formSubmit: string;
+    formSending: string;
+    formSuccess: string;
   };
   footer: {
     name: string;

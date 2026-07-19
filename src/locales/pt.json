@@ -291,12 +291,20 @@
     "privacy": "Seus dados são usados só para enviar este material e novidades da Nagila."
   },
   "contact": {
-    "titleLine1": "Se algo aqui ressoou,",
+    "titleLine1": "Se algo aqui tocou você,",
     "titleLine2": "a conversa começa aqui.",
     "subtitle": "Maternidade real, autocuidado intencional e a vida de uma casa que escolheu o tempo. Sem teatro, sem receita pronta.",
     "handle": "@nagila.decastro",
     "cta": "Me chama no DM",
-    "url": "https://ig.me/m/nagila.decastro"
+    "url": "https://ig.me/m/nagila.decastro",
+    "formEyebrow": "Prefere escrever?",
+    "formTitle": "Deixe seu contato",
+    "interestLabel": "Interesse",
+    "interestPlaceholder": "Selecione um assunto",
+    "interestOptions": ["Consultoria de Sono", "Maternidade Real", "Educação em Casa", "Mentoria METI", "Materiais e recursos", "Outro assunto"],
+    "formSubmit": "Enviar",
+    "formSending": "Enviando...",
+    "formSuccess": "Recebi seu contato! Em breve eu te respondo."
   },
   "footer": {
     "name": "Nagila Decastro",

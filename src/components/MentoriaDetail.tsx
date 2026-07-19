@@ -57,7 +57,7 @@ export default function MentoriaDetail({ dict, locale, card }: Props) {
                 className={`font-barlow leading-relaxed ${
                   i === d.whyBody.length - 1 ? "text-text-primary font-medium" : "text-text-secondary"
                 }`}
-                style={{ fontSize: "clamp(16px, 1.25vw, 18px)" }}
+                style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}
               >
                 {p}
               </p>
@@ -80,7 +80,7 @@ export default function MentoriaDetail({ dict, locale, card }: Props) {
               <p
                 key={i}
                 className="font-barlow text-text-secondary leading-relaxed"
-                style={{ fontSize: "clamp(16px, 1.25vw, 18px)" }}
+                style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}
               >
                 {p}
               </p>
@@ -103,7 +103,7 @@ export default function MentoriaDetail({ dict, locale, card }: Props) {
               <li
                 key={i}
                 className="font-barlow text-text-primary leading-relaxed pl-5 border-l-2 border-rose-soft"
-                style={{ fontSize: "clamp(16px, 1.25vw, 18px)" }}
+                style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}
               >
                 {item}
               </li>

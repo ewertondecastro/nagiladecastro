@@ -77,7 +77,7 @@ export default function HeroSection({ dict }: Props) {
             {hero.tagline.map((line, i) => (
               <p
                 key={i}
-                className="font-barlow text-text-secondary text-sm md:text-base leading-relaxed"
+                className="font-barlow text-text-secondary text-base md:text-lg leading-relaxed"
               >
                 {line}
               </p>

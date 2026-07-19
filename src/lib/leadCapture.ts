@@ -23,6 +23,7 @@ export interface LeadPayload {
   resource: string;
   resourceKey: string;
   locale: string;
+  interesse?: string;
 }
 
 export interface LeadResult {

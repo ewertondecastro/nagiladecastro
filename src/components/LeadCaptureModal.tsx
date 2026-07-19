@@ -91,7 +91,7 @@ export default function LeadCaptureModal({ leadForm, item, locale, onClose }: Pr
     setForm((f) => ({ ...f, [k]: e.target.value }));
 
   const inputClass =
-    "w-full bg-background border border-cream-line px-4 py-2.5 font-barlow text-text-primary text-[15px] outline-none focus:border-rose-accent transition-colors duration-200";
+    "w-full bg-background border border-cream-line px-4 py-2.5 font-barlow text-text-primary text-[17px] outline-none focus:border-rose-accent transition-colors duration-200";
   const labelClass =
     "block font-barlow-condensed text-[11px] tracking-[0.2em] uppercase text-text-secondary mb-1.5";
 
@@ -127,7 +127,7 @@ export default function LeadCaptureModal({ leadForm, item, locale, onClose }: Pr
           >
             {leadForm.title}
           </h3>
-          <p className="font-barlow text-text-secondary text-[15px] leading-relaxed mb-6">
+          <p className="font-barlow text-text-secondary text-[17px] leading-relaxed mb-6">
             {leadForm.subtitle}
           </p>
 
@@ -156,7 +156,7 @@ export default function LeadCaptureModal({ leadForm, item, locale, onClose }: Pr
             </div>
 
             {error && (
-              <p className="font-barlow text-[13px] text-rose-accent">{error}</p>
+              <p className="font-barlow text-[14px] text-rose-accent">{error}</p>
             )}
 
             <button

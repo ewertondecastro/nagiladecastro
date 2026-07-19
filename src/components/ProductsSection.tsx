@@ -78,7 +78,7 @@ function ProductCard({
           <span className="italic text-rose-accent block">{item.titleLine2}</span>
         </h3>
 
-        <p className="font-barlow text-text-secondary leading-relaxed flex-1 mb-6" style={{ fontSize: "clamp(14px, 1vw, 16px)" }}>
+        <p className="font-barlow text-text-secondary leading-relaxed flex-1 mb-6" style={{ fontSize: "clamp(16px, 1.2vw, 18px)" }}>
           {item.description}
         </p>
 
@@ -128,7 +128,7 @@ export default function ProductsSection({ dict }: Props) {
         <h2 className="font-playfair font-normal text-text-primary mb-4" style={{ fontSize: "clamp(36px, 5vw, 56px)" }}>
           {products.sectionTitle}
         </h2>
-        <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(15px, 1.2vw, 18px)" }}>
+        <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}>
           {products.sectionSubtitle}
         </p>
       </FadeIn>

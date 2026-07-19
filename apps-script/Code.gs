@@ -43,7 +43,7 @@ function doPost(e) {
       sheet = ss.insertSheet(SHEET_NAME);
       sheet.appendRow([
         "Data/Hora", "Nome", "E-mail", "Cidade", "Estado",
-        "País", "Material", "Idioma", "Página"
+        "País", "Material", "Interesse", "Idioma", "Página"
       ]);
     }
 
@@ -56,6 +56,7 @@ function doPost(e) {
       data.state || "",
       data.country || "",
       label,
+      data.interesse || "",
       data.locale || "",
       data.page || ""
     ]);
@@ -83,6 +84,7 @@ function sendNotification(data, label, now) {
     "Cidade:  " + (data.city || "") + "\n" +
     "Estado:  " + (data.state || "") + "\n" +
     "País:    " + (data.country || "") + "\n\n" +
+    (data.interesse ? "Interesse: " + data.interesse + "\n" : "") +
     "Material: " + (label || "") + "\n" +
     "Idioma:   " + (data.locale || "") + "\n" +
     "Data:     " + now + "\n" +

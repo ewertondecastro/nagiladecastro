@@ -44,7 +44,7 @@ export default function FamilySection({ dict }: Props) {
                     ? "text-text-primary font-medium"
                     : "text-text-secondary"
                 }`}
-                style={{ fontSize: "clamp(15px, 1.2vw, 17px)" }}
+                style={{ fontSize: "clamp(17px, 1.4vw, 20px)" }}
               >
                 {paragraph}
               </p>

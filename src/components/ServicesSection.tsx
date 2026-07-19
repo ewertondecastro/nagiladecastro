@@ -20,7 +20,7 @@ export default function ServicesSection({ dict, locale }: Props) {
         <h2 className="font-playfair font-normal text-text-primary mb-4" style={{ fontSize: "clamp(36px, 5vw, 56px)" }}>
           {services.sectionTitle}
         </h2>
-        <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(15px, 1.2vw, 18px)" }}>
+        <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}>
           {services.sectionSubtitle}
         </p>
       </FadeIn>
