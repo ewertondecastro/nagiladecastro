@@ -9,6 +9,13 @@
     "en": "EN",
     "es": "ES"
   },
+  "siteNav": {
+    "about": "Sobre mí",
+    "mentorias": "Mentorías",
+    "recursos": "Recursos",
+    "contato": "Contacto",
+    "menu": "Menú"
+  },
   "hero": {
     "tags": "MADRE · ESPOSA · HOMESCHOOLER · MENTORA",
     "firstName": "Nagila",
@@ -236,12 +243,13 @@
       },
       {
         "kind": "paid",
-        "badge": "E-BOOK",
-        "titleLine1": "Casa, rutina",
-        "titleLine2": "y tiempo",
-        "description": "E-book de 25 páginas sobre cómo diseñar una rutina de casa que sostiene todo lo demás: sueño, educación, matrimonio, fe. Leer en una noche, aplicar esta semana.",
-        "cta": "Quiero el e-book",
-        "whatsappText": "Hola Nagila, vengo del sitio, quiero comprar el e-book Casa, rutina y tiempo"
+        "badge": "FLASHCARDS",
+        "titleLine1": "Lo que siento,",
+        "titleLine2": "lo que hago",
+        "description": "20 tarjetas ilustradas de emociones y dominio propio. El niño aprende a percibir, nombrar y responder a lo que siente, con calma y sin gritos. Archivo digital para imprimir en casa.",
+        "cta": "Ver y comprar",
+        "linkUrl": "/emocoes",
+        "image": "/emocoes/alegria.webp"
       },
       {
         "kind": "paid",
@@ -250,7 +258,18 @@
         "titleLine2": "en Tarjetas",
         "description": "40 tarjetas de doble cara de gramática, fonología y puntuación para alfabetizar jugando. Archivo digital para imprimir en casa.",
         "cta": "Ver y comprar",
-        "linkUrl": "/cartoes-loja"
+        "linkUrl": "/cartoes-loja",
+        "image": "/cartoes/cena-feliz.webp"
+      },
+      {
+        "kind": "paid",
+        "badge": "E-BOOK",
+        "titleLine1": "Casa, rutina",
+        "titleLine2": "y tiempo",
+        "description": "E-book de 25 páginas sobre cómo diseñar una rutina de casa que sostiene todo lo demás: sueño, educación, matrimonio, fe. Leer en una noche, aplicar esta semana.",
+        "cta": "Quiero el e-book",
+        "linkUrl": "/casa-rotina-tempo",
+        "image": "/ebook/capa.webp"
       }
     ]
   },

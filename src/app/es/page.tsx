@@ -1,10 +1,11 @@
 import { getDict } from "@/lib/getDict";
+import SiteNav from "@/components/SiteNav";
 import HeroSection from "@/components/HeroSection";
 import QuoteSection from "@/components/QuoteSection";
 import AboutSection from "@/components/AboutSection";
 import FamilySection from "@/components/FamilySection";
 import ServicesSection from "@/components/ServicesSection";
-import ResourcesTeaser from "@/components/ResourcesTeaser";
+import ResourcesVitrine from "@/components/ResourcesVitrine";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import type { Metadata } from "next";
@@ -42,14 +43,15 @@ export default async function PageES() {
 
   return (
     <main>
+      <SiteNav dict={dict} locale="es" />
       <HeroSection dict={dict} locale="es" />
       <ServicesSection dict={dict} locale="es" />
-      <ResourcesTeaser dict={dict} locale="es" />
+      <ResourcesVitrine dict={dict} locale="es" />
       <QuoteSection dict={dict} />
       <AboutSection dict={dict} />
       <FamilySection dict={dict} />
       <ContactSection dict={dict} />
-      <Footer dict={dict} />
+      <Footer dict={dict} locale="es" />
     </main>
   );
 }

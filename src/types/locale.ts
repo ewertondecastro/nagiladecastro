@@ -46,6 +46,8 @@ export interface ProductItem {
   // Chave do material no Apps Script (gate de verdade): o link de download
   // vem na resposta do servidor após salvar o lead, nunca fica no código.
   resourceKey?: string;
+  // Imagem de capa do produto (vitrine e página de recursos).
+  image?: string;
 }
 
 export interface LocaleDict {
@@ -58,6 +60,13 @@ export interface LocaleDict {
     pt: string;
     en: string;
     es: string;
+  };
+  siteNav: {
+    about: string;
+    mentorias: string;
+    recursos: string;
+    contato: string;
+    menu: string;
   };
   hero: {
     tags: string;

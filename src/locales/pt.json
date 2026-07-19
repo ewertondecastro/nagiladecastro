@@ -9,6 +9,13 @@
     "en": "EN",
     "es": "ES"
   },
+  "siteNav": {
+    "about": "Sobre",
+    "mentorias": "Mentorias",
+    "recursos": "Recursos",
+    "contato": "Contato",
+    "menu": "Menu"
+  },
   "hero": {
     "tags": "MÃE · ESPOSA · HOMESCHOOLER · MENTORA",
     "firstName": "Nagila",
@@ -236,12 +243,13 @@
       },
       {
         "kind": "paid",
-        "badge": "E-BOOK",
-        "titleLine1": "Casa, rotina",
-        "titleLine2": "e tempo",
-        "description": "E-book com 25 páginas sobre como desenhar uma rotina de casa que sustenta o resto: sono, educação, casamento, fé. Pra ler em uma noite, aplicar na semana.",
-        "cta": "Quero o e-book",
-        "whatsappText": "Oi Nagila, vim pelo site, quero comprar o e-book Casa, rotina e tempo"
+        "badge": "FLASHCARDS",
+        "titleLine1": "O que eu sinto,",
+        "titleLine2": "o que eu faço",
+        "description": "20 cartões ilustrados de emoções e domínio próprio. A criança aprende a perceber, nomear e responder ao que sente, com calma e sem gritaria. Arquivo digital para imprimir em casa.",
+        "cta": "Ver e comprar",
+        "linkUrl": "/emocoes",
+        "image": "/emocoes/alegria.webp"
       },
       {
         "kind": "paid",
@@ -250,7 +258,18 @@
         "titleLine2": "em Cartões",
         "description": "40 cartões frente e verso de gramática, fonologia e pontuação para alfabetizar brincando. Arquivo digital para imprimir em casa.",
         "cta": "Ver e comprar",
-        "linkUrl": "/cartoes-loja"
+        "linkUrl": "/cartoes-loja",
+        "image": "/cartoes/cena-feliz.webp"
+      },
+      {
+        "kind": "paid",
+        "badge": "E-BOOK",
+        "titleLine1": "Casa, rotina",
+        "titleLine2": "e tempo",
+        "description": "E-book com 25 páginas sobre como desenhar uma rotina de casa que sustenta o resto: sono, educação, casamento, fé. Pra ler em uma noite, aplicar na semana.",
+        "cta": "Quero o e-book",
+        "linkUrl": "/casa-rotina-tempo",
+        "image": "/ebook/capa.webp"
       }
     ]
   },

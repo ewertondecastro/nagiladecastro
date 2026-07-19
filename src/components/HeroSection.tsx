@@ -3,14 +3,13 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import type { LocaleDict, Locale } from "@/types/locale";
-import LanguageSwitcher from "./LanguageSwitcher";
 
 interface Props {
   dict: LocaleDict;
   locale: Locale;
 }
 
-export default function HeroSection({ dict, locale }: Props) {
+export default function HeroSection({ dict }: Props) {
   const { hero } = dict;
 
   return (
@@ -34,25 +33,17 @@ export default function HeroSection({ dict, locale }: Props) {
       </div>
 
       {/* Content layer */}
-      <div className="relative z-10 flex flex-col justify-between h-full px-8 md:px-16 lg:px-20 py-8 md:py-12">
+      <div className="relative z-10 flex flex-col justify-between h-full px-8 md:px-16 lg:px-20 pt-24 pb-8 md:pt-28 md:pb-12">
         {/* Top row */}
         <div className="flex items-start justify-between w-full">
           <motion.p
             initial={{ opacity: 0, y: -12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="font-barlow-condensed text-xs tracking-[0.25em] text-text-secondary uppercase max-w-[55%] md:max-w-none leading-relaxed"
+            className="font-barlow-condensed text-xs tracking-[0.25em] text-text-secondary uppercase max-w-[70%] md:max-w-none leading-relaxed"
           >
             {hero.tags}
           </motion.p>
-
-          <motion.div
-            initial={{ opacity: 0, y: -12 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-          >
-            <LanguageSwitcher current={locale} />
-          </motion.div>
         </div>
 
         {/* Center name block */}

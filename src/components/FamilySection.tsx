@@ -17,7 +17,7 @@ export default function FamilySection({ dict }: Props) {
           src="/images/family.jpg"
           alt="Família Decastro: Nagila, Ewerton, Helena e Catharina"
           fill
-          className="object-cover object-center"
+          className="object-cover object-top"
           sizes="100vw"
         />
         {/* Subtle bottom fade to blend into next-section bg */}

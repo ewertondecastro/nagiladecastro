@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { getDict } from "@/lib/getDict";
+import SiteNav from "@/components/SiteNav";
 import ProductsSection from "@/components/ProductsSection";
 import Footer from "@/components/Footer";
 
@@ -14,16 +14,10 @@ export default async function RecursosPageEN() {
   const dict = await getDict("en");
   return (
     <main className="bg-background">
-      <div className="px-8 md:px-16 lg:px-20 pt-10">
-        <Link
-          href="/en"
-          className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-text-secondary hover:text-rose-accent transition-colors"
-        >
-          ← Nagila Decastro
-        </Link>
-      </div>
+      <SiteNav dict={dict} locale="en" />
+      <div className="h-16" aria-hidden="true" />
       <ProductsSection dict={dict} />
-      <Footer dict={dict} />
+      <Footer dict={dict} locale="en" />
     </main>
   );
 }

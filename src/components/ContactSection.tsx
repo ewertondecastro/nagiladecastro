@@ -9,7 +9,7 @@ export default function ContactSection({ dict }: Props) {
   const { contact } = dict;
 
   return (
-    <section className="w-full py-28 md:py-40 px-8 md:px-16 lg:px-20 bg-background">
+    <section id="contato" className="w-full py-28 md:py-40 px-8 md:px-16 lg:px-20 bg-background scroll-mt-16">
       <FadeIn className="max-w-3xl mx-auto text-center flex flex-col items-center gap-8">
         <div className="w-px h-16 bg-gradient-to-b from-transparent to-rose-accent" aria-hidden="true" />
 

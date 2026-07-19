@@ -1,21 +1,83 @@
-import type { LocaleDict } from "@/types/locale";
+import Link from "next/link";
+import type { LocaleDict, Locale } from "@/types/locale";
 
 interface Props {
   dict: LocaleDict;
+  locale?: Locale;
 }
 
-export default function Footer({ dict }: Props) {
-  const { footer } = dict;
+function prefix(locale: Locale): string {
+  return locale === "pt" ? "" : `/${locale}`;
+}
+
+export default function Footer({ dict, locale = "pt" }: Props) {
+  const { footer, siteNav, contact } = dict;
+  const p = prefix(locale);
+  const home = p || "/";
+
+  const links = [
+    { label: siteNav.about, href: `${p}/sobre` },
+    { label: siteNav.mentorias, href: `${p}/mentorias` },
+    { label: siteNav.recursos, href: `${p}/recursos` },
+    { label: siteNav.contato, href: `${home}#contato` },
+  ];
 
   return (
-    <footer className="w-full px-8 md:px-16 lg:px-20 py-8 bg-background border-t border-cream-line">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-        <span className="font-playfair text-text-primary" style={{ fontSize: "clamp(16px, 1.2vw, 20px)" }}>
-          {footer.name}
-        </span>
-        <span className="font-barlow-condensed text-[11px] tracking-[0.2em] text-text-muted">
-          &copy;&nbsp;{footer.copy}
-        </span>
+    <footer className="w-full px-8 md:px-16 lg:px-20 pt-16 pb-8 bg-background border-t border-cream-line">
+      <div className="max-w-7xl mx-auto">
+        <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-10">
+          {/* Brand */}
+          <div className="flex flex-col gap-3 max-w-xs">
+            <Link
+              href={home}
+              className="font-playfair text-text-primary hover:text-rose-accent transition-colors duration-200"
+              style={{ fontSize: "clamp(22px, 2vw, 28px)" }}
+            >
+              {footer.name}
+            </Link>
+            <p className="font-barlow text-text-secondary text-sm leading-relaxed">
+              {dict.hero.tagline.join(" ")}
+            </p>
+          </div>
+
+          {/* Nav */}
+          <nav className="flex flex-col gap-3">
+            {links.map((l) => (
+              <Link
+                key={l.href}
+                href={l.href}
+                className="font-barlow-condensed text-xs tracking-[0.22em] uppercase text-text-secondary hover:text-rose-accent transition-colors duration-200"
+              >
+                {l.label}
+              </Link>
+            ))}
+          </nav>
+
+          {/* Social */}
+          <div className="flex flex-col gap-3">
+            <span className="font-barlow-condensed text-[10px] tracking-[0.3em] uppercase text-text-muted">
+              Instagram
+            </span>
+            <a
+              href={contact.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-playfair italic text-rose-accent hover:text-text-primary transition-colors duration-200"
+              style={{ fontSize: "clamp(15px, 1.2vw, 18px)" }}
+            >
+              {contact.handle}
+            </a>
+          </div>
+        </div>
+
+        <div className="mt-12 pt-6 border-t border-cream-line flex flex-col sm:flex-row items-center justify-between gap-3">
+          <span className="font-barlow-condensed text-[11px] tracking-[0.2em] text-text-muted">
+            &copy;&nbsp;{footer.copy}
+          </span>
+          <span className="font-barlow-condensed text-[11px] tracking-[0.2em] text-text-muted uppercase">
+            Cape Cod &middot; Massachusetts
+          </span>
+        </div>
       </div>
     </footer>
   );
