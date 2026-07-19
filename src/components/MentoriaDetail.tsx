@@ -1,6 +1,7 @@
 import Link from "next/link";
 import FadeIn from "./FadeIn";
-import LanguageSwitcher from "./LanguageSwitcher";
+import SiteNav from "./SiteNav";
+import Footer from "./Footer";
 import { whatsAppUrl } from "@/lib/whatsapp";
 import type { LocaleDict, Locale, MentoriaCard } from "@/types/locale";
 
@@ -19,19 +20,11 @@ export default function MentoriaDetail({ dict, locale, card }: Props) {
 
   return (
     <main className="w-full bg-background min-h-screen">
-      {/* Top bar */}
-      <div className="w-full px-8 md:px-16 lg:px-20 py-6 flex items-center justify-between border-b border-cream-line">
-        <Link
-          href={homeHref(locale)}
-          className="font-barlow-condensed text-xs tracking-[0.25em] uppercase text-text-secondary hover:text-rose-accent transition-colors duration-200"
-        >
-          ← {d.backToHome}
-        </Link>
-        <LanguageSwitcher current={locale} />
-      </div>
+      <SiteNav dict={dict} locale={locale} />
+      <div className="h-16" aria-hidden="true" />
 
       {/* Hero block */}
-      <section className="w-full px-8 md:px-16 lg:px-20 pt-16 md:pt-24 pb-12 md:pb-16">
+      <section className="w-full px-8 md:px-16 lg:px-20 pt-14 md:pt-20 pb-12 md:pb-16">
         <FadeIn className="max-w-4xl mx-auto flex flex-col gap-8">
           <span className="font-barlow-condensed text-xs tracking-[0.3em] text-rose-accent uppercase">
             {d.eyebrow}
@@ -143,17 +136,7 @@ export default function MentoriaDetail({ dict, locale, card }: Props) {
         </FadeIn>
       </section>
 
-      {/* Footer */}
-      <footer className="w-full px-8 md:px-16 lg:px-20 py-8 bg-background border-t border-cream-line">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          <span className="font-playfair text-text-primary" style={{ fontSize: "clamp(16px, 1.2vw, 20px)" }}>
-            {dict.footer.name}
-          </span>
-          <span className="font-barlow-condensed text-[11px] tracking-[0.2em] text-text-muted">
-            &copy;&nbsp;{dict.footer.copy}
-          </span>
-        </div>
-      </footer>
+      <Footer dict={dict} locale={locale} />
     </main>
   );
 }

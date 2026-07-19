@@ -25,12 +25,19 @@ function CardMedia({ item }: { item: ProductItem }) {
           draggable={false}
         />
       ) : (
-        <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-rose-soft/60 via-background-soft to-background-soft">
+        <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 bg-gradient-to-br from-rose-soft/50 via-background-soft to-background text-center px-8">
+          {/* Decorative crescent + sprig motif (brand hairline aesthetic) */}
+          <svg width="52" height="52" viewBox="0 0 52 52" fill="none" aria-hidden="true" className="opacity-70">
+            <path d="M34 8a18 18 0 1 0 0 36 14 14 0 0 1 0-36Z" fill="currentColor" className="text-rose-accent/35" />
+            <path d="M26 46c0-6 4-10 10-11" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" className="text-rose-accent/50" />
+            <circle cx="36" cy="35" r="1.4" fill="currentColor" className="text-rose-accent/60" />
+            <circle cx="41" cy="30" r="1" fill="currentColor" className="text-rose-accent/50" />
+          </svg>
           <span
-            className="font-playfair italic text-rose-accent/50 text-center px-6 leading-tight"
+            className="font-playfair italic text-rose-accent/70 leading-tight"
             style={{ fontSize: "clamp(20px, 2vw, 28px)" }}
           >
-            {item.titleLine2}
+            {item.titleLine1} {item.titleLine2}
           </span>
         </div>
       )}
