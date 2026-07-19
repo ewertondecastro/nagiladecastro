@@ -140,6 +140,7 @@ export interface LocaleDict {
     url: string;
     formEyebrow: string;
     formTitle: string;
+    orLabel: string;
     interestLabel: string;
     interestPlaceholder: string;
     interestOptions: string[];

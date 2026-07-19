@@ -45,8 +45,8 @@ export default async function PageES() {
     <main>
       <SiteNav dict={dict} locale="es" />
       <HeroSection dict={dict} locale="es" />
-      <ServicesSection dict={dict} locale="es" />
       <ResourcesVitrine dict={dict} locale="es" />
+      <ServicesSection dict={dict} locale="es" />
       <QuoteSection dict={dict} />
       <AboutSection dict={dict} />
       <FamilySection dict={dict} />

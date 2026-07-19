@@ -238,9 +238,10 @@
         "titleLine1": "Guide",
         "titleLine2": "First 30 days of sleep",
         "description": "Free PDF with the basics for you to start organizing your baby's sleep today, even before any consultation.",
-        "cta": "Download PDF",
-        "gated": true,
-        "resourceKey": "sono"
+        "cta": "Download free",
+        "linkUrl": "/guia-sono",
+        "resourceKey": "sono",
+        "image": "/guides/capa-sono.webp"
       },
       {
         "kind": "paid",
@@ -298,8 +299,9 @@
     "handle": "@nagila.decastro",
     "cta": "DM me on Instagram",
     "url": "https://ig.me/m/nagila.decastro",
-    "formEyebrow": "Prefer to write?",
+    "formEyebrow": "Get in touch",
     "formTitle": "Leave your contact",
+    "orLabel": "or",
     "interestLabel": "Interest",
     "interestPlaceholder": "Select a topic",
     "interestOptions": ["Sleep Consulting", "Real Motherhood", "Homeschool", "METI Mentorship", "Materials and resources", "Other"],

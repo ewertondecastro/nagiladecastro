@@ -37,8 +37,15 @@ export default function ContactSection({ dict }: Props) {
         <ContactForm dict={dict} />
       </FadeIn>
 
-      {/* DM como alternativa */}
-      <FadeIn className="max-w-3xl mx-auto mt-16 flex flex-col items-center gap-5 text-center">
+      {/* DM como outra via de contato (igual ao formulário) */}
+      <FadeIn className="max-w-3xl mx-auto mt-14 flex flex-col items-center gap-5 text-center">
+        <div className="flex items-center gap-4 w-full max-w-xs mb-2">
+          <span className="h-px flex-1 bg-cream-line" aria-hidden="true" />
+          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-text-muted">
+            {contact.orLabel}
+          </span>
+          <span className="h-px flex-1 bg-cream-line" aria-hidden="true" />
+        </div>
         <a
           href={contact.url}
           target="_blank"

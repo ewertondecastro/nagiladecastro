@@ -45,8 +45,8 @@ export default async function PageEN() {
     <main>
       <SiteNav dict={dict} locale="en" />
       <HeroSection dict={dict} locale="en" />
-      <ServicesSection dict={dict} locale="en" />
       <ResourcesVitrine dict={dict} locale="en" />
+      <ServicesSection dict={dict} locale="en" />
       <QuoteSection dict={dict} />
       <AboutSection dict={dict} />
       <FamilySection dict={dict} />

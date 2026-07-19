@@ -238,9 +238,10 @@
         "titleLine1": "Guia",
         "titleLine2": "Primeiros 30 dias do sono",
         "description": "PDF gratuito com as bases pra você começar a organizar o sono do seu bebê ainda hoje, mesmo antes de qualquer consultoria.",
-        "cta": "Baixar PDF",
-        "gated": true,
-        "resourceKey": "sono"
+        "cta": "Baixar grátis",
+        "linkUrl": "/guia-sono",
+        "resourceKey": "sono",
+        "image": "/guides/capa-sono.webp"
       },
       {
         "kind": "paid",
@@ -298,8 +299,9 @@
     "handle": "@nagila.decastro",
     "cta": "Me chama no DM",
     "url": "https://ig.me/m/nagila.decastro",
-    "formEyebrow": "Prefere escrever?",
+    "formEyebrow": "Fale comigo",
     "formTitle": "Deixe seu contato",
+    "orLabel": "ou",
     "interestLabel": "Interesse",
     "interestPlaceholder": "Selecione um assunto",
     "interestOptions": ["Consultoria de Sono", "Maternidade Real", "Educação em Casa", "Mentoria METI", "Materiais e recursos", "Outro assunto"],

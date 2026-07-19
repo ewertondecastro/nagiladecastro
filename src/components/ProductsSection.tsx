@@ -16,12 +16,12 @@ const ctaClass =
 function CardMedia({ item }: { item: ProductItem }) {
   const isFree = item.kind === "free";
   return (
-    <div className="relative aspect-[4/3] overflow-hidden bg-background-soft">
+    <div className="relative aspect-[4/5] overflow-hidden bg-background-soft">
       {item.image ? (
         <img
           src={item.image}
           alt={`${item.titleLine1} ${item.titleLine2}`}
-          className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-700 ease-out"
+          className="absolute inset-0 w-full h-full object-contain p-3 group-hover:scale-[1.03] transition-transform duration-700 ease-out"
           draggable={false}
         />
       ) : (

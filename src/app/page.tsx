@@ -45,8 +45,8 @@ export default async function Home() {
     <main>
       <SiteNav dict={dict} locale="pt" />
       <HeroSection dict={dict} locale="pt" />
-      <ServicesSection dict={dict} locale="pt" />
       <ResourcesVitrine dict={dict} locale="pt" />
+      <ServicesSection dict={dict} locale="pt" />
       <QuoteSection dict={dict} />
       <AboutSection dict={dict} />
       <FamilySection dict={dict} />
