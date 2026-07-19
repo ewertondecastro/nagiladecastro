@@ -5,7 +5,7 @@ import SobrePage from "@/components/SobrePage";
 export const metadata: Metadata = {
   title: "About | Nagila Decastro",
   description:
-    "Nagila Decastro: mother of two girls, wife, homeschool educator and mentor to mothers in Cape Cod, Massachusetts.",
+    "Nagila Decastro: wife, mother of two girls, homeschool educator and mentor to mothers in Cape Cod, Massachusetts.",
   alternates: {
     canonical: "/en/sobre",
     languages: { "pt-BR": "/sobre", "en-US": "/en/sobre", "es-ES": "/es/sobre" },

@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Nagila Decastro",
-  description: "Mãe de duas meninas, esposa, educadora em casa e mentora de mães. Cape Cod, Massachusetts.",
+  description: "Esposa, mãe de duas meninas, educadora em casa e mentora de mães. Cape Cod, Massachusetts.",
 };
 
 export default function RootLayout({
