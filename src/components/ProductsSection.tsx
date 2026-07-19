@@ -25,17 +25,17 @@ function CardMedia({ item }: { item: ProductItem }) {
           draggable={false}
         />
       ) : (
-        <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 bg-gradient-to-br from-rose-soft/50 via-background-soft to-background text-center px-8">
-          {/* Decorative crescent + sprig motif (brand hairline aesthetic) */}
-          <svg width="52" height="52" viewBox="0 0 52 52" fill="none" aria-hidden="true" className="opacity-70">
-            <path d="M34 8a18 18 0 1 0 0 36 14 14 0 0 1 0-36Z" fill="currentColor" className="text-rose-accent/35" />
-            <path d="M26 46c0-6 4-10 10-11" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" className="text-rose-accent/50" />
-            <circle cx="36" cy="35" r="1.4" fill="currentColor" className="text-rose-accent/60" />
-            <circle cx="41" cy="30" r="1" fill="currentColor" className="text-rose-accent/50" />
+        <div className="absolute inset-0 flex flex-col items-center justify-center gap-5 bg-gradient-to-br from-rose-accent via-rose-accent to-[#a56a5d] text-center px-8">
+          {/* Decorative crescent moon + stars */}
+          <svg width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <path d="M42 10a22 22 0 1 0 0 44 17 17 0 0 1 0-44Z" fill="#FAF4EA" fillOpacity="0.92" />
+            <circle cx="44" cy="20" r="1.8" fill="#FAF4EA" fillOpacity="0.8" />
+            <circle cx="50" cy="27" r="1.2" fill="#FAF4EA" fillOpacity="0.7" />
+            <circle cx="46" cy="33" r="1" fill="#FAF4EA" fillOpacity="0.6" />
           </svg>
           <span
-            className="font-playfair italic text-rose-accent/70 leading-tight"
-            style={{ fontSize: "clamp(20px, 2vw, 28px)" }}
+            className="font-playfair italic text-background leading-tight"
+            style={{ fontSize: "clamp(22px, 2.2vw, 30px)" }}
           >
             {item.titleLine1} {item.titleLine2}
           </span>
