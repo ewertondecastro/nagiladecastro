@@ -47,11 +47,11 @@ export default function ResourcesVitrine({ dict, locale }: Props) {
                   href={href}
                   className="group flex flex-col bg-background border border-cream-line overflow-hidden hover:border-rose-accent transition-colors duration-300 h-full"
                 >
-                  <div className="relative aspect-[4/5] overflow-hidden bg-background-soft">
+                  <div className="relative overflow-hidden bg-background-soft">
                     <img
                       src={item.image}
                       alt={`${item.titleLine1} ${item.titleLine2}`}
-                      className="absolute inset-0 w-full h-full object-contain p-3 group-hover:scale-[1.03] transition-transform duration-700 ease-out"
+                      className="block w-full h-auto group-hover:scale-[1.03] transition-transform duration-700 ease-out"
                       draggable={false}
                     />
                     <span className="absolute top-4 left-4 inline-block font-barlow-condensed text-[10px] tracking-[0.3em] uppercase px-3 py-1 bg-rose-accent text-background">

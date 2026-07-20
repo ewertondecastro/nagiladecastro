@@ -16,16 +16,16 @@ const ctaClass =
 function CardMedia({ item }: { item: ProductItem }) {
   const isFree = item.kind === "free";
   return (
-    <div className="relative aspect-[4/5] overflow-hidden bg-background-soft">
+    <div className="relative overflow-hidden bg-background-soft">
       {item.image ? (
         <img
           src={item.image}
           alt={`${item.titleLine1} ${item.titleLine2}`}
-          className="absolute inset-0 w-full h-full object-contain p-3 group-hover:scale-[1.03] transition-transform duration-700 ease-out"
+          className="block w-full h-auto group-hover:scale-[1.03] transition-transform duration-700 ease-out"
           draggable={false}
         />
       ) : (
-        <div className="absolute inset-0 flex flex-col items-center justify-center gap-5 bg-gradient-to-br from-rose-accent via-rose-accent to-[#a56a5d] text-center px-8">
+        <div className="aspect-[3/4] flex flex-col items-center justify-center gap-5 bg-gradient-to-br from-rose-accent via-rose-accent to-[#a56a5d] text-center px-8">
           {/* Decorative crescent moon + stars */}
           <svg width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
             <path d="M42 10a22 22 0 1 0 0 44 17 17 0 0 1 0-44Z" fill="#FAF4EA" fillOpacity="0.92" />
