@@ -16,16 +16,18 @@ const ctaClass =
 function CardMedia({ item }: { item: ProductItem }) {
   const isFree = item.kind === "free";
   return (
-    <div className="relative overflow-hidden bg-background-soft">
+    <div className="relative aspect-[3/4] overflow-hidden bg-gradient-to-b from-background-soft to-cream-line/40">
       {item.image ? (
-        <img
-          src={item.image}
-          alt={`${item.titleLine1} ${item.titleLine2}`}
-          className="block w-full h-auto group-hover:scale-[1.03] transition-transform duration-700 ease-out"
-          draggable={false}
-        />
+        <div className="absolute inset-0 flex items-center justify-center p-5 md:p-6">
+          <img
+            src={item.image}
+            alt={`${item.titleLine1} ${item.titleLine2}`}
+            className="max-h-full max-w-full w-auto h-auto object-contain shadow-lg shadow-text-primary/10 group-hover:scale-[1.03] transition-transform duration-700 ease-out"
+            draggable={false}
+          />
+        </div>
       ) : (
-        <div className="aspect-[3/4] flex flex-col items-center justify-center gap-5 bg-gradient-to-br from-rose-accent via-rose-accent to-[#a56a5d] text-center px-8">
+        <div className="absolute inset-0 flex flex-col items-center justify-center gap-5 bg-gradient-to-br from-rose-accent via-rose-accent to-[#a56a5d] text-center px-8">
           {/* Decorative crescent moon + stars */}
           <svg width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
             <path d="M42 10a22 22 0 1 0 0 44 17 17 0 0 1 0-44Z" fill="#FAF4EA" fillOpacity="0.92" />
@@ -68,7 +70,7 @@ function ProductCard({
   return (
     <FadeIn
       delay={delay}
-      className="group flex flex-col bg-background border border-cream-line overflow-hidden hover:border-rose-accent transition-colors duration-300"
+      className="group flex flex-col h-full bg-background border border-cream-line overflow-hidden hover:border-rose-accent transition-colors duration-300"
     >
       <CardMedia item={item} />
 
@@ -123,26 +125,28 @@ export default function ProductsSection({ dict }: Props) {
 
   return (
     <section className="w-full py-20 md:py-28 px-8 md:px-16 lg:px-20 bg-background-soft">
-      <FadeIn className="mb-14 md:mb-18 max-w-3xl">
-        <div className="w-8 h-px bg-rose-accent mb-6" aria-hidden="true" />
-        <h2 className="font-playfair font-normal text-text-primary mb-4" style={{ fontSize: "clamp(36px, 5vw, 56px)" }}>
-          {products.sectionTitle}
-        </h2>
-        <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}>
-          {products.sectionSubtitle}
-        </p>
-      </FadeIn>
+      <div className="max-w-6xl mx-auto">
+        <FadeIn className="mb-14 md:mb-16 max-w-3xl">
+          <div className="w-8 h-px bg-rose-accent mb-6" aria-hidden="true" />
+          <h2 className="font-playfair font-normal text-text-primary mb-4" style={{ fontSize: "clamp(36px, 5vw, 56px)" }}>
+            {products.sectionTitle}
+          </h2>
+          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}>
+            {products.sectionSubtitle}
+          </p>
+        </FadeIn>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl">
-        {products.items.map((item, i) => (
-          <ProductCard
-            key={i}
-            item={item}
-            delay={i * 0.08}
-            leadForm={leadForm}
-            locale={meta.locale}
-          />
-        ))}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+          {products.items.map((item, i) => (
+            <ProductCard
+              key={i}
+              item={item}
+              delay={i * 0.08}
+              leadForm={leadForm}
+              locale={meta.locale}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );
