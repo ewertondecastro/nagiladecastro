@@ -91,7 +91,7 @@ export default function LeadCaptureModal({ leadForm, item, locale, onClose }: Pr
     setForm((f) => ({ ...f, [k]: e.target.value }));
 
   const inputClass =
-    "w-full bg-background border border-cream-line px-4 py-2.5 font-barlow text-text-primary text-[17px] outline-none focus:border-rose-accent transition-colors duration-200";
+    "w-full bg-background border border-cream-line px-4 py-2.5 font-barlow text-text-primary text-[17px] outline-none focus:border-olive transition-colors duration-200";
   const labelClass =
     "block font-barlow-condensed text-[11px] tracking-[0.2em] uppercase text-text-secondary mb-1.5";
 
@@ -112,13 +112,13 @@ export default function LeadCaptureModal({ leadForm, item, locale, onClose }: Pr
           type="button"
           onClick={onClose}
           aria-label={leadForm.cancel}
-          className="absolute top-4 right-4 text-text-secondary hover:text-rose-accent text-2xl leading-none transition-colors duration-200"
+          className="absolute top-4 right-4 text-text-secondary hover:text-olive text-2xl leading-none transition-colors duration-200"
         >
           &times;
         </button>
 
         <div className="p-8 md:p-10">
-          <span className="font-barlow-condensed text-[10px] tracking-[0.3em] uppercase text-rose-accent">
+          <span className="font-barlow-condensed text-[10px] tracking-[0.3em] uppercase text-olive">
             {leadForm.eyebrow}
           </span>
           <h3
@@ -156,13 +156,13 @@ export default function LeadCaptureModal({ leadForm, item, locale, onClose }: Pr
             </div>
 
             {error && (
-              <p className="font-barlow text-[14px] text-rose-accent">{error}</p>
+              <p className="font-barlow text-[14px] text-olive">{error}</p>
             )}
 
             <button
               type="submit"
               disabled={status === "sending"}
-              className="w-full font-barlow-condensed text-xs tracking-widest uppercase px-5 py-3 bg-rose-accent text-background font-semibold hover:bg-text-primary transition-colors duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
+              className="w-full font-barlow-condensed text-xs tracking-widest uppercase px-5 py-3 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
             >
               {status === "sending" ? leadForm.sending : leadForm.submit}
             </button>

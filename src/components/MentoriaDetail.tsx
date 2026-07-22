@@ -26,13 +26,13 @@ export default function MentoriaDetail({ dict, locale, card }: Props) {
       {/* Hero block */}
       <section className="w-full px-8 md:px-16 lg:px-20 pt-14 md:pt-20 pb-12 md:pb-16">
         <FadeIn className="max-w-4xl mx-auto flex flex-col gap-8">
-          <span className="font-barlow-condensed text-xs tracking-[0.3em] text-rose-accent uppercase">
+          <span className="font-barlow-condensed text-xs tracking-[0.3em] text-olive uppercase">
             {d.eyebrow}
           </span>
 
           <h1 className="font-playfair leading-tight" style={{ fontSize: "clamp(40px, 7vw, 88px)" }}>
             <span className="font-bold text-text-primary block">{d.headlineLine1}</span>
-            <span className="italic text-rose-accent block">{d.headlineLine2}</span>
+            <span className="italic text-olive block">{d.headlineLine2}</span>
           </h1>
 
           <p className="font-barlow text-text-primary leading-relaxed max-w-3xl" style={{ fontSize: "clamp(17px, 1.4vw, 21px)" }}>
@@ -45,8 +45,8 @@ export default function MentoriaDetail({ dict, locale, card }: Props) {
       <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24 bg-background-soft">
         <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
           <div className="md:col-span-1">
-            <div className="w-8 h-px bg-rose-accent mb-6" aria-hidden="true" />
-            <h2 className="font-playfair italic text-rose-accent" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
+            <div className="w-8 h-px bg-terracotta mb-6" aria-hidden="true" />
+            <h2 className="font-playfair italic text-olive" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
               {d.whyTitle}
             </h2>
           </div>
@@ -70,8 +70,8 @@ export default function MentoriaDetail({ dict, locale, card }: Props) {
       <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24 bg-background">
         <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
           <div className="md:col-span-1">
-            <div className="w-8 h-px bg-rose-accent mb-6" aria-hidden="true" />
-            <h2 className="font-playfair italic text-rose-accent" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
+            <div className="w-8 h-px bg-terracotta mb-6" aria-hidden="true" />
+            <h2 className="font-playfair italic text-olive" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
               {d.journeyTitle}
             </h2>
           </div>
@@ -93,8 +93,8 @@ export default function MentoriaDetail({ dict, locale, card }: Props) {
       <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24 bg-background-soft">
         <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
           <div className="md:col-span-1">
-            <div className="w-8 h-px bg-rose-accent mb-6" aria-hidden="true" />
-            <h2 className="font-playfair italic text-rose-accent" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
+            <div className="w-8 h-px bg-terracotta mb-6" aria-hidden="true" />
+            <h2 className="font-playfair italic text-olive" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
               {d.forWhomTitle}
             </h2>
           </div>
@@ -102,7 +102,7 @@ export default function MentoriaDetail({ dict, locale, card }: Props) {
             {d.forWhomItems.map((item, i) => (
               <li
                 key={i}
-                className="font-barlow text-text-primary leading-relaxed pl-5 border-l-2 border-rose-soft"
+                className="font-barlow text-text-primary leading-relaxed pl-5 border-l-2 border-sage-soft"
                 style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}
               >
                 {item}
@@ -115,7 +115,7 @@ export default function MentoriaDetail({ dict, locale, card }: Props) {
       {/* CTA block */}
       <section className="w-full px-8 md:px-16 lg:px-20 py-20 md:py-28 bg-background text-center">
         <FadeIn className="max-w-2xl mx-auto flex flex-col items-center gap-8">
-          <div className="w-px h-12 bg-gradient-to-b from-transparent to-rose-accent" aria-hidden="true" />
+          <div className="w-px h-12 bg-gradient-to-b from-transparent to-olive" aria-hidden="true" />
           <h3 className="font-playfair italic text-text-primary leading-tight" style={{ fontSize: "clamp(24px, 3vw, 40px)" }}>
             {card.titleLine1} {card.titleLine2}
           </h3>
@@ -123,13 +123,13 @@ export default function MentoriaDetail({ dict, locale, card }: Props) {
             href={whatsAppUrl(d.ctaWhatsappText)}
             target="_blank"
             rel="noopener noreferrer"
-            className="font-barlow-condensed text-sm tracking-widest uppercase px-10 py-4 bg-rose-accent text-background font-semibold hover:bg-text-primary transition-colors duration-200"
+            className="font-barlow-condensed text-sm tracking-widest uppercase px-10 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200"
           >
             {d.ctaLabel}
           </a>
           <Link
             href={homeHref(locale)}
-            className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-text-muted hover:text-rose-accent transition-colors duration-200"
+            className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-text-muted hover:text-olive transition-colors duration-200"
           >
             ← {d.backToHome}
           </Link>

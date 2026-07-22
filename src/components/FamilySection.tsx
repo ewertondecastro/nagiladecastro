@@ -28,10 +28,10 @@ export default function FamilySection({ dict }: Props) {
       <div className="w-full py-20 md:py-28 px-8 md:px-16 lg:px-20">
         <FadeIn className="max-w-4xl mx-auto flex flex-col gap-8">
           <div className="flex flex-col gap-6">
-            <div className="w-8 h-px bg-rose-accent" aria-hidden="true" />
+            <div className="w-8 h-px bg-terracotta" aria-hidden="true" />
             <h2 className="font-playfair leading-tight" style={{ fontSize: "clamp(36px, 5vw, 64px)" }}>
               <span className="font-normal text-text-primary block">{family.titleLine1}</span>
-              <span className="italic text-rose-accent block">{family.titleLine2}</span>
+              <span className="italic text-olive block">{family.titleLine2}</span>
             </h2>
           </div>
 

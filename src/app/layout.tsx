@@ -1,6 +1,24 @@
 import type { Metadata } from "next";
-import "./fonts.css";
+import { Lora, Lato } from "next/font/google";
 import "./globals.css";
+
+// Tipografia oficial "Argila & Sálvia": Lora (títulos) + Lato (texto).
+// Mantemos os nomes de variável antigos para não renomear classes no site.
+const lora = Lora({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
+  variable: "--font-playfair",
+  display: "swap",
+});
+
+const lato = Lato({
+  subsets: ["latin"],
+  weight: ["300", "400", "700"],
+  style: ["normal", "italic"],
+  variable: "--font-barlow",
+  display: "swap",
+});
 
 const SITE_URL = "https://nagiladecastro.netlify.app";
 
@@ -26,7 +44,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt" suppressHydrationWarning>
-      <body className="bg-background text-text-primary antialiased">
+      <body className={`${lora.variable} ${lato.variable} bg-background text-text-primary antialiased`}>
         {children}
       </body>
     </html>

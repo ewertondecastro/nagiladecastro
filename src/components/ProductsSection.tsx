@@ -11,7 +11,7 @@ interface Props {
 }
 
 const ctaClass =
-  "self-start font-barlow-condensed text-xs tracking-widest uppercase px-6 py-3 bg-rose-accent text-background font-semibold hover:bg-text-primary transition-colors duration-200";
+  "self-start font-barlow-condensed text-xs tracking-widest uppercase px-6 py-3 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200";
 
 function CardMedia({ item }: { item: ProductItem }) {
   const isFree = item.kind === "free";
@@ -27,7 +27,7 @@ function CardMedia({ item }: { item: ProductItem }) {
           />
         </div>
       ) : (
-        <div className="absolute inset-0 flex flex-col items-center justify-center gap-5 bg-gradient-to-br from-rose-accent via-rose-accent to-[#a56a5d] text-center px-8">
+        <div className="absolute inset-0 flex flex-col items-center justify-center gap-5 bg-gradient-to-br from-olive via-olive to-[#a56a5d] text-center px-8">
           {/* Decorative crescent moon + stars */}
           <svg width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
             <path d="M42 10a22 22 0 1 0 0 44 17 17 0 0 1 0-44Z" fill="#FAF4EA" fillOpacity="0.92" />
@@ -45,7 +45,7 @@ function CardMedia({ item }: { item: ProductItem }) {
       )}
       <span
         className={`absolute top-4 left-4 inline-block font-barlow-condensed text-[10px] tracking-[0.3em] uppercase px-3 py-1 ${
-          isFree ? "bg-background text-rose-accent" : "bg-rose-accent text-background"
+          isFree ? "bg-background text-olive" : "bg-terracotta text-background"
         }`}
       >
         {item.badge}
@@ -70,14 +70,14 @@ function ProductCard({
   return (
     <FadeIn
       delay={delay}
-      className="group flex flex-col h-full bg-background border border-cream-line overflow-hidden hover:border-rose-accent transition-colors duration-300"
+      className="group flex flex-col h-full bg-background border border-cream-line overflow-hidden hover:border-olive transition-colors duration-300"
     >
       <CardMedia item={item} />
 
       <div className="flex flex-col flex-1 p-7 md:p-8">
         <h3 className="font-playfair leading-tight mb-4" style={{ fontSize: "clamp(22px, 2vw, 30px)" }}>
           <span className="font-bold text-text-primary block">{item.titleLine1}</span>
-          <span className="italic text-rose-accent block">{item.titleLine2}</span>
+          <span className="italic text-olive block">{item.titleLine2}</span>
         </h3>
 
         <p className="font-barlow text-text-secondary leading-relaxed flex-1 mb-6" style={{ fontSize: "clamp(16px, 1.2vw, 18px)" }}>
@@ -127,7 +127,7 @@ export default function ProductsSection({ dict }: Props) {
     <section className="w-full py-20 md:py-28 px-8 md:px-16 lg:px-20 bg-background-soft">
       <div className="max-w-6xl mx-auto">
         <FadeIn className="mb-14 md:mb-16 max-w-3xl">
-          <div className="w-8 h-px bg-rose-accent mb-6" aria-hidden="true" />
+          <div className="w-8 h-px bg-terracotta mb-6" aria-hidden="true" />
           <h2 className="font-playfair font-normal text-text-primary mb-4" style={{ fontSize: "clamp(36px, 5vw, 56px)" }}>
             {products.sectionTitle}
           </h2>

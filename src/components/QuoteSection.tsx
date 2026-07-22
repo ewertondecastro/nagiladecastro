@@ -33,7 +33,7 @@ export default function QuoteSection({ dict }: Props) {
       </div>
 
       <FadeIn className="relative z-10 max-w-4xl mx-auto text-center flex flex-col items-center gap-7">
-        <div className="w-12 h-px bg-rose-accent" aria-hidden="true" />
+        <div className="w-12 h-px bg-terracotta" aria-hidden="true" />
         <blockquote
           className="font-playfair italic text-text-primary leading-tight text-balance"
           style={{ fontSize: "clamp(26px, 3.2vw, 44px)" }}

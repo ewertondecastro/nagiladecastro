@@ -17,11 +17,11 @@ export default function AboutSection({ dict }: Props) {
         {/* Left: Title + photo */}
         <FadeIn direction="left" className="flex flex-col gap-8">
           <div className="flex flex-col gap-6">
-            <div className="w-8 h-px bg-rose-accent" aria-hidden="true" />
+            <div className="w-8 h-px bg-terracotta" aria-hidden="true" />
             <h2 className="font-playfair leading-tight" style={{ fontSize: "clamp(36px, 5vw, 64px)" }}>
               <span className="font-normal text-text-primary block">{about.titleLine1}</span>
               <span className="font-normal text-text-primary block">{about.titleLine2}</span>
-              <span className="italic text-rose-accent block">{about.titleLine3}</span>
+              <span className="italic text-olive block">{about.titleLine3}</span>
             </h2>
           </div>
 
@@ -40,7 +40,7 @@ export default function AboutSection({ dict }: Props) {
                 sizes="(max-width: 768px) 100vw, 40vw"
               />
             </Parallax>
-            <div className="absolute inset-x-0 bottom-0 h-1 bg-rose-accent opacity-70 z-10" />
+            <div className="absolute inset-x-0 bottom-0 h-1 bg-terracotta opacity-70 z-10" />
           </div>
         </FadeIn>
 
@@ -69,7 +69,7 @@ export default function AboutSection({ dict }: Props) {
               {about.credentials.items.map((item, i) => (
                 <li
                   key={i}
-                  className="font-barlow text-text-primary leading-snug pl-3 border-l-2 border-rose-accent"
+                  className="font-barlow text-text-primary leading-snug pl-3 border-l-2 border-olive"
                   style={{ fontSize: "clamp(13px, 1vw, 15px)" }}
                 >
                   {item}
@@ -88,7 +88,7 @@ export default function AboutSection({ dict }: Props) {
             <span className="font-barlow-condensed text-[10px] tracking-[0.3em] text-text-muted uppercase">
               {about.partner.label}
             </span>
-            <span className="font-playfair italic text-rose-accent group-hover:text-text-primary transition-colors duration-300" style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}>
+            <span className="font-playfair italic text-olive group-hover:text-text-primary transition-colors duration-300" style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}>
               {about.partner.handle}
             </span>
           </a>

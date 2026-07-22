@@ -68,7 +68,7 @@ export default function GuiaSonoLanding({ dict }: { dict: LocaleDict }) {
     <button
       type="button"
       onClick={() => setOpen(true)}
-      className="inline-flex items-center justify-center font-barlow-condensed text-sm tracking-[0.2em] uppercase px-10 py-4 bg-rose-accent text-background font-semibold hover:bg-text-primary transition-colors duration-300 shadow-lg shadow-rose-accent/20"
+      className="inline-flex items-center justify-center font-barlow-condensed text-sm tracking-[0.2em] uppercase px-10 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-300 shadow-lg shadow-terracotta/20"
     >
       {children}
     </button>
@@ -85,12 +85,12 @@ export default function GuiaSonoLanding({ dict }: { dict: LocaleDict }) {
             transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
             className="order-2 md:order-1"
           >
-            <span className="font-barlow-condensed text-[11px] tracking-[0.35em] uppercase text-rose-accent">
+            <span className="font-barlow-condensed text-[11px] tracking-[0.35em] uppercase text-olive">
               Material gratuito
             </span>
             <h1 className="font-playfair leading-[1.05] mt-5" style={{ fontSize: "clamp(40px, 6vw, 72px)" }}>
               <span className="font-bold block text-text-primary">Primeiros 30 dias</span>
-              <span className="italic block text-rose-accent">do sono</span>
+              <span className="italic block text-olive">do sono</span>
             </h1>
             <p className="font-barlow text-text-secondary leading-relaxed mt-6 max-w-xl" style={{ fontSize: "clamp(17px, 1.5vw, 21px)" }}>
               As bases para organizar o sono do seu bebê, ainda hoje. Sem método
@@ -124,7 +124,7 @@ export default function GuiaSonoLanding({ dict }: { dict: LocaleDict }) {
       {/* PARA QUEM É */}
       <section className="px-6 md:px-16 lg:px-20 py-20 md:py-28 bg-background-soft border-y border-cream-line">
         <motion.div {...fade} className="max-w-3xl mx-auto text-center mb-14">
-          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-rose-accent">Para quem é</span>
+          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-olive">Para quem é</span>
           <h2 className="font-playfair font-normal mt-3" style={{ fontSize: "clamp(30px, 4.5vw, 50px)" }}>
             Um chamado para a mãe<br />que está chegando agora
           </h2>
@@ -139,7 +139,7 @@ export default function GuiaSonoLanding({ dict }: { dict: LocaleDict }) {
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.5, delay: i * 0.06 }}
             >
-              <span className="font-playfair italic text-rose-accent/70 text-xl shrink-0 w-6">{i + 1}</span>
+              <span className="font-playfair italic text-olive/70 text-xl shrink-0 w-6">{i + 1}</span>
               <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(16px, 1.3vw, 19px)" }}>{t}</p>
             </motion.div>
           ))}
@@ -152,7 +152,7 @@ export default function GuiaSonoLanding({ dict }: { dict: LocaleDict }) {
       {/* COMO FUNCIONA + TABELA */}
       <section className="px-6 md:px-16 lg:px-20 py-20 md:py-28">
         <motion.div {...fade} className="max-w-3xl mx-auto text-center mb-12">
-          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-rose-accent">O que você vai entender</span>
+          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-olive">O que você vai entender</span>
           <h2 className="font-playfair font-normal mt-3 mb-4" style={{ fontSize: "clamp(30px, 4.5vw, 50px)" }}>
             Como funciona o sono do bebê
           </h2>
@@ -167,7 +167,7 @@ export default function GuiaSonoLanding({ dict }: { dict: LocaleDict }) {
         <FadeIn className="max-w-4xl mx-auto overflow-x-auto">
           <table className="w-full border-collapse text-left min-w-[520px]">
             <thead>
-              <tr className="bg-rose-accent text-background">
+              <tr className="bg-terracotta text-background">
                 <th className="font-barlow-condensed text-[11px] tracking-[0.2em] uppercase p-4">Faixa</th>
                 <th className="font-barlow-condensed text-[11px] tracking-[0.2em] uppercase p-4">Sono / 24h</th>
                 <th className="font-barlow-condensed text-[11px] tracking-[0.2em] uppercase p-4">Sonecas</th>
@@ -177,7 +177,7 @@ export default function GuiaSonoLanding({ dict }: { dict: LocaleDict }) {
             <tbody>
               {TABLE.map((r, i) => (
                 <tr key={r.faixa} className={i % 2 ? "bg-background-soft" : "bg-background"}>
-                  <td className="font-playfair italic text-rose-accent p-4 text-[16px]">{r.faixa}</td>
+                  <td className="font-playfair italic text-olive p-4 text-[16px]">{r.faixa}</td>
                   <td className="font-barlow text-text-primary p-4 text-[16px]">{r.total}</td>
                   <td className="font-barlow text-text-secondary p-4 text-[16px]">{r.sonecas}</td>
                   <td className="font-barlow text-text-secondary p-4 text-[16px]">{r.janela}</td>
@@ -194,7 +194,7 @@ export default function GuiaSonoLanding({ dict }: { dict: LocaleDict }) {
       {/* TRÊS PILARES */}
       <section className="px-6 md:px-16 lg:px-20 py-20 md:py-28 bg-background-soft border-y border-cream-line">
         <motion.div {...fade} className="max-w-3xl mx-auto text-center mb-14">
-          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-rose-accent">A casa do sono</span>
+          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-olive">A casa do sono</span>
           <h2 className="font-playfair font-normal mt-3" style={{ fontSize: "clamp(30px, 4.5vw, 50px)" }}>
             Os três pilares
           </h2>
@@ -209,9 +209,9 @@ export default function GuiaSonoLanding({ dict }: { dict: LocaleDict }) {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
             >
-              <span className="font-playfair italic text-rose-accent/60" style={{ fontSize: "clamp(28px, 3vw, 40px)" }}>{p.n}</span>
+              <span className="font-playfair italic text-olive/60" style={{ fontSize: "clamp(28px, 3vw, 40px)" }}>{p.n}</span>
               <h3 className="font-playfair text-text-primary mt-3" style={{ fontSize: "clamp(22px, 2.2vw, 28px)" }}>{p.t}</h3>
-              <p className="font-barlow italic text-rose-accent text-[15px] mt-1 mb-4">{p.s}</p>
+              <p className="font-barlow italic text-olive text-[15px] mt-1 mb-4">{p.s}</p>
               <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(15px, 1.2vw, 17px)" }}>{p.d}</p>
             </motion.div>
           ))}
@@ -221,7 +221,7 @@ export default function GuiaSonoLanding({ dict }: { dict: LocaleDict }) {
       {/* PLANO DE 30 DIAS */}
       <section className="px-6 md:px-16 lg:px-20 py-20 md:py-28">
         <motion.div {...fade} className="max-w-3xl mx-auto text-center mb-14">
-          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-rose-accent">Passo a passo</span>
+          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-olive">Passo a passo</span>
           <h2 className="font-playfair font-normal mt-3 mb-4" style={{ fontSize: "clamp(30px, 4.5vw, 50px)" }}>
             Um plano de 30 dias,<br />um pilar por semana
           </h2>
@@ -240,7 +240,7 @@ export default function GuiaSonoLanding({ dict }: { dict: LocaleDict }) {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.55, delay: i * 0.07 }}
             >
-              <span className="font-barlow-condensed text-[11px] tracking-[0.2em] uppercase text-rose-accent shrink-0 w-20 pt-1">{s.n}</span>
+              <span className="font-barlow-condensed text-[11px] tracking-[0.2em] uppercase text-olive shrink-0 w-20 pt-1">{s.n}</span>
               <div>
                 <h3 className="font-barlow font-semibold text-text-primary text-[18px] mb-1">{s.t}</h3>
                 <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(15px, 1.2vw, 17px)" }}>{s.d}</p>
@@ -253,7 +253,7 @@ export default function GuiaSonoLanding({ dict }: { dict: LocaleDict }) {
       {/* MITOS */}
       <section className="px-6 md:px-16 lg:px-20 py-20 md:py-28 bg-background-soft border-y border-cream-line">
         <motion.div {...fade} className="max-w-3xl mx-auto text-center mb-14">
-          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-rose-accent">O que se diz vs. o que a ciência mostra</span>
+          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-olive">O que se diz vs. o que a ciência mostra</span>
           <h2 className="font-playfair font-normal mt-3" style={{ fontSize: "clamp(30px, 4.5vw, 50px)" }}>
             Os quatro mitos do sono
           </h2>
@@ -278,10 +278,10 @@ export default function GuiaSonoLanding({ dict }: { dict: LocaleDict }) {
       {/* CTA FINAL */}
       <section className="px-6 md:px-16 lg:px-20 py-24 md:py-32 text-center">
         <motion.div {...fade} className="max-w-2xl mx-auto flex flex-col items-center gap-7">
-          <div className="w-10 h-px bg-rose-accent" aria-hidden="true" />
+          <div className="w-10 h-px bg-terracotta" aria-hidden="true" />
           <h2 className="font-playfair leading-tight" style={{ fontSize: "clamp(30px, 4.5vw, 54px)" }}>
             <span className="font-bold block text-text-primary">Comece hoje a organizar</span>
-            <span className="italic block text-rose-accent">o sono do seu bebê</span>
+            <span className="italic block text-olive">o sono do seu bebê</span>
           </h2>
           <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(16px, 1.3vw, 19px)" }}>
             Trinta dias depois, você não terá um bebê &ldquo;treinado&rdquo;. Terá uma

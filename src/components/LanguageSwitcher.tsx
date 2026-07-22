@@ -29,7 +29,7 @@ export default function LanguageSwitcher({ current }: Props) {
             onClick={() => switchLocale(locale)}
             className={`font-barlow-condensed tracking-widest text-sm uppercase font-semibold transition-colors duration-200 ${
               current === locale
-                ? "text-rose-accent border-b-2 border-rose-accent pb-0.5"
+                ? "text-olive border-b-2 border-olive pb-0.5"
                 : "text-text-primary/70 hover:text-text-primary"
             }`}
           >

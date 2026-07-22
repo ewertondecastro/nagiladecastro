@@ -22,7 +22,7 @@ export default function ServicesSection({ dict, locale }: Props) {
       className="w-full py-24 md:py-36 px-8 md:px-16 lg:px-20 bg-background scroll-mt-16"
     >
       <FadeIn className="mb-12 md:mb-16 max-w-3xl">
-        <div className="w-8 h-px bg-rose-accent mb-6" aria-hidden="true" />
+        <div className="w-8 h-px bg-terracotta mb-6" aria-hidden="true" />
         <h2 className="font-playfair font-normal text-text-primary mb-4" style={{ fontSize: "clamp(36px, 5vw, 56px)" }}>
           {services.sectionTitle}
         </h2>
@@ -34,7 +34,7 @@ export default function ServicesSection({ dict, locale }: Props) {
       {/* Destaque: mentoria principal */}
       {featured && (
         <FadeIn className="max-w-5xl">
-          <div className="relative bg-background-soft border border-rose-accent/40 p-8 md:p-12 overflow-hidden">
+          <div className="relative bg-background-soft border border-olive/40 p-8 md:p-12 overflow-hidden">
             <span
               aria-hidden="true"
               className="absolute right-6 top-2 font-barlow-condensed font-bold text-cream-line select-none pointer-events-none leading-none"
@@ -43,12 +43,12 @@ export default function ServicesSection({ dict, locale }: Props) {
               {featured.number}
             </span>
             <div className="relative z-10 max-w-2xl">
-              <span className="inline-block font-barlow-condensed text-[10px] tracking-[0.3em] uppercase bg-rose-accent text-background px-3 py-1 mb-6">
+              <span className="inline-block font-barlow-condensed text-[10px] tracking-[0.3em] uppercase bg-terracotta text-background px-3 py-1 mb-6">
                 {services.featuredTag}
               </span>
               <h3 className="font-playfair leading-tight mb-5" style={{ fontSize: "clamp(30px, 3.4vw, 46px)" }}>
                 <span className="font-bold text-text-primary">{featured.titleLine1} </span>
-                <span className="italic text-rose-accent">{featured.titleLine2}</span>
+                <span className="italic text-olive">{featured.titleLine2}</span>
               </h3>
               <p className="font-barlow text-text-secondary leading-relaxed mb-7" style={{ fontSize: "clamp(16px, 1.15vw, 18px)" }}>
                 {featured.description}
@@ -58,13 +58,13 @@ export default function ServicesSection({ dict, locale }: Props) {
                   href={whatsAppUrl(featured.whatsappText)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 bg-rose-accent text-background font-semibold hover:bg-text-primary transition-colors duration-200"
+                  className="font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200"
                 >
                   {featured.contactCta}
                 </a>
                 <Link
                   href={mentoriaHref(locale, featured.slug)}
-                  className="font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 border border-rose-accent text-rose-accent hover:bg-rose-accent hover:text-background transition-all duration-200"
+                  className="font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 border border-olive text-olive hover:bg-terracotta hover:text-background transition-all duration-200"
                 >
                   {featured.learnMore}
                 </Link>
@@ -84,17 +84,17 @@ export default function ServicesSection({ dict, locale }: Props) {
             {rest.map((card) => (
               <div
                 key={card.slug}
-                className="flex flex-col gap-3 bg-background border border-cream-line p-6 hover:border-rose-accent transition-colors duration-200"
+                className="flex flex-col gap-3 bg-background border border-cream-line p-6 hover:border-olive transition-colors duration-200"
               >
-                <span className="font-barlow-condensed text-xs text-rose-accent/50">{card.number}</span>
+                <span className="font-barlow-condensed text-xs text-olive/50">{card.number}</span>
                 <h4 className="font-playfair leading-tight" style={{ fontSize: "clamp(20px, 1.8vw, 24px)" }}>
                   <span className="font-bold text-text-primary">{card.titleLine1} </span>
-                  <span className="italic text-rose-accent">{card.titleLine2}</span>
+                  <span className="italic text-olive">{card.titleLine2}</span>
                 </h4>
                 <div className="mt-auto pt-3 flex flex-wrap gap-x-4 gap-y-1">
                   <Link
                     href={mentoriaHref(locale, card.slug)}
-                    className="font-barlow-condensed text-[11px] tracking-widest uppercase text-rose-accent hover:text-text-primary transition-colors"
+                    className="font-barlow-condensed text-[11px] tracking-widest uppercase text-olive hover:text-text-primary transition-colors"
                   >
                     {card.learnMore} →
                   </Link>
@@ -102,7 +102,7 @@ export default function ServicesSection({ dict, locale }: Props) {
                     href={whatsAppUrl(card.whatsappText)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-barlow-condensed text-[11px] tracking-widest uppercase text-text-muted hover:text-rose-accent transition-colors"
+                    className="font-barlow-condensed text-[11px] tracking-widest uppercase text-text-muted hover:text-olive transition-colors"
                   >
                     {card.contactCta}
                   </a>

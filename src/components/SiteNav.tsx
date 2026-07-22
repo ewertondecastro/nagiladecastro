@@ -34,7 +34,7 @@ export default function SiteNav({
         <Link
           href={home}
           onClick={() => setOpen(false)}
-          className="font-playfair text-[17px] md:text-xl text-text-primary hover:text-rose-accent transition-colors duration-200"
+          className="font-playfair text-[17px] md:text-xl text-text-primary hover:text-olive transition-colors duration-200"
         >
           {dict.footer.name}
         </Link>
@@ -46,7 +46,7 @@ export default function SiteNav({
               <Link
                 key={l.href}
                 href={l.href}
-                className="font-barlow-condensed text-xs tracking-[0.2em] uppercase px-4 py-2 bg-rose-accent text-background font-semibold hover:bg-text-primary transition-colors duration-200"
+                className="font-barlow-condensed text-xs tracking-[0.2em] uppercase px-4 py-2 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200"
               >
                 {l.label}
               </Link>
@@ -54,7 +54,7 @@ export default function SiteNav({
               <Link
                 key={l.href}
                 href={l.href}
-                className="font-barlow-condensed text-xs tracking-[0.2em] uppercase text-text-secondary hover:text-rose-accent transition-colors duration-200"
+                className="font-barlow-condensed text-xs tracking-[0.2em] uppercase text-text-secondary hover:text-olive transition-colors duration-200"
               >
                 {l.label}
               </Link>
@@ -103,7 +103,7 @@ export default function SiteNav({
               href={l.href}
               onClick={() => setOpen(false)}
               className={`font-barlow-condensed text-sm tracking-[0.2em] uppercase py-3 border-b border-cream-line/70 ${
-                l.highlight ? "text-rose-accent font-semibold" : "text-text-secondary"
+                l.highlight ? "text-olive font-semibold" : "text-text-secondary"
               }`}
             >
               {l.label}

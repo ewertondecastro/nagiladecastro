@@ -32,19 +32,19 @@ export default function ServicesAccordion({
               className="w-full flex items-center justify-between gap-6 py-6 md:py-7 text-left group"
             >
               <span className="flex items-baseline gap-4 md:gap-6">
-                <span className="font-barlow-condensed text-sm text-rose-accent/50 tabular-nums pt-1">
+                <span className="font-barlow-condensed text-sm text-olive/50 tabular-nums pt-1">
                   {card.number}
                 </span>
                 <span
-                  className="font-playfair leading-tight text-text-primary group-hover:text-rose-accent transition-colors duration-200"
+                  className="font-playfair leading-tight text-text-primary group-hover:text-olive transition-colors duration-200"
                   style={{ fontSize: "clamp(22px, 2.6vw, 34px)" }}
                 >
                   {card.titleLine1}{" "}
-                  <span className="italic text-rose-accent">{card.titleLine2}</span>
+                  <span className="italic text-olive">{card.titleLine2}</span>
                 </span>
               </span>
               <span
-                className={`shrink-0 text-rose-accent text-2xl leading-none transition-transform duration-300 ${
+                className={`shrink-0 text-olive text-2xl leading-none transition-transform duration-300 ${
                   isOpen ? "rotate-45" : ""
                 }`}
                 aria-hidden="true"
@@ -74,13 +74,13 @@ export default function ServicesAccordion({
                         href={whatsAppUrl(card.whatsappText)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="font-barlow-condensed text-xs tracking-widest uppercase px-5 py-2.5 bg-rose-accent text-background font-semibold hover:bg-text-primary transition-colors duration-200"
+                        className="font-barlow-condensed text-xs tracking-widest uppercase px-5 py-2.5 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200"
                       >
                         {card.contactCta}
                       </a>
                       <Link
                         href={mentoriaHref(locale, card.slug)}
-                        className="font-barlow-condensed text-xs tracking-widest uppercase px-5 py-2.5 border border-rose-accent text-rose-accent hover:bg-rose-accent hover:text-background transition-all duration-200"
+                        className="font-barlow-condensed text-xs tracking-widest uppercase px-5 py-2.5 border border-olive text-olive hover:bg-terracotta hover:text-background transition-all duration-200"
                       >
                         {card.learnMore}
                       </Link>

@@ -61,7 +61,7 @@ export default function HeroSection({ dict }: Props) {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.55, ease: [0.25, 0.1, 0.25, 1] }}
-            className="font-playfair italic text-rose-accent leading-none tracking-tight"
+            className="font-playfair italic text-olive leading-none tracking-tight"
             style={{ fontSize: "clamp(72px, 12vw, 160px)" }}
           >
             {hero.lastName}
@@ -72,7 +72,7 @@ export default function HeroSection({ dict }: Props) {
             initial={{ opacity: 0, x: -16 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7, delay: 0.8 }}
-            className="mt-8 pl-4 border-l-2 border-rose-accent"
+            className="mt-8 pl-4 border-l-2 border-olive"
           >
             {hero.tagline.map((line, i) => (
               <p
@@ -90,7 +90,7 @@ export default function HeroSection({ dict }: Props) {
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.95 }}
-            className="mt-8 inline-flex items-center gap-2 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 bg-rose-accent text-background font-semibold hover:bg-text-primary transition-colors duration-200 shadow-lg shadow-rose-accent/20"
+            className="mt-8 inline-flex items-center gap-2 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200 shadow-lg shadow-terracotta/20"
           >
             {hero.cta}
             <span aria-hidden="true">→</span>
@@ -120,7 +120,7 @@ export default function HeroSection({ dict }: Props) {
             <motion.div
               animate={{ y: [0, 8, 0] }}
               transition={{ repeat: Infinity, duration: 1.8, ease: "easeInOut" }}
-              className="w-px h-10 bg-gradient-to-b from-rose-accent to-transparent"
+              className="w-px h-10 bg-gradient-to-b from-olive to-transparent"
             />
           </motion.div>
         </div>

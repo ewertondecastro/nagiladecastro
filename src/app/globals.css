@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --background: #FAF4EA;
-  --foreground: #2C1F15;
+  --background: #F4EFE6;
+  --foreground: #2D241E;
 }
 
 * {
@@ -27,9 +27,9 @@ body {
     text-wrap: balance;
   }
   .gold-border-left {
-    border-left: 2px solid #C9924E;
+    border-left: 2px solid #3B4A3D;
   }
   .rose-border-left {
-    border-left: 2px solid #B97A6B;
+    border-left: 2px solid #B85C38;
   }
 }

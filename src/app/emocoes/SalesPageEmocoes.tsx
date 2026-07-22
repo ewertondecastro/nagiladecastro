@@ -85,7 +85,7 @@ function CtaButton({ children }: { children: React.ReactNode }) {
       href={CHECKOUT_URL}
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-flex items-center justify-center font-barlow-condensed text-sm tracking-[0.2em] uppercase px-10 py-4 bg-rose-accent text-background font-semibold hover:bg-text-primary transition-colors duration-300 shadow-lg shadow-rose-accent/20"
+      className="inline-flex items-center justify-center font-barlow-condensed text-sm tracking-[0.2em] uppercase px-10 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-300 shadow-lg shadow-terracotta/20"
     >
       {children}
     </a>
@@ -96,9 +96,9 @@ function TrustRow() {
   return (
     <p className="font-barlow text-[12px] text-text-muted flex flex-wrap items-center justify-center gap-x-2 gap-y-1">
       <span>Acesso imediato</span>
-      <span className="text-rose-accent">·</span>
+      <span className="text-olive">·</span>
       <span>Imprima quantas vezes quiser</span>
-      <span className="text-rose-accent">·</span>
+      <span className="text-olive">·</span>
       <span>{PRICE} à vista</span>
     </p>
   );
@@ -160,7 +160,7 @@ export default function SalesPageEmocoes() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
         >
-          <span className="font-barlow-condensed text-[11px] tracking-[0.25em] uppercase text-rose-accent mb-5">
+          <span className="font-barlow-condensed text-[11px] tracking-[0.25em] uppercase text-olive mb-5">
             O que eu sinto, o que eu faço · Domínio Próprio
           </span>
           <h1
@@ -168,7 +168,7 @@ export default function SalesPageEmocoes() {
             style={{ fontSize: "clamp(36px, 6.5vw, 68px)" }}
           >
             <span className="font-bold block text-text-primary">Ensine seu filho a entender</span>
-            <span className="italic block text-rose-accent">o que sente por dentro</span>
+            <span className="italic block text-olive">o que sente por dentro</span>
           </h1>
           <p
             className="font-barlow text-text-secondary leading-relaxed mt-6 max-w-xl mx-auto"
@@ -213,7 +213,7 @@ export default function SalesPageEmocoes() {
       {/* ───────── DOR / EMPATIA ───────── */}
       <section className="px-6 py-24 md:py-32 bg-background-soft">
         <motion.div {...fade} className="max-w-2xl mx-auto text-center">
-          <div className="w-10 h-px bg-rose-accent mx-auto mb-8" />
+          <div className="w-10 h-px bg-terracotta mx-auto mb-8" />
           <p
             className="font-playfair italic text-text-primary leading-snug mb-6"
             style={{ fontSize: "clamp(23px, 3.2vw, 36px)" }}
@@ -232,7 +232,7 @@ export default function SalesPageEmocoes() {
       {/* ───────── COMO FUNCIONA CADA CARTÃO ───────── */}
       <section className="px-6 py-28 md:py-36">
         <motion.div {...fade} className="max-w-3xl mx-auto text-center mb-14">
-          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-rose-accent">
+          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-olive">
             Simples e afetuoso
           </span>
           <h2 className="font-playfair font-normal mt-3 mb-4" style={{ fontSize: "clamp(30px, 4.5vw, 52px)" }}>
@@ -278,7 +278,7 @@ export default function SalesPageEmocoes() {
       {/* ───────── O MÉTODO (5 PASSOS) ───────── */}
       <section className="px-6 py-28 md:py-36 bg-background-soft">
         <motion.div {...fade} className="max-w-3xl mx-auto text-center mb-16">
-          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-rose-accent">
+          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-olive">
             O método no verso
           </span>
           <h2 className="font-playfair font-normal mt-3 mb-4" style={{ fontSize: "clamp(30px, 4.5vw, 52px)" }}>
@@ -300,7 +300,7 @@ export default function SalesPageEmocoes() {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.55, delay: i * 0.07 }}
             >
-              <span className="font-playfair italic text-rose-accent/70 text-2xl shrink-0 w-8">{i + 1}</span>
+              <span className="font-playfair italic text-olive/70 text-2xl shrink-0 w-8">{i + 1}</span>
               <div>
                 <h3 className="font-barlow-condensed tracking-[0.15em] uppercase text-text-primary text-sm font-semibold mb-1.5">{m.k}</h3>
                 <p className="font-barlow text-text-secondary leading-relaxed text-[17px]">{m.d}</p>
@@ -313,7 +313,7 @@ export default function SalesPageEmocoes() {
       {/* ───────── AS 20 EMOÇÕES ───────── */}
       <section className="px-6 py-28 md:py-36">
         <motion.div {...fade} className="max-w-3xl mx-auto text-center mb-16">
-          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-rose-accent">
+          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-olive">
             O que tem dentro
           </span>
           <h2 className="font-playfair font-normal mt-3 mb-4" style={{ fontSize: "clamp(30px, 4.5vw, 52px)" }}>
@@ -355,7 +355,7 @@ export default function SalesPageEmocoes() {
       {/* ───────── O QUE MUDA NA SUA CASA ───────── */}
       <section className="px-6 py-28 md:py-36">
         <motion.div {...fade} className="max-w-3xl mx-auto text-center mb-14">
-          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-rose-accent">
+          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-olive">
             Por que vale a pena
           </span>
           <h2 className="font-playfair font-normal mt-3" style={{ fontSize: "clamp(30px, 4.5vw, 52px)" }}>
@@ -377,7 +377,7 @@ export default function SalesPageEmocoes() {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6, delay: i * 0.08 }}
             >
-              <span className="text-rose-accent font-playfair text-2xl leading-none shrink-0">✦</span>
+              <span className="text-olive font-playfair text-2xl leading-none shrink-0">✦</span>
               <div>
                 <h3 className="font-barlow font-semibold text-text-primary text-base mb-1.5">{b.t}</h3>
                 <p className="font-barlow text-text-secondary leading-relaxed text-[16px]">{b.d}</p>
@@ -390,7 +390,7 @@ export default function SalesPageEmocoes() {
       {/* ───────── COMO USAR ───────── */}
       <section className="px-6 py-28 md:py-36 bg-background-soft">
         <motion.div {...fade} className="max-w-3xl mx-auto text-center mb-16">
-          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-rose-accent">
+          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-olive">
             Simples assim
           </span>
           <h2 className="font-playfair font-normal mt-3" style={{ fontSize: "clamp(30px, 4.5vw, 52px)" }}>
@@ -411,7 +411,7 @@ export default function SalesPageEmocoes() {
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.6, delay: i * 0.12 }}
             >
-              <span className="font-playfair italic text-rose-accent" style={{ fontSize: "clamp(34px, 4vw, 48px)" }}>{s.n}</span>
+              <span className="font-playfair italic text-olive" style={{ fontSize: "clamp(34px, 4vw, 48px)" }}>{s.n}</span>
               <h3 className="font-barlow font-semibold text-text-primary text-lg mt-2 mb-2">{s.t}</h3>
               <p className="font-barlow text-text-secondary leading-relaxed text-[17px]">{s.d}</p>
             </motion.div>
@@ -422,7 +422,7 @@ export default function SalesPageEmocoes() {
       {/* ───────── AUTORIDADE ───────── */}
       <section className="px-6 py-24 md:py-28">
         <motion.div {...fade} className="max-w-2xl mx-auto text-center">
-          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-rose-accent">
+          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-olive">
             Quem preparou
           </span>
           <p className="font-playfair italic text-text-primary leading-snug mt-4" style={{ fontSize: "clamp(22px, 3vw, 34px)" }}>
@@ -439,13 +439,13 @@ export default function SalesPageEmocoes() {
       {/* ───────── OFERTA / ANCORAGEM ───────── */}
       <section className="px-6 py-32 md:py-40 text-center bg-background-soft">
         <motion.div {...fade} className="max-w-xl mx-auto">
-          <div className="w-10 h-px bg-rose-accent mx-auto mb-8" />
-          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-rose-accent">
+          <div className="w-10 h-px bg-terracotta mx-auto mb-8" />
+          <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-olive">
             Leve para a sua casa
           </span>
           <h2 className="font-playfair leading-tight mt-3 mb-6" style={{ fontSize: "clamp(32px, 5vw, 56px)" }}>
             <span className="font-bold block text-text-primary">20 cartões das emoções</span>
-            <span className="italic block text-rose-accent">para imprimir em casa</span>
+            <span className="italic block text-olive">para imprimir em casa</span>
           </h2>
 
           <p className="font-barlow text-text-secondary leading-relaxed mb-8" style={{ fontSize: "clamp(17px, 1.4vw, 20px)" }}>
@@ -464,7 +464,7 @@ export default function SalesPageEmocoes() {
               "Arquivo digital reutilizável, seu para sempre",
             ].map((item) => (
               <li key={item} className="flex items-start gap-3 font-barlow text-text-secondary text-[17px] leading-snug">
-                <span className="text-rose-accent mt-0.5 shrink-0">✓</span>
+                <span className="text-olive mt-0.5 shrink-0">✓</span>
                 {item}
               </li>
             ))}
@@ -516,7 +516,7 @@ export default function SalesPageEmocoes() {
         <motion.div {...fade} className="max-w-xl mx-auto">
           <h2 className="font-playfair leading-tight mb-5" style={{ fontSize: "clamp(30px, 4.5vw, 52px)" }}>
             <span className="font-bold block text-text-primary">Dê nome ao que</span>
-            <span className="italic block text-rose-accent">seu filho sente</span>
+            <span className="italic block text-olive">seu filho sente</span>
           </h2>
           <p className="font-barlow text-text-secondary leading-relaxed mb-8" style={{ fontSize: "clamp(17px, 1.5vw, 21px)" }}>
             Você baixa em minutos e a primeira conversa diferente pode ser ainda hoje.

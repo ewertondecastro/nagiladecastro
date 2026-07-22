@@ -9,7 +9,7 @@ interface Props {
 }
 
 const inputClass =
-  "w-full bg-background border border-cream-line px-4 py-3 font-barlow text-[16px] text-text-primary placeholder:text-text-muted focus:outline-none focus:border-rose-accent transition-colors duration-200";
+  "w-full bg-background border border-cream-line px-4 py-3 font-barlow text-[16px] text-text-primary placeholder:text-text-muted focus:outline-none focus:border-olive transition-colors duration-200";
 const labelClass =
   "font-barlow-condensed text-[11px] tracking-[0.2em] uppercase text-text-secondary mb-2 block";
 
@@ -70,7 +70,7 @@ export default function ContactForm({ dict }: Props) {
   if (status === "done") {
     return (
       <div className="w-full max-w-xl mx-auto text-center py-10">
-        <div className="w-10 h-px bg-rose-accent mx-auto mb-6" aria-hidden="true" />
+        <div className="w-10 h-px bg-terracotta mx-auto mb-6" aria-hidden="true" />
         <p className="font-playfair italic text-text-primary" style={{ fontSize: "clamp(20px, 2.2vw, 28px)" }}>
           {contact.formSuccess}
         </p>
@@ -126,14 +126,14 @@ export default function ContactForm({ dict }: Props) {
       </div>
 
       {error && (
-        <p className="mt-4 font-barlow text-[15px] text-rose-accent">{error}</p>
+        <p className="mt-4 font-barlow text-[15px] text-olive">{error}</p>
       )}
 
       <div className="mt-7 flex flex-col items-center gap-3">
         <button
           type="submit"
           disabled={status === "sending"}
-          className="inline-flex items-center justify-center font-barlow-condensed text-sm tracking-[0.2em] uppercase px-10 py-4 bg-rose-accent text-background font-semibold hover:bg-text-primary transition-colors duration-200 disabled:opacity-60"
+          className="inline-flex items-center justify-center font-barlow-condensed text-sm tracking-[0.2em] uppercase px-10 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200 disabled:opacity-60"
         >
           {status === "sending" ? contact.formSending : contact.formSubmit}
         </button>

@@ -28,13 +28,13 @@ export default function SobrePage({
       <section className="px-8 md:px-16 lg:px-20 pt-32 md:pt-40 pb-16 md:pb-24">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
           <FadeIn direction="left" className="order-2 md:order-1 flex flex-col gap-6">
-            <span className="font-barlow-condensed text-[11px] tracking-[0.35em] uppercase text-rose-accent">
+            <span className="font-barlow-condensed text-[11px] tracking-[0.35em] uppercase text-olive">
               {siteNav.about}
             </span>
             <h1 className="font-playfair leading-tight" style={{ fontSize: "clamp(38px, 5.5vw, 68px)" }}>
               <span className="font-normal text-text-primary block">{about.titleLine1}</span>
               <span className="font-normal text-text-primary block">{about.titleLine2}</span>
-              <span className="italic text-rose-accent block">{about.titleLine3}</span>
+              <span className="italic text-olive block">{about.titleLine3}</span>
             </h1>
             <p className="font-barlow text-text-secondary leading-relaxed max-w-xl" style={{ fontSize: "clamp(18px, 1.5vw, 22px)" }}>
               {introPara}
@@ -51,7 +51,7 @@ export default function SobrePage({
                 className="object-cover object-top"
                 sizes="(max-width: 768px) 100vw, 45vw"
               />
-              <div className="absolute inset-x-0 bottom-0 h-1 bg-rose-accent opacity-70" />
+              <div className="absolute inset-x-0 bottom-0 h-1 bg-terracotta opacity-70" />
             </div>
           </FadeIn>
         </div>
@@ -84,7 +84,7 @@ export default function SobrePage({
                 {about.credentials.items.map((item, i) => (
                   <li
                     key={i}
-                    className="font-barlow text-text-primary leading-snug pl-3 border-l-2 border-rose-accent"
+                    className="font-barlow text-text-primary leading-snug pl-3 border-l-2 border-olive"
                     style={{ fontSize: "clamp(16px, 1.2vw, 18px)" }}
                   >
                     {item}
@@ -102,7 +102,7 @@ export default function SobrePage({
               <span className="font-barlow-condensed text-[10px] tracking-[0.3em] text-text-muted uppercase">
                 {about.partner.label}
               </span>
-              <span className="font-playfair italic text-rose-accent group-hover:text-text-primary transition-colors duration-300" style={{ fontSize: "clamp(16px, 1.3vw, 20px)" }}>
+              <span className="font-playfair italic text-olive group-hover:text-text-primary transition-colors duration-300" style={{ fontSize: "clamp(16px, 1.3vw, 20px)" }}>
                 {about.partner.handle}
               </span>
             </a>
@@ -124,10 +124,10 @@ export default function SobrePage({
         <div className="px-8 md:px-16 lg:px-20 py-20 md:py-28 bg-background">
           <FadeIn className="max-w-3xl mx-auto flex flex-col gap-8">
             <div className="flex flex-col gap-6">
-              <div className="w-8 h-px bg-rose-accent" aria-hidden="true" />
+              <div className="w-8 h-px bg-terracotta" aria-hidden="true" />
               <h2 className="font-playfair leading-tight" style={{ fontSize: "clamp(34px, 4.5vw, 56px)" }}>
                 <span className="font-normal text-text-primary block">{family.titleLine1}</span>
-                <span className="italic text-rose-accent block">{family.titleLine2}</span>
+                <span className="italic text-olive block">{family.titleLine2}</span>
               </h2>
             </div>
             <div className="flex flex-col gap-5 max-w-2xl">
@@ -152,12 +152,12 @@ export default function SobrePage({
         <FadeIn className="max-w-2xl mx-auto flex flex-col items-center gap-8">
           <h2 className="font-playfair leading-tight" style={{ fontSize: "clamp(28px, 4vw, 48px)" }}>
             <span className="font-normal text-text-primary block">{contact.titleLine1}</span>
-            <span className="italic text-rose-accent block">{contact.titleLine2}</span>
+            <span className="italic text-olive block">{contact.titleLine2}</span>
           </h2>
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <Link
               href={`${p}/mentorias`}
-              className="inline-flex items-center gap-2 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 bg-rose-accent text-background font-semibold hover:bg-text-primary transition-colors duration-200"
+              className="inline-flex items-center gap-2 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200"
             >
               {siteNav.mentorias}
               <span aria-hidden="true">&rarr;</span>
@@ -166,7 +166,7 @@ export default function SobrePage({
               href={contact.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 border border-rose-accent text-rose-accent hover:bg-rose-accent hover:text-background transition-colors duration-200"
+              className="inline-flex items-center gap-2 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 border border-olive text-olive hover:bg-terracotta hover:text-background transition-colors duration-200"
             >
               {contact.cta}
             </a>
