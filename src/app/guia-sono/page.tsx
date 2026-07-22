@@ -5,7 +5,7 @@ import GuiaSonoLanding from "./GuiaSonoLanding";
 
 export const metadata: Metadata = {
   title:
-    "Guia gratuito: Primeiros 30 dias do sono do bebê | Nagila Decastro",
+    "Guia gratuito: Primeiros 30 dias do sono do bebê | Nágila Decastro",
   description:
     "Guia gratuito com as bases para organizar o sono do seu bebê: como funciona o sono, tabela por idade, os três pilares e um plano de 30 dias. Sem deixar chorar, com presença.",
 };

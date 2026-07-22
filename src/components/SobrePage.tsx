@@ -45,7 +45,7 @@ export default function SobrePage({
             <div className="relative aspect-[4/5] overflow-hidden rounded-sm bg-cream-line max-w-md mx-auto">
               <Image
                 src="/images/couple.jpg"
-                alt="Nagila e Ewerton Decastro"
+                alt="Nágila e Ewerton Decastro"
                 fill
                 priority
                 className="object-cover object-top"

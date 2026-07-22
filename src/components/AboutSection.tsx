@@ -34,7 +34,7 @@ export default function AboutSection({ dict }: Props) {
             >
               <Image
                 src="/images/couple.jpg"
-                alt="Nagila e Ewerton Decastro"
+                alt="Nágila e Ewerton Decastro"
                 fill
                 className="object-cover object-top"
                 sizes="(max-width: 768px) 100vw, 40vw"

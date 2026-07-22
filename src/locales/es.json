@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Nagila Decastro",
-    "description": "Esposa, madre de dos niñas, educadora en casa (homeschool) y mentora de madres. Consultoría de sueño, maternidad real, homeschool y Mentoría METI.",
+    "title": "Nágila Decastro",
+    "description": "Esposa, madre de dos niñas, educadora en casa (homeschool) y mentora de madres. Consultoría de sueño, primeros pasos de la alfabetización y educación parental con dirección.",
     "locale": "es_ES"
   },
   "nav": {
@@ -19,7 +19,7 @@
   },
   "hero": {
     "tags": "CRISTIANA · ESPOSA · MADRE · HOMESCHOOLER · MENTORA",
-    "firstName": "Nagila",
+    "firstName": "Nágila",
     "lastName": "Decastro",
     "tagline": [
       "Maternidad con presencia.",
@@ -39,7 +39,7 @@
     "titleLine2": "educadora en casa,",
     "titleLine3": "mentora de madres.",
     "body": [
-      "Soy Nagila, esposa de Ewerton, madre de Helena y Catharina, viviendo en Cape Cod. Cada nacimiento reescribió lo que yo entendía por descanso, por presencia y por hogar.",
+      "Soy Nágila, esposa de Ewerton, madre de Helena y Catharina, viviendo en Cape Cod. Cada nacimiento reescribió lo que yo entendía por descanso, por presencia y por hogar.",
       "Aprendí en carne propia que el sueño del bebé no es un detalle técnico, es el oxígeno de una familia entera. Cuando una madre vuelve a dormir, vuelve a sí misma.",
       "Eduqué a mis dos hijas en casa desde el primer día. Homeschool no como un rechazo al mundo, sino como un sí profundo al tiempo, el tiempo que no vuelve dos veces, el tiempo de transmitir carácter al ritmo del niño.",
       "Hoy acompaño a madres y familias que quieren más que sobrevivir a la maternidad y a la crianza, con base en formación seria, no en intuición. Familias que quieren vivirla con claridad, ligereza y propósito."
@@ -67,7 +67,7 @@
   },
   "services": {
     "sectionTitle": "Cómo te acompaño",
-    "sectionSubtitle": "Cuatro caminos, una raíz: cuidar de la madre y de la casa. Toca la mentoría para ver cómo funciona y empieza una conversación.",
+    "sectionSubtitle": "Tres caminos, una raíz: cuidar de la madre y de la casa. Toca la mentoría para ver cómo funciona y empieza una conversación.",
     "featuredTag": "Empieza aquí",
     "othersLabel": "Otras frentes de mentoría",
     "cards": [
@@ -79,7 +79,7 @@
         "description": "Un plan humano y personalizado para el sueño de tu bebé, respetando el vínculo, el temperamento del niño y el ritmo real de tu familia. Sin fórmulas duras, sin culpa.",
         "learnMore": "Saber más",
         "contactCta": "Hablar por WhatsApp",
-        "whatsappText": "Hola Nagila, vengo de tu sitio, quiero saber más sobre la Consultoría de Sueño",
+        "whatsappText": "Hola Nágila, vengo de tu sitio, quiero saber más sobre la Consultoría de Sueño",
         "detail": {
           "eyebrow": "MENTORÍA · 01",
           "headlineLine1": "Sueño que descansa",
@@ -98,66 +98,27 @@
           ],
           "forWhomTitle": "Para quién es",
           "forWhomItems": [
-            "Madres de bebés y niños pequeños entre 0 y 5 años",
+            "Madres de bebés y niños pequeños entre 0 y 3 años",
             "Madres cansadas del método X, del método Y, de fórmulas que ignoran quién es tu hijo",
             "Madres que no quieren usar la técnica de dejar llorar y buscan un camino respetuoso",
             "Madres que quieren volver a dormir sin renunciar a quiénes son"
           ],
           "ctaLabel": "Hablemos por WhatsApp",
-          "ctaWhatsappText": "Hola Nagila, vengo de la página de Consultoría de Sueño, quiero hablar sobre el sueño de mi bebé",
-          "backToHome": "Volver al inicio"
-        }
-      },
-      {
-        "slug": "maternidade",
-        "number": "02",
-        "titleLine1": "Maternidad",
-        "titleLine2": "Real",
-        "description": "Mentoría para madres en transición: primer hijo, segundo hijo, identidad después del parto, matrimonio después del bebé. Conversación franca, herramientas prácticas, acogida.",
-        "learnMore": "Saber más",
-        "contactCta": "Hablar por WhatsApp",
-        "whatsappText": "Hola Nagila, vengo de tu sitio, quiero saber más sobre la Mentoría Maternidad Real",
-        "detail": {
-          "eyebrow": "MENTORÍA · 02",
-          "headlineLine1": "Maternidad vivida,",
-          "headlineLine2": "no apenas sobrevivida.",
-          "intro": "La maternidad no es un milagro que te sucede. Es una travesía que atraviesas, y casi nadie es honesta sobre cómo es por dentro. Identidad que se desmonta. Matrimonio que cambia. Cuerpo que vuelve diferente. Carrera en pausa. Amigas que desaparecen. Y la pregunta silenciosa: \"¿sigo siendo yo?\"",
-          "whyTitle": "Por qué importa",
-          "whyBody": [
-            "Cuando la maternidad se vive sola, se vuelve supervivencia. Y las madres que sobreviven demasiado tiempo eventualmente colapsan, en agotamiento, en ira, en distancia.",
-            "No es debilidad moral. Es falta de compañía, y a veces falta de información, muchas vivencias del posparto parecen caos personal y son en realidad fisiología y psicología del desarrollo bien estudiadas. Solo necesitas a alguien que lo reconozca, te oriente y se quede cerca.",
-            "Una madre necesita otra madre que ya vivió, que ya lloró en la ducha, que ya volvió a sí, con base, no solo con afecto."
-          ],
-          "journeyTitle": "Cómo caminamos juntas",
-          "journeyBody": [
-            "Conversamos de verdad. No es coaching de planilla, es mentoría de mujer a mujer, sostenida en mi experiencia como madre de Helena y Catharina y en mi formación como Educadora Parental Certificada.",
-            "Trabajamos juntas lo que pesa ahora: identidad en el posparto, matrimonio después del bebé, agotamiento acumulado, culpa materna sin razón y con razón, decisiones entre trabajo y maternidad, recuperación de la fe y de las amistades que la maternidad sacudió, armar la rutina cuando hay más de un hijo en la casa.",
-            "Encuentros regulares, sin plazo apretado, sin método rígido. Te escucho, te devuelvo preguntas, te entrego herramientas concretas, y vuelvo la próxima semana, y la siguiente, hasta que ya no me necesites."
-          ],
-          "forWhomTitle": "Para quién es",
-          "forWhomItems": [
-            "Madres primerizas que se sienten perdidas en medio de lo obvio",
-            "Madres del segundo hijo que sienten que están empezando de cero, y con culpa por ello",
-            "Madres que se perdieron de sí en medio del trabajo de criar personas",
-            "Madres que sienten que el matrimonio quedó en segundo plano y no saben cómo volver",
-            "Madres que quieren ser enteras, no solo madres"
-          ],
-          "ctaLabel": "Hablemos por WhatsApp",
-          "ctaWhatsappText": "Hola Nagila, vengo de la página de Maternidad Real, quiero conversar",
+          "ctaWhatsappText": "Hola Nágila, vengo de la página de Consultoría de Sueño, quiero hablar sobre el sueño de mi bebé",
           "backToHome": "Volver al inicio"
         }
       },
       {
         "slug": "homeschool",
-        "number": "03",
-        "titleLine1": "Educación",
-        "titleLine2": "en Casa",
-        "description": "Para madres que sienten el llamado del homeschool, pero no saben por dónde empezar. Rutina, materiales, currículo simple y el valor para la primera semana, y para todas las demás.",
+        "number": "02",
+        "titleLine1": "Primeros pasos",
+        "titleLine2": "a la pre-lectura y alfabetización",
+        "description": "Cómo acompañar al niño en los primeros pasos de la lectura y la escritura, de la pre-lectura al inicio de la alfabetización, con método y sin prisa.",
         "learnMore": "Saber más",
         "contactCta": "Hablar por WhatsApp",
-        "whatsappText": "Hola Nagila, vengo de tu sitio, quiero saber más sobre la Mentoría de Homeschool",
+        "whatsappText": "Hola Nágila, vengo de tu sitio, quiero saber más sobre la Mentoría de Homeschool",
         "detail": {
-          "eyebrow": "MENTORÍA · 03",
+          "eyebrow": "MENTORÍA · 02",
           "headlineLine1": "Homeschool con ligereza,",
           "headlineLine2": "método y propósito.",
           "intro": "Sientes el llamado de educar en casa. Lo sientes desde antes del primer hijo, o empezaste a sentirlo ahora que está en edad escolar. Pero no sabes por dónde empezar, y cada vez que preguntas, alguien te asusta con burocracia, currículo, aislamiento o falta de tiempo.",
@@ -183,46 +144,46 @@
             "Familias cristianas que quieren alinear fe y educación dentro de la propia casa"
           ],
           "ctaLabel": "Hablemos por WhatsApp",
-          "ctaWhatsappText": "Hola Nagila, vengo de la página de Mentoría de Homeschool, quiero conversar sobre educar en casa",
+          "ctaWhatsappText": "Hola Nágila, vengo de la página de Mentoría de Homeschool, quiero conversar sobre educar en casa",
           "backToHome": "Volver al inicio"
         }
       },
       {
-        "slug": "meti",
-        "number": "04",
-        "titleLine1": "Mentoría",
-        "titleLine2": "METI",
-        "description": "Método de Educación Tradicional Intencional. Educación parental que recupera límites claros, jerarquía familiar y formación de carácter, con la intención que la parentalidad moderna olvidó.",
+        "slug": "educacao-parental",
+        "number": "03",
+        "titleLine1": "Educación Parental",
+        "titleLine2": "con dirección",
+        "description": "Educación parental con dirección clara: autoridad con afecto, una rutina que sostiene la casa y formación del carácter, en lugar de la improvisación y la negociación sin fin.",
         "learnMore": "Saber más",
         "contactCta": "Hablar por WhatsApp",
-        "whatsappText": "Hola Nagila, vengo de tu sitio, quiero saber más sobre la Mentoría METI (Educación Parental)",
+        "whatsappText": "Hola Nágila, vengo de tu sitio, quiero saber más sobre la mentoría de Educación Parental",
         "detail": {
-          "eyebrow": "MENTORÍA · 04",
-          "headlineLine1": "Criar como antes,",
-          "headlineLine2": "con la intención de hoy.",
-          "intro": "METI, Método de Educación Tradicional Intencional, es una metodología seria de educación parental, construida como respuesta a la parentalidad reactiva de nuestro tiempo. Como Educadora Parental Certificada, traigo sus principios dentro de tu familia: criar como antes, pero eligiendo cada gesto, sostenido en neurociencia, en virtud y en orden.",
+          "eyebrow": "MENTORÍA · 03",
+          "headlineLine1": "Educar con dirección,",
+          "headlineLine2": "no en la improvisación.",
+          "intro": "Educar dejó de ser conducir y pasó a ser reaccionar: apagamos incendios, negociamos todo el día y terminamos agotadas, sin saber si vamos a algún lugar. Como Educadora Parental Certificada y madre que educa a sus propias hijas, te ayudo a devolver dirección a la crianza, eligiendo cada gesto con intención.",
           "whyTitle": "Por qué importa",
           "whyBody": [
-            "La mayoría de las familias hoy educa improvisando. Reaccionan al comportamiento de los hijos, copian lo que vieron en su propia casa, tercerizan a la escuela o a la pantalla. El resultado es una generación de padres agotados y de niños ansiosos, sin dirección.",
-            "El METI se sostiene en pilares que la parentalidad moderna desaprendió: autoridad parental en lugar de negociación infinita; orden y previsibilidad que dan seguridad emocional al hijo; formación del carácter por las virtudes cardinales (coraje, prudencia, justicia, templanza) en lugar de premio por buen comportamiento; límites puestos con firmeza y respeto, nunca con castigo emocional.",
-            "La tradición no es repetición ciega. Es sabiduría probada que elegimos honrar con intención, gesto a gesto."
+            "La mayoría de las familias hoy educa en la improvisación: reacciona al comportamiento de los hijos, copia lo que vio en casa, terceriza a la escuela o a la pantalla. El resultado es una generación de padres cansados y niños ansiosos, sin dirección.",
+            "Una casa con dirección tiene autoridad en lugar de negociación infinita, orden y previsibilidad que dan seguridad emocional al hijo, límites firmes puestos con respeto, y un carácter que se forma día a día, no premiado por buen comportamiento.",
+            "Dirección no es rigidez. Es saber hacia dónde va la familia y conducir con firmeza y afecto, un gesto a la vez."
           ],
-          "journeyTitle": "Cómo caminamos juntas",
+          "journeyTitle": "Cómo te acompaño",
           "journeyBody": [
-            "Partimos de tu familia real, el temperamento de cada hijo, el ritmo del matrimonio, lo que ya funciona y lo que te está agotando. No es teoría de manual: cada casa entra distinta.",
-            "Aplicamos los pilares del METI a tu día: cómo devolver autoridad sin volverse autoritarismo, cómo construir liturgias diarias (comida, oración, sueño, descanso) que sostienen la casa solas, cómo educar por el carácter sin tercerizar a la escuela, a la pantalla o a la suerte.",
+            "Partimos de tu familia real: el temperamento de cada hijo, el ritmo del matrimonio, lo que ya funciona y lo que te está agotando. No es teoría de manual; cada casa entra distinta.",
+            "Trabajamos tu día a día: cómo devolver autoridad sin volverte autoritaria, cómo construir rutinas (comida, oración, sueño, descanso) que sostienen la casa solas, y cómo formar carácter sin tercerizar a la escuela, a la pantalla o a la suerte.",
             "Encuentros regulares, ajustes continuos, acompañamiento de la vida real, no teoría suelta en un cuadernillo."
           ],
           "forWhomTitle": "Para quién es",
           "forWhomItems": [
-            "Padres y madres que sienten que educar se volvió negociación de 24 horas",
-            "Familias que han visto que la parentalidad moderna está formando hijos ansiosos y sin dirección",
-            "Parejas que quieren alinear cómo criar antes de que los hijos crezcan tomando lados diferentes",
-            "Familias de fe que quieren que la educación refleje lo que creen, vivido en casa todos los días",
-            "Padres que quieren volver a la intencionalidad que vieron en sus abuelos, adaptada al hoy"
+            "Padres y madres que sienten que educar se volvió una negociación de 24 horas",
+            "Familias cansadas de reaccionar, que quieren criar con dirección",
+            "Parejas que quieren alinear cómo crían antes de que los hijos crezcan tomando lados distintos",
+            "Familias de fe que quieren que la educación refleje lo que creen, vivido en casa cada día",
+            "Padres que quieren intencionalidad en la crianza, sin rigidez y sin improvisación"
           ],
-          "ctaLabel": "Hablemos por WhatsApp",
-          "ctaWhatsappText": "Hola Nagila, vengo de la página de Mentoría METI, quiero conversar sobre educación parental",
+          "ctaLabel": "Quiero conversar por WhatsApp",
+          "ctaWhatsappText": "Hola Nágila, vengo de la página de Educación Parental, quiero conversar",
           "backToHome": "Volver al inicio"
         }
       }
@@ -292,7 +253,7 @@
     "errorRequired": "Completa todos los campos.",
     "errorEmail": "Ingresa un correo válido.",
     "errorGeneric": "Algo salió mal. Inténtalo de nuevo.",
-    "privacy": "Tus datos se usan solo para enviarte este material y novedades de Nagila."
+    "privacy": "Tus datos se usan solo para enviarte este material y novedades de Nágila."
   },
   "contact": {
     "titleLine1": "Si algo aquí te tocó,",
@@ -308,18 +269,17 @@
     "interestPlaceholder": "Selecciona un tema",
     "interestOptions": [
       "Consultoría de Sueño",
-      "Maternidad Real",
-      "Educación en Casa",
-      "Mentoría METI",
+      "Primeros pasos (alfabetización)",
+      "Educación Parental con dirección",
       "Materiales y recursos",
-      "Otro"
+      "Otro asunto"
     ],
     "formSubmit": "Enviar",
     "formSending": "Enviando...",
     "formSuccess": "¡Recibí tu mensaje! Pronto te respondo."
   },
   "footer": {
-    "name": "Nagila Decastro",
+    "name": "Nágila Decastro",
     "copy": "2026 · Cape Cod, Massachusetts"
   }
 }

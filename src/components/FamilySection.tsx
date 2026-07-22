@@ -15,7 +15,7 @@ export default function FamilySection({ dict }: Props) {
       <FadeIn direction="none" className="relative w-full aspect-[3/2] md:aspect-[16/9] max-h-[80vh] overflow-hidden">
         <Image
           src="/images/family.jpg"
-          alt="Família Decastro: Nagila, Ewerton, Helena e Catharina"
+          alt="Família Decastro: Nágila, Ewerton, Helena e Catharina"
           fill
           className="object-cover object-top"
           sizes="100vw"

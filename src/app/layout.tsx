@@ -24,12 +24,12 @@ const SITE_URL = "https://nagiladecastro.netlify.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Nagila Decastro",
+  title: "Nágila Decastro",
   description: "Esposa, mãe de duas meninas, educadora em casa e mentora de mães. Cape Cod, Massachusetts.",
   openGraph: {
     type: "website",
-    siteName: "Nagila Decastro",
-    images: [{ url: "/images/hero.jpg", width: 1080, height: 1080, alt: "Nagila Decastro" }],
+    siteName: "Nágila Decastro",
+    images: [{ url: "/images/hero.jpg", width: 1080, height: 1080, alt: "Nágila Decastro" }],
   },
   twitter: {
     card: "summary_large_image",

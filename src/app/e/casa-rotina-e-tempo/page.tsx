@@ -16,7 +16,7 @@ export default function EntregaCasaRotinaTempo() {
     <main className="min-h-screen w-full bg-background flex items-center justify-center px-6 py-16">
       <div className="w-full max-w-lg text-center">
         <span className="font-barlow-condensed text-[11px] tracking-[0.4em] uppercase text-text-secondary">
-          Nagila Decastro
+          Nágila Decastro
         </span>
 
         <div className="w-10 h-px bg-terracotta mx-auto my-8" aria-hidden="true" />

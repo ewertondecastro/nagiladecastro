@@ -3,9 +3,9 @@ import { getDict } from "@/lib/getDict";
 import MentoriasIndex from "@/components/MentoriasIndex";
 
 export const metadata: Metadata = {
-  title: "Mentorías | Nagila Decastro",
+  title: "Mentorías | Nágila Decastro",
   description:
-    "Consultoría de sueño, maternidad real, homeschool y Mentoría METI. Cuatro caminos, una raíz: cuidar de la madre y de la casa.",
+    "Consultoría de sueño, primeros pasos de la alfabetización y educación parental con dirección. Tres caminos, una raíz: cuidar de la madre y de la casa.",
   alternates: {
     canonical: "/es/mentorias",
     languages: { "pt-BR": "/mentorias", "en-US": "/en/mentorias", "es-ES": "/es/mentorias" },

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Nagila Decastro",
-    "description": "Wife, mother of two girls, homeschool educator, and mentor to mothers. Sleep consulting, real motherhood, homeschool, and METI Mentorship.",
+    "title": "Nágila Decastro",
+    "description": "Wife, mother of two girls, homeschool educator, and mentor to mothers. Sleep consulting, first steps to literacy, and parenting with direction.",
     "locale": "en_US"
   },
   "nav": {
@@ -19,7 +19,7 @@
   },
   "hero": {
     "tags": "CHRISTIAN · WIFE · MOTHER · HOMESCHOOLER · MENTOR",
-    "firstName": "Nagila",
+    "firstName": "Nágila",
     "lastName": "Decastro",
     "tagline": [
       "Motherhood with presence.",
@@ -39,7 +39,7 @@
     "titleLine2": "homeschool educator,",
     "titleLine3": "mentor to mothers.",
     "body": [
-      "I am Nagila, wife to Ewerton, mother to Helena and Catharina, living on Cape Cod. Every birth rewrote what I understood about rest, presence and home.",
+      "I am Nágila, wife to Ewerton, mother to Helena and Catharina, living on Cape Cod. Every birth rewrote what I understood about rest, presence and home.",
       "I learned firsthand that a baby's sleep is not a technical detail, it is the oxygen of an entire family. When a mother sleeps again, she returns to herself.",
       "I have homeschooled my two daughters from day one. Not as a rejection of the world, but as a deep yes to time, the time that does not come twice, the time it takes to pass on character at the child's own pace.",
       "Today I walk alongside mothers and families who want more than to survive motherhood and parenting, grounded in serious training, not guesswork. Families who want to live inside it all with clarity, ease and purpose."
@@ -67,7 +67,7 @@
   },
   "services": {
     "sectionTitle": "How I walk with you",
-    "sectionSubtitle": "Four paths, one root: caring for the mother and the home. Tap a mentorship to see how it works and start a conversation.",
+    "sectionSubtitle": "Three paths, one root: caring for the mother and the home. Tap a mentorship to see how it works and start a conversation.",
     "featuredTag": "Start here",
     "othersLabel": "Other mentorship paths",
     "cards": [
@@ -79,7 +79,7 @@
         "description": "A human, personalized plan for your baby's sleep, honoring the bond, the child's temperament and your family's real rhythm. No harsh formulas, no guilt.",
         "learnMore": "Learn more",
         "contactCta": "Message on WhatsApp",
-        "whatsappText": "Hi Nagila, I came from your site, I'd like to know more about Sleep Consulting",
+        "whatsappText": "Hi Nágila, I came from your site, I'd like to know more about Sleep Consulting",
         "detail": {
           "eyebrow": "MENTORSHIP · 01",
           "headlineLine1": "Sleep that rests",
@@ -98,66 +98,27 @@
           ],
           "forWhomTitle": "Who this is for",
           "forWhomItems": [
-            "Mothers of babies and young children from 0 to 5 years",
+            "Mothers of babies and young children from 0 to 3 years",
             "Mothers tired of method X, method Y, formulas that ignore who your child actually is",
             "Mothers who do not want to use cry-it-out and are looking for a respectful path",
             "Mothers who want to sleep again without giving up who they are"
           ],
           "ctaLabel": "Let's talk on WhatsApp",
-          "ctaWhatsappText": "Hi Nagila, I came from the Sleep Consulting page, I'd like to talk about my baby's sleep",
-          "backToHome": "Back to home"
-        }
-      },
-      {
-        "slug": "maternidade",
-        "number": "02",
-        "titleLine1": "Real",
-        "titleLine2": "Motherhood",
-        "description": "Mentorship for mothers in transition: first child, second child, identity after birth, marriage after baby. Honest talk, practical tools, gentle support.",
-        "learnMore": "Learn more",
-        "contactCta": "Message on WhatsApp",
-        "whatsappText": "Hi Nagila, I came from your site, I'd like to know more about Real Motherhood Mentorship",
-        "detail": {
-          "eyebrow": "MENTORSHIP · 02",
-          "headlineLine1": "Motherhood lived,",
-          "headlineLine2": "not merely survived.",
-          "intro": "Motherhood is not a miracle that happens to you. It is a crossing you cross, and almost no one is honest about what it's like from the inside. Identity that comes apart. Marriage that shifts. Body that returns different. Career on pause. Friends who disappear. And the silent question: \"am I still me?\"",
-          "whyTitle": "Why it matters",
-          "whyBody": [
-            "When motherhood is lived alone, it becomes survival. And mothers who survive for too long eventually collapse, into exhaustion, into anger, into distance.",
-            "It is not moral weakness. It is the absence of company, and sometimes the absence of information, many postpartum experiences feel like personal chaos when they are actually explained by well-studied physiology and developmental psychology. You just need someone who recognizes it, guides you, and stays near.",
-            "A mother needs another mother who has been through it, who has cried in the shower, who has come back to herself, with foundation, not only with affection."
-          ],
-          "journeyTitle": "How we walk together",
-          "journeyBody": [
-            "We talk. Really talk. This isn't spreadsheet coaching, it's woman-to-woman mentorship, grounded in my own experience as mother to Helena and Catharina, and in my training as a Certified Parental Educator.",
-            "We work together on what is weighing right now: identity in postpartum, marriage after the baby, accumulated exhaustion, mother-guilt without reason and with reason, decisions between work and motherhood, returning to faith and to the friendships motherhood shook, building a routine for when there is more than one child in the house.",
-            "Regular meetings, no tight deadline, no rigid method. I listen, I ask questions back, I give you concrete tools, and I come back the next week, and the week after, until you no longer need me."
-          ],
-          "forWhomTitle": "Who this is for",
-          "forWhomItems": [
-            "First-time mothers feeling lost in the middle of the obvious",
-            "Second-child mothers who feel they are starting from zero, and guilty about it",
-            "Mothers who lost themselves in the work of raising people",
-            "Mothers who feel the marriage has been pushed to second place and don't know how to come back",
-            "Mothers who want to be whole, not only mothers"
-          ],
-          "ctaLabel": "Let's talk on WhatsApp",
-          "ctaWhatsappText": "Hi Nagila, I came from the Real Motherhood Mentorship page, I'd like to talk",
+          "ctaWhatsappText": "Hi Nágila, I came from the Sleep Consulting page, I'd like to talk about my baby's sleep",
           "backToHome": "Back to home"
         }
       },
       {
         "slug": "homeschool",
-        "number": "03",
-        "titleLine1": "Home",
-        "titleLine2": "Education",
-        "description": "For mothers who feel the call to homeschool but don't know where to start. Routine, materials, a simple curriculum and the courage for the first week, and all the weeks after.",
+        "number": "02",
+        "titleLine1": "First steps",
+        "titleLine2": "to pre-reading and literacy",
+        "description": "How to guide your child through the first steps of reading and writing, from pre-reading to early literacy, with method and without rushing.",
         "learnMore": "Learn more",
         "contactCta": "Message on WhatsApp",
-        "whatsappText": "Hi Nagila, I came from your site, I'd like to know more about Homeschool Mentorship",
+        "whatsappText": "Hi Nágila, I came from your site, I'd like to know more about Homeschool Mentorship",
         "detail": {
-          "eyebrow": "MENTORSHIP · 03",
+          "eyebrow": "MENTORSHIP · 02",
           "headlineLine1": "Homeschool with ease,",
           "headlineLine2": "method and purpose.",
           "intro": "You feel the call to educate at home. You've felt it since before the first child, or you started feeling it now that they're school age. But you don't know where to start, and every time you ask, someone scares you with paperwork, curriculum, isolation, or lack of time.",
@@ -183,46 +144,46 @@
             "Christian families wanting to align faith and education inside their own home"
           ],
           "ctaLabel": "Let's talk on WhatsApp",
-          "ctaWhatsappText": "Hi Nagila, I came from the Homeschool Mentorship page, I'd like to talk about educating at home",
+          "ctaWhatsappText": "Hi Nágila, I came from the Homeschool Mentorship page, I'd like to talk about educating at home",
           "backToHome": "Back to home"
         }
       },
       {
-        "slug": "meti",
-        "number": "04",
-        "titleLine1": "METI",
-        "titleLine2": "Mentorship",
-        "description": "Method of Intentional Traditional Education. Parental education that recovers clear limits, family hierarchy and character formation, with the intentionality modern parenting forgot.",
+        "slug": "educacao-parental",
+        "number": "03",
+        "titleLine1": "Parenting",
+        "titleLine2": "with direction",
+        "description": "Parenting with clear direction: authority with affection, a routine that holds the home together, and character formed day by day, in place of improvisation and endless negotiation.",
         "learnMore": "Learn more",
         "contactCta": "Message on WhatsApp",
-        "whatsappText": "Hi Nagila, I came from your site, I'd like to know more about METI Mentorship (Parental Education)",
+        "whatsappText": "Hi Nágila, I came from your site, I'd like to know more about the Parenting with Direction mentorship",
         "detail": {
-          "eyebrow": "MENTORSHIP · 04",
-          "headlineLine1": "Raising as before,",
-          "headlineLine2": "with the intention of now.",
-          "intro": "METI, Method of Intentional Traditional Education, is a serious methodology of parental education, built as an answer to the reactive parenting of our time. As a Certified Parental Educator, I bring its principles into your family: raising as before, but choosing every gesture, grounded in neuroscience, in virtue and in order.",
+          "eyebrow": "MENTORSHIP · 03",
+          "headlineLine1": "Raise with direction,",
+          "headlineLine2": "not improvisation.",
+          "intro": "Raising children stopped being leading and became reacting: we put out fires, negotiate all day and end up exhausted, unsure we're going anywhere. As a Certified Parental Educator and a mother who educates her own daughters, I help you give direction back to parenting, choosing each gesture with intention.",
           "whyTitle": "Why it matters",
           "whyBody": [
-            "Most families today raise their children by improvisation. They react to children's behavior, copy what they saw at home, outsource to school or screen. The result is a generation of exhausted parents and anxious children without direction.",
-            "METI rests on pillars modern parenting has unlearned: parental authority in place of endless negotiation; order and predictability that give the child emotional security; character formation through the cardinal virtues (courage, prudence, justice, temperance) rather than reward for good behavior; limits set with firmness and respect, never with emotional punishment.",
-            "Tradition is not blind repetition. It is tested wisdom we choose to honor with intention, gesture by gesture."
+            "Most families today parent by improvisation: reacting to behavior, copying what they saw at home, outsourcing to school or screens. The result is a generation of tired parents and anxious children, with no direction.",
+            "A home with direction has authority instead of endless negotiation, order and predictability that give the child emotional security, firm limits set with respect, and character formed day by day, not rewarded for good behavior.",
+            "Direction is not rigidity. It is knowing where the family is going and leading with firmness and affection, one gesture at a time."
           ],
-          "journeyTitle": "How we walk together",
+          "journeyTitle": "How I walk with you",
           "journeyBody": [
-            "We start from your real family, the temperament of each child, the rhythm of your marriage, what is already working and what is draining you. Not theory from a manual: every home enters differently.",
-            "We apply the pillars of METI to your daily life: how to return authority without becoming authoritarian, how to build daily liturgies (meals, prayer, sleep, rest) that carry the home on their own, how to raise for character without outsourcing to school, screen, or luck.",
-            "Regular meetings, continuous adjustments, real-life accompaniment, not loose theory in a workbook."
+            "We start from your real family: each child's temperament, the rhythm of your marriage, what is already working and what is draining you. Not manual theory; every home enters differently.",
+            "We work on your everyday life: how to restore authority without turning to authoritarianism, how to build routines (meals, prayer, sleep, rest) that hold the home on their own, and how to form character without outsourcing it to school, screens or chance.",
+            "Regular meetings, continuous adjustments, real-life support, not loose theory in a workbook."
           ],
-          "forWhomTitle": "Who this is for",
+          "forWhomTitle": "Who it's for",
           "forWhomItems": [
-            "Parents who feel raising children has become a 24-hour negotiation",
-            "Families who have seen modern parenting form anxious children without direction",
-            "Couples who want to align how they raise before the children grow up picking sides",
-            "Families of faith who want education to reflect what they believe, lived at home every day",
-            "Parents who want to return to the intentionality they saw in their grandparents, adapted to today"
+            "Parents who feel raising kids became a 24-hour negotiation",
+            "Families tired of reacting, who want to raise with direction",
+            "Couples who want to align how they parent before their kids grow up taking sides",
+            "Families of faith who want their parenting to reflect what they believe, lived at home every day",
+            "Parents who want intentionality in raising their kids, without rigidity or improvisation"
           ],
-          "ctaLabel": "Let's talk on WhatsApp",
-          "ctaWhatsappText": "Hi Nagila, I came from the METI Mentorship page, I'd like to talk about parental education",
+          "ctaLabel": "I'd like to talk on WhatsApp",
+          "ctaWhatsappText": "Hi Nágila, I came from the Parenting with Direction page, I'd like to talk",
           "backToHome": "Back to home"
         }
       }
@@ -292,7 +253,7 @@
     "errorRequired": "Please fill in all fields.",
     "errorEmail": "Enter a valid email.",
     "errorGeneric": "Something went wrong. Please try again.",
-    "privacy": "Your data is only used to send this material and updates from Nagila."
+    "privacy": "Your data is only used to send this material and updates from Nágila."
   },
   "contact": {
     "titleLine1": "If something here spoke to you,",
@@ -308,9 +269,8 @@
     "interestPlaceholder": "Select a topic",
     "interestOptions": [
       "Sleep Consulting",
-      "Real Motherhood",
-      "Homeschool",
-      "METI Mentorship",
+      "First steps (literacy)",
+      "Parenting with direction",
       "Materials and resources",
       "Other"
     ],
@@ -319,7 +279,7 @@
     "formSuccess": "I got your message! I'll get back to you soon."
   },
   "footer": {
-    "name": "Nagila Decastro",
+    "name": "Nágila Decastro",
     "copy": "2026 · Cape Cod, Massachusetts"
   }
 }

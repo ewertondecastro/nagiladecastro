@@ -3,9 +3,9 @@ import { getDict } from "@/lib/getDict";
 import SobrePage from "@/components/SobrePage";
 
 export const metadata: Metadata = {
-  title: "Sobre mí | Nagila Decastro",
+  title: "Sobre mí | Nágila Decastro",
   description:
-    "Nagila Decastro: esposa, madre de dos niñas, educadora en casa y mentora de madres en Cape Cod, Massachusetts.",
+    "Nágila Decastro: esposa, madre de dos niñas, educadora en casa y mentora de madres en Cape Cod, Massachusetts.",
   alternates: {
     canonical: "/es/sobre",
     languages: { "pt-BR": "/sobre", "en-US": "/en/sobre", "es-ES": "/es/sobre" },

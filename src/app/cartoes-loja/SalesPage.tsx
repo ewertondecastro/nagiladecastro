@@ -398,7 +398,7 @@ export default function SalesPage() {
             Quem preparou
           </span>
           <p className="font-playfair italic text-text-primary leading-snug mt-4" style={{ fontSize: "clamp(22px, 3vw, 34px)" }}>
-            Feito por Nagila Decastro, educadora parental certificada e mãe que
+            Feito por Nágila Decastro, educadora parental certificada e mãe que
             educa as duas filhas em casa.
           </p>
           <p className="font-barlow text-text-secondary leading-relaxed mt-5" style={{ fontSize: "clamp(17px, 1.5vw, 21px)" }}>
@@ -503,7 +503,7 @@ export default function SalesPage() {
       {/* ───────── FOOTER ───────── */}
       <footer className="px-6 py-14 border-t border-cream-line text-center">
         <span className="font-barlow-condensed text-[11px] tracking-[0.4em] uppercase text-text-secondary">
-          Nagila Decastro
+          Nágila Decastro
         </span>
       </footer>
     </main>

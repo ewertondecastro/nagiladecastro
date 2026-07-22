@@ -19,7 +19,7 @@ export default function HeroSection({ dict }: Props) {
         <div className="relative w-full h-full">
           <Image
             src="/images/hero.jpg"
-            alt="Nagila Decastro"
+            alt="Nágila Decastro"
             fill
             priority
             className="object-cover object-top opacity-90"

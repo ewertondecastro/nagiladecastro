@@ -5,7 +5,7 @@ import ProductsSection from "@/components/ProductsSection";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Resources | Nagila Decastro",
+  title: "Resources | Nágila Decastro",
   description:
     "Practical materials on motherhood, sleep and homeschooling to help you start today.",
 };

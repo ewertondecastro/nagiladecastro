@@ -4,7 +4,7 @@ import MentoriaDetail from "@/components/MentoriaDetail";
 import type { Metadata } from "next";
 import type { MentoriaSlug } from "@/types/locale";
 
-const SLUGS: MentoriaSlug[] = ["sono", "maternidade", "homeschool", "meti"];
+const SLUGS: MentoriaSlug[] = ["sono", "homeschool", "educacao-parental"];
 
 export function generateStaticParams() {
   return SLUGS.map((slug) => ({ slug }));
