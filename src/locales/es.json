@@ -109,42 +109,42 @@
         }
       },
       {
-        "slug": "homeschool",
+        "slug": "primeiros-passos",
         "number": "02",
         "titleLine1": "Primeros pasos",
         "titleLine2": "a la pre-lectura y alfabetización",
         "description": "Cómo acompañar al niño en los primeros pasos de la lectura y la escritura, de la pre-lectura al inicio de la alfabetización, con método y sin prisa.",
         "learnMore": "Saber más",
         "contactCta": "Hablar por WhatsApp",
-        "whatsappText": "Hola Nágila, vengo de tu sitio, quiero saber más sobre la Mentoría de Homeschool",
+        "whatsappText": "Hola Nágila, vengo de tu sitio, quiero saber más sobre la mentoría de Primeros Pasos (pre-lectura y alfabetización)",
         "detail": {
           "eyebrow": "MENTORÍA · 02",
-          "headlineLine1": "Homeschool con ligereza,",
-          "headlineLine2": "método y propósito.",
-          "intro": "Sientes el llamado de educar en casa. Lo sientes desde antes del primer hijo, o empezaste a sentirlo ahora que está en edad escolar. Pero no sabes por dónde empezar, y cada vez que preguntas, alguien te asusta con burocracia, currículo, aislamiento o falta de tiempo.",
+          "headlineLine1": "De la primera letra",
+          "headlineLine2": "a un hogar que educa.",
+          "intro": "Tu hijo está en edad de empezar a leer y escribir, y quieres ser parte de eso, no delegarlo. Pero llegan las dudas: ¿por cuál letra empiezo? ¿Por sonido o por sílaba? ¿Y si enseño mal y lo bloqueo? No necesitas un cuaderno caro ni volverte maestra. Necesitas un camino claro, al ritmo del niño, que empiece en la alfabetización y pueda crecer junto con tu familia.",
           "whyTitle": "Por qué importa",
           "whyBody": [
-            "Educar en casa no es un rechazo al mundo. Es un sí profundo al tiempo, al tiempo de aprender al ritmo del niño, al tiempo de construir vínculo mientras se enseña, al tiempo de transmitir valores que no caben en un horario escolar.",
-            "Yo eduqué a mis dos hijas en casa desde el primer día, y es la decisión que más rediseñó nuestra familia. No es fácil. Vale cada hora.",
-            "Y sí, se puede hacer con ligereza, sin volverte profesora particular de tiempo completo, sin perder la alegría de ser madre, sin aislar a la familia del mundo. Pero requiere método, no improvisación."
+            "Los primeros pasos en la lectura marcan al niño para toda la vida. Hechos con prisa y exigencia, crean bloqueo y la idea de que aprender duele. Hechos con método y presencia, crean un niño al que le gusta aprender, y eso vale más que cualquier nota.",
+            "Alfabeticé a mis dos hijas en casa y seguí educándolas por completo. Sé dónde suele trabarse el niño, sé qué hacer cuando parece que no avanza, y sé cómo mantenerlo ligero sin renunciar al método.",
+            "Y lo mejor: la alfabetización es solo el comienzo. Cuando entiendes cómo aprende tu hijo, el mismo camino abre la puerta a educar en casa de verdad, si y cuando quieras dar ese paso."
           ],
           "journeyTitle": "Cómo caminamos juntas",
           "journeyBody": [
-            "No te entrego un currículo hecho, porque cada casa es diferente. Te ayudo a diseñar el tuyo, empezando por el POR QUÉ (los valores que quieren transmitir) antes que por el CÓMO (materias, método, materiales).",
-            "Cubrimos juntas: legalización y burocracia donde vives; elección del método de enseñanza (clásico, Charlotte Mason, ecléctico, unschool, el que conversa con tu familia); armar la rutina real, diaria y semanal; recursos gratuitos y pagos para empezar ligero; cómo integrar distintas edades cuando hay más de un hijo; el papel del padre en el homeschool; qué hacer con un bebé pequeño mientras el mayor estudia; estrategias para las semanas en las que crees que vas a desistir.",
-            "Mentoría continua, no una clase suelta, para que tengas a alguien la primera semana, la quinta y la vigésima cuando se acabe el entusiasmo y el método tenga que sostener la casa."
+            "Empezamos por la base: cómo aprende el niño a leer y a escribir, qué viene antes de la primera letra (la pre-lectura), qué método combina con tu hijo y tu rutina, y cómo convertir 15 minutos al día en avance real, sin llanto ni peleas.",
+            "Después te muestro el camino natural de continuidad: cómo estos primeros pasos se extienden a una educación en casa completa, si esa es tu voluntad. Legalización donde vives, elección de método, armado de rutina, cómo integrar a más de un hijo, el papel del padre, y qué hacer en las semanas en que crees que vas a rendirte.",
+            "Es mentoría continua, no una clase suelta. Tienes a alguien en la primera semana, en la décima y en la centésima, cuando pasa el entusiasmo y el método tiene que sostener la casa."
           ],
           "forWhomTitle": "Para quién es",
           "forWhomItems": [
-            "Madres considerando el homeschool por primera vez",
-            "Familias que ya empezaron, pero están sin rumbo",
-            "Madres que hacen homeschool y se sienten solas en el camino",
-            "Familias con más de un hijo intentando equilibrar edades diferentes",
-            "Parejas donde uno de los cónyuges aún está dudoso y necesita información seria",
-            "Familias cristianas que quieren alinear fe y educación dentro de la propia casa"
+            "Madres de niños en la etapa de pre-lectura y alfabetización (entre los 3 y los 6 años)",
+            "Quien quiere enseñar a su hijo a leer en casa y teme hacerlo mal",
+            "Familias que prueban la alfabetización en casa antes de decidir sobre el homeschool",
+            "Madres que ya piensan en educar en casa y quieren empezar por el camino más natural",
+            "Familias con más de un hijo equilibrando edades diferentes",
+            "Familias cristianas que quieren alinear fe y aprendizaje dentro de casa"
           ],
           "ctaLabel": "Hablemos por WhatsApp",
-          "ctaWhatsappText": "Hola Nágila, vengo de la página de Mentoría de Homeschool, quiero conversar sobre educar en casa",
+          "ctaWhatsappText": "Hola Nágila, vengo de la página de Primeros Pasos, quiero conversar sobre alfabetización y educación en casa",
           "backToHome": "Volver al inicio"
         }
       },

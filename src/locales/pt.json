@@ -109,42 +109,42 @@
         }
       },
       {
-        "slug": "homeschool",
+        "slug": "primeiros-passos",
         "number": "02",
         "titleLine1": "Primeiros passos",
         "titleLine2": "para pré e alfabetização",
         "description": "Como acompanhar a criança nos primeiros passos da leitura e da escrita, do pré ao início da alfabetização, com método e sem pressa.",
         "learnMore": "Saiba mais",
         "contactCta": "Falar no WhatsApp",
-        "whatsappText": "Oi Nágila, vim pelo seu site, quero saber mais sobre a Mentoria de Homeschool (Educação em Casa)",
+        "whatsappText": "Oi Nágila, vim pelo seu site, quero saber mais sobre a mentoria de Primeiros Passos (pré e alfabetização)",
         "detail": {
           "eyebrow": "MENTORIA · 02",
-          "headlineLine1": "Homeschool com leveza,",
-          "headlineLine2": "método e propósito.",
-          "intro": "Você sente o chamado de educar em casa. Sente desde antes do primeiro filho, ou começou a sentir agora que ele tem idade de escola. Mas não sabe por onde começar, e cada vez que pergunta, alguém te assusta com burocracia, currículo, isolamento ou falta de tempo.",
+          "headlineLine1": "Da primeira letra",
+          "headlineLine2": "à casa que educa.",
+          "intro": "Seu filho está na idade de começar a ler e escrever, e você quer ser parte disso, não terceirizar. Só que batem as dúvidas: começo por qual letra? Por som ou por sílaba? E se eu ensinar errado e travar ele? Você não precisa de uma apostila cara nem de virar pedagoga. Precisa de um caminho claro, no ritmo da criança, que comece na alfabetização e possa crescer junto com a sua família.",
           "whyTitle": "Por que isso importa",
           "whyBody": [
-            "Educar em casa não é uma rejeição ao mundo. É um sim profundo ao tempo: ao tempo de aprender no ritmo da criança, ao tempo de construir vínculo enquanto se ensina, ao tempo de transmitir valores que não cabem em horário de aula.",
-            "Eu eduquei minhas duas filhas em casa desde o primeiro dia, e essa é a decisão que mais redesenhou a nossa família. Não é fácil. Vale cada hora.",
-            "E sim, dá pra fazer com leveza, sem virar professora particular em tempo integral, sem perder a alegria de ser mãe, sem isolar a família do mundo. Mas precisa de método, não de improviso."
+            "Os primeiros passos na leitura marcam a criança pra vida. Feitos com pressa e cobrança, criam bloqueio e a ideia de que aprender dói. Feitos com método e presença, criam uma criança que gosta de aprender, e isso vale mais que qualquer nota.",
+            "Eu alfabetizei minhas duas filhas em casa e segui educando elas por completo. Sei onde a criança costuma travar, sei o que fazer quando parece que não avança, e sei como manter isso leve sem abrir mão do método.",
+            "E o melhor: a alfabetização é só o começo. Quando você entende como a criança aprende, o mesmo caminho abre a porta pra educar em casa de verdade, se e quando você quiser dar esse passo."
           ],
           "journeyTitle": "Como eu te acompanho",
           "journeyBody": [
-            "Não te entrego currículo pronto, porque cada casa é diferente. Te ajudo a desenhar o seu, começando pelo POR QUÊ (os valores que vocês querem transmitir) antes do COMO (matérias, método, materiais).",
-            "Cobrimos juntas: legalização e burocracia onde você mora; escolha do método de ensino (clássico, Charlotte Mason, eclético, unschool, qual conversa com a sua família); montagem da rotina real, dia e semana; recursos gratuitos e pagos pra começar leve; como integrar idades diferentes quando tem mais de um filho; o papel do pai no homeschool; o que fazer com bebê pequeno enquanto o mais velho estuda; estratégias pras semanas em que você acha que vai desistir.",
-            "Mentoria contínua, não aula avulsa, pra você ter alguém na primeira semana, na quinta, e na vigésima, quando a empolgação acabar e o método tiver que segurar a casa."
+            "Começamos pelo chão: como a criança aprende a ler e a escrever, o que vem antes da primeira letra (a pré), qual método combina com o seu filho e com a sua rotina, e como transformar 15 minutos por dia em avanço real, sem choro e sem briga.",
+            "Depois eu te mostro o caminho natural de continuidade: como esses primeiros passos se estendem para uma educação em casa completa, se essa for a sua vontade. Legalização onde você mora, escolha de método, montagem de rotina, como integrar mais de um filho, o papel do pai, e o que fazer nas semanas em que você acha que vai desistir.",
+            "É mentoria contínua, não aula avulsa. Você tem alguém na primeira semana, na décima e na centésima, quando a empolgação passa e o método precisa segurar a casa."
           ],
           "forWhomTitle": "Pra quem é",
           "forWhomItems": [
-            "Mães considerando homeschool pela primeira vez",
-            "Famílias que já começaram, mas estão sem norte",
-            "Mães que fazem homeschool e se sentem sozinhas no caminho",
+            "Mães de crianças na fase de pré e alfabetização (por volta dos 3 aos 6 anos)",
+            "Quem quer ensinar o filho a ler em casa e tem medo de fazer errado",
+            "Famílias testando a alfabetização em casa antes de decidir sobre homeschool",
+            "Mães que já pensam em educar em casa e querem começar pelo caminho mais natural",
             "Famílias com mais de um filho tentando equilibrar idades diferentes",
-            "Casais onde um dos cônjuges ainda está hesitante e precisa de informação séria",
-            "Famílias cristãs querendo alinhar fé e educação dentro da própria casa"
+            "Famílias cristãs querendo alinhar fé e aprendizado dentro de casa"
           ],
           "ctaLabel": "Quero conversar pelo WhatsApp",
-          "ctaWhatsappText": "Oi Nágila, vim pela página da Mentoria de Homeschool, quero conversar sobre educar em casa",
+          "ctaWhatsappText": "Oi Nágila, vim pela página de Primeiros Passos, quero conversar sobre alfabetização e educação em casa",
           "backToHome": "Voltar ao início"
         }
       },

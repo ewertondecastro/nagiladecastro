@@ -1,5 +1,5 @@
 export type Locale = "pt" | "en" | "es";
-export type MentoriaSlug = "sono" | "homeschool" | "educacao-parental";
+export type MentoriaSlug = "sono" | "primeiros-passos" | "educacao-parental";
 
 export interface MentoriaDetail {
   eyebrow: string;
