@@ -68,6 +68,8 @@
   "services": {
     "sectionTitle": "Como eu acompanho",
     "sectionSubtitle": "Quatro caminhos, uma raiz: cuidar da mãe e da casa. Toque na mentoria pra ver como funciona e comece uma conversa.",
+    "featuredTag": "Comece por aqui",
+    "othersLabel": "Outras frentes de mentoria",
     "cards": [
       {
         "slug": "sono",
@@ -304,7 +306,14 @@
     "orLabel": "ou",
     "interestLabel": "Interesse",
     "interestPlaceholder": "Selecione um assunto",
-    "interestOptions": ["Consultoria de Sono", "Maternidade Real", "Educação em Casa", "Mentoria METI", "Materiais e recursos", "Outro assunto"],
+    "interestOptions": [
+      "Consultoria de Sono",
+      "Maternidade Real",
+      "Educação em Casa",
+      "Mentoria METI",
+      "Materiais e recursos",
+      "Outro assunto"
+    ],
     "formSubmit": "Enviar",
     "formSending": "Enviando...",
     "formSuccess": "Recebi seu contato! Em breve eu te respondo."

@@ -68,6 +68,8 @@
   "services": {
     "sectionTitle": "How I walk with you",
     "sectionSubtitle": "Four paths, one root: caring for the mother and the home. Tap a mentorship to see how it works and start a conversation.",
+    "featuredTag": "Start here",
+    "othersLabel": "Other mentorship paths",
     "cards": [
       {
         "slug": "sono",
@@ -304,7 +306,14 @@
     "orLabel": "or",
     "interestLabel": "Interest",
     "interestPlaceholder": "Select a topic",
-    "interestOptions": ["Sleep Consulting", "Real Motherhood", "Homeschool", "METI Mentorship", "Materials and resources", "Other"],
+    "interestOptions": [
+      "Sleep Consulting",
+      "Real Motherhood",
+      "Homeschool",
+      "METI Mentorship",
+      "Materials and resources",
+      "Other"
+    ],
     "formSubmit": "Send",
     "formSending": "Sending...",
     "formSuccess": "I got your message! I'll get back to you soon."

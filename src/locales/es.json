@@ -68,6 +68,8 @@
   "services": {
     "sectionTitle": "Cómo te acompaño",
     "sectionSubtitle": "Cuatro caminos, una raíz: cuidar de la madre y de la casa. Toca la mentoría para ver cómo funciona y empieza una conversación.",
+    "featuredTag": "Empieza aquí",
+    "othersLabel": "Otras frentes de mentoría",
     "cards": [
       {
         "slug": "sono",
@@ -304,7 +306,14 @@
     "orLabel": "o",
     "interestLabel": "Interés",
     "interestPlaceholder": "Selecciona un tema",
-    "interestOptions": ["Consultoría de Sueño", "Maternidad Real", "Educación en Casa", "Mentoría METI", "Materiales y recursos", "Otro"],
+    "interestOptions": [
+      "Consultoría de Sueño",
+      "Maternidad Real",
+      "Educación en Casa",
+      "Mentoría METI",
+      "Materiales y recursos",
+      "Otro"
+    ],
     "formSubmit": "Enviar",
     "formSending": "Enviando...",
     "formSuccess": "¡Recibí tu mensaje! Pronto te respondo."

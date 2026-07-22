@@ -105,6 +105,8 @@ export interface LocaleDict {
   services: {
     sectionTitle: string;
     sectionSubtitle: string;
+    featuredTag: string;
+    othersLabel: string;
     cards: MentoriaCard[];
   };
   products: {
