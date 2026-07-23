@@ -346,7 +346,7 @@ export default function SalesPageEbook() {
             aprendeu algumas coisas que funcionam de verdade.
           </p>
           <p className="font-barlow text-text-secondary leading-relaxed mt-5" style={{ fontSize: "clamp(17px, 1.5vw, 21px)" }}>
-            Nágila Decastro, autora e mentora, mãe que já viveu a casa no
+            Nágila Decastro, autora e consultora, mãe que já viveu a casa no
             improviso e reaprendeu a conduzi-la. Menos teoria bonita, mais o que
             dá para começar a fazer amanhã de manhã.
           </p>
