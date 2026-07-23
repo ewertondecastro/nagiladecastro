@@ -1,18 +1,18 @@
 import type { Metadata } from "next";
 import { getDict } from "@/lib/getDict";
-import MentoriasIndex from "@/components/MentoriasIndex";
+import ConsultoriasIndex from "@/components/ConsultoriasIndex";
 
 export const metadata: Metadata = {
-  title: "Mentoring | Nágila Decastro",
+  title: "Consulting | Nágila Decastro",
   description:
     "Sleep consulting, first steps to literacy and parenting with direction. Three paths, one root: caring for the mother and the home.",
   alternates: {
-    canonical: "/en/mentorias",
-    languages: { "pt-BR": "/mentorias", "en-US": "/en/mentorias", "es-ES": "/es/mentorias" },
+    canonical: "/en/consultorias",
+    languages: { "pt-BR": "/consultorias", "en-US": "/en/consultorias", "es-ES": "/es/consultorias" },
   },
 };
 
 export default async function Page() {
   const dict = await getDict("en");
-  return <MentoriasIndex dict={dict} locale="en" />;
+  return <ConsultoriasIndex dict={dict} locale="en" />;
 }

@@ -4,17 +4,17 @@ import { useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { whatsAppUrl } from "@/lib/whatsapp";
-import type { Locale, MentoriaCard } from "@/types/locale";
+import type { Locale, ConsultoriaCard } from "@/types/locale";
 
-function mentoriaHref(locale: Locale, slug: string): string {
-  return locale === "pt" ? `/mentorias/${slug}` : `/${locale}/mentorias/${slug}`;
+function consultoriaHref(locale: Locale, slug: string): string {
+  return locale === "pt" ? `/consultorias/${slug}` : `/${locale}/consultorias/${slug}`;
 }
 
 export default function ServicesAccordion({
   cards,
   locale,
 }: {
-  cards: MentoriaCard[];
+  cards: ConsultoriaCard[];
   locale: Locale;
 }) {
   const [open, setOpen] = useState<number | null>(0);
@@ -79,7 +79,7 @@ export default function ServicesAccordion({
                         {card.contactCta}
                       </a>
                       <Link
-                        href={mentoriaHref(locale, card.slug)}
+                        href={consultoriaHref(locale, card.slug)}
                         className="font-barlow-condensed text-xs tracking-widest uppercase px-5 py-2.5 border border-olive text-olive hover:bg-terracotta hover:text-background transition-all duration-200"
                       >
                         {card.learnMore}

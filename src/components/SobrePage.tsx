@@ -156,10 +156,10 @@ export default function SobrePage({
           </h2>
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <Link
-              href={`${p}/mentorias`}
+              href={`${p}/consultorias`}
               className="inline-flex items-center gap-2 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200"
             >
-              {siteNav.mentorias}
+              {siteNav.consultorias}
               <span aria-hidden="true">&rarr;</span>
             </Link>
             <a

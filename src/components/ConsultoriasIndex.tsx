@@ -8,7 +8,7 @@ function prefix(locale: Locale): string {
   return locale === "pt" ? "" : `/${locale}`;
 }
 
-export default function MentoriasIndex({
+export default function ConsultoriasIndex({
   dict,
   locale,
 }: {
@@ -26,7 +26,7 @@ export default function MentoriasIndex({
       <section className="px-8 md:px-16 lg:px-20 pt-32 md:pt-40 pb-12 md:pb-16">
         <FadeIn className="max-w-3xl">
           <span className="font-barlow-condensed text-[11px] tracking-[0.35em] uppercase text-olive">
-            {siteNav.mentorias}
+            {siteNav.consultorias}
           </span>
           <h1 className="font-playfair font-normal text-text-primary mt-5 mb-5" style={{ fontSize: "clamp(40px, 6vw, 72px)" }}>
             {services.sectionTitle}
@@ -43,7 +43,7 @@ export default function MentoriasIndex({
           {services.cards.map((card, i) => (
             <FadeIn key={card.slug} delay={i * 0.08}>
               <Link
-                href={`${p}/mentorias/${card.slug}`}
+                href={`${p}/consultorias/${card.slug}`}
                 className="group flex flex-col h-full bg-background-soft border border-cream-line p-8 md:p-10 hover:border-olive transition-colors duration-300"
               >
                 <span className="font-playfair italic text-olive/60 mb-5" style={{ fontSize: "clamp(28px, 3vw, 40px)" }}>

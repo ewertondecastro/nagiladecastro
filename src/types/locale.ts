@@ -1,7 +1,7 @@
 export type Locale = "pt" | "en" | "es";
-export type MentoriaSlug = "sono" | "primeiros-passos" | "educacao-parental";
+export type ConsultoriaSlug = "sono" | "primeiros-passos" | "educacao-parental";
 
-export interface MentoriaDetail {
+export interface ConsultoriaDetail {
   eyebrow: string;
   headlineLine1: string;
   headlineLine2: string;
@@ -17,8 +17,8 @@ export interface MentoriaDetail {
   backToHome: string;
 }
 
-export interface MentoriaCard {
-  slug: MentoriaSlug;
+export interface ConsultoriaCard {
+  slug: ConsultoriaSlug;
   number: string;
   titleLine1: string;
   titleLine2: string;
@@ -26,7 +26,7 @@ export interface MentoriaCard {
   learnMore: string;
   contactCta: string;
   whatsappText: string;
-  detail: MentoriaDetail;
+  detail: ConsultoriaDetail;
 }
 
 export interface ProductItem {
@@ -64,7 +64,7 @@ export interface LocaleDict {
   siteNav: {
     home: string;
     about: string;
-    mentorias: string;
+    consultorias: string;
     recursos: string;
     contato: string;
     menu: string;
@@ -107,7 +107,7 @@ export interface LocaleDict {
     sectionSubtitle: string;
     featuredTag: string;
     othersLabel: string;
-    cards: MentoriaCard[];
+    cards: ConsultoriaCard[];
   };
   products: {
     sectionTitle: string;

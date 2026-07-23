@@ -1,10 +1,10 @@
 import { notFound } from "next/navigation";
 import { getDict } from "@/lib/getDict";
-import MentoriaDetail from "@/components/MentoriaDetail";
+import ConsultoriaDetail from "@/components/ConsultoriaDetail";
 import type { Metadata } from "next";
-import type { MentoriaSlug } from "@/types/locale";
+import type { ConsultoriaSlug } from "@/types/locale";
 
-const SLUGS: MentoriaSlug[] = ["sono", "primeiros-passos", "educacao-parental"];
+const SLUGS: ConsultoriaSlug[] = ["sono", "primeiros-passos", "educacao-parental"];
 
 export function generateStaticParams() {
   return SLUGS.map((slug) => ({ slug }));
@@ -15,7 +15,7 @@ interface PageProps {
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const dict = await getDict("pt");
+  const dict = await getDict("es");
   const card = dict.services.cards.find((c) => c.slug === params.slug);
   if (!card) return {};
   const title = `${card.titleLine1} ${card.titleLine2} · ${dict.meta.title}`;
@@ -23,19 +23,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title,
     description: card.description,
     alternates: {
-      canonical: `/mentorias/${params.slug}`,
+      canonical: `/es/consultorias/${params.slug}`,
       languages: {
-        "pt-BR": `/mentorias/${params.slug}`,
-        "en-US": `/en/mentorias/${params.slug}`,
-        "es-ES": `/es/mentorias/${params.slug}`,
+        "pt-BR": `/consultorias/${params.slug}`,
+        "en-US": `/en/consultorias/${params.slug}`,
+        "es-ES": `/es/consultorias/${params.slug}`,
       },
     },
   };
 }
 
-export default async function MentoriaPage({ params }: PageProps) {
-  const dict = await getDict("pt");
+export default async function ConsultoriaPageES({ params }: PageProps) {
+  const dict = await getDict("es");
   const card = dict.services.cards.find((c) => c.slug === params.slug);
   if (!card) notFound();
-  return <MentoriaDetail dict={dict} locale="pt" card={card} />;
+  return <ConsultoriaDetail dict={dict} locale="es" card={card} />;
 }

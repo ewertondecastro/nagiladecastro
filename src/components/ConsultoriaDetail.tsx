@@ -3,19 +3,19 @@ import FadeIn from "./FadeIn";
 import SiteNav from "./SiteNav";
 import Footer from "./Footer";
 import { whatsAppUrl } from "@/lib/whatsapp";
-import type { LocaleDict, Locale, MentoriaCard } from "@/types/locale";
+import type { LocaleDict, Locale, ConsultoriaCard } from "@/types/locale";
 
 interface Props {
   dict: LocaleDict;
   locale: Locale;
-  card: MentoriaCard;
+  card: ConsultoriaCard;
 }
 
 function homeHref(locale: Locale): string {
   return locale === "pt" ? "/" : `/${locale}`;
 }
 
-export default function MentoriaDetail({ dict, locale, card }: Props) {
+export default function ConsultoriaDetail({ dict, locale, card }: Props) {
   const d = card.detail;
 
   return (

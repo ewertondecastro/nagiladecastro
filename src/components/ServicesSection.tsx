@@ -8,8 +8,8 @@ interface Props {
   locale: Locale;
 }
 
-function mentoriaHref(locale: Locale, slug: string): string {
-  return locale === "pt" ? `/mentorias/${slug}` : `/${locale}/mentorias/${slug}`;
+function consultoriaHref(locale: Locale, slug: string): string {
+  return locale === "pt" ? `/consultorias/${slug}` : `/${locale}/consultorias/${slug}`;
 }
 
 export default function ServicesSection({ dict, locale }: Props) {
@@ -18,7 +18,7 @@ export default function ServicesSection({ dict, locale }: Props) {
 
   return (
     <section
-      id="mentorias"
+      id="consultorias"
       className="w-full py-24 md:py-36 px-8 md:px-16 lg:px-20 bg-background scroll-mt-16"
     >
       <FadeIn className="mb-12 md:mb-16 max-w-3xl">
@@ -31,7 +31,7 @@ export default function ServicesSection({ dict, locale }: Props) {
         </p>
       </FadeIn>
 
-      {/* Destaque: mentoria principal */}
+      {/* Destaque: consultoria principal */}
       {featured && (
         <FadeIn className="max-w-5xl">
           <div className="relative bg-background-soft border border-olive/40 p-8 md:p-12 overflow-hidden">
@@ -63,7 +63,7 @@ export default function ServicesSection({ dict, locale }: Props) {
                   {featured.contactCta}
                 </a>
                 <Link
-                  href={mentoriaHref(locale, featured.slug)}
+                  href={consultoriaHref(locale, featured.slug)}
                   className="font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 border border-olive text-olive hover:bg-terracotta hover:text-background transition-all duration-200"
                 >
                   {featured.learnMore}
@@ -93,7 +93,7 @@ export default function ServicesSection({ dict, locale }: Props) {
                 </h4>
                 <div className="mt-auto pt-3 flex flex-wrap gap-x-4 gap-y-1">
                   <Link
-                    href={mentoriaHref(locale, card.slug)}
+                    href={consultoriaHref(locale, card.slug)}
                     className="font-barlow-condensed text-[11px] tracking-widest uppercase text-olive hover:text-text-primary transition-colors"
                   >
                     {card.learnMore} →

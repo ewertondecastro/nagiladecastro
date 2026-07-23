@@ -12,7 +12,7 @@
   "siteNav": {
     "home": "Home",
     "about": "About",
-    "mentorias": "Mentoring",
+    "consultorias": "Consulting",
     "recursos": "Resources",
     "contato": "Contact",
     "menu": "Menu"
@@ -28,7 +28,7 @@
     ],
     "location": "CAPE COD, MASSACHUSETTS",
     "scrollLabel": "SCROLL",
-    "cta": "See mentorships"
+    "cta": "See consultations"
   },
   "quote": {
     "text": "The home cared for first holds everything else up.",
@@ -67,9 +67,9 @@
   },
   "services": {
     "sectionTitle": "How I walk with you",
-    "sectionSubtitle": "Three paths, one root: caring for the mother and the home. Tap a mentorship to see how it works and start a conversation.",
+    "sectionSubtitle": "Three paths, one root: caring for the mother and the home. Tap a consultation to see how it works and start a conversation.",
     "featuredTag": "Start here",
-    "othersLabel": "Other mentorship paths",
+    "othersLabel": "Other consultation paths",
     "cards": [
       {
         "slug": "sono",
@@ -81,7 +81,7 @@
         "contactCta": "Message on WhatsApp",
         "whatsappText": "Hi Nágila, I came from your site, I'd like to know more about Sleep Consulting",
         "detail": {
-          "eyebrow": "MENTORSHIP · 01",
+          "eyebrow": "CONSULTATION · 01",
           "headlineLine1": "Sleep that rests",
           "headlineLine2": "the whole home.",
           "intro": "If you're here, sleep is not happening. Maybe it never has. Maybe it did for a while and then regressed. Maybe you can't even remember the last full night you slept, and you're exhausted enough that you don't know what to try anymore.",
@@ -116,9 +116,9 @@
         "description": "How to guide your child through the first steps of reading and writing, from pre-reading to early literacy, with method and without rushing.",
         "learnMore": "Learn more",
         "contactCta": "Message on WhatsApp",
-        "whatsappText": "Hi Nágila, I came from your site, I'd like to know more about the First Steps mentorship (pre-reading and literacy)",
+        "whatsappText": "Hi Nágila, I came from your site, I'd like to know more about the First Steps consultation (pre-reading and literacy)",
         "detail": {
-          "eyebrow": "MENTORSHIP · 02",
+          "eyebrow": "CONSULTATION · 02",
           "headlineLine1": "From the first letter",
           "headlineLine2": "to a home that teaches.",
           "intro": "Your child is old enough to start reading and writing, and you want to be part of it, not hand it off. But the doubts pile up: which letter first? Sounds or syllables? What if I teach it wrong and hold them back? You don't need an expensive workbook or a teaching degree. You need a clear path, at the child's pace, that starts with early literacy and can grow with your family.",
@@ -132,7 +132,7 @@
           "journeyBody": [
             "We start from the ground up: how a child learns to read and write, what comes before the first letter (the pre-reading stage), which method fits your child and your routine, and how to turn 15 minutes a day into real progress, without tears or fights.",
             "Then I show you the natural next step: how these first steps extend into a full home education, if that is what you want. Legalities where you live, choosing a method, building a routine, integrating more than one child, the father's role, and what to do in the weeks you think you'll quit.",
-            "This is ongoing mentorship, not a one-off class. You have someone in the first week, the tenth, and the hundredth, when the excitement fades and the method has to hold the house together."
+            "This is ongoing consulting, not a one-off class. You have someone in the first week, the tenth, and the hundredth, when the excitement fades and the method has to hold the house together."
           ],
           "forWhomTitle": "Who this is for",
           "forWhomItems": [
@@ -156,9 +156,9 @@
         "description": "Parenting with clear direction: authority with affection, a routine that holds the home together, and character formed day by day, in place of improvisation and endless negotiation.",
         "learnMore": "Learn more",
         "contactCta": "Message on WhatsApp",
-        "whatsappText": "Hi Nágila, I came from your site, I'd like to know more about the Parenting with Direction mentorship",
+        "whatsappText": "Hi Nágila, I came from your site, I'd like to know more about the Parenting with Direction consultation",
         "detail": {
-          "eyebrow": "MENTORSHIP · 03",
+          "eyebrow": "CONSULTATION · 03",
           "headlineLine1": "Raise with direction,",
           "headlineLine2": "not improvisation.",
           "intro": "Raising children stopped being leading and became reacting: we put out fires, negotiate all day and end up exhausted, unsure we're going anywhere. As a Certified Parental Educator and a mother who educates her own daughters, I help you give direction back to parenting, choosing each gesture with intention.",

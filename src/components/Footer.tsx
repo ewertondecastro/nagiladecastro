@@ -18,7 +18,7 @@ export default function Footer({ dict, locale = "pt" }: Props) {
   const links = [
     { label: siteNav.home, href: home },
     { label: siteNav.about, href: `${p}/sobre` },
-    { label: siteNav.mentorias, href: `${p}/mentorias` },
+    { label: siteNav.consultorias, href: `${p}/consultorias` },
     { label: siteNav.recursos, href: `${p}/recursos` },
     { label: siteNav.contato, href: `${home}#contato` },
   ];

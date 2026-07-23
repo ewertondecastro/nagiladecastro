@@ -23,7 +23,7 @@ export default function SiteNav({
   const links = [
     { label: dict.siteNav.home, href: home, highlight: false },
     { label: dict.siteNav.about, href: `${p}/sobre`, highlight: false },
-    { label: dict.siteNav.mentorias, href: `${p}/mentorias`, highlight: false },
+    { label: dict.siteNav.consultorias, href: `${p}/consultorias`, highlight: false },
     { label: dict.siteNav.recursos, href: `${p}/recursos`, highlight: true },
     { label: dict.siteNav.contato, href: `${home}#contato`, highlight: false },
   ];

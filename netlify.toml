@@ -7,3 +7,60 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+# Mentorias viraram Consultorias. As regras específicas vêm antes das
+# curingas porque o Netlify usa a primeira que casar.
+
+[[redirects]]
+  from = "/mentorias/homeschool"
+  to = "/consultorias/primeiros-passos"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/mentorias/homeschool"
+  to = "/en/consultorias/primeiros-passos"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/mentorias/homeschool"
+  to = "/es/consultorias/primeiros-passos"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mentorias/*"
+  to = "/consultorias/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/mentorias/*"
+  to = "/en/consultorias/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/mentorias/*"
+  to = "/es/consultorias/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mentorias"
+  to = "/consultorias"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/mentorias"
+  to = "/en/consultorias"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/mentorias"
+  to = "/es/consultorias"
+  status = 301
+  force = true

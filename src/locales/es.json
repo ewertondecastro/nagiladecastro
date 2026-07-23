@@ -12,7 +12,7 @@
   "siteNav": {
     "home": "Inicio",
     "about": "Sobre mí",
-    "mentorias": "Mentorías",
+    "consultorias": "Consultorías",
     "recursos": "Recursos",
     "contato": "Contacto",
     "menu": "Menú"
@@ -28,7 +28,7 @@
     ],
     "location": "CAPE COD, MASSACHUSETTS",
     "scrollLabel": "DESLIZA",
-    "cta": "Ver mentorías"
+    "cta": "Ver consultorías"
   },
   "quote": {
     "text": "La casa que se cuida primero sostiene todo lo demás.",
@@ -67,9 +67,9 @@
   },
   "services": {
     "sectionTitle": "Cómo te acompaño",
-    "sectionSubtitle": "Tres caminos, una raíz: cuidar de la madre y de la casa. Toca la mentoría para ver cómo funciona y empieza una conversación.",
+    "sectionSubtitle": "Tres caminos, una raíz: cuidar de la madre y de la casa. Toca la consultoría para ver cómo funciona y empieza una conversación.",
     "featuredTag": "Empieza aquí",
-    "othersLabel": "Otras frentes de mentoría",
+    "othersLabel": "Otras frentes de consultoría",
     "cards": [
       {
         "slug": "sono",
@@ -81,7 +81,7 @@
         "contactCta": "Hablar por WhatsApp",
         "whatsappText": "Hola Nágila, vengo de tu sitio, quiero saber más sobre la Consultoría de Sueño",
         "detail": {
-          "eyebrow": "MENTORÍA · 01",
+          "eyebrow": "CONSULTORÍA · 01",
           "headlineLine1": "Sueño que descansa",
           "headlineLine2": "la casa entera.",
           "intro": "Si estás aquí, es porque el sueño no está sucediendo. Tal vez nunca sucedió. Tal vez sucedió por un tiempo y ahora regresó. Tal vez ya no recuerdas la última vez que dormiste una noche seguida, y estás demasiado agotada para saber qué intentar.",
@@ -116,9 +116,9 @@
         "description": "Cómo acompañar al niño en los primeros pasos de la lectura y la escritura, de la pre-lectura al inicio de la alfabetización, con método y sin prisa.",
         "learnMore": "Saber más",
         "contactCta": "Hablar por WhatsApp",
-        "whatsappText": "Hola Nágila, vengo de tu sitio, quiero saber más sobre la mentoría de Primeros Pasos (pre-lectura y alfabetización)",
+        "whatsappText": "Hola Nágila, vengo de tu sitio, quiero saber más sobre la consultoría de Primeros Pasos (pre-lectura y alfabetización)",
         "detail": {
-          "eyebrow": "MENTORÍA · 02",
+          "eyebrow": "CONSULTORÍA · 02",
           "headlineLine1": "De la primera letra",
           "headlineLine2": "a un hogar que educa.",
           "intro": "Tu hijo está en edad de empezar a leer y escribir, y quieres ser parte de eso, no delegarlo. Pero llegan las dudas: ¿por cuál letra empiezo? ¿Por sonido o por sílaba? ¿Y si enseño mal y lo bloqueo? No necesitas un cuaderno caro ni volverte maestra. Necesitas un camino claro, al ritmo del niño, que empiece en la alfabetización y pueda crecer junto con tu familia.",
@@ -132,7 +132,7 @@
           "journeyBody": [
             "Empezamos por la base: cómo aprende el niño a leer y a escribir, qué viene antes de la primera letra (la pre-lectura), qué método combina con tu hijo y tu rutina, y cómo convertir 15 minutos al día en avance real, sin llanto ni peleas.",
             "Después te muestro el camino natural de continuidad: cómo estos primeros pasos se extienden a una educación en casa completa, si esa es tu voluntad. Legalización donde vives, elección de método, armado de rutina, cómo integrar a más de un hijo, el papel del padre, y qué hacer en las semanas en que crees que vas a rendirte.",
-            "Es mentoría continua, no una clase suelta. Tienes a alguien en la primera semana, en la décima y en la centésima, cuando pasa el entusiasmo y el método tiene que sostener la casa."
+            "Es consultoría continua, no una clase suelta. Tienes a alguien en la primera semana, en la décima y en la centésima, cuando pasa el entusiasmo y el método tiene que sostener la casa."
           ],
           "forWhomTitle": "Para quién es",
           "forWhomItems": [
@@ -156,9 +156,9 @@
         "description": "Educación parental con dirección clara: autoridad con afecto, una rutina que sostiene la casa y formación del carácter, en lugar de la improvisación y la negociación sin fin.",
         "learnMore": "Saber más",
         "contactCta": "Hablar por WhatsApp",
-        "whatsappText": "Hola Nágila, vengo de tu sitio, quiero saber más sobre la mentoría de Educación Parental",
+        "whatsappText": "Hola Nágila, vengo de tu sitio, quiero saber más sobre la consultoría de Educación Parental",
         "detail": {
-          "eyebrow": "MENTORÍA · 03",
+          "eyebrow": "CONSULTORÍA · 03",
           "headlineLine1": "Educar con dirección,",
           "headlineLine2": "no en la improvisación.",
           "intro": "Educar dejó de ser conducir y pasó a ser reaccionar: apagamos incendios, negociamos todo el día y terminamos agotadas, sin saber si vamos a algún lugar. Como Educadora Parental Certificada y madre que educa a sus propias hijas, te ayudo a devolver dirección a la crianza, eligiendo cada gesto con intención.",
