@@ -104,8 +104,8 @@
             "Mães que não querem usar técnica de deixar chorar e procuram um caminho respeitoso",
             "Mães que querem dormir de novo sem abrir mão de quem elas são"
           ],
-          "ctaLabel": "Quero conversar pelo WhatsApp",
-          "ctaWhatsappText": "Oi Nágila, vim pela página da Consultoria de Sono, quero conversar sobre o sono do meu bebê",
+          "ctaLabel": "Quero começar",
+          "ctaWhatsappText": "Oi Nágila, vim pela página da Consultoria de Sono e quero começar.",
           "backToHome": "Voltar ao início",
           "recordingNote": "Toda conversa por Google Meet ou Zoom é gravada. Se a família quiser, a gravação fica disponível para rever quando precisar.",
           "methodNote": {
@@ -114,6 +114,107 @@
               "Existem vários métodos, e cada um é discutido com a família. Não trago uma fórmula única: cada casa tem a sua abordagem, construída junto com você.",
               "Vale ressaltar, com clareza: bebês choram como forma de comunicação. É assim que eles comunicam um desconforto ou uma frustração. E o choro sempre será acolhido.",
               "O meu trabalho é te ensinar a entender o motivo daquele choro e como responder a ele com segurança e presença. Se a resposta fosse simplesmente deixar a criança sozinha chorando, não existiria metodologia nenhuma para ensinar."
+            ]
+          },
+          "plansTitle": "Como podemos trabalhar juntas",
+          "plans": [
+            {
+              "name": "Consultoria Completa",
+              "duration": "Acompanhamento de 75 dias",
+              "highlight": true,
+              "summary": "Um acompanhamento individual para reestruturar o sono do seu filho a fundo, com direção próxima até o novo hábito se firmar.",
+              "forWhom": "Para famílias que precisam de acompanhamento em ajustes, regressões e consolidação da rotina.",
+              "includes": [
+                "4 encontros individuais por videochamada ao longo de 75 dias, todos gravados e disponibilizados pra você",
+                "Encontro 1: avaliação, plano e direção inicial, em até 72h da anamnese",
+                "Encontro 2 (dia 20): análise da aplicação",
+                "Encontro 3 (dia 40): reavaliação e novas condutas",
+                "Encontro 4 (dia 60): avaliação final e autonomia",
+                "15 dias finais de suporte para consolidar e encerrar",
+                "Suporte por WhatsApp durante todo o ciclo, com resposta em até 24h",
+                "Até 3 chamadas de vídeo pontuais para situações específicas",
+                "Plano de sono personalizado, por escrito, pronto pra ação",
+                "Bônus: e-book Guia de Rotina (0–3 anos), Playlist do Sono, Flash Cards de Emoções e Domínio Próprio, e o e-book Casa, Rotina & Tempo"
+              ],
+              "ctaLabel": "Quero a Completa",
+              "ctaWhatsappText": "Oi Nágila, vim pelo seu site e quero a Consultoria Completa de Sono."
+            },
+            {
+              "name": "Consultoria Express",
+              "duration": "Direção pontual",
+              "summary": "Uma direção individual para uma questão pontual de sono, com um plano claro pra você aplicar com autonomia.",
+              "forWhom": "Para famílias organizadas, com boa capacidade de execução independente.",
+              "includes": [
+                "1 encontro individual por videochamada, de avaliação e orientações",
+                "Plano de ação personalizado, enviado em PDF em até 72h",
+                "45 dias de suporte por WhatsApp, com resposta em até 48h"
+              ],
+              "ctaLabel": "Quero a Express",
+              "ctaWhatsappText": "Oi Nágila, vim pelo seu site e quero a Consultoria Express de Sono."
+            }
+          ],
+          "testimonialsTitle": "Famílias que voltaram a dormir",
+          "testimonials": [
+            {
+              "quote": "Sim, sem choro e sem dor de cabeça. Acho que agora já virou hábito. Estamos voltando a poder ter uma vida social sem grandes impactos para ele.",
+              "author": "Mãe do Theo · três meses depois do acompanhamento"
+            },
+            {
+              "quote": "Hoje o meu filho dorme sozinho no berço, e todo mundo dorme bem desde então. Eu diria para não ter medo de começar, eu poderia ter feito bem antes.",
+              "author": "Mãe de um bebê de 1 ano"
+            },
+            {
+              "quote": "Hoje ele tem autonomia de sono porque você ficou no meu pé. Agora já trabalho com o meu segundo filho para desenvolver a rotina ainda mais cedo.",
+              "author": "Kamila, mãe de dois"
+            },
+            {
+              "quote": "Antes, nossas noites eram muito difíceis, vários despertares e só voltava a dormir no colo ou mamando. Hoje temos muito mais tranquilidade, e o sono acontece com muito mais facilidade. Foi um investimento que valeu muito a pena para a nossa família.",
+              "author": "Mãe da Anne"
+            }
+          ],
+          "disclaimer": "Conteúdo educativo, que não substitui a avaliação do seu pediatra.",
+          "faqTitle": "Perguntas frequentes",
+          "faq": [
+            {
+              "question": "Até que idade você atende?",
+              "answer": "A consultoria de sono é para bebês e crianças de 0 a 3 anos."
+            },
+            {
+              "question": "É online?",
+              "answer": "Sim. Todos os encontros são individuais, por videochamada (Google Meet ou Zoom), e ficam gravados pra você rever quando quiser."
+            },
+            {
+              "question": "O método é deixar meu filho chorando?",
+              "answer": "Não. O choro é a forma como o bebê comunica um desconforto ou uma frustração, e ele sempre será acolhido. Meu trabalho é te ensinar a entender o motivo daquele choro e como responder a ele com segurança e presença. Se a resposta fosse simplesmente deixar a criança sozinha chorando, não existiria metodologia nenhuma para ensinar."
+            },
+            {
+              "question": "Ele vai passar a dormir a noite inteira?",
+              "answer": "Não prometo isso, e nenhum profissional honesto promete. O que eu construo com você é um caminho, não uma garantia. Também não prometo prazo fixo, cada criança responde no seu tempo. O que eu prometo é que ele não vai chorar sozinho: acolhimento e direção caminham juntos aqui."
+            },
+            {
+              "question": "E se o meu parceiro não estiver convencido?",
+              "answer": "A mudança não exige duas pessoas convencidas, exige duas pessoas coerentes. Ele não precisa acreditar antes, só concordar em responder do mesmo jeito nos pontos combinados. Na prática, o parceiro costuma mudar de ideia quando vê a primeira semana funcionando."
+            },
+            {
+              "question": "Qual a diferença entre a Completa e a Express?",
+              "answer": "A Completa é um acompanhamento de 75 dias, com 4 encontros e suporte próximo até o hábito se firmar, pra quem precisa de direção em ajustes, regressões e consolidação. A Express é uma direção pontual: 1 encontro, plano por escrito e 45 dias de suporte, pra famílias organizadas que executam bem sozinhas."
+            },
+            {
+              "question": "Como funciona pra começar?",
+              "answer": "Sem call de venda e sem burocracia. Você decide, eu te envio o escopo por escrito e o link de pagamento (à vista ou parcelado no cartão), e aí marcamos o primeiro encontro. Você preenche a anamnese e começamos pela sua prioridade real."
+            }
+          ],
+          "howItWorks": {
+            "title": "O que eu observo antes de sugerir qualquer mudança",
+            "steps": [
+              "Leitura do padrão: o que se repete todas as noites.",
+              "Rotina possível: um dia e uma noite que caibam na sua família real.",
+              "Ambiente e preparação: o que ajuda e o que atrapalha a chegada do sono.",
+              "Forma de adormecer: como a criança recebe ajuda para iniciar e retomar o sono.",
+              "Acolhimento com direção: responder sem abandonar a criança e sem perder o rumo.",
+              "Consistência entre adultos: evitar que cada noite tenha uma regra diferente.",
+              "Ajustes orientados: avaliar o que acontece na prática e adaptar com critério.",
+              "Autonomia da família: encerrar com segurança para conduzir sem depender de mim."
             ]
           }
         }

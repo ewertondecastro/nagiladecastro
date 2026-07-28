@@ -89,6 +89,35 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
         </FadeIn>
       </section>
 
+      {/* Método: o que eu observo antes de sugerir mudança (passo a passo) */}
+      {d.howItWorks && (
+        <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24 bg-background-soft">
+          <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
+            <div className="md:col-span-1">
+              <div className="w-8 h-px bg-terracotta mb-6" aria-hidden="true" />
+              <h2 className="font-playfair italic text-olive" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
+                {d.howItWorks.title}
+              </h2>
+            </div>
+            <ol className="md:col-span-2 flex flex-col gap-6">
+              {d.howItWorks.steps.map((step, i) => (
+                <li key={i} className="flex gap-4 items-start">
+                  <span className="font-playfair italic text-terracotta shrink-0" style={{ fontSize: "clamp(22px, 2vw, 30px)" }}>
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <p
+                    className="font-barlow text-text-primary leading-relaxed pt-1"
+                    style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}
+                  >
+                    {step}
+                  </p>
+                </li>
+              ))}
+            </ol>
+          </FadeIn>
+        </section>
+      )}
+
       {/* Method note (ex.: o choro na consultoria de sono) */}
       {d.methodNote && (
         <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24 bg-olive">
@@ -108,6 +137,91 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
                 >
                   {p}
                 </p>
+              ))}
+            </div>
+          </FadeIn>
+        </section>
+      )}
+
+      {/* Planos / formatos (ex.: Completa e Express) */}
+      {d.plans && d.plans.length > 0 && (
+        <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24 bg-background">
+          <FadeIn className="max-w-5xl mx-auto flex flex-col gap-12">
+            <div className="text-center flex flex-col items-center gap-4">
+              <div className="w-8 h-px bg-terracotta" aria-hidden="true" />
+              <h2 className="font-playfair italic text-olive" style={{ fontSize: "clamp(26px, 3vw, 40px)" }}>
+                {d.plansTitle ?? "Como podemos trabalhar juntas"}
+              </h2>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-start">
+              {d.plans.map((plan, i) => (
+                <div
+                  key={i}
+                  className={`flex flex-col gap-6 px-7 py-8 md:px-9 md:py-10 h-full ${
+                    plan.highlight
+                      ? "bg-background-soft border-2 border-terracotta"
+                      : "bg-background border border-cream-line"
+                  }`}
+                >
+                  <div className="flex flex-col gap-2">
+                    {plan.duration && (
+                      <span className="font-barlow-condensed text-[11px] tracking-[0.25em] uppercase text-terracotta">
+                        {plan.duration}
+                      </span>
+                    )}
+                    <h3 className="font-playfair text-text-primary" style={{ fontSize: "clamp(24px, 2.6vw, 32px)" }}>
+                      {plan.name}
+                    </h3>
+                    {plan.price && (
+                      <div className="mt-1">
+                        <span className="font-playfair text-olive" style={{ fontSize: "clamp(22px, 2.4vw, 30px)" }}>
+                          {plan.price}
+                        </span>
+                        {plan.priceNote && (
+                          <span className="font-barlow text-text-muted block mt-1" style={{ fontSize: "13px" }}>
+                            {plan.priceNote}
+                          </span>
+                        )}
+                      </div>
+                    )}
+                  </div>
+
+                  <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(16px, 1.4vw, 19px)" }}>
+                    {plan.summary}
+                  </p>
+
+                  {plan.forWhom && (
+                    <p className="font-playfair italic text-olive leading-relaxed" style={{ fontSize: "clamp(15px, 1.35vw, 18px)" }}>
+                      {plan.forWhom}
+                    </p>
+                  )}
+
+                  <ul className="flex flex-col gap-3 flex-1">
+                    {plan.includes.map((item, j) => (
+                      <li
+                        key={j}
+                        className="font-barlow text-text-primary leading-relaxed flex gap-3"
+                        style={{ fontSize: "clamp(15px, 1.35vw, 18px)" }}
+                      >
+                        <span className="text-terracotta mt-1 shrink-0" aria-hidden="true">✓</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+
+                  <a
+                    href={whatsAppUrl(plan.ctaWhatsappText ?? d.ctaWhatsappText)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 text-center font-semibold transition-colors duration-200 ${
+                      plan.highlight
+                        ? "bg-terracotta text-background hover:bg-text-primary"
+                        : "border border-olive text-olive hover:bg-olive hover:text-background"
+                    }`}
+                  >
+                    {plan.ctaLabel ?? d.ctaLabel}
+                  </a>
+                </div>
               ))}
             </div>
           </FadeIn>
@@ -136,35 +250,6 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
                 </li>
               ))}
             </ul>
-          </FadeIn>
-        </section>
-      )}
-
-      {/* Como funciona (passo a passo) */}
-      {d.howItWorks && (
-        <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24 bg-background-soft">
-          <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
-            <div className="md:col-span-1">
-              <div className="w-8 h-px bg-terracotta mb-6" aria-hidden="true" />
-              <h2 className="font-playfair italic text-olive" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
-                {d.howItWorks.title}
-              </h2>
-            </div>
-            <ol className="md:col-span-2 flex flex-col gap-6">
-              {d.howItWorks.steps.map((step, i) => (
-                <li key={i} className="flex gap-4 items-start">
-                  <span className="font-playfair italic text-terracotta shrink-0" style={{ fontSize: "clamp(22px, 2vw, 30px)" }}>
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
-                  <p
-                    className="font-barlow text-text-primary leading-relaxed pt-1"
-                    style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}
-                  >
-                    {step}
-                  </p>
-                </li>
-              ))}
-            </ol>
           </FadeIn>
         </section>
       )}
@@ -219,24 +304,33 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
                 {d.faqTitle ?? "Perguntas frequentes"}
               </h2>
             </div>
-            <dl className="md:col-span-2 flex flex-col divide-y divide-cream-line">
+            <div className="md:col-span-2 flex flex-col divide-y divide-cream-line border-t border-cream-line">
               {d.faq.map((item, i) => (
-                <div key={i} className="py-5 first:pt-0">
-                  <dt
-                    className="font-barlow font-semibold text-text-primary leading-snug"
-                    style={{ fontSize: "clamp(17px, 1.45vw, 20px)" }}
-                  >
-                    {item.question}
-                  </dt>
-                  <dd
-                    className="font-barlow text-text-secondary leading-relaxed mt-2"
+                <details key={i} className="group py-5">
+                  <summary className="flex justify-between items-start gap-4 cursor-pointer list-none">
+                    <span
+                      className="font-barlow font-semibold text-text-primary leading-snug"
+                      style={{ fontSize: "clamp(17px, 1.45vw, 20px)" }}
+                    >
+                      {item.question}
+                    </span>
+                    <span
+                      className="text-terracotta shrink-0 mt-1 transition-transform duration-200 group-open:rotate-45"
+                      aria-hidden="true"
+                      style={{ fontSize: "22px", lineHeight: 1 }}
+                    >
+                      +
+                    </span>
+                  </summary>
+                  <p
+                    className="font-barlow text-text-secondary leading-relaxed mt-3 pr-8"
                     style={{ fontSize: "clamp(16px, 1.4vw, 19px)" }}
                   >
                     {item.answer}
-                  </dd>
-                </div>
+                  </p>
+                </details>
               ))}
-            </dl>
+            </div>
           </FadeIn>
         </section>
       )}
@@ -265,7 +359,21 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
                 </figure>
               ))}
             </div>
+            {d.disclaimer && (
+              <p className="font-barlow text-text-muted text-center italic max-w-2xl mx-auto" style={{ fontSize: "13px" }}>
+                {d.disclaimer}
+              </p>
+            )}
           </FadeIn>
+        </section>
+      )}
+
+      {/* Aviso avulso (caso haja disclaimer sem depoimentos) */}
+      {d.disclaimer && (!d.testimonials || d.testimonials.length === 0) && (
+        <section className="w-full px-8 md:px-16 lg:px-20 pb-8">
+          <p className="font-barlow text-text-muted text-center italic max-w-2xl mx-auto" style={{ fontSize: "13px" }}>
+            {d.disclaimer}
+          </p>
         </section>
       )}
 

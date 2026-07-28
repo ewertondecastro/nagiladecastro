@@ -13,6 +13,11 @@ export interface ConsultoriaDetail {
   forWhomTitle: string;
   forWhomItems: string[];
   // Blocos opcionais: só aparecem na página quando preenchidos.
+  // Planos/formatos desta consultoria (ex.: Completa e Express no sono).
+  plansTitle?: string;
+  plans?: ConsultoriaPlan[];
+  // Linha discreta de aviso (ex.: conteúdo educativo, não substitui o pediatra).
+  disclaimer?: string;
   // "O que inclui" nesta consultoria.
   includes?: { title: string; items: string[] };
   // "Como funciona" (passo a passo).
@@ -30,6 +35,20 @@ export interface ConsultoriaDetail {
   ctaLabel: string;
   ctaWhatsappText: string;
   backToHome: string;
+}
+
+export interface ConsultoriaPlan {
+  name: string;
+  duration?: string;
+  // price/priceNote só aparecem quando preenchidos (hoje ocultos por decisão).
+  price?: string;
+  priceNote?: string;
+  summary: string;
+  forWhom?: string;
+  includes: string[];
+  highlight?: boolean;
+  ctaLabel?: string;
+  ctaWhatsappText?: string;
 }
 
 export interface ConsultoriaCard {

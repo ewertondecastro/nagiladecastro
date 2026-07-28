@@ -104,8 +104,8 @@
             "Mothers who do not want to use cry-it-out and are looking for a respectful path",
             "Mothers who want to sleep again without giving up who they are"
           ],
-          "ctaLabel": "Let's talk on WhatsApp",
-          "ctaWhatsappText": "Hi Nágila, I came from the Sleep Consulting page, I'd like to talk about my baby's sleep",
+          "ctaLabel": "I want to start",
+          "ctaWhatsappText": "Hi Nágila, I came from the Sleep Consultation page and I want to start.",
           "backToHome": "Back to home",
           "recordingNote": "Every session on Google Meet or Zoom is recorded. If the family wishes, the recording is made available to revisit whenever needed.",
           "methodNote": {
@@ -114,6 +114,107 @@
               "There are several methods, and each one is discussed with the family. I don't bring a single formula: every home has its own approach, built together with you.",
               "Let me be clear: babies cry as a form of communication. It is how they signal discomfort or frustration. And the crying will always be met with care.",
               "My job is to teach you to understand the reason behind that cry and how to respond to it with safety and presence. If the answer were simply to leave the child alone crying, there would be no methodology to teach at all."
+            ]
+          },
+          "plansTitle": "How we can work together",
+          "plans": [
+            {
+              "name": "Complete Consultation",
+              "duration": "75-day support",
+              "highlight": true,
+              "summary": "Individual support to deeply restructure your child's sleep, with close guidance until the new habit takes hold.",
+              "forWhom": "For families who need support through adjustments, regressions, and consolidating the routine.",
+              "includes": [
+                "4 individual video sessions across 75 days, all recorded and made available to you",
+                "Session 1: assessment, plan, and initial direction, within 72h of the intake form",
+                "Session 2 (day 20): review of how it's going",
+                "Session 3 (day 40): reassessment and new steps",
+                "Session 4 (day 60): final assessment and autonomy",
+                "A final 15 days of support to consolidate and wrap up",
+                "WhatsApp support throughout the cycle, with replies within 24h",
+                "Up to 3 quick video calls for specific situations",
+                "A personalized written sleep plan, ready to act on",
+                "Bonus: Routine Guide e-book (0–3 years), the Sleep Playlist, the Emotions & Self-Control Flash Cards, and the Home, Routine & Time e-book"
+              ],
+              "ctaLabel": "I want the Complete",
+              "ctaWhatsappText": "Hi Nágila, I came from your site and I want the Complete Sleep Consultation."
+            },
+            {
+              "name": "Express Consultation",
+              "duration": "Focused guidance",
+              "summary": "Individual guidance for a specific sleep question, with a clear plan for you to apply on your own.",
+              "forWhom": "For organized families with a strong ability to follow through independently.",
+              "includes": [
+                "1 individual video session for assessment and guidance",
+                "A personalized action plan, sent as a PDF within 72h",
+                "45 days of WhatsApp support, with replies within 48h"
+              ],
+              "ctaLabel": "I want the Express",
+              "ctaWhatsappText": "Hi Nágila, I came from your site and I want the Express Sleep Consultation."
+            }
+          ],
+          "testimonialsTitle": "Families sleeping again",
+          "testimonials": [
+            {
+              "quote": "Yes, no crying and no headache. I think it's become a habit now. We're able to have a social life again without any big impact on him.",
+              "author": "Theo's mom · three months after the support"
+            },
+            {
+              "quote": "Today my son sleeps on his own in the crib, and everyone has slept well ever since. I'd say don't be afraid to start, I could have done it much sooner.",
+              "author": "Mother of a 1-year-old"
+            },
+            {
+              "quote": "Today he has sleep autonomy because you stayed on my case. Now I'm already working with my second child to build the routine even earlier.",
+              "author": "Kamila, mother of two"
+            },
+            {
+              "quote": "Before, our nights were very hard, many wakings, and he'd only fall back asleep in my arms or nursing. Today we have so much more calm, and sleep comes far more easily. It was an investment that was truly worth it for our family.",
+              "author": "Anne's mom"
+            }
+          ],
+          "disclaimer": "Educational content, which does not replace an evaluation by your pediatrician.",
+          "faqTitle": "Frequently asked questions",
+          "faq": [
+            {
+              "question": "Up to what age do you work with?",
+              "answer": "The sleep consultation is for babies and children from 0 to 3 years old."
+            },
+            {
+              "question": "Is it online?",
+              "answer": "Yes. All sessions are individual, over video call (Google Meet or Zoom), and are recorded so you can revisit them whenever you like."
+            },
+            {
+              "question": "Is the method to leave my child crying?",
+              "answer": "No. Crying is how a baby communicates discomfort or frustration, and it will always be met with care. My job is to teach you to understand the reason behind that cry and how to respond to it with safety and presence. If the answer were simply to leave the child alone crying, there would be no methodology to teach at all."
+            },
+            {
+              "question": "Will they start sleeping through the night?",
+              "answer": "I don't promise that, and no honest professional does. What I build with you is a path, not a guarantee. I also don't promise a fixed timeline, each child responds at their own pace. What I do promise is that they won't be left crying alone: care and direction go together here."
+            },
+            {
+              "question": "What if my partner isn't convinced?",
+              "answer": "Change doesn't require two convinced people, it requires two consistent people. He doesn't need to believe beforehand, only to agree to respond the same way at the agreed points. In practice, the partner usually changes their mind when they see the first week working."
+            },
+            {
+              "question": "What's the difference between the Complete and the Express?",
+              "answer": "The Complete is a 75-day support with 4 sessions and close guidance until the habit takes hold, for those who need direction through adjustments, regressions, and consolidation. The Express is focused guidance: 1 session, a written plan, and 45 days of support, for organized families who follow through well on their own."
+            },
+            {
+              "question": "How do we get started?",
+              "answer": "No sales call and no bureaucracy. You decide, I send you the written scope and the payment link (in full or in installments), and then we schedule the first session. You fill out the intake form and we start from your real priority."
+            }
+          ],
+          "howItWorks": {
+            "title": "What I look at before suggesting any change",
+            "steps": [
+              "Reading the pattern: what repeats every night.",
+              "A possible routine: a day and a night that fit your real family.",
+              "Environment and wind-down: what helps and what gets in the way of sleep.",
+              "How they fall asleep: how the child is helped to start and return to sleep.",
+              "Care with direction: responding without abandoning the child and without losing the course.",
+              "Consistency between adults: so each night doesn't have a different rule.",
+              "Guided adjustments: assessing what happens in practice and adapting with judgment.",
+              "The family's autonomy: closing with confidence so you lead without depending on me."
             ]
           }
         }

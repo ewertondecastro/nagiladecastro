@@ -104,8 +104,8 @@
             "Madres que no quieren usar la técnica de dejar llorar y buscan un camino respetuoso",
             "Madres que quieren volver a dormir sin renunciar a quiénes son"
           ],
-          "ctaLabel": "Hablemos por WhatsApp",
-          "ctaWhatsappText": "Hola Nágila, vengo de la página de Consultoría de Sueño, quiero hablar sobre el sueño de mi bebé",
+          "ctaLabel": "Quiero empezar",
+          "ctaWhatsappText": "Hola Nágila, vengo de la página de Consultoría de Sueño y quiero empezar.",
           "backToHome": "Volver al inicio",
           "recordingNote": "Cada conversación por Google Meet o Zoom queda grabada. Si la familia lo desea, la grabación queda disponible para volver a verla cuando lo necesite.",
           "methodNote": {
@@ -114,6 +114,107 @@
               "Existen varios métodos, y cada uno se conversa con la familia. No traigo una fórmula única: cada hogar tiene su propio enfoque, construido junto a ti.",
               "Vale resaltar, con claridad: los bebés lloran como forma de comunicación. Es así como comunican una incomodidad o una frustración. Y el llanto siempre será acogido.",
               "Mi trabajo es enseñarte a entender el motivo de ese llanto y cómo responder a él con seguridad y presencia. Si la respuesta fuera simplemente dejar al niño solo llorando, no existiría ninguna metodología para enseñar."
+            ]
+          },
+          "plansTitle": "Cómo podemos trabajar juntas",
+          "plans": [
+            {
+              "name": "Consultoría Completa",
+              "duration": "Acompañamiento de 75 días",
+              "highlight": true,
+              "summary": "Un acompañamiento individual para reestructurar a fondo el sueño de tu hijo, con dirección cercana hasta que el nuevo hábito se afiance.",
+              "forWhom": "Para familias que necesitan acompañamiento en ajustes, regresiones y consolidación de la rutina.",
+              "includes": [
+                "4 encuentros individuales por videollamada a lo largo de 75 días, todos grabados y disponibles para ti",
+                "Encuentro 1: evaluación, plan y dirección inicial, en hasta 72h de la anamnesis",
+                "Encuentro 2 (día 20): análisis de la aplicación",
+                "Encuentro 3 (día 40): reevaluación y nuevas conductas",
+                "Encuentro 4 (día 60): evaluación final y autonomía",
+                "15 días finales de soporte para consolidar y cerrar",
+                "Soporte por WhatsApp durante todo el ciclo, con respuesta en hasta 24h",
+                "Hasta 3 videollamadas puntuales para situaciones específicas",
+                "Plan de sueño personalizado, por escrito, listo para la acción",
+                "Bonus: e-book Guía de Rutina (0–3 años), Playlist del Sueño, Flash Cards de Emociones y Dominio Propio, y el e-book Casa, Rutina y Tiempo"
+              ],
+              "ctaLabel": "Quiero la Completa",
+              "ctaWhatsappText": "Hola Nágila, vengo de tu sitio y quiero la Consultoría Completa de Sueño."
+            },
+            {
+              "name": "Consultoría Express",
+              "duration": "Dirección puntual",
+              "summary": "Una dirección individual para una cuestión puntual de sueño, con un plan claro para que lo apliques con autonomía.",
+              "forWhom": "Para familias organizadas, con buena capacidad de ejecución independiente.",
+              "includes": [
+                "1 encuentro individual por videollamada, de evaluación y orientaciones",
+                "Plan de acción personalizado, enviado en PDF en hasta 72h",
+                "45 días de soporte por WhatsApp, con respuesta en hasta 48h"
+              ],
+              "ctaLabel": "Quiero la Express",
+              "ctaWhatsappText": "Hola Nágila, vengo de tu sitio y quiero la Consultoría Express de Sueño."
+            }
+          ],
+          "testimonialsTitle": "Familias que volvieron a dormir",
+          "testimonials": [
+            {
+              "quote": "Sí, sin llanto y sin dolor de cabeza. Creo que ya se volvió un hábito. Estamos volviendo a poder tener vida social sin grandes impactos para él.",
+              "author": "Mamá de Theo · tres meses después del acompañamiento"
+            },
+            {
+              "quote": "Hoy mi hijo duerme solo en la cuna, y todos dormimos bien desde entonces. Yo diría que no tengas miedo de empezar, podría haberlo hecho mucho antes.",
+              "author": "Mamá de un bebé de 1 año"
+            },
+            {
+              "quote": "Hoy tiene autonomía de sueño porque estuviste encima de mí. Ahora ya trabajo con mi segundo hijo para desarrollar la rutina aún más temprano.",
+              "author": "Kamila, mamá de dos"
+            },
+            {
+              "quote": "Antes, nuestras noches eran muy difíciles, varios despertares y solo volvía a dormir en brazos o mamando. Hoy tenemos mucha más tranquilidad, y el sueño llega con mucha más facilidad. Fue una inversión que valió muchísimo la pena para nuestra familia.",
+              "author": "Mamá de Anne"
+            }
+          ],
+          "disclaimer": "Contenido educativo, que no sustituye la evaluación de tu pediatra.",
+          "faqTitle": "Preguntas frecuentes",
+          "faq": [
+            {
+              "question": "¿Hasta qué edad atiendes?",
+              "answer": "La consultoría de sueño es para bebés y niños de 0 a 3 años."
+            },
+            {
+              "question": "¿Es online?",
+              "answer": "Sí. Todos los encuentros son individuales, por videollamada (Google Meet o Zoom), y quedan grabados para que los vuelvas a ver cuando quieras."
+            },
+            {
+              "question": "¿El método es dejar a mi hijo llorando?",
+              "answer": "No. El llanto es la forma en que el bebé comunica una incomodidad o una frustración, y siempre será acogido. Mi trabajo es enseñarte a entender el motivo de ese llanto y cómo responder a él con seguridad y presencia. Si la respuesta fuera simplemente dejar al niño solo llorando, no existiría ninguna metodología para enseñar."
+            },
+            {
+              "question": "¿Va a dormir toda la noche?",
+              "answer": "No lo prometo, y ningún profesional honesto lo promete. Lo que construyo contigo es un camino, no una garantía. Tampoco prometo un plazo fijo, cada niño responde a su tiempo. Lo que sí prometo es que no llorará solo: acogida y dirección caminan juntas aquí."
+            },
+            {
+              "question": "¿Y si mi pareja no está convencida?",
+              "answer": "El cambio no exige dos personas convencidas, exige dos personas coherentes. No necesita creer antes, solo aceptar responder de la misma manera en los puntos acordados. En la práctica, la pareja suele cambiar de idea cuando ve la primera semana funcionando."
+            },
+            {
+              "question": "¿Cuál es la diferencia entre la Completa y la Express?",
+              "answer": "La Completa es un acompañamiento de 75 días, con 4 encuentros y soporte cercano hasta que el hábito se afiance, para quien necesita dirección en ajustes, regresiones y consolidación. La Express es una dirección puntual: 1 encuentro, plan por escrito y 45 días de soporte, para familias organizadas que ejecutan bien por su cuenta."
+            },
+            {
+              "question": "¿Cómo empezamos?",
+              "answer": "Sin llamada de venta y sin burocracia. Tú decides, te envío el alcance por escrito y el enlace de pago (al contado o en cuotas), y luego agendamos el primer encuentro. Completas la anamnesis y empezamos por tu prioridad real."
+            }
+          ],
+          "howItWorks": {
+            "title": "Lo que observo antes de sugerir cualquier cambio",
+            "steps": [
+              "Lectura del patrón: lo que se repite todas las noches.",
+              "Una rutina posible: un día y una noche que quepan en tu familia real.",
+              "Ambiente y preparación: lo que ayuda y lo que dificulta la llegada del sueño.",
+              "Forma de dormirse: cómo el niño recibe ayuda para iniciar y retomar el sueño.",
+              "Acogida con dirección: responder sin abandonar al niño y sin perder el rumbo.",
+              "Consistencia entre adultos: evitar que cada noche tenga una regla diferente.",
+              "Ajustes orientados: evaluar lo que ocurre en la práctica y adaptar con criterio.",
+              "Autonomía de la familia: cerrar con seguridad para conducir sin depender de mí."
             ]
           }
         }
