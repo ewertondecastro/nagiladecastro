@@ -23,6 +23,7 @@
     "lastName": "Decastro",
     "tagline": [
       "Maternidad con presencia.",
+      "Sueño con acogida.",
       "Educación con intención.",
       "Familia con propósito."
     ],
@@ -105,12 +106,61 @@
           ],
           "ctaLabel": "Hablemos por WhatsApp",
           "ctaWhatsappText": "Hola Nágila, vengo de la página de Consultoría de Sueño, quiero hablar sobre el sueño de mi bebé",
-          "backToHome": "Volver al inicio"
+          "backToHome": "Volver al inicio",
+          "recordingNote": "Cada conversación por Google Meet o Zoom queda grabada. Si la familia lo desea, la grabación queda disponible para volver a verla cuando lo necesite.",
+          "methodNote": {
+            "title": "¿Y el llanto?",
+            "body": [
+              "Existen varios métodos, y cada uno se conversa con la familia. No traigo una fórmula única: cada hogar tiene su propio enfoque, construido junto a ti.",
+              "Vale resaltar, con claridad: los bebés lloran como forma de comunicación. Es así como comunican una incomodidad o una frustración. Y el llanto siempre será acogido.",
+              "Mi trabajo es enseñarte a entender el motivo de ese llanto y cómo responder a él con seguridad y presencia. Si la respuesta fuera simplemente dejar al niño solo llorando, no existiría ninguna metodología para enseñar."
+            ]
+          }
+        }
+      },
+      {
+        "slug": "educacao-parental",
+        "number": "02",
+        "titleLine1": "Educación Parental",
+        "titleLine2": "con dirección",
+        "description": "Educación parental con dirección clara: autoridad con afecto, una rutina que sostiene la casa y formación del carácter, en lugar de la improvisación y la negociación sin fin.",
+        "learnMore": "Saber más",
+        "contactCta": "Hablar por WhatsApp",
+        "whatsappText": "Hola Nágila, vengo de tu sitio, quiero saber más sobre la consultoría de Educación Parental",
+        "detail": {
+          "eyebrow": "CONSULTORÍA · 02",
+          "headlineLine1": "Educar con dirección,",
+          "headlineLine2": "no en la improvisación.",
+          "intro": "Educar dejó de ser conducir y pasó a ser reaccionar: apagamos incendios, negociamos todo el día y terminamos agotadas, sin saber si vamos a algún lugar. Como Educadora Parental Certificada y madre que educa a sus propias hijas, te ayudo a devolver dirección a la crianza, eligiendo cada gesto con intención.",
+          "whyTitle": "Por qué importa",
+          "whyBody": [
+            "La mayoría de las familias hoy educa en la improvisación: reacciona al comportamiento de los hijos, copia lo que vio en casa, terceriza a la escuela o a la pantalla. El resultado es una generación de padres cansados y niños ansiosos, sin dirección.",
+            "Una casa con dirección tiene autoridad en lugar de negociación infinita, orden y previsibilidad que dan seguridad emocional al hijo, límites firmes puestos con respeto, y un carácter que se forma día a día, no premiado por buen comportamiento.",
+            "Dirección no es rigidez. Es saber hacia dónde va la familia y conducir con firmeza y afecto, un gesto a la vez."
+          ],
+          "journeyTitle": "Cómo te acompaño",
+          "journeyBody": [
+            "Partimos de tu familia real: el temperamento de cada hijo, el ritmo del matrimonio, lo que ya funciona y lo que te está agotando. No es teoría de manual; cada casa entra distinta.",
+            "Trabajamos tu día a día: cómo devolver autoridad sin volverte autoritaria, cómo construir rutinas (comida, oración, sueño, descanso) que sostienen la casa solas, y cómo formar carácter sin tercerizar a la escuela, a la pantalla o a la suerte.",
+            "Encuentros regulares, ajustes continuos, acompañamiento de la vida real, no teoría suelta en un cuadernillo."
+          ],
+          "forWhomTitle": "Para quién es",
+          "forWhomItems": [
+            "Padres y madres que sienten que educar se volvió una negociación de 24 horas",
+            "Familias cansadas de reaccionar, que quieren criar con dirección",
+            "Parejas que quieren alinear cómo crían antes de que los hijos crezcan tomando lados distintos",
+            "Familias de fe que quieren que la educación refleje lo que creen, vivido en casa cada día",
+            "Padres que quieren intencionalidad en la crianza, sin rigidez y sin improvisación"
+          ],
+          "ctaLabel": "Quiero conversar por WhatsApp",
+          "ctaWhatsappText": "Hola Nágila, vengo de la página de Educación Parental, quiero conversar",
+          "backToHome": "Volver al inicio",
+          "recordingNote": "Cada conversación por Google Meet o Zoom queda grabada. Si la familia lo desea, la grabación queda disponible para volver a verla cuando lo necesite."
         }
       },
       {
         "slug": "primeiros-passos",
-        "number": "02",
+        "number": "03",
         "titleLine1": "Primeros pasos",
         "titleLine2": "a la pre-lectura y alfabetización",
         "description": "Cómo acompañar al niño en los primeros pasos de la lectura y la escritura, de la pre-lectura al inicio de la alfabetización, con método y sin prisa.",
@@ -118,7 +168,7 @@
         "contactCta": "Hablar por WhatsApp",
         "whatsappText": "Hola Nágila, vengo de tu sitio, quiero saber más sobre la consultoría de Primeros Pasos (pre-lectura y alfabetización)",
         "detail": {
-          "eyebrow": "CONSULTORÍA · 02",
+          "eyebrow": "CONSULTORÍA · 03",
           "headlineLine1": "De la primera letra",
           "headlineLine2": "a un hogar que educa.",
           "intro": "Tu hijo está en edad de empezar a leer y escribir, y quieres ser parte de eso, no delegarlo. Pero llegan las dudas: ¿por cuál letra empiezo? ¿Por sonido o por sílaba? ¿Y si enseño mal y lo bloqueo? No necesitas un cuaderno caro ni volverte maestra. Necesitas un camino claro, al ritmo del niño, que empiece en la alfabetización y pueda crecer junto con tu familia.",
@@ -145,46 +195,8 @@
           ],
           "ctaLabel": "Hablemos por WhatsApp",
           "ctaWhatsappText": "Hola Nágila, vengo de la página de Primeros Pasos, quiero conversar sobre alfabetización y educación en casa",
-          "backToHome": "Volver al inicio"
-        }
-      },
-      {
-        "slug": "educacao-parental",
-        "number": "03",
-        "titleLine1": "Educación Parental",
-        "titleLine2": "con dirección",
-        "description": "Educación parental con dirección clara: autoridad con afecto, una rutina que sostiene la casa y formación del carácter, en lugar de la improvisación y la negociación sin fin.",
-        "learnMore": "Saber más",
-        "contactCta": "Hablar por WhatsApp",
-        "whatsappText": "Hola Nágila, vengo de tu sitio, quiero saber más sobre la consultoría de Educación Parental",
-        "detail": {
-          "eyebrow": "CONSULTORÍA · 03",
-          "headlineLine1": "Educar con dirección,",
-          "headlineLine2": "no en la improvisación.",
-          "intro": "Educar dejó de ser conducir y pasó a ser reaccionar: apagamos incendios, negociamos todo el día y terminamos agotadas, sin saber si vamos a algún lugar. Como Educadora Parental Certificada y madre que educa a sus propias hijas, te ayudo a devolver dirección a la crianza, eligiendo cada gesto con intención.",
-          "whyTitle": "Por qué importa",
-          "whyBody": [
-            "La mayoría de las familias hoy educa en la improvisación: reacciona al comportamiento de los hijos, copia lo que vio en casa, terceriza a la escuela o a la pantalla. El resultado es una generación de padres cansados y niños ansiosos, sin dirección.",
-            "Una casa con dirección tiene autoridad en lugar de negociación infinita, orden y previsibilidad que dan seguridad emocional al hijo, límites firmes puestos con respeto, y un carácter que se forma día a día, no premiado por buen comportamiento.",
-            "Dirección no es rigidez. Es saber hacia dónde va la familia y conducir con firmeza y afecto, un gesto a la vez."
-          ],
-          "journeyTitle": "Cómo te acompaño",
-          "journeyBody": [
-            "Partimos de tu familia real: el temperamento de cada hijo, el ritmo del matrimonio, lo que ya funciona y lo que te está agotando. No es teoría de manual; cada casa entra distinta.",
-            "Trabajamos tu día a día: cómo devolver autoridad sin volverte autoritaria, cómo construir rutinas (comida, oración, sueño, descanso) que sostienen la casa solas, y cómo formar carácter sin tercerizar a la escuela, a la pantalla o a la suerte.",
-            "Encuentros regulares, ajustes continuos, acompañamiento de la vida real, no teoría suelta en un cuadernillo."
-          ],
-          "forWhomTitle": "Para quién es",
-          "forWhomItems": [
-            "Padres y madres que sienten que educar se volvió una negociación de 24 horas",
-            "Familias cansadas de reaccionar, que quieren criar con dirección",
-            "Parejas que quieren alinear cómo crían antes de que los hijos crezcan tomando lados distintos",
-            "Familias de fe que quieren que la educación refleje lo que creen, vivido en casa cada día",
-            "Padres que quieren intencionalidad en la crianza, sin rigidez y sin improvisación"
-          ],
-          "ctaLabel": "Quiero conversar por WhatsApp",
-          "ctaWhatsappText": "Hola Nágila, vengo de la página de Educación Parental, quiero conversar",
-          "backToHome": "Volver al inicio"
+          "backToHome": "Volver al inicio",
+          "recordingNote": "Cada conversación por Google Meet o Zoom queda grabada. Si la familia lo desea, la grabación queda disponible para volver a verla cuando lo necesite."
         }
       }
     ]

@@ -12,6 +12,21 @@ export interface ConsultoriaDetail {
   journeyBody: string[];
   forWhomTitle: string;
   forWhomItems: string[];
+  // Blocos opcionais: só aparecem na página quando preenchidos.
+  // "O que inclui" nesta consultoria.
+  includes?: { title: string; items: string[] };
+  // "Como funciona" (passo a passo).
+  howItWorks?: { title: string; steps: string[] };
+  // Nota sobre gravação das calls (Meet/Zoom).
+  recordingNote?: string;
+  // Observação sobre método (ex.: o choro, na consultoria de sono).
+  methodNote?: { title: string; body: string[] };
+  // Perguntas frequentes específicas desta consultoria.
+  faqTitle?: string;
+  faq?: { question: string; answer: string }[];
+  // Depoimentos reais de famílias atendidas.
+  testimonialsTitle?: string;
+  testimonials?: { quote: string; author: string }[];
   ctaLabel: string;
   ctaWhatsappText: string;
   backToHome: string;

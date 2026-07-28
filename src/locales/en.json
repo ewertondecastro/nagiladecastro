@@ -23,6 +23,7 @@
     "lastName": "Decastro",
     "tagline": [
       "Motherhood with presence.",
+      "Sleep with gentleness.",
       "Education with intention.",
       "Family with purpose."
     ],
@@ -105,12 +106,61 @@
           ],
           "ctaLabel": "Let's talk on WhatsApp",
           "ctaWhatsappText": "Hi Nágila, I came from the Sleep Consulting page, I'd like to talk about my baby's sleep",
-          "backToHome": "Back to home"
+          "backToHome": "Back to home",
+          "recordingNote": "Every session on Google Meet or Zoom is recorded. If the family wishes, the recording is made available to revisit whenever needed.",
+          "methodNote": {
+            "title": "What about crying?",
+            "body": [
+              "There are several methods, and each one is discussed with the family. I don't bring a single formula: every home has its own approach, built together with you.",
+              "Let me be clear: babies cry as a form of communication. It is how they signal discomfort or frustration. And the crying will always be met with care.",
+              "My job is to teach you to understand the reason behind that cry and how to respond to it with safety and presence. If the answer were simply to leave the child alone crying, there would be no methodology to teach at all."
+            ]
+          }
+        }
+      },
+      {
+        "slug": "educacao-parental",
+        "number": "02",
+        "titleLine1": "Parenting",
+        "titleLine2": "with direction",
+        "description": "Parenting with clear direction: authority with affection, a routine that holds the home together, and character formed day by day, in place of improvisation and endless negotiation.",
+        "learnMore": "Learn more",
+        "contactCta": "Message on WhatsApp",
+        "whatsappText": "Hi Nágila, I came from your site, I'd like to know more about the Parenting with Direction consultation",
+        "detail": {
+          "eyebrow": "CONSULTATION · 02",
+          "headlineLine1": "Raise with direction,",
+          "headlineLine2": "not improvisation.",
+          "intro": "Raising children stopped being leading and became reacting: we put out fires, negotiate all day and end up exhausted, unsure we're going anywhere. As a Certified Parental Educator and a mother who educates her own daughters, I help you give direction back to parenting, choosing each gesture with intention.",
+          "whyTitle": "Why it matters",
+          "whyBody": [
+            "Most families today parent by improvisation: reacting to behavior, copying what they saw at home, outsourcing to school or screens. The result is a generation of tired parents and anxious children, with no direction.",
+            "A home with direction has authority instead of endless negotiation, order and predictability that give the child emotional security, firm limits set with respect, and character formed day by day, not rewarded for good behavior.",
+            "Direction is not rigidity. It is knowing where the family is going and leading with firmness and affection, one gesture at a time."
+          ],
+          "journeyTitle": "How I walk with you",
+          "journeyBody": [
+            "We start from your real family: each child's temperament, the rhythm of your marriage, what is already working and what is draining you. Not manual theory; every home enters differently.",
+            "We work on your everyday life: how to restore authority without turning to authoritarianism, how to build routines (meals, prayer, sleep, rest) that hold the home on their own, and how to form character without outsourcing it to school, screens or chance.",
+            "Regular meetings, continuous adjustments, real-life support, not loose theory in a workbook."
+          ],
+          "forWhomTitle": "Who it's for",
+          "forWhomItems": [
+            "Parents who feel raising kids became a 24-hour negotiation",
+            "Families tired of reacting, who want to raise with direction",
+            "Couples who want to align how they parent before their kids grow up taking sides",
+            "Families of faith who want their parenting to reflect what they believe, lived at home every day",
+            "Parents who want intentionality in raising their kids, without rigidity or improvisation"
+          ],
+          "ctaLabel": "I'd like to talk on WhatsApp",
+          "ctaWhatsappText": "Hi Nágila, I came from the Parenting with Direction page, I'd like to talk",
+          "backToHome": "Back to home",
+          "recordingNote": "Every session on Google Meet or Zoom is recorded. If the family wishes, the recording is made available to revisit whenever needed."
         }
       },
       {
         "slug": "primeiros-passos",
-        "number": "02",
+        "number": "03",
         "titleLine1": "First steps",
         "titleLine2": "to pre-reading and literacy",
         "description": "How to guide your child through the first steps of reading and writing, from pre-reading to early literacy, with method and without rushing.",
@@ -118,7 +168,7 @@
         "contactCta": "Message on WhatsApp",
         "whatsappText": "Hi Nágila, I came from your site, I'd like to know more about the First Steps consultation (pre-reading and literacy)",
         "detail": {
-          "eyebrow": "CONSULTATION · 02",
+          "eyebrow": "CONSULTATION · 03",
           "headlineLine1": "From the first letter",
           "headlineLine2": "to a home that teaches.",
           "intro": "Your child is old enough to start reading and writing, and you want to be part of it, not hand it off. But the doubts pile up: which letter first? Sounds or syllables? What if I teach it wrong and hold them back? You don't need an expensive workbook or a teaching degree. You need a clear path, at the child's pace, that starts with early literacy and can grow with your family.",
@@ -145,46 +195,8 @@
           ],
           "ctaLabel": "Let's talk on WhatsApp",
           "ctaWhatsappText": "Hi Nágila, I came from the First Steps page, I'd like to talk about literacy and home education",
-          "backToHome": "Back to home"
-        }
-      },
-      {
-        "slug": "educacao-parental",
-        "number": "03",
-        "titleLine1": "Parenting",
-        "titleLine2": "with direction",
-        "description": "Parenting with clear direction: authority with affection, a routine that holds the home together, and character formed day by day, in place of improvisation and endless negotiation.",
-        "learnMore": "Learn more",
-        "contactCta": "Message on WhatsApp",
-        "whatsappText": "Hi Nágila, I came from your site, I'd like to know more about the Parenting with Direction consultation",
-        "detail": {
-          "eyebrow": "CONSULTATION · 03",
-          "headlineLine1": "Raise with direction,",
-          "headlineLine2": "not improvisation.",
-          "intro": "Raising children stopped being leading and became reacting: we put out fires, negotiate all day and end up exhausted, unsure we're going anywhere. As a Certified Parental Educator and a mother who educates her own daughters, I help you give direction back to parenting, choosing each gesture with intention.",
-          "whyTitle": "Why it matters",
-          "whyBody": [
-            "Most families today parent by improvisation: reacting to behavior, copying what they saw at home, outsourcing to school or screens. The result is a generation of tired parents and anxious children, with no direction.",
-            "A home with direction has authority instead of endless negotiation, order and predictability that give the child emotional security, firm limits set with respect, and character formed day by day, not rewarded for good behavior.",
-            "Direction is not rigidity. It is knowing where the family is going and leading with firmness and affection, one gesture at a time."
-          ],
-          "journeyTitle": "How I walk with you",
-          "journeyBody": [
-            "We start from your real family: each child's temperament, the rhythm of your marriage, what is already working and what is draining you. Not manual theory; every home enters differently.",
-            "We work on your everyday life: how to restore authority without turning to authoritarianism, how to build routines (meals, prayer, sleep, rest) that hold the home on their own, and how to form character without outsourcing it to school, screens or chance.",
-            "Regular meetings, continuous adjustments, real-life support, not loose theory in a workbook."
-          ],
-          "forWhomTitle": "Who it's for",
-          "forWhomItems": [
-            "Parents who feel raising kids became a 24-hour negotiation",
-            "Families tired of reacting, who want to raise with direction",
-            "Couples who want to align how they parent before their kids grow up taking sides",
-            "Families of faith who want their parenting to reflect what they believe, lived at home every day",
-            "Parents who want intentionality in raising their kids, without rigidity or improvisation"
-          ],
-          "ctaLabel": "I'd like to talk on WhatsApp",
-          "ctaWhatsappText": "Hi Nágila, I came from the Parenting with Direction page, I'd like to talk",
-          "backToHome": "Back to home"
+          "backToHome": "Back to home",
+          "recordingNote": "Every session on Google Meet or Zoom is recorded. If the family wishes, the recording is made available to revisit whenever needed."
         }
       }
     ]
