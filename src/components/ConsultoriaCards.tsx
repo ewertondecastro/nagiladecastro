@@ -29,15 +29,14 @@ export default function ConsultoriaCards({ dict, locale }: Props) {
               key={card.slug}
               className="relative bg-background-soft border border-olive/40 p-8 md:p-10 overflow-hidden flex flex-col transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-olive hover:shadow-[0_12px_30px_-18px_rgba(59,74,61,0.5)]"
             >
-              <span
-                aria-hidden="true"
-                className="absolute right-5 top-1 font-barlow-condensed font-bold text-cream-line select-none pointer-events-none leading-none"
-                style={{ fontSize: "clamp(80px, 9vw, 120px)" }}
-              >
-                {card.number}
-              </span>
               <div className="relative z-10 flex flex-col flex-1">
-                <h3 className="font-playfair leading-tight mb-4" style={{ fontSize: "clamp(26px, 2.6vw, 38px)" }}>
+                <span className="flex items-center gap-3 mb-5">
+                  <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-terracotta">
+                    {card.number}
+                  </span>
+                  <span className="h-px w-8 bg-terracotta/40" aria-hidden="true" />
+                </span>
+                <h3 className="font-playfair leading-tight mb-4" style={{ fontSize: "clamp(26px, 2.4vw, 34px)" }}>
                   <span className="font-bold text-text-primary">{card.titleLine1} </span>
                   <span className="italic text-olive">{card.titleLine2}</span>
                 </h3>
@@ -71,21 +70,25 @@ export default function ConsultoriaCards({ dict, locale }: Props) {
           <p className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-text-muted mb-5">
             {services.othersLabel}
           </p>
-          <div className="grid gap-4 sm:grid-cols-3">
+          <div className="flex flex-col gap-3">
             {rest.map((card) => (
               <div
                 key={card.slug}
-                className="flex flex-col gap-3 bg-background border border-cream-line p-6 transition-all duration-200 ease-out hover:border-olive hover:-translate-y-0.5"
+                className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 bg-background border border-cream-line px-6 py-5 transition-colors duration-200 ease-out hover:border-olive"
               >
-                <span className="font-barlow-condensed text-xs text-olive/50">{card.number}</span>
-                <h4 className="font-playfair leading-tight" style={{ fontSize: "clamp(20px, 1.8vw, 24px)" }}>
-                  <span className="font-bold text-text-primary">{card.titleLine1} </span>
-                  <span className="italic text-olive">{card.titleLine2}</span>
-                </h4>
-                <div className="mt-auto pt-3 flex flex-wrap gap-x-4 gap-y-1">
+                <div className="flex items-baseline gap-4">
+                  <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-olive/50 shrink-0">
+                    {card.number}
+                  </span>
+                  <h4 className="font-playfair leading-tight" style={{ fontSize: "clamp(19px, 1.6vw, 23px)" }}>
+                    <span className="font-bold text-text-primary">{card.titleLine1} </span>
+                    <span className="italic text-olive">{card.titleLine2}</span>
+                  </h4>
+                </div>
+                <div className="flex flex-wrap items-center gap-x-5 gap-y-1 shrink-0">
                   <Link
                     href={consultoriaHref(locale, card.slug)}
-                    className="font-barlow-condensed text-[11px] tracking-widest uppercase text-olive hover:text-text-primary transition-colors"
+                    className="font-barlow-condensed text-[11px] tracking-widest uppercase text-olive hover:text-terracotta transition-colors"
                   >
                     {card.learnMore} →
                   </Link>

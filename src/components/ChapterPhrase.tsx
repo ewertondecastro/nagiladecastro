@@ -2,8 +2,7 @@ import FadeIn from "./FadeIn";
 
 interface Props {
   text: string;
-  // Variante em fundo escuro (verde-oliva) para respiros mais dramáticos,
-  // com costuras em gradiente que dissolvem a linha de corte entre seções.
+  // Variante em fundo escuro (verde-oliva) para respiros mais dramáticos.
   dark?: boolean;
 }
 
@@ -23,21 +22,11 @@ export default function ChapterPhrase({ text, dark = false }: Props) {
     </FadeIn>
   );
 
-  if (!dark) {
-    return (
-      <section className="w-full px-8 md:px-16 lg:px-20 py-24 md:py-36 bg-background">
-        {body}
-      </section>
-    );
-  }
-
-  // Costura: fade de creme -> oliva no topo e oliva -> creme na base, para a
-  // virada de tema não ter linha reta.
   return (
-    <div className="w-full bg-olive">
-      <div className="h-20 md:h-28 bg-gradient-to-b from-background to-olive" aria-hidden="true" />
-      <section className="w-full px-8 md:px-16 lg:px-20 py-12 md:py-20">{body}</section>
-      <div className="h-20 md:h-28 bg-gradient-to-b from-olive to-background" aria-hidden="true" />
-    </div>
+    <section
+      className={`w-full px-8 md:px-16 lg:px-20 py-24 md:py-36 ${dark ? "bg-olive" : "bg-background"}`}
+    >
+      {body}
+    </section>
   );
 }

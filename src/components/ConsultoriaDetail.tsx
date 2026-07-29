@@ -119,11 +119,10 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
         </section>
       )}
 
-      {/* Method note (ex.: o choro na consultoria de sono), com costuras */}
+      {/* Method note (ex.: o choro na consultoria de sono) */}
       {d.methodNote && (
         <div className="w-full bg-olive">
-          <div className="h-16 md:h-24 bg-gradient-to-b from-background to-olive" aria-hidden="true" />
-          <section className="w-full px-8 md:px-16 lg:px-20 py-8 md:py-14">
+          <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24">
             <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
               <div className="md:col-span-1">
                 <div className="w-8 h-px bg-terracotta mb-6" aria-hidden="true" />
@@ -144,7 +143,6 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
               </div>
             </FadeIn>
           </section>
-          <div className="h-16 md:h-24 bg-gradient-to-b from-olive to-background" aria-hidden="true" />
         </div>
       )}
 
@@ -340,6 +338,15 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
               ))}
             </div>
           </FadeIn>
+        </section>
+      )}
+
+      {/* Aviso (disclaimer) */}
+      {d.disclaimer && (
+        <section className="w-full px-8 md:px-16 lg:px-20 pt-4 pb-2 bg-background">
+          <p className="font-barlow text-text-muted text-center italic max-w-2xl mx-auto" style={{ fontSize: "13px" }}>
+            {d.disclaimer}
+          </p>
         </section>
       )}
 

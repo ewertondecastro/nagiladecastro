@@ -277,11 +277,91 @@
             "Familias de fe que quieren que la educación refleje lo que creen, vivido en casa cada día",
             "Padres que quieren intencionalidad en la crianza, sin rigidez y sin improvisación"
           ],
-          "ctaLabel": "Quiero conversar por WhatsApp",
-          "ctaWhatsappText": "Hola Nágila, vengo de la página de Educación Parental, quiero conversar",
+          "ctaLabel": "Quiero empezar",
+          "ctaWhatsappText": "Hola Nágila, vengo de la página de Educación Parental y quiero empezar.",
           "backToHome": "Volver al inicio",
-          "recordingNote": "Cada conversación por Google Meet o Zoom queda grabada. Si la familia lo desea, la grabación queda disponible para volver a verla cuando lo necesite.",
-          "chapterPhrase": "Educar con dirección no endurece la casa. La serena."
+          "recordingNote": "Cada encuentro por Meet queda grabado y disponible para ambos padres, para que cada uno lo siga a su tiempo.",
+          "chapterPhrase": "Educar con dirección no endurece la casa. La serena.",
+          "plansTitle": "Dos formas de empezar",
+          "plans": [
+            {
+              "name": "Consultoría Parental Completa",
+              "duration": "Acompañamiento de 60 días",
+              "highlight": true,
+              "summary": "Para reestructurar a fondo la dinámica de la casa: autoridad, rutina y comportamiento, con acompañamiento cercano hasta que el cambio se afiance.",
+              "forWhom": "Para familias que necesitan acompañamiento en ajustes y consolidación.",
+              "includes": [
+                "Diagnóstico inicial de la familia por las 5 dimensiones (anamnesis)",
+                "4 encuentros individuales por Meet, grabados y disponibles para ambos padres",
+                "Plan educativo personalizado, entregado en PDF",
+                "Soporte por WhatsApp durante todo el ciclo, con respuesta en hasta 24h",
+                "Hasta 3 videollamadas puntuales para situaciones específicas",
+                "Encuentro final de reevaluación y preparación para la autonomía"
+              ],
+              "ctaLabel": "Quiero la Completa",
+              "ctaWhatsappText": "Hola Nágila, vengo de tu sitio y quiero la Consultoría Parental Completa."
+            },
+            {
+              "name": "Consultoría Parental Express",
+              "duration": "Acompañamiento de 40 días",
+              "summary": "Para una cuestión parental delimitada, con un plan claro para que lo apliquen con autonomía.",
+              "forWhom": "Para familias organizadas, con buena capacidad de ejecución independiente.",
+              "includes": [
+                "Diagnóstico enfocado en la cuestión presentada",
+                "1 a 2 encuentros individuales por Meet, grabados y disponibles",
+                "Plan educativo personalizado, entregado en PDF",
+                "40 días de soporte por WhatsApp"
+              ],
+              "ctaLabel": "Quiero la Express",
+              "ctaWhatsappText": "Hola Nágila, vengo de tu sitio y quiero la Consultoría Parental Express."
+            }
+          ],
+          "howItWorks": {
+            "title": "Las 5 dimensiones que leo antes de cambiar cualquier cosa",
+            "steps": [
+              "Autoridad: quién conduce la casa hoy, y qué vació esa conducción.",
+              "Rutina y hábitos: el diseño del día, y dónde crea conflicto en vez de evitarlo.",
+              "Vínculo y comunicación: cómo le hablan al niño y cómo él responde.",
+              "Comportamiento del niño: qué se repite, a qué hora, con quién, y qué hay detrás.",
+              "Ambiente físico y emocional: lo que la casa comunica sin que nadie diga nada."
+            ]
+          },
+          "methodNote": {
+            "title": "Lo que esto no es",
+            "body": [
+              "No es terapia, y no lo trato como si lo fuera. El foco aquí es la conducción de los padres y la dinámica de la casa, con método y acogida.",
+              "Cuando el comportamiento del niño o el sufrimiento de la familia indican la necesidad de una evaluación especializada, lo digo con todas las letras y derivo al profesional adecuado, sea psicólogo infantil, psicólogo de adultos, neuropediatra, terapeuta ocupacional o fonoaudiólogo.",
+              "Reconocer ese límite no debilita el trabajo. Es lo que protege al niño, protege a la familia y sostiene la confianza que depositan aquí."
+            ]
+          },
+          "faqTitle": "Preguntas frecuentes",
+          "faq": [
+            {
+              "question": "¿Esto es terapia?",
+              "answer": "No. Es consultoría de orientación parental: trabajo la conducción de los padres y la dinámica de la casa. Si en algún momento percibo señales que piden evaluación especializada, lo digo con claridad e indico al profesional adecuado. Nada de lo que hacemos aquí sustituye una evaluación individual."
+            },
+            {
+              "question": "¿Es online? ¿Y si mi marido no puede participar?",
+              "answer": "Sí, los encuentros son individuales por Meet. Todos quedan grabados y disponibles para ambos padres, así quien no pudo estar lo ve después, a su tiempo. El cambio no exige dos personas convencidas, exige dos personas coherentes."
+            },
+            {
+              "question": "¿Cuál es la diferencia entre la Completa y la Express?",
+              "answer": "La Completa son 60 días con diagnóstico por las 5 dimensiones, 4 encuentros, soporte durante todo el ciclo y hasta 3 llamadas puntuales, para reestructurar la casa a fondo. La Express son 40 días enfocados en una cuestión delimitada, con 1 a 2 encuentros y plan por escrito, para familias que ejecutan bien por su cuenta."
+            },
+            {
+              "question": "¿Qué son las llamadas puntuales?",
+              "answer": "Son videollamadas cortas para momentos que piden orientación en el momento: berrinches intensos o agresividad, la llegada de un hermano, adaptación escolar, prueba de límites en una fase nueva, regresiones de comportamiento. Tienen alcance restringido a esa situación y se agendan según disponibilidad. No son guardia ni atención continua."
+            },
+            {
+              "question": "¿Prometes que mi hijo va a obedecer?",
+              "answer": "No prometo un niño perfecto ni prometo un plazo fijo. Lo que prometo es proceso, acompañamiento y presencia en cada etapa. Lo que construyen aquí es una casa con menos conflicto, un niño que coopera y padres que vuelven a conducir sin culpa."
+            },
+            {
+              "question": "¿Cómo empezamos?",
+              "answer": "Sin llamada de venta y sin burocracia. Tú decides, envío el alcance por escrito y el enlace de pago (al contado o en cuotas), luego completas la anamnesis y agendamos el primer encuentro."
+            }
+          ],
+          "disclaimer": "Consultoría de orientación parental, de carácter educativo. No sustituye la evaluación profesional individual."
         }
       },
       {

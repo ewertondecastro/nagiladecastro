@@ -3,6 +3,7 @@ import SiteNav from "./SiteNav";
 import Footer from "./Footer";
 import ConsultoriaCards from "./ConsultoriaCards";
 import HomeTestimonials from "./HomeTestimonials";
+import { whatsAppUrl } from "@/lib/whatsapp";
 import type { LocaleDict, Locale } from "@/types/locale";
 
 export default function ConsultoriasIndex({
@@ -13,6 +14,10 @@ export default function ConsultoriasIndex({
   locale: Locale;
 }) {
   const { services, siteNav, contact } = dict;
+  // Numa página de vendas o contato principal é o WhatsApp, não o DM.
+  const sono = services.cards[0];
+  const waHref = whatsAppUrl(sono?.whatsappText ?? contact.titleLine1);
+  const waLabel = sono?.contactCta ?? contact.cta;
 
   return (
     <main className="bg-background text-text-primary">
@@ -31,12 +36,12 @@ export default function ConsultoriasIndex({
             {services.sectionSubtitle}
           </p>
           <a
-            href={contact.url}
+            href={waHref}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200"
           >
-            {contact.cta}
+            {waLabel}
           </a>
         </FadeIn>
       </section>
@@ -61,12 +66,12 @@ export default function ConsultoriasIndex({
             {contact.subtitle}
           </p>
           <a
-            href={contact.url}
+            href={waHref}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 font-barlow-condensed text-sm tracking-widest uppercase px-10 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200"
           >
-            {contact.cta}
+            {waLabel}
           </a>
         </FadeIn>
       </section>

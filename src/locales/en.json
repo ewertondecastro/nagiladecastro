@@ -277,11 +277,91 @@
             "Families of faith who want their parenting to reflect what they believe, lived at home every day",
             "Parents who want intentionality in raising their kids, without rigidity or improvisation"
           ],
-          "ctaLabel": "I'd like to talk on WhatsApp",
-          "ctaWhatsappText": "Hi Nágila, I came from the Parenting with Direction page, I'd like to talk",
+          "ctaLabel": "I want to start",
+          "ctaWhatsappText": "Hi Nágila, I came from the Parenting page and I want to start.",
           "backToHome": "Back to home",
-          "recordingNote": "Every session on Google Meet or Zoom is recorded. If the family wishes, the recording is made available to revisit whenever needed.",
-          "chapterPhrase": "Parenting with direction doesn't harden the home. It settles it."
+          "recordingNote": "Every Meet session is recorded and made available to both parents, so each can follow along in their own time.",
+          "chapterPhrase": "Parenting with direction doesn't harden the home. It settles it.",
+          "plansTitle": "Two ways to begin",
+          "plans": [
+            {
+              "name": "Complete Parenting Consultation",
+              "duration": "60-day support",
+              "highlight": true,
+              "summary": "To deeply restructure the dynamics of the home: authority, routine, and behavior, with close support until the change takes hold.",
+              "forWhom": "For families who need support through adjustments and consolidation.",
+              "includes": [
+                "Initial family assessment across the 5 dimensions (intake)",
+                "4 individual Meet sessions, recorded and made available to both parents",
+                "A personalized parenting plan, delivered as a PDF",
+                "WhatsApp support throughout the cycle, with replies within 24h",
+                "Up to 3 quick video calls for specific situations",
+                "A final session for reassessment and preparing for autonomy"
+              ],
+              "ctaLabel": "I want the Complete",
+              "ctaWhatsappText": "Hi Nágila, I came from your site and I want the Complete Parenting Consultation."
+            },
+            {
+              "name": "Express Parenting Consultation",
+              "duration": "40-day support",
+              "summary": "For one defined parenting question, with a clear plan for you to apply on your own.",
+              "forWhom": "For organized families with a strong ability to follow through independently.",
+              "includes": [
+                "Assessment focused on the question you bring",
+                "1 to 2 individual Meet sessions, recorded and made available",
+                "A personalized parenting plan, delivered as a PDF",
+                "40 days of WhatsApp support"
+              ],
+              "ctaLabel": "I want the Express",
+              "ctaWhatsappText": "Hi Nágila, I came from your site and I want the Express Parenting Consultation."
+            }
+          ],
+          "howItWorks": {
+            "title": "The 5 dimensions I read before changing anything",
+            "steps": [
+              "Authority: who leads the home today, and what emptied that leadership.",
+              "Routine and habits: how the day is designed, and where it creates conflict instead of preventing it.",
+              "Bond and communication: how you speak to your child and how they respond.",
+              "The child's behavior: what repeats, at what hour, with whom, and what sits behind it.",
+              "Physical and emotional environment: what the home communicates without anyone saying a word."
+            ]
+          },
+          "methodNote": {
+            "title": "What this is not",
+            "body": [
+              "This isn't therapy, and I don't treat it as such. The focus here is how parents lead and how the home works, with method and care.",
+              "When a child's behavior or a family's distress points to the need for specialized evaluation, I say so plainly and refer you to the right professional, whether a child psychologist, an adult psychologist, a neuropediatrician, an occupational therapist, or a speech therapist.",
+              "Recognizing that limit doesn't weaken the work. It is what protects the child, protects the family, and sustains the trust you place here."
+            ]
+          },
+          "faqTitle": "Frequently asked questions",
+          "faq": [
+            {
+              "question": "Is this therapy?",
+              "answer": "No. This is parenting guidance: I work on how parents lead and how the home functions. If at any point I see signs that call for specialized evaluation, I say so clearly and point you to the right professional. Nothing here replaces an individual evaluation."
+            },
+            {
+              "question": "Is it online? What if my husband can't attend?",
+              "answer": "Yes, sessions are individual over Meet. All are recorded and available to both parents, so whoever couldn't be there watches later, in their own time. Change doesn't require two convinced people, it requires two consistent people."
+            },
+            {
+              "question": "What's the difference between the Complete and the Express?",
+              "answer": "The Complete is 60 days with the full 5-dimension assessment, 4 sessions, support across the whole cycle, and up to 3 quick calls, to restructure the home deeply. The Express is 40 days focused on one defined question, with 1 to 2 sessions and a written plan, for families who follow through well on their own."
+            },
+            {
+              "question": "What are the quick calls?",
+              "answer": "Short video calls for moments that need guidance right away: intense tantrums or aggression, a new sibling arriving, adjusting to school, testing limits in a new phase, behavioral regressions. They are scoped to that situation and scheduled as availability allows. They are not on-call or continuous support."
+            },
+            {
+              "question": "Do you promise my child will obey?",
+              "answer": "I don't promise a perfect child and I don't promise a fixed timeline. What I promise is a process, support, and presence at every stage. What you build here is a home with less conflict, a child who cooperates, and parents who lead again without guilt."
+            },
+            {
+              "question": "How do we get started?",
+              "answer": "No sales call and no bureaucracy. You decide, I send the written scope and the payment link (in full or in installments), then you fill out the intake and we schedule the first session."
+            }
+          ],
+          "disclaimer": "Parenting guidance of an educational nature. It does not replace individual professional evaluation."
         }
       },
       {

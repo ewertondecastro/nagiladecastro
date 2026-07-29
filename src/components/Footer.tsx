@@ -75,8 +75,16 @@ export default function Footer({ dict, locale = "pt" }: Props) {
           <span className="font-barlow-condensed text-[11px] tracking-[0.2em] text-background/50">
             &copy;&nbsp;{footer.copy}
           </span>
-          <span className="font-barlow-condensed text-[11px] tracking-[0.2em] text-background/50 uppercase">
-            Cape Cod &middot; Massachusetts
+          <span className="font-barlow-condensed text-[11px] tracking-[0.2em] text-background/50">
+            Site por{" "}
+            <a
+              href="https://instagram.com/ewerton.decastro"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-background/70 hover:text-terracotta transition-colors duration-200"
+            >
+              @ewerton.decastro
+            </a>
           </span>
         </div>
       </div>
