@@ -31,7 +31,15 @@ export interface ConsultoriaDetail {
   faq?: { question: string; answer: string }[];
   // Depoimentos reais de famílias atendidas.
   testimonialsTitle?: string;
-  testimonials?: { quote: string; author: string }[];
+  testimonialsNote?: string;
+  testimonials?: {
+    quote: string;
+    author: string;
+    // Print real (WhatsApp/Instagram) que comprova o depoimento.
+    image?: string;
+    imageAlt?: string;
+    source?: string;
+  }[];
   ctaLabel: string;
   ctaWhatsappText: string;
   backToHome: string;

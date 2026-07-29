@@ -157,19 +157,31 @@
           "testimonials": [
             {
               "quote": "Sí, sin llanto y sin dolor de cabeza. Creo que ya se volvió un hábito. Estamos volviendo a poder tener vida social sin grandes impactos para él.",
-              "author": "Mamá de Theo · tres meses después del acompañamiento"
+              "author": "Mamá de Theo · tres meses después del acompañamiento",
+              "image": "/consultorias/sono/depoimentos/theo.jpg",
+              "source": "WhatsApp",
+              "imageAlt": "Captura de la conversación con la mamá de Theo"
             },
             {
               "quote": "Hoy mi hijo duerme solo en la cuna, y todos dormimos bien desde entonces. Yo diría que no tengas miedo de empezar, podría haberlo hecho mucho antes.",
-              "author": "Mamá de un bebé de 1 año"
+              "author": "Mamá de un bebé de 1 año",
+              "image": "/consultorias/sono/depoimentos/bebe-1-ano.jpg",
+              "source": "WhatsApp",
+              "imageAlt": "Captura de la conversación con la mamá del bebé de 1 año"
             },
             {
               "quote": "Hoy tiene autonomía de sueño porque estuviste encima de mí. Ahora ya trabajo con mi segundo hijo para desarrollar la rutina aún más temprano.",
-              "author": "Kamila, mamá de dos"
+              "author": "Kamila, mamá de dos",
+              "image": "/consultorias/sono/depoimentos/kamila.jpg",
+              "source": "WhatsApp",
+              "imageAlt": "Captura de la conversación con Kamila"
             },
             {
               "quote": "Antes, nuestras noches eran muy difíciles, varios despertares y solo volvía a dormir en brazos o mamando. Hoy tenemos mucha más tranquilidad, y el sueño llega con mucha más facilidad. Fue una inversión que valió muchísimo la pena para nuestra familia.",
-              "author": "Mamá de Anne"
+              "author": "Mamá de Anne",
+              "image": "/consultorias/sono/depoimentos/anne.jpg",
+              "source": "Instagram",
+              "imageAlt": "Captura de la conversación con la mamá de Anne"
             }
           ],
           "disclaimer": "Contenido educativo, que no sustituye la evaluación de tu pediatra.",
@@ -216,7 +228,8 @@
               "Ajustes orientados: evaluar lo que ocurre en la práctica y adaptar con criterio.",
               "Autonomía de la familia: cerrar con seguridad para conducir sin depender de mí."
             ]
-          }
+          },
+          "testimonialsNote": "Mensajes reales de madres que pasaron por la consultoría, compartidos con autorización. Toca para ver la captura completa."
         }
       },
       {
