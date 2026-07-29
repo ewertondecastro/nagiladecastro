@@ -62,7 +62,7 @@
     "titleLine1": "The reason,",
     "titleLine2": "every single day.",
     "body": [
-      "Helena arrived in 2021. Catharina in 2024. Ewerton in 2017.",
+      "Ewerton arrived in 2017. Helena in 2021. Catharina in 2024.",
       "Before any mother I walk alongside, there is this home. It is the home I speak from, the one I return to, the place where everything I teach was first lived."
     ]
   },
@@ -153,45 +153,55 @@
               "ctaWhatsappText": "Hi Nágila, I came from your site and I want the Express Sleep Consultation."
             }
           ],
-          "testimonialsTitle": "Families sleeping again",
+          "testimonialsTitle": "They wrote in the middle of the night. And again, months later.",
           "testimonials": [
             {
+              "featured": true,
               "quote": "Yes, no crying and no headache. I think it's become a habit now. We're able to have a social life again without any big impact on him.",
-              "author": "Theo's mom · three months after the support",
+              "author": "Theo's mom",
               "source": "WhatsApp",
-              "imageAlt": "Screenshot of the chat with Theo’s mom",
               "images": [
-                "/consultorias/sono/depoimentos/theo.jpg",
-                "/consultorias/sono/depoimentos/theo-2.jpg",
-                "/consultorias/sono/depoimentos/theo-3.jpg"
-              ]
+                "/consultorias/sono/depoimentos/rith-noite.jpg",
+                "/consultorias/sono/depoimentos/rith-deu-certo.jpg",
+                "/consultorias/sono/depoimentos/rith-rotina.jpg",
+                "/consultorias/sono/depoimentos/rith-audios.jpg",
+                "/consultorias/sono/depoimentos/rith-longa.jpg"
+              ],
+              "imageCaptions": [
+                "September · the first full night",
+                "The next day · the routine worked",
+                "December · it became a habit",
+                "The relief along the way",
+                "Months later · her own account"
+              ],
+              "imageAlt": "Real WhatsApp conversation with Theo's mom"
             },
             {
               "quote": "Today my son sleeps on his own in the crib, and everyone has slept well ever since. I'd say don't be afraid to start, I could have done it much sooner.",
               "author": "Mother of a 1-year-old",
               "source": "WhatsApp",
-              "imageAlt": "Screenshot of the chat with the 1-year-old’s mom",
               "images": [
-                "/consultorias/sono/depoimentos/bebe-1-ano.jpg"
-              ]
+                "/consultorias/sono/depoimentos/ana-rosa.jpg"
+              ],
+              "imageAlt": "Real WhatsApp conversation with the mother of a 1-year-old"
             },
             {
               "quote": "Today he has sleep autonomy because you stayed on my case. Now I'm already working with my second child to build the routine even earlier.",
               "author": "Kamila, mother of two",
               "source": "WhatsApp",
-              "imageAlt": "Screenshot of the chat with Kamila",
               "images": [
                 "/consultorias/sono/depoimentos/kamila.jpg"
-              ]
+              ],
+              "imageAlt": "Real WhatsApp conversation with Kamila"
             },
             {
-              "quote": "Before, our nights were very hard, many wakings, and he'd only fall back asleep in my arms or nursing. Today we have so much more calm, and sleep comes far more easily. It was an investment that was truly worth it for our family.",
+              "quote": "Before, our nights were very hard, many wakings, and he'd only fall back asleep in my arms or nursing. Today we have so much more calm, and sleep comes far more easily.",
               "author": "Anne's mom",
-              "source": "Instagram",
-              "imageAlt": "Screenshot of the chat with Anne’s mom",
+              "source": "WhatsApp",
               "images": [
-                "/consultorias/sono/depoimentos/anne.jpg"
-              ]
+                "/consultorias/sono/depoimentos/iasmim.jpg"
+              ],
+              "imageAlt": "Real WhatsApp conversation with Anne's mom"
             }
           ],
           "disclaimer": "Educational content, which does not replace an evaluation by your pediatrician.",
@@ -239,7 +249,7 @@
               "The family's autonomy: closing with confidence so you lead without depending on me."
             ]
           },
-          "testimonialsNote": "Real messages from mothers who went through the consultation, shared with permission. Tap to see the full screenshot.",
+          "testimonialsNote": "Real messages from mothers I've walked alongside, shared with permission. Tap any screenshot to read it in full.",
           "chapterPhrase": "Sleep deprivation isn't only the child's problem. It's the whole home's."
         }
       },

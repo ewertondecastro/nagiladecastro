@@ -37,10 +37,14 @@ export interface ConsultoriaDetail {
   testimonials?: {
     quote: string;
     author: string;
-    // Prints reais (WhatsApp/Instagram) que comprovam o depoimento.
+    // Prints reais do WhatsApp que comprovam o depoimento.
     images?: string[];
+    // Legenda de cada print (ex.: a data), na mesma ordem das imagens.
+    imageCaptions?: string[];
     imageAlt?: string;
     source?: string;
+    // Depoimento em destaque: ocupa a largura toda, com a sequência de prints.
+    featured?: boolean;
   }[];
   ctaLabel: string;
   ctaWhatsappText: string;

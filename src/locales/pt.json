@@ -62,7 +62,7 @@
     "titleLine1": "O motivo,",
     "titleLine2": "todos os dias.",
     "body": [
-      "Helena chegou em 2021. Catharina em 2024. Ewerton em 2017.",
+      "Ewerton chegou em 2017. Helena em 2021. Catharina em 2024.",
       "Antes de qualquer mãe que eu acompanho, existe esta casa. É dela que eu falo, é nela que eu volto, é dentro dela que tudo o que ensino foi primeiro vivido."
     ]
   },
@@ -153,45 +153,55 @@
               "ctaWhatsappText": "Oi Nágila, vim pelo seu site e quero a Consultoria Express de Sono."
             }
           ],
-          "testimonialsTitle": "Famílias que voltaram a dormir",
+          "testimonialsTitle": "Elas mandaram no meio da noite. E depois, meses depois.",
           "testimonials": [
             {
+              "featured": true,
               "quote": "Sim, sem choro e sem dor de cabeça. Acho que agora já virou hábito. Estamos voltando a poder ter uma vida social sem grandes impactos para ele.",
-              "author": "Mãe do Theo · três meses depois do acompanhamento",
+              "author": "Mãe do Theo",
               "source": "WhatsApp",
-              "imageAlt": "Print da conversa com a mãe do Theo",
               "images": [
-                "/consultorias/sono/depoimentos/theo.jpg",
-                "/consultorias/sono/depoimentos/theo-2.jpg",
-                "/consultorias/sono/depoimentos/theo-3.jpg"
-              ]
+                "/consultorias/sono/depoimentos/rith-noite.jpg",
+                "/consultorias/sono/depoimentos/rith-deu-certo.jpg",
+                "/consultorias/sono/depoimentos/rith-rotina.jpg",
+                "/consultorias/sono/depoimentos/rith-audios.jpg",
+                "/consultorias/sono/depoimentos/rith-longa.jpg"
+              ],
+              "imageCaptions": [
+                "Setembro · a primeira noite inteira",
+                "No dia seguinte · a rotina deu certo",
+                "Dezembro · virou hábito",
+                "O alívio no meio do caminho",
+                "Meses depois · o balanço dela"
+              ],
+              "imageAlt": "Conversa real no WhatsApp com a mãe do Theo"
             },
             {
               "quote": "Hoje o meu filho dorme sozinho no berço, e todo mundo dorme bem desde então. Eu diria para não ter medo de começar, eu poderia ter feito bem antes.",
               "author": "Mãe de um bebê de 1 ano",
               "source": "WhatsApp",
-              "imageAlt": "Print da conversa com a mãe do bebê de 1 ano",
               "images": [
-                "/consultorias/sono/depoimentos/bebe-1-ano.jpg"
-              ]
+                "/consultorias/sono/depoimentos/ana-rosa.jpg"
+              ],
+              "imageAlt": "Conversa real no WhatsApp com a mãe de um bebê de 1 ano"
             },
             {
               "quote": "Hoje ele tem autonomia de sono porque você ficou no meu pé. Agora já trabalho com o meu segundo filho para desenvolver a rotina ainda mais cedo.",
               "author": "Kamila, mãe de dois",
               "source": "WhatsApp",
-              "imageAlt": "Print da conversa com a Kamila",
               "images": [
                 "/consultorias/sono/depoimentos/kamila.jpg"
-              ]
+              ],
+              "imageAlt": "Conversa real no WhatsApp com a Kamila"
             },
             {
-              "quote": "Antes, nossas noites eram muito difíceis, vários despertares e só voltava a dormir no colo ou mamando. Hoje temos muito mais tranquilidade, e o sono acontece com muito mais facilidade. Foi um investimento que valeu muito a pena para a nossa família.",
+              "quote": "Antes, nossas noites eram muito difíceis, vários despertares e só voltava a dormir no colo ou mamando. Hoje temos muito mais tranquilidade, e o sono acontece com muito mais facilidade.",
               "author": "Mãe da Anne",
-              "source": "Instagram",
-              "imageAlt": "Print da conversa com a mãe da Anne",
+              "source": "WhatsApp",
               "images": [
-                "/consultorias/sono/depoimentos/anne.jpg"
-              ]
+                "/consultorias/sono/depoimentos/iasmim.jpg"
+              ],
+              "imageAlt": "Conversa real no WhatsApp com a mãe da Anne"
             }
           ],
           "disclaimer": "Conteúdo educativo, que não substitui a avaliação do seu pediatra.",
@@ -239,7 +249,7 @@
               "Autonomia da família: encerrar com segurança para conduzir sem depender de mim."
             ]
           },
-          "testimonialsNote": "Mensagens reais de mães que passaram pela consultoria, compartilhadas com autorização. Toque para ver o print completo.",
+          "testimonialsNote": "Mensagens reais de mães acompanhadas por mim, compartilhadas com autorização. Toque em qualquer print para ler por inteiro.",
           "chapterPhrase": "Privação de sono não é problema só da criança. É da casa inteira."
         }
       },
