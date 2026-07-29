@@ -6,7 +6,6 @@ import AboutSection from "@/components/AboutSection";
 import FamilySection from "@/components/FamilySection";
 import ServicesSection from "@/components/ServicesSection";
 import HomeTestimonials from "@/components/HomeTestimonials";
-import ResourcesVitrine from "@/components/ResourcesVitrine";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import type { Metadata } from "next";
@@ -51,7 +50,6 @@ export default async function Home() {
       <AboutSection dict={dict} />
       <QuoteSection dict={dict} />
       <FamilySection dict={dict} />
-      <ResourcesVitrine dict={dict} locale="pt" />
       <ContactSection dict={dict} />
       <Footer dict={dict} locale="pt" />
     </main>

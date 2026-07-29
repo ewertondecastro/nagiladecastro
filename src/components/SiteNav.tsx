@@ -3,7 +3,8 @@
 import Link from "next/link";
 import { useState } from "react";
 import type { LocaleDict, Locale } from "@/types/locale";
-import LanguageSwitcher from "./LanguageSwitcher";
+// Seletor de idioma escondido por ora (site só em PT). Reative importando
+// LanguageSwitcher e recolocando-o no nav quando quiser EN/ES de volta.
 
 function prefix(locale: Locale): string {
   return locale === "pt" ? "" : `/${locale}`;
@@ -60,8 +61,6 @@ export default function SiteNav({
               </Link>
             )
           )}
-          <span className="w-px h-4 bg-cream-line" aria-hidden="true" />
-          <LanguageSwitcher current={locale} />
         </div>
 
         {/* Mobile toggle */}
@@ -109,9 +108,6 @@ export default function SiteNav({
               {l.label}
             </Link>
           ))}
-          <div className="pt-5">
-            <LanguageSwitcher current={locale} />
-          </div>
         </div>
       </div>
     </header>

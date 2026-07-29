@@ -35,8 +35,8 @@ export interface ConsultoriaDetail {
   testimonials?: {
     quote: string;
     author: string;
-    // Print real (WhatsApp/Instagram) que comprova o depoimento.
-    image?: string;
+    // Prints reais (WhatsApp/Instagram) que comprovam o depoimento.
+    images?: string[];
     imageAlt?: string;
     source?: string;
   }[];

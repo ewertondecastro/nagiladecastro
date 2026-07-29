@@ -158,30 +158,40 @@
             {
               "quote": "Sim, sem choro e sem dor de cabeça. Acho que agora já virou hábito. Estamos voltando a poder ter uma vida social sem grandes impactos para ele.",
               "author": "Mãe do Theo · três meses depois do acompanhamento",
-              "image": "/consultorias/sono/depoimentos/theo.jpg",
               "source": "WhatsApp",
-              "imageAlt": "Print da conversa com a mãe do Theo"
+              "imageAlt": "Print da conversa com a mãe do Theo",
+              "images": [
+                "/consultorias/sono/depoimentos/theo.jpg",
+                "/consultorias/sono/depoimentos/theo-2.jpg",
+                "/consultorias/sono/depoimentos/theo-3.jpg"
+              ]
             },
             {
               "quote": "Hoje o meu filho dorme sozinho no berço, e todo mundo dorme bem desde então. Eu diria para não ter medo de começar, eu poderia ter feito bem antes.",
               "author": "Mãe de um bebê de 1 ano",
-              "image": "/consultorias/sono/depoimentos/bebe-1-ano.jpg",
               "source": "WhatsApp",
-              "imageAlt": "Print da conversa com a mãe do bebê de 1 ano"
+              "imageAlt": "Print da conversa com a mãe do bebê de 1 ano",
+              "images": [
+                "/consultorias/sono/depoimentos/bebe-1-ano.jpg"
+              ]
             },
             {
               "quote": "Hoje ele tem autonomia de sono porque você ficou no meu pé. Agora já trabalho com o meu segundo filho para desenvolver a rotina ainda mais cedo.",
               "author": "Kamila, mãe de dois",
-              "image": "/consultorias/sono/depoimentos/kamila.jpg",
               "source": "WhatsApp",
-              "imageAlt": "Print da conversa com a Kamila"
+              "imageAlt": "Print da conversa com a Kamila",
+              "images": [
+                "/consultorias/sono/depoimentos/kamila.jpg"
+              ]
             },
             {
               "quote": "Antes, nossas noites eram muito difíceis, vários despertares e só voltava a dormir no colo ou mamando. Hoje temos muito mais tranquilidade, e o sono acontece com muito mais facilidade. Foi um investimento que valeu muito a pena para a nossa família.",
               "author": "Mãe da Anne",
-              "image": "/consultorias/sono/depoimentos/anne.jpg",
               "source": "Instagram",
-              "imageAlt": "Print da conversa com a mãe da Anne"
+              "imageAlt": "Print da conversa com a mãe da Anne",
+              "images": [
+                "/consultorias/sono/depoimentos/anne.jpg"
+              ]
             }
           ],
           "disclaimer": "Conteúdo educativo, que não substitui a avaliação do seu pediatra.",

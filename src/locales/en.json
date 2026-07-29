@@ -158,30 +158,40 @@
             {
               "quote": "Yes, no crying and no headache. I think it's become a habit now. We're able to have a social life again without any big impact on him.",
               "author": "Theo's mom · three months after the support",
-              "image": "/consultorias/sono/depoimentos/theo.jpg",
               "source": "WhatsApp",
-              "imageAlt": "Screenshot of the chat with Theo’s mom"
+              "imageAlt": "Screenshot of the chat with Theo’s mom",
+              "images": [
+                "/consultorias/sono/depoimentos/theo.jpg",
+                "/consultorias/sono/depoimentos/theo-2.jpg",
+                "/consultorias/sono/depoimentos/theo-3.jpg"
+              ]
             },
             {
               "quote": "Today my son sleeps on his own in the crib, and everyone has slept well ever since. I'd say don't be afraid to start, I could have done it much sooner.",
               "author": "Mother of a 1-year-old",
-              "image": "/consultorias/sono/depoimentos/bebe-1-ano.jpg",
               "source": "WhatsApp",
-              "imageAlt": "Screenshot of the chat with the 1-year-old’s mom"
+              "imageAlt": "Screenshot of the chat with the 1-year-old’s mom",
+              "images": [
+                "/consultorias/sono/depoimentos/bebe-1-ano.jpg"
+              ]
             },
             {
               "quote": "Today he has sleep autonomy because you stayed on my case. Now I'm already working with my second child to build the routine even earlier.",
               "author": "Kamila, mother of two",
-              "image": "/consultorias/sono/depoimentos/kamila.jpg",
               "source": "WhatsApp",
-              "imageAlt": "Screenshot of the chat with Kamila"
+              "imageAlt": "Screenshot of the chat with Kamila",
+              "images": [
+                "/consultorias/sono/depoimentos/kamila.jpg"
+              ]
             },
             {
               "quote": "Before, our nights were very hard, many wakings, and he'd only fall back asleep in my arms or nursing. Today we have so much more calm, and sleep comes far more easily. It was an investment that was truly worth it for our family.",
               "author": "Anne's mom",
-              "image": "/consultorias/sono/depoimentos/anne.jpg",
               "source": "Instagram",
-              "imageAlt": "Screenshot of the chat with Anne’s mom"
+              "imageAlt": "Screenshot of the chat with Anne’s mom",
+              "images": [
+                "/consultorias/sono/depoimentos/anne.jpg"
+              ]
             }
           ],
           "disclaimer": "Educational content, which does not replace an evaluation by your pediatrician.",

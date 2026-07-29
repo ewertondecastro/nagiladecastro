@@ -5,11 +5,14 @@ import type { LocaleDict, Locale } from "@/types/locale";
 interface Props {
   dict: LocaleDict;
   locale: Locale;
+  // Mostra o botão que leva para a página de consultorias.
+  // Fica oculto quando o bloco já está dentro dessa própria página.
+  showCta?: boolean;
 }
 
-// Depoimentos na home: reaproveita os depoimentos reais (com print) da
-// Consultoria de Sono e conduz o visitante para a página de vendas.
-export default function HomeTestimonials({ dict, locale }: Props) {
+// Depoimentos reais (com print) reaproveitados da Consultoria de Sono.
+// Usado na home e dentro da página de consultorias.
+export default function HomeTestimonials({ dict, locale, showCta = true }: Props) {
   const sono = dict.services.cards.find((c) => c.slug === "sono");
   const d = sono?.detail;
   if (!d?.testimonials || d.testimonials.length === 0) return null;
@@ -17,10 +20,10 @@ export default function HomeTestimonials({ dict, locale }: Props) {
   const p = locale === "pt" ? "" : `/${locale}`;
   const seeMore =
     locale === "pt"
-      ? "Ver a Consultoria de Sono"
+      ? "Ver consultorias"
       : locale === "en"
-      ? "See the Sleep Consultation"
-      : "Ver la Consultoría de Sueño";
+      ? "See consultations"
+      : "Ver consultorías";
 
   return (
     <section id="depoimentos" className="w-full px-8 md:px-16 lg:px-20 py-20 md:py-28 bg-background-soft">
@@ -58,29 +61,30 @@ export default function HomeTestimonials({ dict, locale }: Props) {
                   )}
                 </figcaption>
               </div>
-              {t.image && (
-                <a
-                  href={t.image}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="relative block border-t border-cream-line group"
-                  title="Ver print completo"
-                >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={t.image}
-                    alt={t.imageAlt ?? `Mensagem real de ${t.author}`}
-                    loading="lazy"
-                    className="w-full max-h-[380px] object-cover object-top"
-                  />
-                  <span
-                    className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-background to-transparent"
-                    aria-hidden="true"
-                  />
-                  <span className="absolute bottom-3 left-1/2 -translate-x-1/2 font-barlow-condensed text-[11px] tracking-[0.2em] uppercase text-olive bg-background/90 px-3 py-1 rounded-full border border-cream-line group-hover:text-terracotta transition-colors duration-200 whitespace-nowrap">
-                    Ver print completo
-                  </span>
-                </a>
+              {t.images && t.images.length > 0 && (
+                <div className="border-t border-cream-line bg-background-soft/60 p-4 flex gap-3 overflow-x-auto">
+                  {t.images.map((src, k) => (
+                    <a
+                      key={k}
+                      href={src}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="relative shrink-0 block group"
+                      title="Ver print completo"
+                    >
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={src}
+                        alt={t.imageAlt ?? `Mensagem real de ${t.author}`}
+                        loading="lazy"
+                        className="h-[340px] w-auto max-w-none rounded border border-cream-line object-cover object-top"
+                      />
+                      <span className="absolute bottom-2 left-1/2 -translate-x-1/2 font-barlow-condensed text-[10px] tracking-[0.15em] uppercase text-olive bg-background/90 px-2.5 py-1 rounded-full border border-cream-line group-hover:text-terracotta transition-colors duration-200 whitespace-nowrap">
+                        Ampliar
+                      </span>
+                    </a>
+                  ))}
+                </div>
               )}
             </figure>
           ))}
@@ -92,14 +96,16 @@ export default function HomeTestimonials({ dict, locale }: Props) {
           </p>
         )}
 
-        <div className="flex justify-center pt-2">
-          <Link
-            href={`${p}/consultorias/sono`}
-            className="font-barlow-condensed text-sm tracking-widest uppercase px-10 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200"
-          >
-            {seeMore} →
-          </Link>
-        </div>
+        {showCta && (
+          <div className="flex justify-center pt-2">
+            <Link
+              href={`${p}/consultorias`}
+              className="font-barlow-condensed text-sm tracking-widest uppercase px-10 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200"
+            >
+              {seeMore} →
+            </Link>
+          </div>
+        )}
       </FadeIn>
     </section>
   );
