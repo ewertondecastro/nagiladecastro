@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 import type { LocaleDict, Locale } from "@/types/locale";
 // Seletor de idioma escondido por ora (site só em PT). Reative importando
@@ -8,6 +9,11 @@ import type { LocaleDict, Locale } from "@/types/locale";
 
 function prefix(locale: Locale): string {
   return locale === "pt" ? "" : `/${locale}`;
+}
+
+function normalize(path: string): string {
+  const clean = path.split("#")[0].split("?")[0].replace(/\/+$/, "");
+  return clean === "" ? "/" : clean;
 }
 
 export default function SiteNav({
@@ -20,12 +26,19 @@ export default function SiteNav({
   const [open, setOpen] = useState(false);
   const p = prefix(locale);
   const home = p || "/";
+  const current = normalize(usePathname() || "/");
 
+  // O destaque marca a página em que a visitante está, não uma aba fixa.
+  // Páginas de detalhe (/consultorias/sono) mantêm "Consultorias" ativa.
   const links = [
-    { label: dict.siteNav.home, href: home, highlight: false },
-    { label: dict.siteNav.about, href: `${p}/sobre`, highlight: false },
-    { label: dict.siteNav.consultorias, href: `${p}/consultorias`, highlight: true },
-    { label: dict.siteNav.recursos, href: `${p}/recursos`, highlight: false },
+    { label: dict.siteNav.home, href: home, highlight: current === normalize(home) },
+    { label: dict.siteNav.about, href: `${p}/sobre`, highlight: current === `${p}/sobre` },
+    {
+      label: dict.siteNav.consultorias,
+      href: `${p}/consultorias`,
+      highlight: current === `${p}/consultorias` || current.startsWith(`${p}/consultorias/`),
+    },
+    { label: dict.siteNav.recursos, href: `${p}/recursos`, highlight: current === `${p}/recursos` },
     { label: dict.siteNav.contato, href: `${home}#contato`, highlight: false },
   ];
 
