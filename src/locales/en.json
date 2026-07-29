@@ -280,7 +280,8 @@
           "ctaLabel": "I'd like to talk on WhatsApp",
           "ctaWhatsappText": "Hi Nágila, I came from the Parenting with Direction page, I'd like to talk",
           "backToHome": "Back to home",
-          "recordingNote": "Every session on Google Meet or Zoom is recorded. If the family wishes, the recording is made available to revisit whenever needed."
+          "recordingNote": "Every session on Google Meet or Zoom is recorded. If the family wishes, the recording is made available to revisit whenever needed.",
+          "chapterPhrase": "Parenting with direction doesn't harden the home. It settles it."
         }
       },
       {
@@ -321,7 +322,8 @@
           "ctaLabel": "Let's talk on WhatsApp",
           "ctaWhatsappText": "Hi Nágila, I came from the First Steps page, I'd like to talk about literacy and home education",
           "backToHome": "Back to home",
-          "recordingNote": "Every session on Google Meet or Zoom is recorded. If the family wishes, the recording is made available to revisit whenever needed."
+          "recordingNote": "Every session on Google Meet or Zoom is recorded. If the family wishes, the recording is made available to revisit whenever needed.",
+          "chapterPhrase": "Reading isn't taught with haste. It's taught with presence."
         }
       }
     ]

@@ -280,7 +280,8 @@
           "ctaLabel": "Quero conversar pelo WhatsApp",
           "ctaWhatsappText": "Oi Nágila, vim pela página de Educação Parental, quero conversar",
           "backToHome": "Voltar ao início",
-          "recordingNote": "Toda conversa por Google Meet ou Zoom é gravada. Se a família quiser, a gravação fica disponível para rever quando precisar."
+          "recordingNote": "Toda conversa por Google Meet ou Zoom é gravada. Se a família quiser, a gravação fica disponível para rever quando precisar.",
+          "chapterPhrase": "Educar com direção não endurece a casa. Aquieta ela."
         }
       },
       {
@@ -321,7 +322,8 @@
           "ctaLabel": "Quero conversar pelo WhatsApp",
           "ctaWhatsappText": "Oi Nágila, vim pela página de Primeiros Passos, quero conversar sobre alfabetização e educação em casa",
           "backToHome": "Voltar ao início",
-          "recordingNote": "Toda conversa por Google Meet ou Zoom é gravada. Se a família quiser, a gravação fica disponível para rever quando precisar."
+          "recordingNote": "Toda conversa por Google Meet ou Zoom é gravada. Se a família quiser, a gravação fica disponível para rever quando precisar.",
+          "chapterPhrase": "Ler não se ensina com pressa. Se ensina com presença."
         }
       }
     ]
