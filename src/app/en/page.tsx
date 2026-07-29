@@ -5,6 +5,7 @@ import QuoteSection from "@/components/QuoteSection";
 import AboutSection from "@/components/AboutSection";
 import FamilySection from "@/components/FamilySection";
 import ServicesSection from "@/components/ServicesSection";
+import HomeTestimonials from "@/components/HomeTestimonials";
 import ResourcesVitrine from "@/components/ResourcesVitrine";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -45,11 +46,12 @@ export default async function PageEN() {
     <main>
       <SiteNav dict={dict} locale="en" />
       <HeroSection dict={dict} locale="en" />
-      <ResourcesVitrine dict={dict} locale="en" />
       <ServicesSection dict={dict} locale="en" />
-      <QuoteSection dict={dict} />
+      <HomeTestimonials dict={dict} locale="en" />
       <AboutSection dict={dict} />
+      <QuoteSection dict={dict} />
       <FamilySection dict={dict} />
+      <ResourcesVitrine dict={dict} locale="en" />
       <ContactSection dict={dict} />
       <Footer dict={dict} locale="en" />
     </main>

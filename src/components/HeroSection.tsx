@@ -9,8 +9,9 @@ interface Props {
   locale: Locale;
 }
 
-export default function HeroSection({ dict }: Props) {
+export default function HeroSection({ dict, locale }: Props) {
   const { hero } = dict;
+  const p = locale === "pt" ? "" : `/${locale}`;
 
   return (
     <section className="relative w-full h-screen min-h-[700px] bg-background overflow-hidden">
@@ -86,7 +87,7 @@ export default function HeroSection({ dict }: Props) {
 
           {/* CTA */}
           <motion.a
-            href="#consultorias"
+            href={`${p}/consultorias/sono`}
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.95 }}

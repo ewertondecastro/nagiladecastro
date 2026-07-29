@@ -5,6 +5,7 @@ import QuoteSection from "@/components/QuoteSection";
 import AboutSection from "@/components/AboutSection";
 import FamilySection from "@/components/FamilySection";
 import ServicesSection from "@/components/ServicesSection";
+import HomeTestimonials from "@/components/HomeTestimonials";
 import ResourcesVitrine from "@/components/ResourcesVitrine";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -45,11 +46,12 @@ export default async function Home() {
     <main>
       <SiteNav dict={dict} locale="pt" />
       <HeroSection dict={dict} locale="pt" />
-      <ResourcesVitrine dict={dict} locale="pt" />
       <ServicesSection dict={dict} locale="pt" />
-      <QuoteSection dict={dict} />
+      <HomeTestimonials dict={dict} locale="pt" />
       <AboutSection dict={dict} />
+      <QuoteSection dict={dict} />
       <FamilySection dict={dict} />
+      <ResourcesVitrine dict={dict} locale="pt" />
       <ContactSection dict={dict} />
       <Footer dict={dict} locale="pt" />
     </main>
