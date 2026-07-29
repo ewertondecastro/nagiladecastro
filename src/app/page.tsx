@@ -6,6 +6,7 @@ import AboutSection from "@/components/AboutSection";
 import FamilySection from "@/components/FamilySection";
 import ServicesSection from "@/components/ServicesSection";
 import HomeTestimonials from "@/components/HomeTestimonials";
+import ChapterPhrase from "@/components/ChapterPhrase";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import type { Metadata } from "next";
@@ -47,6 +48,7 @@ export default async function Home() {
       <HeroSection dict={dict} locale="pt" />
       <ServicesSection dict={dict} locale="pt" />
       <HomeTestimonials dict={dict} locale="pt" />
+      <ChapterPhrase dark text="Não é sobre fazer tudo perfeito. É sobre parar de agir no escuro." />
       <AboutSection dict={dict} />
       <QuoteSection dict={dict} />
       <FamilySection dict={dict} />

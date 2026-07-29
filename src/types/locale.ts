@@ -26,6 +26,8 @@ export interface ConsultoriaDetail {
   recordingNote?: string;
   // Observação sobre método (ex.: o choro, na consultoria de sono).
   methodNote?: { title: string; body: string[] };
+  // Frase-capítulo (respiro editorial) exibida no meio da página.
+  chapterPhrase?: string;
   // Perguntas frequentes específicas desta consultoria.
   faqTitle?: string;
   faq?: { question: string; answer: string }[];

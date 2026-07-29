@@ -27,7 +27,7 @@ export default function ConsultoriaCards({ dict, locale }: Props) {
           {featured.map((card) => (
             <div
               key={card.slug}
-              className="relative bg-background-soft border border-olive/40 p-8 md:p-10 overflow-hidden flex flex-col"
+              className="relative bg-background-soft border border-olive/40 p-8 md:p-10 overflow-hidden flex flex-col transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-olive hover:shadow-[0_12px_30px_-18px_rgba(59,74,61,0.5)]"
             >
               <span
                 aria-hidden="true"
@@ -75,7 +75,7 @@ export default function ConsultoriaCards({ dict, locale }: Props) {
             {rest.map((card) => (
               <div
                 key={card.slug}
-                className="flex flex-col gap-3 bg-background border border-cream-line p-6 hover:border-olive transition-colors duration-200"
+                className="flex flex-col gap-3 bg-background border border-cream-line p-6 transition-all duration-200 ease-out hover:border-olive hover:-translate-y-0.5"
               >
                 <span className="font-barlow-condensed text-xs text-olive/50">{card.number}</span>
                 <h4 className="font-playfair leading-tight" style={{ fontSize: "clamp(20px, 1.8vw, 24px)" }}>
