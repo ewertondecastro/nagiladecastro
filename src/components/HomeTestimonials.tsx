@@ -15,31 +15,36 @@ type Testimonial = NonNullable<
 >[number];
 
 // Print real do WhatsApp, apresentado como uma prova que se pode ampliar.
+// Molduras de tamanho igual: os prints têm proporções muito diferentes, então
+// enquadramos pelo topo (onde está o começo da conversa) em vez de deixar cada
+// um com uma largura.
 function Proof({
   src,
   alt,
   caption,
-  height = "h-[300px] md:h-[360px]",
+  width = "w-[240px] sm:w-[260px]",
+  height = "h-[330px] sm:h-[370px]",
 }: {
   src: string;
   alt: string;
   caption?: string;
+  width?: string;
   height?: string;
 }) {
   return (
-    <figure className="shrink-0 flex flex-col gap-2.5">
+    <figure className={`shrink-0 flex flex-col gap-2.5 max-w-full ${width}`}>
       <a
         href={src}
         target="_blank"
         rel="noopener noreferrer"
-        className="group relative block overflow-hidden rounded-sm border border-cream-line bg-background shadow-[0_2px_14px_-8px_rgba(45,36,30,0.35)] transition-all duration-200 ease-out hover:shadow-[0_10px_28px_-12px_rgba(45,36,30,0.45)] hover:border-sage"
+        className={`group relative block w-full overflow-hidden rounded-sm border border-cream-line bg-background shadow-[0_2px_14px_-8px_rgba(45,36,30,0.35)] transition-all duration-200 ease-out hover:shadow-[0_10px_28px_-12px_rgba(45,36,30,0.45)] hover:border-sage ${height}`}
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={src}
           alt={alt}
           loading="lazy"
-          className={`${height} w-auto max-w-none object-cover object-top`}
+          className="w-full h-full object-cover object-top"
         />
         <span className="pointer-events-none absolute inset-0 flex items-center justify-center bg-text-primary/0 opacity-0 transition-all duration-200 group-hover:bg-text-primary/25 group-hover:opacity-100">
           <span className="font-barlow-condensed text-[11px] tracking-[0.25em] uppercase text-background bg-text-primary/70 px-4 py-2 rounded-full">
@@ -48,7 +53,10 @@ function Proof({
         </span>
       </a>
       {caption && (
-        <figcaption className="font-barlow text-text-muted italic" style={{ fontSize: "12.5px" }}>
+        <figcaption
+          className="font-barlow text-text-muted italic w-full leading-snug"
+          style={{ fontSize: "13.5px" }}
+        >
           {caption}
         </figcaption>
       )}
@@ -157,7 +165,8 @@ export default function HomeTestimonials({ dict, locale, showCta = true }: Props
                   <Proof
                     src={t.images[0]}
                     alt={t.imageAlt ?? `Mensagem real de ${t.author}`}
-                    height="h-[280px] md:h-[320px]"
+                    width="w-full"
+                    height="h-[340px] md:h-[360px]"
                   />
                 )}
               </div>
@@ -166,7 +175,7 @@ export default function HomeTestimonials({ dict, locale, showCta = true }: Props
         )}
 
         {d.disclaimer && (
-          <p className="font-barlow text-text-muted text-center italic max-w-2xl mx-auto" style={{ fontSize: "13px" }}>
+          <p className="font-barlow text-text-muted text-center italic max-w-2xl mx-auto" style={{ fontSize: "14px" }}>
             {d.disclaimer}
           </p>
         )}

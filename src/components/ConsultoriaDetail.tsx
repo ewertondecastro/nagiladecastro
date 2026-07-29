@@ -184,7 +184,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
                           {plan.price}
                         </span>
                         {plan.priceNote && (
-                          <span className="font-barlow text-text-muted block mt-1" style={{ fontSize: "13px" }}>
+                          <span className="font-barlow text-text-muted block mt-1" style={{ fontSize: "14px" }}>
                             {plan.priceNote}
                           </span>
                         )}
@@ -344,7 +344,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
       {/* Aviso (disclaimer) */}
       {d.disclaimer && (
         <section className="w-full px-8 md:px-16 lg:px-20 pt-4 pb-2 bg-background">
-          <p className="font-barlow text-text-muted text-center italic max-w-2xl mx-auto" style={{ fontSize: "13px" }}>
+          <p className="font-barlow text-text-muted text-center italic max-w-2xl mx-auto" style={{ fontSize: "14px" }}>
             {d.disclaimer}
           </p>
         </section>
