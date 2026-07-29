@@ -20,6 +20,9 @@ body {
   background: var(--background);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* As animações de entrada deslocam os blocos na horizontal antes de assentar.
+     Sem isto, esse deslocamento cria barra de rolagem lateral no celular. */
+  overflow-x: hidden;
 }
 
 @layer utilities {
