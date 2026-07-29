@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FadeIn from "./FadeIn";
+import ProofGallery from "./ProofGallery";
 import type { LocaleDict, Locale } from "@/types/locale";
 
 interface Props {
@@ -13,56 +14,6 @@ interface Props {
 type Testimonial = NonNullable<
   NonNullable<LocaleDict["services"]["cards"][number]["detail"]["testimonials"]>
 >[number];
-
-// Print real do WhatsApp, apresentado como uma prova que se pode ampliar.
-// Molduras de tamanho igual: os prints têm proporções muito diferentes, então
-// enquadramos pelo topo (onde está o começo da conversa) em vez de deixar cada
-// um com uma largura.
-function Proof({
-  src,
-  alt,
-  caption,
-  width = "w-[240px] sm:w-[260px]",
-  height = "h-[330px] sm:h-[370px]",
-}: {
-  src: string;
-  alt: string;
-  caption?: string;
-  width?: string;
-  height?: string;
-}) {
-  return (
-    <figure className={`shrink-0 flex flex-col gap-2.5 max-w-full ${width}`}>
-      <a
-        href={src}
-        target="_blank"
-        rel="noopener noreferrer"
-        className={`group relative block w-full overflow-hidden rounded-sm border border-cream-line bg-background shadow-[0_2px_14px_-8px_rgba(45,36,30,0.35)] transition-all duration-200 ease-out hover:shadow-[0_10px_28px_-12px_rgba(45,36,30,0.45)] hover:border-sage ${height}`}
-      >
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={src}
-          alt={alt}
-          loading="lazy"
-          className="w-full h-full object-cover object-top"
-        />
-        <span className="pointer-events-none absolute inset-0 flex items-center justify-center bg-text-primary/0 opacity-0 transition-all duration-200 group-hover:bg-text-primary/25 group-hover:opacity-100">
-          <span className="font-barlow-condensed text-[11px] tracking-[0.25em] uppercase text-background bg-text-primary/70 px-4 py-2 rounded-full">
-            Ampliar
-          </span>
-        </span>
-      </a>
-      {caption && (
-        <figcaption
-          className="font-barlow text-text-muted italic w-full leading-snug"
-          style={{ fontSize: "13.5px" }}
-        >
-          {caption}
-        </figcaption>
-      )}
-    </figure>
-  );
-}
 
 function Attribution({ author, source }: { author: string; source?: string }) {
   return (
@@ -134,16 +85,14 @@ export default function HomeTestimonials({ dict, locale, showCta = true }: Props
 
             {featured.images && featured.images.length > 0 && (
               <div className="-mx-8 md:-mx-16 lg:-mx-20 px-8 md:px-16 lg:px-20 overflow-x-auto">
-                <div className="flex items-start gap-5 md:gap-6 pb-2">
-                  {featured.images.map((src: string, i: number) => (
-                    <Proof
-                      key={src}
-                      src={src}
-                      alt={featured.imageAlt ?? `Mensagem real de ${featured.author}`}
-                      caption={featured.imageCaptions?.[i]}
-                    />
-                  ))}
-                </div>
+                <ProofGallery
+                  variant="strip"
+                  items={featured.images.map((src: string, i: number) => ({
+                    src,
+                    alt: featured.imageAlt ?? `Mensagem real de ${featured.author}`,
+                    caption: featured.imageCaptions?.[i],
+                  }))}
+                />
               </div>
             )}
           </FadeIn>
@@ -162,11 +111,14 @@ export default function HomeTestimonials({ dict, locale, showCta = true }: Props
                 </blockquote>
                 <Attribution author={t.author} source={t.source} />
                 {t.images?.[0] && (
-                  <Proof
-                    src={t.images[0]}
-                    alt={t.imageAlt ?? `Mensagem real de ${t.author}`}
-                    width="w-full"
-                    height="h-[340px] md:h-[360px]"
+                  <ProofGallery
+                    variant="full"
+                    items={[
+                      {
+                        src: t.images[0],
+                        alt: t.imageAlt ?? `Mensagem real de ${t.author}`,
+                      },
+                    ]}
                   />
                 )}
               </div>
