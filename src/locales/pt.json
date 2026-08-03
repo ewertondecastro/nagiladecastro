@@ -305,7 +305,7 @@
           "plans": [
             {
               "name": "Consultoria Parental Completa",
-              "duration": "Acompanhamento de 75 dias (60 dias de acompanhamento ativo + 15 dias de bônus de segurança)",
+              "duration": "Acompanhamento de 60 dias + 15 dias de bônus",
               "highlight": true,
               "price": "R$ 2.500",
               "priceNote": "12x com juros ou 2x sem juros no cartão",
@@ -375,7 +375,7 @@
             },
             {
               "question": "Qual a diferença entre a Completa e a Express?",
-              "answer": "A Completa são 75 dias (60 de acompanhamento ativo + 15 de bônus de segurança) com diagnóstico pelas 5 dimensões, 4 encontros, suporte no ciclo todo e até 3 chamadas pontuais, pra reestruturar a casa a fundo. A Express são 40 dias focados numa questão delimitada, com 1 encontro e plano por escrito, pra famílias que executam bem sozinhas."
+              "answer": "A Completa são 75 dias totais (60 dias + 15 de bônus) com diagnóstico pelas 5 dimensões, 4 encontros, suporte no ciclo todo e até 3 chamadas pontuais, pra reestruturar a casa a fundo. A Express são 40 dias focados numa questão delimitada, com 1 encontro, pra famílias que executam bem sozinhas."
             },
             {
               "question": "O que são as chamadas pontuais?",
