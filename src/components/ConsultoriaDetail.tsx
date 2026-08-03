@@ -209,7 +209,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
                         className="font-barlow text-text-primary leading-relaxed flex gap-3"
                         style={{ fontSize: "clamp(15px, 1.35vw, 18px)" }}
                       >
-                        <span className="text-terracotta mt-1 shrink-0" aria-hidden="true">✓</span>
+                        <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-4 h-4 mt-1 shrink-0" />
                         <span>{item}</span>
                       </li>
                     ))}
@@ -251,7 +251,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
                   className="font-barlow text-text-primary leading-relaxed flex gap-3"
                   style={{ fontSize: "clamp(16px, 1.4vw, 20px)" }}
                 >
-                  <span className="text-terracotta mt-1 shrink-0" aria-hidden="true">✓</span>
+                  <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-4 h-4 mt-1 shrink-0" />
                   <span>{item}</span>
                 </li>
               ))}

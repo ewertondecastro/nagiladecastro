@@ -48,9 +48,10 @@ export default function SiteNav({
         <Link
           href={home}
           onClick={() => setOpen(false)}
-          className="font-playfair text-[17px] md:text-xl text-text-primary hover:text-olive transition-colors duration-200"
+          className="flex items-center gap-2 font-playfair text-[17px] md:text-xl text-text-primary hover:text-olive transition-colors duration-200"
         >
-          {dict.footer.name}
+          <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-5 h-5 md:w-6 md:h-6" />
+          <span>{dict.footer.name}</span>
         </Link>
 
         {/* Desktop */}

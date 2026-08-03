@@ -31,10 +31,11 @@ export default function Footer({ dict, locale = "pt" }: Props) {
           <div className="flex flex-col gap-3 max-w-xs">
             <Link
               href={home}
-              className="font-playfair text-background hover:text-terracotta transition-colors duration-200"
+              className="flex items-center gap-2.5 font-playfair text-background hover:text-terracotta transition-colors duration-200"
               style={{ fontSize: "clamp(22px, 2vw, 28px)" }}
             >
-              {footer.name}
+              <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6 md:w-7 md:h-7" />
+              <span>{footer.name}</span>
             </Link>
             <p className="font-barlow text-background/70 text-sm leading-relaxed">
               {dict.hero.tagline.join(" ")}
