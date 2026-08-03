@@ -49,7 +49,7 @@
       "label": "Training",
       "items": [
         "Certified Parental Educator",
-        "Specialized Sleep Consultant"
+        "Hands-on work in behavior, routine, and infant sleep, with complementary training in the field"
       ]
     },
     "partner": {
@@ -94,7 +94,7 @@
           "journeyTitle": "How we walk together",
           "journeyBody": [
             "I listen first. I don't arrive with a ready-made plan for your baby, I arrive with questions to understand the bond, your child's temperament, and the realistic rhythm of your home. Individual assessment before any technique: every baby is a baby.",
-            "I work as a Specialized Sleep Consultant with serious training, no letting the baby cry it out, no one-size-fits-all protocol. Sleep and behavior are not separate problems; I treat them together.",
+            "I work with hands-on experience in infant sleep and complementary training in the field, no letting the baby cry it out, no one-size-fits-all protocol. Sleep and behavior are not separate problems; I treat them together.",
             "Then we leave with an honest plan: what you do tonight, what we adjust next week, what we revisit together. Ongoing support throughout the process, not a one-time consult."
           ],
           "forWhomTitle": "Who this is for",
@@ -122,19 +122,19 @@
               "name": "Complete Consultation",
               "duration": "75-day support",
               "highlight": true,
+              "price": "R$ 2,500",
+              "priceNote": "12 interest-bearing installments or 2 interest-free installments by card",
               "summary": "Individual support to deeply restructure your child's sleep, with close guidance until the new habit takes hold.",
               "forWhom": "For families who need support through adjustments, regressions, and consolidating the routine.",
               "includes": [
-                "4 individual video sessions across 75 days, all recorded and made available to you",
-                "Session 1: assessment, plan, and initial direction, within 72h of the intake form",
-                "Session 2 (day 20): review of how it's going",
-                "Session 3 (day 40): reassessment and new steps",
-                "Session 4 (day 60): final assessment and autonomy",
+                "4 individual video sessions across 75 days, scheduled according to your case's needs, all recorded and made available to you",
                 "A final 15 days of support to consolidate and wrap up",
                 "WhatsApp support throughout the cycle, with replies within 24h",
                 "Up to 3 quick video calls for specific situations",
                 "A personalized written sleep plan, ready to act on",
-                "Bonus: Routine Guide e-book (0–3 years), the Sleep Playlist, the Emotions & Self-Control Flash Cards, and the Home, Routine & Time e-book"
+                "Final Report (PDF)",
+                "Family Manual",
+                "Bonus: the Sleep Playlist and the Home, Routine & Time e-book"
               ],
               "ctaLabel": "I want the Complete",
               "ctaWhatsappText": "Hi Nágila, I came from your site and I want the Complete Sleep Consultation."
@@ -142,12 +142,16 @@
             {
               "name": "Express Consultation",
               "duration": "Focused guidance",
+              "price": "R$ 1,500",
+              "priceNote": "12 interest-bearing installments or 2 interest-free installments by card",
               "summary": "Individual guidance for a specific sleep question, with a clear plan for you to apply on your own.",
               "forWhom": "For organized families with a strong ability to follow through independently.",
               "includes": [
                 "1 individual video session for assessment and guidance",
                 "A personalized action plan, sent as a PDF within 72h",
-                "45 days of WhatsApp support, with replies within 48h"
+                "40 days of WhatsApp support, with replies within 48h",
+                "Final Report (PDF)",
+                "Family Manual"
               ],
               "ctaLabel": "I want the Express",
               "ctaWhatsappText": "Hi Nágila, I came from your site and I want the Express Sleep Consultation."
@@ -229,7 +233,11 @@
             },
             {
               "question": "What's the difference between the Complete and the Express?",
-              "answer": "The Complete is a 75-day support with 4 sessions and close guidance until the habit takes hold, for those who need direction through adjustments, regressions, and consolidation. The Express is focused guidance: 1 session, a written plan, and 45 days of support, for organized families who follow through well on their own."
+              "answer": "The Complete is a 75-day support with 4 sessions and close guidance until the habit takes hold, for those who need direction through adjustments, regressions, and consolidation. The Express is focused guidance: 1 session, a written plan, and 40 days of support, for organized families who follow through well on their own."
+            },
+            {
+              "question": "What are the quick video calls?",
+              "answer": "Short video calls for specific situations that come up during the process, like the baby refusing the crib or a sleep regression. They're scoped to that situation and scheduled as availability allows. They are not on-call or continuous support."
             },
             {
               "question": "How do we get started?",
@@ -281,6 +289,7 @@
           ],
           "forWhomTitle": "Who it's for",
           "forWhomItems": [
+            "Families with children ages 0 to 6",
             "Parents who feel raising kids became a 24-hour negotiation",
             "Families tired of reacting, who want to raise with direction",
             "Couples who want to align how they parent before their kids grow up taking sides",
@@ -296,17 +305,23 @@
           "plans": [
             {
               "name": "Complete Parenting Consultation",
-              "duration": "60-day support",
+              "duration": "75-day support (60 days of active guidance + 15 days of safety-net bonus)",
               "highlight": true,
+              "price": "R$ 2,500",
+              "priceNote": "12 interest-bearing installments or 2 interest-free installments by card",
               "summary": "To deeply restructure the dynamics of the home: authority, routine, and behavior, with close support until the change takes hold.",
               "forWhom": "For families who need support through adjustments and consolidation.",
               "includes": [
                 "Initial family assessment across the 5 dimensions (intake)",
                 "4 individual Meet sessions, recorded and made available to both parents",
+                "A final 15 days of support to consolidate and wrap up",
                 "A personalized parenting plan, delivered as a PDF",
                 "WhatsApp support throughout the cycle, with replies within 24h",
                 "Up to 3 quick video calls for specific situations",
-                "A final session for reassessment and preparing for autonomy"
+                "A final session for reassessment and preparing for autonomy",
+                "Final Report (PDF)",
+                "Family Manual",
+                "Bonus: the Home, Routine & Time e-book and the Emotions & Self-Control Flash Cards"
               ],
               "ctaLabel": "I want the Complete",
               "ctaWhatsappText": "Hi Nágila, I came from your site and I want the Complete Parenting Consultation."
@@ -314,13 +329,17 @@
             {
               "name": "Express Parenting Consultation",
               "duration": "40-day support",
+              "price": "R$ 1,500",
+              "priceNote": "12 interest-bearing installments or 2 interest-free installments by card",
               "summary": "For one defined parenting question, with a clear plan for you to apply on your own.",
               "forWhom": "For organized families with a strong ability to follow through independently.",
               "includes": [
                 "Assessment focused on the question you bring",
-                "1 to 2 individual Meet sessions, recorded and made available",
+                "1 individual Meet session, recorded and made available",
                 "A personalized parenting plan, delivered as a PDF",
-                "40 days of WhatsApp support"
+                "40 days of WhatsApp support, with replies within 48h",
+                "Final Report (PDF)",
+                "Family Manual"
               ],
               "ctaLabel": "I want the Express",
               "ctaWhatsappText": "Hi Nágila, I came from your site and I want the Express Parenting Consultation."
@@ -356,7 +375,7 @@
             },
             {
               "question": "What's the difference between the Complete and the Express?",
-              "answer": "The Complete is 60 days with the full 5-dimension assessment, 4 sessions, support across the whole cycle, and up to 3 quick calls, to restructure the home deeply. The Express is 40 days focused on one defined question, with 1 to 2 sessions and a written plan, for families who follow through well on their own."
+              "answer": "The Complete is 75 days (60 days of active guidance + 15 days of safety-net bonus) with the full 5-dimension assessment, 4 sessions, support across the whole cycle, and up to 3 quick calls, to restructure the home deeply. The Express is 40 days focused on one defined question, with 1 session and a written plan, for families who follow through well on their own."
             },
             {
               "question": "What are the quick calls?",
@@ -424,17 +443,6 @@
     "placeholderNote": "",
     "teaserCta": "See all resources",
     "items": [
-      {
-        "kind": "free",
-        "badge": "FREE",
-        "titleLine1": "Guide",
-        "titleLine2": "First 30 days of sleep",
-        "description": "Free PDF with the basics for you to start organizing your baby's sleep today, even before any consultation.",
-        "cta": "Download free",
-        "linkUrl": "/guia-sono",
-        "resourceKey": "sono",
-        "image": "/guides/capa-sono.webp"
-      },
       {
         "kind": "paid",
         "badge": "FLASHCARDS",

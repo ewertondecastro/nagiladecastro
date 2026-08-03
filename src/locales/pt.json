@@ -49,7 +49,7 @@
       "label": "Formação",
       "items": [
         "Educadora Parental Certificada",
-        "Consultora de Sono Especializada"
+        "Atuação em comportamento, rotina e sono infantil, com formação complementar na área"
       ]
     },
     "partner": {
@@ -94,7 +94,7 @@
           "journeyTitle": "Como eu te acompanho",
           "journeyBody": [
             "Eu te escuto primeiro. Não chego com um plano pronto pro seu bebê, chego com perguntas pra entender o vínculo, o temperamento da criança e a rotina possível da sua casa. Avaliação individual antes de qualquer técnica: cada bebê é um bebê.",
-            "Trabalho como Consultora de Sono Especializada com formação séria, sem deixar chorar até dormir, sem protocolo único pra todo bebê. Sono e comportamento não são problemas separados; trato os dois juntos.",
+            "Trabalho com atuação prática em sono infantil e formação complementar na área, sem deixar chorar até dormir, sem protocolo único pra todo bebê. Sono e comportamento não são problemas separados; trato os dois juntos.",
             "Daí saímos com um plano honesto: o que você faz hoje à noite, o que ajustamos na próxima semana, o que revisitamos juntas. Acompanhamento ao longo do processo, não consulta única."
           ],
           "forWhomTitle": "Pra quem é",
@@ -122,19 +122,19 @@
               "name": "Consultoria Completa",
               "duration": "Acompanhamento de 75 dias",
               "highlight": true,
+              "price": "R$ 2.500",
+              "priceNote": "12x com juros ou 2x sem juros no cartão",
               "summary": "Um acompanhamento individual para reestruturar o sono do seu filho a fundo, com direção próxima até o novo hábito se firmar.",
               "forWhom": "Para famílias que precisam de acompanhamento em ajustes, regressões e consolidação da rotina.",
               "includes": [
-                "4 encontros individuais por videochamada ao longo de 75 dias, todos gravados e disponibilizados pra você",
-                "Encontro 1: avaliação, plano e direção inicial, em até 72h da anamnese",
-                "Encontro 2 (dia 20): análise da aplicação",
-                "Encontro 3 (dia 40): reavaliação e novas condutas",
-                "Encontro 4 (dia 60): avaliação final e autonomia",
+                "4 encontros individuais por videochamada ao longo de 75 dias, marcados conforme a necessidade do caso, todos gravados e disponibilizados pra você",
                 "15 dias finais de suporte para consolidar e encerrar",
                 "Suporte por WhatsApp durante todo o ciclo, com resposta em até 24h",
                 "Até 3 chamadas de vídeo pontuais para situações específicas",
                 "Plano de sono personalizado, por escrito, pronto pra ação",
-                "Bônus: e-book Guia de Rotina (0–3 anos), Playlist do Sono, Flash Cards de Emoções e Domínio Próprio, e o e-book Casa, Rotina & Tempo"
+                "Relatório Final (PDF)",
+                "Manual da Família",
+                "Bônus: Playlist do Sono e o e-book Casa, Rotina & Tempo"
               ],
               "ctaLabel": "Quero a Completa",
               "ctaWhatsappText": "Oi Nágila, vim pelo seu site e quero a Consultoria Completa de Sono."
@@ -142,12 +142,16 @@
             {
               "name": "Consultoria Express",
               "duration": "Direção pontual",
+              "price": "R$ 1.500",
+              "priceNote": "12x com juros ou 2x sem juros no cartão",
               "summary": "Uma direção individual para uma questão pontual de sono, com um plano claro pra você aplicar com autonomia.",
               "forWhom": "Para famílias organizadas, com boa capacidade de execução independente.",
               "includes": [
                 "1 encontro individual por videochamada, de avaliação e orientações",
                 "Plano de ação personalizado, enviado em PDF em até 72h",
-                "45 dias de suporte por WhatsApp, com resposta em até 48h"
+                "40 dias de suporte por WhatsApp, com resposta em até 48h",
+                "Relatório Final (PDF)",
+                "Manual da Família"
               ],
               "ctaLabel": "Quero a Express",
               "ctaWhatsappText": "Oi Nágila, vim pelo seu site e quero a Consultoria Express de Sono."
@@ -229,7 +233,11 @@
             },
             {
               "question": "Qual a diferença entre a Completa e a Express?",
-              "answer": "A Completa é um acompanhamento de 75 dias, com 4 encontros e suporte próximo até o hábito se firmar, pra quem precisa de direção em ajustes, regressões e consolidação. A Express é uma direção pontual: 1 encontro, plano por escrito e 45 dias de suporte, pra famílias organizadas que executam bem sozinhas."
+              "answer": "A Completa é um acompanhamento de 75 dias, com 4 encontros e suporte próximo até o hábito se firmar, pra quem precisa de direção em ajustes, regressões e consolidação. A Express é uma direção pontual: 1 encontro, plano por escrito e 40 dias de suporte, pra famílias organizadas que executam bem sozinhas."
+            },
+            {
+              "question": "O que são as chamadas de vídeo pontuais?",
+              "answer": "São videochamadas curtas para situações específicas de aplicação, como o bebê não aceitar o berço ou uma regressão de sono. Têm escopo restrito à situação e são agendadas conforme disponibilidade. Não são plantão nem atendimento contínuo."
             },
             {
               "question": "Como funciona pra começar?",
@@ -281,6 +289,7 @@
           ],
           "forWhomTitle": "Pra quem é",
           "forWhomItems": [
+            "Famílias com filhos de 0 a 6 anos",
             "Pais e mães que sentem que educar virou negociação 24 horas",
             "Famílias cansadas de reagir, que querem criar com direção",
             "Casais que querem alinhar o jeito de criar antes que os filhos cresçam pegando lados diferentes",
@@ -296,17 +305,23 @@
           "plans": [
             {
               "name": "Consultoria Parental Completa",
-              "duration": "Acompanhamento de 60 dias",
+              "duration": "Acompanhamento de 75 dias (60 dias de acompanhamento ativo + 15 dias de bônus de segurança)",
               "highlight": true,
+              "price": "R$ 2.500",
+              "priceNote": "12x com juros ou 2x sem juros no cartão",
               "summary": "Para reestruturar a dinâmica da casa a fundo: autoridade, rotina e comportamento, com acompanhamento próximo até a mudança se firmar.",
               "forWhom": "Para famílias que precisam de acompanhamento em ajustes e consolidação.",
               "includes": [
                 "Diagnóstico inicial da família pelas 5 dimensões (anamnese)",
                 "4 encontros individuais por Meet, gravados e disponibilizados para os dois pais",
+                "15 dias finais de suporte para consolidar e encerrar",
                 "Plano educacional personalizado, entregue em PDF",
                 "Suporte por WhatsApp durante todo o ciclo, com resposta em até 24h",
                 "Até 3 chamadas de vídeo pontuais para situações específicas",
-                "Encontro final de reavaliação e preparação para a autonomia"
+                "Encontro final de reavaliação e preparação para a autonomia",
+                "Relatório Final (PDF)",
+                "Manual da Família",
+                "Bônus: E-book Casa, Rotina & Tempo e Flash Cards de Emoções e Domínio Próprio"
               ],
               "ctaLabel": "Quero a Completa",
               "ctaWhatsappText": "Oi Nágila, vim pelo seu site e quero a Consultoria Parental Completa."
@@ -314,13 +329,17 @@
             {
               "name": "Consultoria Parental Express",
               "duration": "Acompanhamento de 40 dias",
+              "price": "R$ 1.500",
+              "priceNote": "12x com juros ou 2x sem juros no cartão",
               "summary": "Para uma questão parental delimitada, com um plano claro para vocês aplicarem com autonomia.",
               "forWhom": "Para famílias organizadas, com boa capacidade de execução independente.",
               "includes": [
                 "Diagnóstico focado na questão apresentada",
-                "1 a 2 encontros individuais por Meet, gravados e disponibilizados",
+                "1 encontro individual por Meet, gravado e disponibilizado",
                 "Plano educacional personalizado, entregue em PDF",
-                "40 dias de suporte por WhatsApp"
+                "40 dias de suporte por WhatsApp, com resposta em até 48h",
+                "Relatório Final (PDF)",
+                "Manual da Família"
               ],
               "ctaLabel": "Quero a Express",
               "ctaWhatsappText": "Oi Nágila, vim pelo seu site e quero a Consultoria Parental Express."
@@ -356,7 +375,7 @@
             },
             {
               "question": "Qual a diferença entre a Completa e a Express?",
-              "answer": "A Completa são 60 dias com diagnóstico pelas 5 dimensões, 4 encontros, suporte no ciclo todo e até 3 chamadas pontuais, pra reestruturar a casa a fundo. A Express são 40 dias focados numa questão delimitada, com 1 a 2 encontros e plano por escrito, pra famílias que executam bem sozinhas."
+              "answer": "A Completa são 75 dias (60 de acompanhamento ativo + 15 de bônus de segurança) com diagnóstico pelas 5 dimensões, 4 encontros, suporte no ciclo todo e até 3 chamadas pontuais, pra reestruturar a casa a fundo. A Express são 40 dias focados numa questão delimitada, com 1 encontro e plano por escrito, pra famílias que executam bem sozinhas."
             },
             {
               "question": "O que são as chamadas pontuais?",
@@ -424,17 +443,6 @@
     "placeholderNote": "",
     "teaserCta": "Ver todos os recursos",
     "items": [
-      {
-        "kind": "free",
-        "badge": "GRATUITO",
-        "titleLine1": "Guia",
-        "titleLine2": "Primeiros 30 dias do sono",
-        "description": "PDF gratuito com as bases pra você começar a organizar o sono do seu bebê ainda hoje, mesmo antes de qualquer consultoria.",
-        "cta": "Baixar grátis",
-        "linkUrl": "/guia-sono",
-        "resourceKey": "sono",
-        "image": "/guides/capa-sono.webp"
-      },
       {
         "kind": "paid",
         "badge": "FLASHCARDS",

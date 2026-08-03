@@ -3,9 +3,9 @@
   "configurations": [
     {
       "name": "nagila-dev",
-      "runtimeExecutable": "/Users/ewertondecastro/.nvm/versions/node/v20.20.2/bin/node",
-      "runtimeArgs": ["/Users/ewertondecastro/Documents/MY APPS/nagiladecastro/node_modules/next/dist/bin/next", "dev", "-p", "3200"],
-      "cwd": "/Users/ewertondecastro/Documents/MY APPS/nagiladecastro",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["next", "dev", "-p", "3200"],
+      "cwd": "/Users/nagiladecastro/Developer/nagiladecastro",
       "port": 3200
     }
   ]
