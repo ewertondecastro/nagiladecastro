@@ -12,7 +12,7 @@ interface Props {
 export default function ChapterPhrase({ text, dark = false }: Props) {
   const body = (
     <FadeIn className="max-w-4xl mx-auto text-center flex flex-col items-center">
-      <span className="block w-10 h-px mb-8 bg-terracotta" aria-hidden="true" />
+      <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6 mb-8" />
       <p
         className={`font-playfair italic leading-[1.15] ${dark ? "text-background" : "text-text-primary"}`}
         style={{ fontSize: "clamp(28px, 4.5vw, 54px)" }}

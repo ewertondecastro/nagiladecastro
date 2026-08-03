@@ -32,8 +32,8 @@ export default function SobrePage({
               {siteNav.about}
             </span>
             <h1 className="font-playfair leading-tight" style={{ fontSize: "clamp(38px, 5.5vw, 68px)" }}>
-              <span className="font-normal text-text-primary block">{about.titleLine1}</span>
-              <span className="font-normal text-text-primary block">{about.titleLine2}</span>
+              <span className="font-normal text-text-primary block">{about.titleLine1}</span>{" "}
+              <span className="font-normal text-text-primary block">{about.titleLine2}</span>{" "}
               <span className="italic text-olive block">{about.titleLine3}</span>
             </h1>
             <p className="font-barlow text-text-secondary leading-relaxed max-w-xl" style={{ fontSize: "clamp(18px, 1.5vw, 22px)" }}>
@@ -124,9 +124,9 @@ export default function SobrePage({
         <div className="px-8 md:px-16 lg:px-20 py-20 md:py-28 bg-background">
           <FadeIn className="max-w-3xl mx-auto flex flex-col gap-8">
             <div className="flex flex-col gap-6">
-              <div className="w-8 h-px bg-terracotta" aria-hidden="true" />
+              <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6" />
               <h2 className="font-playfair leading-tight" style={{ fontSize: "clamp(34px, 4.5vw, 56px)" }}>
-                <span className="font-normal text-text-primary block">{family.titleLine1}</span>
+                <span className="font-normal text-text-primary block">{family.titleLine1}</span>{" "}
                 <span className="italic text-olive block">{family.titleLine2}</span>
               </h2>
             </div>
@@ -151,7 +151,7 @@ export default function SobrePage({
       <section className="px-8 md:px-16 lg:px-20 py-24 md:py-32 bg-background-soft border-t border-cream-line text-center">
         <FadeIn className="max-w-2xl mx-auto flex flex-col items-center gap-8">
           <h2 className="font-playfair leading-tight" style={{ fontSize: "clamp(28px, 4vw, 48px)" }}>
-            <span className="font-normal text-text-primary block">{contact.titleLine1}</span>
+            <span className="font-normal text-text-primary block">{contact.titleLine1}</span>{" "}
             <span className="italic text-olive block">{contact.titleLine2}</span>
           </h2>
           <div className="flex flex-col sm:flex-row items-center gap-4">

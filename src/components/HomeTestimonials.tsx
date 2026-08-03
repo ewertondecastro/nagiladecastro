@@ -24,7 +24,7 @@ function Attribution({ author, source }: { author: string; source?: string }) {
       </span>
       {source && (
         <span className="font-barlow-condensed text-[10px] tracking-[0.2em] uppercase text-text-muted">
-          · {source}
+          {" "}· {source}
         </span>
       )}
     </div>

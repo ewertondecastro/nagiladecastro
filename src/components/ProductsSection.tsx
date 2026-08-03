@@ -76,7 +76,7 @@ function ProductCard({
 
       <div className="flex flex-col flex-1 p-7 md:p-8">
         <h3 className="font-playfair leading-tight mb-4" style={{ fontSize: "clamp(22px, 2vw, 30px)" }}>
-          <span className="font-bold text-text-primary block">{item.titleLine1}</span>
+          <span className="font-bold text-text-primary block">{item.titleLine1}</span>{" "}
           <span className="italic text-olive block">{item.titleLine2}</span>
         </h3>
 
@@ -127,7 +127,7 @@ export default function ProductsSection({ dict }: Props) {
     <section className="w-full py-20 md:py-28 px-8 md:px-16 lg:px-20 bg-background-soft">
       <div className="max-w-6xl mx-auto">
         <FadeIn className="mb-14 md:mb-16 max-w-3xl">
-          <div className="w-8 h-px bg-terracotta mb-6" aria-hidden="true" />
+          <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6 mb-6" />
           <h2 className="font-playfair font-normal text-text-primary mb-4" style={{ fontSize: "clamp(36px, 5vw, 56px)" }}>
             {products.sectionTitle}
           </h2>

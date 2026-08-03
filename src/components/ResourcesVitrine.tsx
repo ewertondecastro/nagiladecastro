@@ -21,7 +21,7 @@ export default function ResourcesVitrine({ dict, locale }: Props) {
       <div className="max-w-6xl mx-auto">
         <FadeIn className="mb-14 md:mb-16 flex flex-col md:flex-row md:items-end md:justify-between gap-8">
           <div className="max-w-2xl">
-            <div className="w-8 h-px bg-terracotta mb-6" aria-hidden="true" />
+            <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6 mb-6" />
             <h2 className="font-playfair font-normal text-text-primary mb-4" style={{ fontSize: "clamp(36px, 5vw, 56px)" }}>
               {products.sectionTitle}
             </h2>
@@ -62,7 +62,7 @@ export default function ResourcesVitrine({ dict, locale }: Props) {
                   </div>
                   <div className="flex flex-col flex-1 p-6 md:p-7">
                     <h3 className="font-playfair leading-tight mb-3" style={{ fontSize: "clamp(20px, 1.8vw, 26px)" }}>
-                      <span className="font-bold text-text-primary block">{item.titleLine1}</span>
+                      <span className="font-bold text-text-primary block">{item.titleLine1}</span>{" "}
                       <span className="italic text-olive block">{item.titleLine2}</span>
                     </h3>
                     <p className="font-barlow text-text-secondary leading-relaxed text-sm flex-1 mb-4 line-clamp-3">

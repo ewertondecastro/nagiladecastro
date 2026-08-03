@@ -17,10 +17,10 @@ export default function AboutSection({ dict }: Props) {
         {/* Left: Title + photo */}
         <FadeIn direction="left" className="flex flex-col gap-8">
           <div className="flex flex-col gap-6">
-            <div className="w-8 h-px bg-terracotta" aria-hidden="true" />
+            <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6" />
             <h2 className="font-playfair leading-tight" style={{ fontSize: "clamp(36px, 5vw, 64px)" }}>
-              <span className="font-normal text-text-primary block">{about.titleLine1}</span>
-              <span className="font-normal text-text-primary block">{about.titleLine2}</span>
+              <span className="font-normal text-text-primary block">{about.titleLine1}</span>{" "}
+              <span className="font-normal text-text-primary block">{about.titleLine2}</span>{" "}
               <span className="italic text-olive block">{about.titleLine3}</span>
             </h2>
           </div>

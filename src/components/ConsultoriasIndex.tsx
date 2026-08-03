@@ -59,7 +59,7 @@ export default function ConsultoriasIndex({
         <FadeIn className="max-w-2xl mx-auto flex flex-col items-center gap-8">
           <div className="w-px h-14 bg-gradient-to-b from-transparent to-olive" aria-hidden="true" />
           <h2 className="font-playfair leading-tight" style={{ fontSize: "clamp(28px, 4vw, 48px)" }}>
-            <span className="font-normal text-text-primary block">{contact.titleLine1}</span>
+            <span className="font-normal text-text-primary block">{contact.titleLine1}</span>{" "}
             <span className="italic text-olive block">{contact.titleLine2}</span>
           </h2>
           <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(16px, 1.3vw, 19px)" }}>

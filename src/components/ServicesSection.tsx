@@ -16,7 +16,7 @@ export default function ServicesSection({ dict, locale }: Props) {
       className="w-full py-24 md:py-36 px-8 md:px-16 lg:px-20 bg-background scroll-mt-16"
     >
       <FadeIn className="mb-12 md:mb-16 max-w-3xl">
-        <div className="w-8 h-px bg-terracotta mb-6" aria-hidden="true" />
+        <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6 mb-6" />
         <h2 className="font-playfair font-normal text-text-primary mb-4" style={{ fontSize: "clamp(36px, 5vw, 56px)" }}>
           {services.sectionTitle}
         </h2>

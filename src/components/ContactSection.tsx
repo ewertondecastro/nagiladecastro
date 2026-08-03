@@ -15,7 +15,7 @@ export default function ContactSection({ dict }: Props) {
         <div className="w-px h-16 bg-gradient-to-b from-transparent to-olive" aria-hidden="true" />
 
         <h2 className="font-playfair leading-tight" style={{ fontSize: "clamp(28px, 4vw, 52px)" }}>
-          <span className="font-normal text-text-primary block">{contact.titleLine1}</span>
+          <span className="font-normal text-text-primary block">{contact.titleLine1}</span>{" "}
           <span className="italic text-olive block">{contact.titleLine2}</span>
         </h2>
 

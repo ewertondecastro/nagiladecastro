@@ -32,7 +32,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
           </span>
 
           <h1 className="font-playfair leading-tight" style={{ fontSize: "clamp(40px, 7vw, 88px)" }}>
-            <span className="font-bold text-text-primary block">{d.headlineLine1}</span>
+            <span className="font-bold text-text-primary block">{d.headlineLine1}</span>{" "}
             <span className="italic text-olive block">{d.headlineLine2}</span>
           </h1>
 
@@ -46,7 +46,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
       <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24 bg-background-soft">
         <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
           <div className="md:col-span-1">
-            <div className="w-8 h-px bg-terracotta mb-6" aria-hidden="true" />
+            <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6 mb-6" />
             <h2 className="font-playfair italic text-olive" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
               {d.whyTitle}
             </h2>
@@ -71,7 +71,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
       <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24 bg-background">
         <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
           <div className="md:col-span-1">
-            <div className="w-8 h-px bg-terracotta mb-6" aria-hidden="true" />
+            <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6 mb-6" />
             <h2 className="font-playfair italic text-olive" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
               {d.journeyTitle}
             </h2>
@@ -95,7 +95,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
         <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24 bg-background-soft">
           <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
             <div className="md:col-span-1">
-              <div className="w-8 h-px bg-terracotta mb-6" aria-hidden="true" />
+              <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6 mb-6" />
               <h2 className="font-playfair italic text-olive" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
                 {d.howItWorks.title}
               </h2>
@@ -125,7 +125,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
           <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24">
             <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
               <div className="md:col-span-1">
-                <div className="w-8 h-px bg-terracotta mb-6" aria-hidden="true" />
+                <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6 mb-6" />
                 <h2 className="font-playfair italic text-background" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
                   {d.methodNote.title}
                 </h2>
@@ -154,7 +154,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
         <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24 bg-background">
           <FadeIn className="max-w-5xl mx-auto flex flex-col gap-12">
             <div className="text-center flex flex-col items-center gap-4">
-              <div className="w-8 h-px bg-terracotta" aria-hidden="true" />
+              <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6" />
               <h2 className="font-playfair italic text-olive" style={{ fontSize: "clamp(26px, 3vw, 40px)" }}>
                 {d.plansTitle ?? "Como podemos trabalhar juntas"}
               </h2>
@@ -239,7 +239,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
         <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24 bg-background">
           <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
             <div className="md:col-span-1">
-              <div className="w-8 h-px bg-terracotta mb-6" aria-hidden="true" />
+              <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6 mb-6" />
               <h2 className="font-playfair italic text-olive" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
                 {d.includes.title}
               </h2>
@@ -264,7 +264,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
       <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24 bg-background">
         <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
           <div className="md:col-span-1">
-            <div className="w-8 h-px bg-terracotta mb-6" aria-hidden="true" />
+            <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6 mb-6" />
             <h2 className="font-playfair italic text-olive" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
               {d.forWhomTitle}
             </h2>
@@ -305,7 +305,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
         <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24 bg-background-soft">
           <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
             <div className="md:col-span-1">
-              <div className="w-8 h-px bg-terracotta mb-6" aria-hidden="true" />
+              <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6 mb-6" />
               <h2 className="font-playfair italic text-olive" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
                 {d.faqTitle ?? "Perguntas frequentes"}
               </h2>
