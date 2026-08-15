@@ -41,7 +41,7 @@ export default function ConsultoriaCards({ dict, locale }: Props) {
           {featured.map((card, i) => (
             <div
               key={card.slug}
-              className={`group relative ${featuredTheme[i].surface} border border-background/15 p-8 md:p-10 overflow-hidden flex flex-col transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-background/40 hover:shadow-[0_12px_30px_-18px_rgba(45,36,30,0.6)]`}
+              className={`group relative ${featuredTheme[i].surface} border border-background/15 p-10 md:p-14 min-h-[420px] md:min-h-[480px] overflow-hidden flex flex-col transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-background/40 hover:shadow-[0_12px_30px_-18px_rgba(45,36,30,0.6)]`}
             >
               {/* O cartão inteiro leva para a página da consultoria. Os botões
                   ficam acima desta camada e continuam com o destino próprio. */}

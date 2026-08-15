@@ -16,8 +16,35 @@ function homeHref(locale: Locale): string {
   return locale === "pt" ? "/" : `/${locale}`;
 }
 
+// Cor por categoria de conteúdo: Sono em azul petróleo, Educação Parental em
+// roxo ameixa. Primeiros passos segue no oliva institucional. As classes vão
+// escritas por extenso porque o Tailwind lê o arquivo como texto (classe
+// montada em runtime não entra no CSS final). A estrela da marca não usa
+// esta paleta: ela é sempre mel âmbar.
+const accentBySlug: Record<string, { text: string; band: string; outline: string; hover: string }> = {
+  sono: {
+    text: "text-petrol",
+    band: "bg-petrol",
+    outline: "border border-petrol text-petrol hover:bg-petrol hover:text-background",
+    hover: "hover:text-petrol",
+  },
+  "educacao-parental": {
+    text: "text-plum",
+    band: "bg-plum",
+    outline: "border border-plum text-plum hover:bg-plum hover:text-background",
+    hover: "hover:text-plum",
+  },
+  "primeiros-passos": {
+    text: "text-olive",
+    band: "bg-olive",
+    outline: "border border-olive text-olive hover:bg-olive hover:text-background",
+    hover: "hover:text-olive",
+  },
+};
+
 export default function ConsultoriaDetail({ dict, locale, card }: Props) {
   const d = card.detail;
+  const accent = accentBySlug[card.slug] ?? accentBySlug["primeiros-passos"];
 
   return (
     <main className="w-full bg-background min-h-screen">
@@ -27,13 +54,13 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
       {/* Hero block */}
       <section className="w-full px-8 md:px-16 lg:px-20 pt-14 md:pt-20 pb-12 md:pb-16">
         <FadeIn className="max-w-4xl mx-auto flex flex-col gap-8">
-          <span className="font-barlow-condensed text-xs tracking-[0.3em] text-olive uppercase">
+          <span className={`font-barlow-condensed text-xs tracking-[0.3em] ${accent.text} uppercase`}>
             {d.eyebrow}
           </span>
 
           <h1 className="font-playfair leading-tight" style={{ fontSize: "clamp(40px, 7vw, 88px)" }}>
             <span className="font-bold text-text-primary block">{d.headlineLine1}</span>{" "}
-            <span className="italic text-olive block">{d.headlineLine2}</span>
+            <span className={`italic ${accent.text} block`}>{d.headlineLine2}</span>
           </h1>
 
           <p className="font-barlow text-text-primary leading-relaxed max-w-3xl" style={{ fontSize: "clamp(17px, 1.4vw, 21px)" }}>
@@ -47,7 +74,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
         <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
           <div className="md:col-span-1">
             <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6 mb-6" />
-            <h2 className="font-playfair italic text-olive" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
+            <h2 className={`font-playfair italic ${accent.text}`} style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
               {d.whyTitle}
             </h2>
           </div>
@@ -72,7 +99,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
         <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
           <div className="md:col-span-1">
             <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6 mb-6" />
-            <h2 className="font-playfair italic text-olive" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
+            <h2 className={`font-playfair italic ${accent.text}`} style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
               {d.journeyTitle}
             </h2>
           </div>
@@ -96,7 +123,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
           <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
             <div className="md:col-span-1">
               <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6 mb-6" />
-              <h2 className="font-playfair italic text-olive" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
+              <h2 className={`font-playfair italic ${accent.text}`} style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
                 {d.howItWorks.title}
               </h2>
             </div>
@@ -121,7 +148,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
 
       {/* Method note (ex.: o choro na consultoria de sono) */}
       {d.methodNote && (
-        <div className="w-full bg-olive">
+        <div className={`w-full ${accent.band}`}>
           <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24">
             <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
               <div className="md:col-span-1">
@@ -155,7 +182,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
           <FadeIn className="max-w-5xl mx-auto flex flex-col gap-12">
             <div className="text-center flex flex-col items-center gap-4">
               <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6" />
-              <h2 className="font-playfair italic text-olive" style={{ fontSize: "clamp(26px, 3vw, 40px)" }}>
+              <h2 className={`font-playfair italic ${accent.text}`} style={{ fontSize: "clamp(26px, 3vw, 40px)" }}>
                 {d.plansTitle ?? "Como podemos trabalhar juntas"}
               </h2>
             </div>
@@ -180,7 +207,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
                     </h3>
                     {plan.price && (
                       <div className="mt-1">
-                        <span className="font-playfair text-olive" style={{ fontSize: "clamp(22px, 2.4vw, 30px)" }}>
+                        <span className={`font-playfair ${accent.text}`} style={{ fontSize: "clamp(22px, 2.4vw, 30px)" }}>
                           {plan.price}
                         </span>
                         {plan.priceNote && (
@@ -197,7 +224,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
                   </p>
 
                   {plan.forWhom && (
-                    <p className="font-playfair italic text-olive leading-relaxed" style={{ fontSize: "clamp(15px, 1.35vw, 18px)" }}>
+                    <p className={`font-playfair italic ${accent.text} leading-relaxed`} style={{ fontSize: "clamp(15px, 1.35vw, 18px)" }}>
                       {plan.forWhom}
                     </p>
                   )}
@@ -222,7 +249,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
                     className={`font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 text-center font-semibold transition-colors duration-200 ${
                       plan.highlight
                         ? "bg-terracotta text-background hover:bg-text-primary"
-                        : "border border-olive text-olive hover:bg-olive hover:text-background"
+                        : accent.outline
                     }`}
                   >
                     {plan.ctaLabel ?? d.ctaLabel}
@@ -240,7 +267,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
           <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
             <div className="md:col-span-1">
               <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6 mb-6" />
-              <h2 className="font-playfair italic text-olive" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
+              <h2 className={`font-playfair italic ${accent.text}`} style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
                 {d.includes.title}
               </h2>
             </div>
@@ -265,7 +292,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
         <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
           <div className="md:col-span-1">
             <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6 mb-6" />
-            <h2 className="font-playfair italic text-olive" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
+            <h2 className={`font-playfair italic ${accent.text}`} style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
               {d.forWhomTitle}
             </h2>
           </div>
@@ -306,7 +333,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
           <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
             <div className="md:col-span-1">
               <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6 mb-6" />
-              <h2 className="font-playfair italic text-olive" style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
+              <h2 className={`font-playfair italic ${accent.text}`} style={{ fontSize: "clamp(24px, 2.5vw, 36px)" }}>
                 {d.faqTitle ?? "Perguntas frequentes"}
               </h2>
             </div>
@@ -367,7 +394,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
           </a>
           <Link
             href={homeHref(locale)}
-            className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-text-muted hover:text-olive transition-colors duration-200"
+            className={`font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-text-muted ${accent.hover} transition-colors duration-200`}
           >
             ← {d.backToHome}
           </Link>

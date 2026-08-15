@@ -50,7 +50,7 @@ export default function HomeTestimonials({ dict, locale, showCta = true }: Props
   const others = d.testimonials.filter((t: Testimonial) => !t.featured);
 
   return (
-    <section id="depoimentos" className="w-full px-8 md:px-16 lg:px-20 py-20 md:py-28 bg-text-primary">
+    <section id="depoimentos" className="w-full px-8 md:px-16 lg:px-20 py-20 md:py-28 bg-olive">
       <div className="max-w-6xl mx-auto flex flex-col gap-14 md:gap-16">
         {/* Cabeçalho */}
         <FadeIn className="max-w-2xl mx-auto text-center flex flex-col items-center gap-4">
