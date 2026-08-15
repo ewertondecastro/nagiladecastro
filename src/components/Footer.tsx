@@ -34,7 +34,7 @@ export default function Footer({ dict, locale = "pt" }: Props) {
               className="flex items-center gap-2.5 font-playfair text-background hover:text-terracotta transition-colors duration-200"
               style={{ fontSize: "clamp(22px, 2vw, 28px)" }}
             >
-              <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6 md:w-7 md:h-7" />
+              <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-9 h-9 md:w-10 md:h-10" />
               <span>{footer.name}</span>
             </Link>
             <p className="font-barlow text-background/70 text-sm leading-relaxed">

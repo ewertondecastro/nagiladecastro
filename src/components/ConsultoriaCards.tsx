@@ -12,6 +12,20 @@ function consultoriaHref(locale: Locale, slug: string): string {
   return locale === "pt" ? `/consultorias/${slug}` : `/${locale}/consultorias/${slug}`;
 }
 
+// Cor própria de cada card principal: Sono em azul petróleo, Educação Parental
+// em roxo ameixa. Classes escritas por extenso porque o Tailwind lê o arquivo
+// como texto (classe montada em runtime não entra no CSS final).
+const featuredTheme = [
+  {
+    surface: "bg-petrol",
+    outlineCta: "border-background text-background hover:bg-background hover:text-petrol",
+  },
+  {
+    surface: "bg-plum",
+    outlineCta: "border-background text-background hover:bg-background hover:text-plum",
+  },
+];
+
 // Cartões das consultorias, com hierarquia: as duas primeiras (Sono e Educação
 // Parental) são as principais, do mesmo tamanho; da terceira em diante entram
 // como frentes secundárias. Reutilizado na home e na página de consultorias.
@@ -24,10 +38,10 @@ export default function ConsultoriaCards({ dict, locale }: Props) {
     <>
       {featured.length > 0 && (
         <FadeIn className="max-w-5xl mx-auto grid gap-6 md:grid-cols-2 items-stretch">
-          {featured.map((card) => (
+          {featured.map((card, i) => (
             <div
               key={card.slug}
-              className="group relative bg-background-soft border border-olive/40 p-8 md:p-10 overflow-hidden flex flex-col transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-olive hover:shadow-[0_12px_30px_-18px_rgba(59,74,61,0.5)]"
+              className={`group relative ${featuredTheme[i].surface} border border-background/15 p-8 md:p-10 overflow-hidden flex flex-col transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-background/40 hover:shadow-[0_12px_30px_-18px_rgba(45,36,30,0.6)]`}
             >
               {/* O cartão inteiro leva para a página da consultoria. Os botões
                   ficam acima desta camada e continuam com o destino próprio. */}
@@ -38,16 +52,16 @@ export default function ConsultoriaCards({ dict, locale }: Props) {
               />
               <div className="relative z-20 flex flex-col flex-1 pointer-events-none">
                 <span className="flex items-center gap-3 mb-5">
-                  <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-terracotta">
+                  <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-amber">
                     {card.number}
                   </span>
-                  <span className="h-px w-8 bg-terracotta/40" aria-hidden="true" />
+                  <span className="h-px w-8 bg-amber/40" aria-hidden="true" />
                 </span>
                 <h3 className="font-playfair leading-tight mb-4" style={{ fontSize: "clamp(26px, 2.4vw, 34px)" }}>
-                  <span className="font-bold text-text-primary">{card.titleLine1} </span>
-                  <span className="italic text-olive">{card.titleLine2}</span>
+                  <span className="font-bold text-background">{card.titleLine1} </span>
+                  <span className="italic text-background">{card.titleLine2}</span>
                 </h3>
-                <p className="font-barlow text-text-secondary leading-relaxed mb-7" style={{ fontSize: "clamp(16px, 1.15vw, 18px)" }}>
+                <p className="font-barlow text-background/85 leading-relaxed mb-7" style={{ fontSize: "clamp(16px, 1.15vw, 18px)" }}>
                   {card.description}
                 </p>
                 <div className="mt-auto flex flex-wrap gap-3 pointer-events-auto">
@@ -61,7 +75,7 @@ export default function ConsultoriaCards({ dict, locale }: Props) {
                   </a>
                   <Link
                     href={consultoriaHref(locale, card.slug)}
-                    className="relative z-20 font-barlow-condensed text-sm tracking-widest uppercase px-7 py-3.5 border border-olive text-olive group-hover:bg-terracotta group-hover:text-background group-hover:border-terracotta transition-all duration-200"
+                    className={`relative z-20 font-barlow-condensed text-sm tracking-widest uppercase px-7 py-3.5 border bg-transparent transition-all duration-200 ${featuredTheme[i].outlineCta}`}
                   >
                     {card.learnMore}
                   </Link>

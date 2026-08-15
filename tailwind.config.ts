@@ -21,6 +21,12 @@ const config: Config = {
         // Terracota (calor / acento / ação)
         terracotta: "#B85C38",
         "terracotta-soft": "#EAD6CC",
+        // Mel Âmbar (destaque quente: números, aspas)
+        amber: "#D4A84B",
+        // Azul Petróleo (card Consultoria de Sono)
+        petrol: "#0B4B5A",
+        // Roxo Ameixa (card Educação Parental)
+        plum: "#6A3D5C",
         // Sálvia (apoio)
         sage: "#A3B19B",
         "sage-soft": "#DCE1D4",
