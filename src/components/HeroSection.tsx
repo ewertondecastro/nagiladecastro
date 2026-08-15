@@ -64,7 +64,7 @@ export default function HeroSection({ dict, locale }: Props) {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.4, ease: [0.25, 0.1, 0.25, 1] }}
-            className="font-playfair font-medium text-background md:text-text-primary leading-none tracking-tight"
+            className="font-playfair font-normal text-background md:text-text-primary leading-none tracking-tight"
             style={{ fontSize: "clamp(72px, 12vw, 160px)" }}
           >
             {hero.firstName}

@@ -46,10 +46,10 @@ export default async function Home() {
     <main>
       <SiteNav dict={dict} locale="pt" />
       <HeroSection dict={dict} locale="pt" />
+      <ChapterPhrase toneClass="text-olive" text="Aqui a meta é sair do escuro e agir com clareza." />
       <ServicesSection dict={dict} locale="pt" />
       <AboutSection dict={dict} />
       <HomeTestimonials dict={dict} locale="pt" />
-      <ChapterPhrase dark text="Aqui a meta é sair do escuro e agir com clareza." />
       <QuoteSection dict={dict} />
       <FamilySection dict={dict} />
       <ContactSection dict={dict} />

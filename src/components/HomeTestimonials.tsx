@@ -53,12 +53,12 @@ export default function HomeTestimonials({ dict, locale, showCta = true }: Props
   const others = d.testimonials.filter((t: Testimonial) => !t.featured);
 
   return (
-    <section id="depoimentos" className="w-full px-8 md:px-16 lg:px-20 py-20 md:py-28 bg-background">
+    <section id="depoimentos" className="w-full px-8 md:px-16 lg:px-20 pt-32 md:pt-48 pb-20 md:pb-28 bg-background">
       <div className="max-w-6xl mx-auto flex flex-col gap-14 md:gap-16">
         {/* Cabeçalho */}
         <FadeIn className="max-w-2xl mx-auto text-center flex flex-col items-center gap-4">
           <span className="h-px w-10 bg-terracotta" aria-hidden="true" />
-          <span className="font-barlow-condensed text-[11px] tracking-[0.35em] uppercase text-olive">
+          <span className="font-barlow-condensed text-base md:text-lg tracking-[0.35em] uppercase text-terracotta">
             {eyebrow}
           </span>
           <h2

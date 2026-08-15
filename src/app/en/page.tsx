@@ -46,10 +46,10 @@ export default async function PageEN() {
     <main>
       <SiteNav dict={dict} locale="en" />
       <HeroSection dict={dict} locale="en" />
+      <ChapterPhrase toneClass="text-olive" text="It's not about doing everything perfectly. It's about no longer acting in the dark." />
       <ServicesSection dict={dict} locale="en" />
       <AboutSection dict={dict} />
       <HomeTestimonials dict={dict} locale="en" />
-      <ChapterPhrase dark text="It's not about doing everything perfectly. It's about no longer acting in the dark." />
       <QuoteSection dict={dict} />
       <FamilySection dict={dict} />
       <ContactSection dict={dict} />
