@@ -11,7 +11,7 @@ export default function AboutSection({ dict }: Props) {
   const { about } = dict;
 
   return (
-    <section className="w-full py-24 md:py-36 px-8 md:px-16 lg:px-20 bg-background">
+    <section className="w-full py-24 md:py-36 px-8 md:px-16 lg:px-20 bg-olive">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 items-start">
 
         {/* Left: Title + photo */}
@@ -19,9 +19,9 @@ export default function AboutSection({ dict }: Props) {
           <div className="flex flex-col gap-6">
             <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-6 h-6" />
             <h2 className="font-playfair leading-tight" style={{ fontSize: "clamp(36px, 5vw, 64px)" }}>
-              <span className="font-normal text-text-primary block">{about.titleLine1}</span>{" "}
-              <span className="font-normal text-text-primary block">{about.titleLine2}</span>{" "}
-              <span className="italic text-olive block">{about.titleLine3}</span>
+              <span className="font-normal text-background block">{about.titleLine1}</span>{" "}
+              <span className="font-normal text-background block">{about.titleLine2}</span>{" "}
+              <span className="italic text-background block">{about.titleLine3}</span>
             </h2>
           </div>
 
@@ -33,8 +33,8 @@ export default function AboutSection({ dict }: Props) {
               distance={34}
             >
               <Image
-                src="/images/couple.jpg"
-                alt="Nágila e Ewerton Decastro"
+                src="/images/nagila.jpg"
+                alt="Nágila Decastro"
                 fill
                 className="object-cover object-top"
                 sizes="(max-width: 768px) 100vw, 40vw"
@@ -51,8 +51,8 @@ export default function AboutSection({ dict }: Props) {
               key={i}
               className={`font-barlow leading-relaxed ${
                 i === about.body.length - 1
-                  ? "text-text-primary font-medium"
-                  : "text-text-secondary"
+                  ? "text-background font-medium"
+                  : "text-background/85"
               }`}
               style={{ fontSize: "clamp(17px, 1.4vw, 20px)" }}
             >
@@ -61,15 +61,15 @@ export default function AboutSection({ dict }: Props) {
           ))}
 
           {/* Credentials */}
-          <div className="mt-6 pt-6 border-t border-cream-line flex flex-col gap-3">
-            <span className="font-barlow-condensed text-[10px] tracking-[0.3em] text-text-muted uppercase">
+          <div className="mt-6 pt-6 border-t border-background/20 flex flex-col gap-3">
+            <span className="font-barlow-condensed text-[10px] tracking-[0.3em] text-background/60 uppercase">
               {about.credentials.label}
             </span>
             <ul className="flex flex-col gap-1.5">
               {about.credentials.items.map((item, i) => (
                 <li
                   key={i}
-                  className="font-barlow text-text-primary leading-snug pl-3 border-l-2 border-olive"
+                  className="font-barlow text-background leading-snug pl-3 border-l-2 border-amber"
                   style={{ fontSize: "clamp(13px, 1vw, 15px)" }}
                 >
                   {item}
@@ -83,12 +83,12 @@ export default function AboutSection({ dict }: Props) {
             href={about.partner.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="group mt-4 inline-flex items-center gap-3 pt-6 border-t border-cream-line"
+            className="group mt-4 inline-flex items-center gap-3 pt-6 border-t border-background/20"
           >
-            <span className="font-barlow-condensed text-[10px] tracking-[0.3em] text-text-muted uppercase">
+            <span className="font-barlow-condensed text-[10px] tracking-[0.3em] text-background/60 uppercase">
               {about.partner.label}
             </span>
-            <span className="font-playfair italic text-olive group-hover:text-text-primary transition-colors duration-300" style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}>
+            <span className="font-playfair italic text-amber group-hover:text-background transition-colors duration-300" style={{ fontSize: "clamp(17px, 1.45vw, 21px)" }}>
               {about.partner.handle}
             </span>
           </a>

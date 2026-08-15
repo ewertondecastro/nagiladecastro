@@ -47,9 +47,9 @@ export default async function PageES() {
       <SiteNav dict={dict} locale="es" />
       <HeroSection dict={dict} locale="es" />
       <ServicesSection dict={dict} locale="es" />
+      <AboutSection dict={dict} />
       <HomeTestimonials dict={dict} locale="es" />
       <ChapterPhrase dark text="No se trata de hacer todo perfecto. Se trata de dejar de actuar a oscuras." />
-      <AboutSection dict={dict} />
       <QuoteSection dict={dict} />
       <FamilySection dict={dict} />
       <ContactSection dict={dict} />

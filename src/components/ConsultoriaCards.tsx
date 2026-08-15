@@ -37,11 +37,11 @@ export default function ConsultoriaCards({ dict, locale }: Props) {
   return (
     <>
       {featured.length > 0 && (
-        <FadeIn className="max-w-5xl mx-auto grid gap-6 md:grid-cols-2 items-stretch">
+        <FadeIn className="max-w-7xl mx-auto grid gap-6 md:grid-cols-2 items-stretch">
           {featured.map((card, i) => (
             <div
               key={card.slug}
-              className={`group relative ${featuredTheme[i].surface} border border-background/15 p-10 md:p-14 min-h-[420px] md:min-h-[480px] overflow-hidden flex flex-col transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-background/40 hover:shadow-[0_12px_30px_-18px_rgba(45,36,30,0.6)]`}
+              className={`group relative ${featuredTheme[i].surface} border border-background/15 p-10 md:p-16 lg:p-20 min-h-[420px] md:min-h-[560px] overflow-hidden flex flex-col transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-background/40 hover:shadow-[0_12px_30px_-18px_rgba(45,36,30,0.6)]`}
             >
               {/* O cartão inteiro leva para a página da consultoria. Os botões
                   ficam acima desta camada e continuam com o destino próprio. */}
@@ -87,7 +87,7 @@ export default function ConsultoriaCards({ dict, locale }: Props) {
       )}
 
       {rest.length > 0 && (
-        <FadeIn className="max-w-5xl mx-auto mt-10">
+        <FadeIn className="max-w-7xl mx-auto mt-10">
           <p className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-text-muted mb-5">
             {services.othersLabel}
           </p>
