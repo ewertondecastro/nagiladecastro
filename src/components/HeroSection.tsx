@@ -73,7 +73,7 @@ export default function HeroSection({ dict, locale }: Props) {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.55, ease: [0.25, 0.1, 0.25, 1] }}
-            className="font-playfair italic text-background md:text-olive leading-none tracking-tight"
+            className="font-playfair italic text-background md:text-plum leading-none tracking-tight"
             style={{ fontSize: "clamp(72px, 12vw, 160px)" }}
           >
             {hero.lastName}
@@ -110,7 +110,9 @@ export default function HeroSection({ dict, locale }: Props) {
           </div>
         </div>
 
-        {/* Bottom row */}
+        {/* Bottom row. O indicador de rolagem (hero.scrollLabel + a linha
+            animada) foi removido a pedido: a chave segue nos dicionários,
+            então basta recolocar este bloco para reativá-lo. */}
         <div className="flex items-end justify-between w-full">
           <motion.p
             initial={{ opacity: 0 }}
@@ -120,22 +122,6 @@ export default function HeroSection({ dict, locale }: Props) {
           >
             {hero.location}
           </motion.p>
-
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 1.1 }}
-            className="flex flex-col items-center gap-2"
-          >
-            <span className="font-barlow-condensed text-[10px] tracking-[0.3em] text-text-secondary uppercase">
-              {hero.scrollLabel}
-            </span>
-            <motion.div
-              animate={{ y: [0, 8, 0] }}
-              transition={{ repeat: Infinity, duration: 1.8, ease: "easeInOut" }}
-              className="w-px h-10 bg-gradient-to-b from-olive to-transparent"
-            />
-          </motion.div>
         </div>
       </div>
     </section>
