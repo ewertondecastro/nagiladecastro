@@ -198,26 +198,39 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
                   key={i}
                   className={`flex flex-col gap-6 px-7 py-8 md:px-9 md:py-10 h-full ${
                     plan.highlight
-                      ? `bg-background-soft border-2 ${accent.border}`
+                      ? accent.band
                       : "bg-background border border-cream-line"
                   }`}
                 >
                   <div className="flex flex-col gap-2">
                     {plan.duration && (
-                      <span className={`font-barlow-condensed text-[11px] tracking-[0.25em] uppercase ${accent.text}`}>
+                      <span
+                        className={`font-barlow-condensed text-[11px] tracking-[0.25em] uppercase ${
+                          plan.highlight ? "text-background/70" : accent.text
+                        }`}
+                      >
                         {plan.duration}
                       </span>
                     )}
-                    <h3 className="font-playfair text-text-primary" style={{ fontSize: "clamp(24px, 2.6vw, 32px)" }}>
+                    <h3
+                      className={`font-playfair ${plan.highlight ? "text-background" : "text-text-primary"}`}
+                      style={{ fontSize: "clamp(24px, 2.6vw, 32px)" }}
+                    >
                       {plan.name}
                     </h3>
                     {plan.price && (
                       <div className="mt-1">
-                        <span className={`font-playfair ${accent.text}`} style={{ fontSize: "clamp(22px, 2.4vw, 30px)" }}>
+                        <span
+                          className={`font-playfair ${plan.highlight ? "text-amber" : accent.text}`}
+                          style={{ fontSize: "clamp(22px, 2.4vw, 30px)" }}
+                        >
                           {plan.price}
                         </span>
                         {plan.priceNote && (
-                          <span className="font-barlow text-text-muted block mt-1" style={{ fontSize: "14px" }}>
+                          <span
+                            className={`font-barlow block mt-1 ${plan.highlight ? "text-background/70" : "text-text-muted"}`}
+                            style={{ fontSize: "14px" }}
+                          >
                             {plan.priceNote}
                           </span>
                         )}
@@ -225,12 +238,18 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
                     )}
                   </div>
 
-                  <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(16px, 1.4vw, 19px)" }}>
+                  <p
+                    className={`font-barlow leading-relaxed ${plan.highlight ? "text-background/90" : "text-text-secondary"}`}
+                    style={{ fontSize: "clamp(16px, 1.4vw, 19px)" }}
+                  >
                     {plan.summary}
                   </p>
 
                   {plan.forWhom && (
-                    <p className={`font-playfair italic ${accent.text} leading-relaxed`} style={{ fontSize: "clamp(15px, 1.35vw, 18px)" }}>
+                    <p
+                      className={`font-playfair italic leading-relaxed ${plan.highlight ? "text-amber" : accent.text}`}
+                      style={{ fontSize: "clamp(15px, 1.35vw, 18px)" }}
+                    >
                       {plan.forWhom}
                     </p>
                   )}
@@ -239,7 +258,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
                     {plan.includes.map((item, j) => (
                       <li
                         key={j}
-                        className="font-barlow text-text-primary leading-relaxed flex gap-3"
+                        className={`font-barlow leading-relaxed flex gap-3 ${plan.highlight ? "text-background" : "text-text-primary"}`}
                         style={{ fontSize: "clamp(15px, 1.35vw, 18px)" }}
                       >
                         <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-4 h-4 mt-1 shrink-0" />
