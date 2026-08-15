@@ -21,22 +21,28 @@ function homeHref(locale: Locale): string {
 // escritas por extenso porque o Tailwind lê o arquivo como texto (classe
 // montada em runtime não entra no CSS final). A estrela da marca não usa
 // esta paleta: ela é sempre mel âmbar.
-const accentBySlug: Record<string, { text: string; band: string; outline: string; hover: string }> = {
+const accentBySlug: Record<
+  string,
+  { text: string; band: string; border: string; outline: string; hover: string }
+> = {
   sono: {
     text: "text-petrol",
     band: "bg-petrol",
+    border: "border-petrol",
     outline: "border border-petrol text-petrol hover:bg-petrol hover:text-background",
     hover: "hover:text-petrol",
   },
   "educacao-parental": {
     text: "text-plum",
     band: "bg-plum",
+    border: "border-plum",
     outline: "border border-plum text-plum hover:bg-plum hover:text-background",
     hover: "hover:text-plum",
   },
   "primeiros-passos": {
     text: "text-olive",
     band: "bg-olive",
+    border: "border-olive",
     outline: "border border-olive text-olive hover:bg-olive hover:text-background",
     hover: "hover:text-olive",
   },
@@ -192,13 +198,13 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
                   key={i}
                   className={`flex flex-col gap-6 px-7 py-8 md:px-9 md:py-10 h-full ${
                     plan.highlight
-                      ? "bg-background-soft border-2 border-terracotta"
+                      ? `bg-background-soft border-2 ${accent.border}`
                       : "bg-background border border-cream-line"
                   }`}
                 >
                   <div className="flex flex-col gap-2">
                     {plan.duration && (
-                      <span className="font-barlow-condensed text-[11px] tracking-[0.25em] uppercase text-terracotta">
+                      <span className={`font-barlow-condensed text-[11px] tracking-[0.25em] uppercase ${accent.text}`}>
                         {plan.duration}
                       </span>
                     )}
