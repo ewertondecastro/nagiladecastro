@@ -122,8 +122,6 @@
               "name": "Complete Consultation",
               "duration": "75-day support",
               "highlight": true,
-              "price": "R$ 2,500",
-              "priceNote": "12 interest-bearing installments or 2 interest-free installments by card",
               "summary": "Individual support to deeply restructure your child's sleep, with close guidance until the new habit takes hold.",
               "forWhom": "For families who need support through adjustments, regressions, and consolidating the routine.",
               "includes": [
@@ -142,8 +140,6 @@
             {
               "name": "Express Consultation",
               "duration": "Focused guidance",
-              "price": "R$ 1,500",
-              "priceNote": "12 interest-bearing installments or 2 interest-free installments by card",
               "summary": "Individual guidance for a specific sleep question, with a clear plan for you to apply on your own.",
               "forWhom": "For organized families with a strong ability to follow through independently.",
               "includes": [
@@ -307,8 +303,6 @@
               "name": "Complete Parenting Consultation",
               "duration": "75-day support (60 days of active guidance + 15 days of safety-net bonus)",
               "highlight": true,
-              "price": "R$ 2,500",
-              "priceNote": "12 interest-bearing installments or 2 interest-free installments by card",
               "summary": "To deeply restructure the dynamics of the home: authority, routine, and behavior, with close support until the change takes hold.",
               "forWhom": "For families who need support through adjustments and consolidation.",
               "includes": [
@@ -329,8 +323,6 @@
             {
               "name": "Express Parenting Consultation",
               "duration": "40-day support",
-              "price": "R$ 1,500",
-              "priceNote": "12 interest-bearing installments or 2 interest-free installments by card",
               "summary": "For one defined parenting question, with a clear plan for you to apply on your own.",
               "forWhom": "For organized families with a strong ability to follow through independently.",
               "includes": [

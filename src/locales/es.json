@@ -122,8 +122,6 @@
               "name": "Consultoría Completa",
               "duration": "Acompañamiento de 75 días",
               "highlight": true,
-              "price": "R$ 2.500",
-              "priceNote": "12 cuotas con interés o 2 cuotas sin interés con tarjeta",
               "summary": "Un acompañamiento individual para reestructurar a fondo el sueño de tu hijo, con dirección cercana hasta que el nuevo hábito se afiance.",
               "forWhom": "Para familias que necesitan acompañamiento en ajustes, regresiones y consolidación de la rutina.",
               "includes": [
@@ -142,8 +140,6 @@
             {
               "name": "Consultoría Express",
               "duration": "Dirección puntual",
-              "price": "R$ 1.500",
-              "priceNote": "12 cuotas con interés o 2 cuotas sin interés con tarjeta",
               "summary": "Una dirección individual para una cuestión puntual de sueño, con un plan claro para que lo apliques con autonomía.",
               "forWhom": "Para familias organizadas, con buena capacidad de ejecución independiente.",
               "includes": [
@@ -307,8 +303,6 @@
               "name": "Consultoría Parental Completa",
               "duration": "Acompañamiento de 75 días (60 días de acompañamiento activo + 15 días de bono de seguridad)",
               "highlight": true,
-              "price": "R$ 2.500",
-              "priceNote": "12 cuotas con interés o 2 cuotas sin interés con tarjeta",
               "summary": "Para reestructurar a fondo la dinámica de la casa: autoridad, rutina y comportamiento, con acompañamiento cercano hasta que el cambio se afiance.",
               "forWhom": "Para familias que necesitan acompañamiento en ajustes y consolidación.",
               "includes": [
@@ -329,8 +323,6 @@
             {
               "name": "Consultoría Parental Express",
               "duration": "Acompañamiento de 40 días",
-              "price": "R$ 1.500",
-              "priceNote": "12 cuotas con interés o 2 cuotas sin interés con tarjeta",
               "summary": "Para una cuestión parental delimitada, con un plan claro para que lo apliquen con autonomía.",
               "forWhom": "Para familias organizadas, con buena capacidad de ejecución independiente.",
               "includes": [

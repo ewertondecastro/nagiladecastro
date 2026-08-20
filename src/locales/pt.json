@@ -122,8 +122,6 @@
               "name": "Consultoria Completa",
               "duration": "Acompanhamento de 75 dias",
               "highlight": true,
-              "price": "R$ 2.500",
-              "priceNote": "12x com juros ou 2x sem juros no cartão",
               "summary": "Um acompanhamento individual para estruturar o sono do seu filho a fundo, com direção próxima.",
               "forWhom": "Para famílias que precisam de acompanhamento em ajustes, regressões e consolidação da rotina.",
               "includes": [
@@ -136,14 +134,12 @@
                 "Relatório Final, entregue até 48h após o último encontro",
                 "Bônus: Manual da Família e e-book Casa, Rotina & Tempo"
               ],
-              "ctaLabel": "Quero a Completa",
-              "ctaWhatsappText": "Oi Nágila, vim pelo seu site e quero a Consultoria Completa de Sono."
+              "ctaLabel": "Falar sobre a Completa",
+              "ctaWhatsappText": "Olá, Nágila! Tenho interesse na Consultoria de Sono Completa e quero saber mais."
             },
             {
               "name": "Consultoria Express",
               "duration": "Direção pontual",
-              "price": "R$ 1.500",
-              "priceNote": "12x com juros ou 2x sem juros no cartão",
               "summary": "Uma direção individual para uma questão pontual de sono, com um plano claro pra você aplicar com autonomia.",
               "forWhom": "Para famílias organizadas, com boa capacidade de execução independente.",
               "includes": [
@@ -153,8 +149,8 @@
                 "Relatório Final, enviado até 48h após o encontro",
                 "Bônus: Manual da Família"
               ],
-              "ctaLabel": "Quero a Express",
-              "ctaWhatsappText": "Oi Nágila, vim pelo seu site e quero a Consultoria Express de Sono."
+              "ctaLabel": "Falar sobre a Express",
+              "ctaWhatsappText": "Olá, Nágila! Tenho interesse na Consultoria de Sono Express e quero saber mais."
             }
           ],
           "testimonialsTitle": "Elas mandaram no meio da noite. E depois, meses depois.",
@@ -307,8 +303,6 @@
               "name": "Consultoria Parental Completa",
               "duration": "Acompanhamento de 60 dias + 15 dias de bônus",
               "highlight": true,
-              "price": "R$ 2.500",
-              "priceNote": "12x com juros ou 2x sem juros no cartão",
               "summary": "Para reestruturar a dinâmica da casa a fundo: autoridade, rotina e comportamento, com acompanhamento próximo até a mudança se firmar.",
               "forWhom": "Para famílias que precisam de acompanhamento em ajustes e consolidação.",
               "includes": [
@@ -323,14 +317,12 @@
                 "Manual da Família",
                 "Bônus: E-book Casa, Rotina & Tempo e Flash Cards de Emoções e Domínio Próprio"
               ],
-              "ctaLabel": "Quero a Completa",
-              "ctaWhatsappText": "Oi Nágila, vim pelo seu site e quero a Consultoria Parental Completa."
+              "ctaLabel": "Falar sobre a Completa",
+              "ctaWhatsappText": "Olá, Nágila! Tenho interesse na Educação Parental Completa e quero saber mais."
             },
             {
               "name": "Consultoria Parental Express",
               "duration": "Acompanhamento de 40 dias",
-              "price": "R$ 1.500",
-              "priceNote": "12x com juros ou 2x sem juros no cartão",
               "summary": "Para uma questão parental delimitada, com um plano claro para vocês aplicarem com autonomia.",
               "forWhom": "Para famílias organizadas, com boa capacidade de execução independente.",
               "includes": [
@@ -341,8 +333,8 @@
                 "Relatório Final (PDF)",
                 "Manual da Família"
               ],
-              "ctaLabel": "Quero a Express",
-              "ctaWhatsappText": "Oi Nágila, vim pelo seu site e quero a Consultoria Parental Express."
+              "ctaLabel": "Falar sobre a Express",
+              "ctaWhatsappText": "Olá, Nágila! Tenho interesse na Educação Parental Express e quero saber mais."
             }
           ],
           "howItWorks": {
