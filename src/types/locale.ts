@@ -48,6 +48,11 @@ export interface ConsultoriaDetail {
   }[];
   ctaLabel: string;
   ctaWhatsappText: string;
+  // CTA opcional logo abaixo do texto de abertura. Só é renderizado quando a
+  // página define o rótulo, então as consultorias que não preenchem seguem
+  // com o hero como está hoje.
+  heroCtaLabel?: string;
+  heroCtaWhatsappText?: string;
   backToHome: string;
 }
 

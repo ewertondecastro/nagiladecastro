@@ -104,8 +104,10 @@
             "Mães que já tentaram ajustar horários e rotina, mas ainda não conseguem entender o que está mantendo o problema",
             "Mães que querem uma orientação individualizada, levando em conta o filho, a rotina e a realidade da família"
           ],
-          "ctaLabel": "Quero começar",
-          "ctaWhatsappText": "Oi Nágila, vim pela página da Consultoria de Sono e quero começar.",
+          "ctaLabel": "Quero entender qual consultoria faz sentido para mim",
+          "ctaWhatsappText": "Olá, Nágila! Vi suas Consultorias de Sono e gostaria de entender qual opção faz mais sentido para a minha família.",
+          "heroCtaLabel": "Quero falar sobre o sono do meu filho",
+          "heroCtaWhatsappText": "Olá, Nágila! Vi sua página de Consultoria de Sono e gostaria de conversar sobre o sono do meu filho.",
           "backToHome": "Voltar ao início",
           "recordingNote": "Toda conversa por Google Meet ou Zoom é gravada. Se a família quiser, a gravação fica disponível para rever quando precisar.",
           "methodNote": {

@@ -72,6 +72,20 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
           <p className="font-barlow text-text-primary leading-relaxed max-w-3xl" style={{ fontSize: "clamp(17px, 1.4vw, 21px)" }}>
             {d.intro}
           </p>
+
+          {/* CTA de abertura. Usa o mesmo botão terracota do CTA final da
+              página; só muda o alinhamento, porque aqui o bloco é à esquerda.
+              Aparece apenas nas consultorias que definem heroCtaLabel. */}
+          {d.heroCtaLabel && (
+            <a
+              href={whatsAppUrl(d.heroCtaWhatsappText ?? d.ctaWhatsappText)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="self-start max-w-full font-barlow-condensed text-sm tracking-widest uppercase px-8 md:px-10 py-4 bg-terracotta text-background font-semibold text-center hover:bg-text-primary transition-colors duration-200"
+            >
+              {d.heroCtaLabel}
+            </a>
+          )}
         </FadeIn>
       </section>
 
