@@ -139,15 +139,17 @@
             },
             {
               "name": "Consultoria Express",
-              "duration": "Direção pontual",
-              "summary": "Uma direção individual para uma questão pontual de sono, com um plano claro pra você aplicar com autonomia.",
-              "forWhom": "Para famílias organizadas, com boa capacidade de execução independente.",
+              "duration": "Consulta individual e 10 dias de suporte",
+              "summary": "Uma consulta individual para entender a fundo o que está acontecendo com o sono do seu filho e sair com uma estratégia personalizada e uma direção clara para colocar em prática.",
+              "forWhom": "Para famílias que querem clareza sobre o próprio caso e preferem conduzir a implementação com mais autonomia.",
               "includes": [
-                "1 encontro individual por videochamada, para análise da anamnese e direção inicial",
-                "Plano de ação personalizado, enviado em PDF em até 48h",
-                "40 dias de suporte por WhatsApp, com resposta em até 48h",
-                "Relatório Final, enviado até 48h após o encontro",
-                "Bônus: Manual da Família"
+                "Anamnese detalhada, preenchida antes da consulta",
+                "Consulta individual por videochamada, de 60 a 90 minutos",
+                "Análise personalizada do caso, a partir da anamnese e da conversa",
+                "Plano de sono personalizado, entregue em PDF",
+                "Gravação da consulta, para você rever quando precisar",
+                "10 dias de suporte pelo WhatsApp após a consulta",
+                "Relatório final de revisão"
               ],
               "ctaLabel": "Falar sobre a Express",
               "ctaWhatsappText": "Olá, Nágila! Tenho interesse na Consultoria de Sono Express e quero saber mais."
@@ -229,7 +231,7 @@
             },
             {
               "question": "Qual a diferença entre a Completa e a Express?",
-              "answer": "A Completa é um acompanhamento de 75 dias, com 4 encontros e suporte próximo até o hábito se firmar, pra quem precisa de direção em ajustes, regressões e consolidação. A Express é uma direção pontual: 1 encontro, plano por escrito e 40 dias de suporte, pra famílias organizadas que executam bem sozinhas."
+              "answer": "A Completa é um acompanhamento de 75 dias, com 4 encontros e suporte próximo até o hábito se firmar, pra quem precisa de direção em ajustes, regressões e consolidação. A Express é uma consulta individual de 60 a 90 minutos, com análise do caso, plano de sono personalizado em PDF, gravação da consulta e 10 dias de suporte pelo WhatsApp, pra famílias que querem clareza e preferem conduzir a implementação com mais autonomia."
             },
             {
               "question": "O que são as chamadas de vídeo pontuais?",
