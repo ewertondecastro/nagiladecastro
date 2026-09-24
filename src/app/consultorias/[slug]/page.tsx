@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { getDict } from "@/lib/getDict";
 import ConsultoriaDetail from "@/components/ConsultoriaDetail";
+import SonoDetail from "@/components/SonoDetail";
 import type { Metadata } from "next";
 import type { ConsultoriaSlug } from "@/types/locale";
 
@@ -37,5 +38,10 @@ export default async function ConsultoriaPage({ params }: PageProps) {
   const dict = await getDict("pt");
   const card = dict.services.cards.find((c) => c.slug === params.slug);
   if (!card) notFound();
+  // A Consultoria de Sono tem layout próprio. As outras seguem no componente
+  // compartilhado, com o mesmo conteúdo vindo do dicionário.
+  if (card.slug === "sono") {
+    return <SonoDetail dict={dict} locale="pt" card={card} />;
+  }
   return <ConsultoriaDetail dict={dict} locale="pt" card={card} />;
 }
