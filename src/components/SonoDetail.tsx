@@ -139,10 +139,11 @@ export default function SonoDetail({ dict, locale, card }: Props) {
         </section>
 
         {/* 3. POR QUE ISSO IMPORTA — transição curta, não bloco institucional.
-            O título vira etiqueta, a ideia central ganha escala de citação e o
-            complemento desce deslocado para a direita. */}
-        <section className="w-full px-8 md:px-16 lg:px-20 py-20 md:py-32 bg-background">
-          <FadeIn className="max-w-5xl mx-auto flex flex-col gap-9 md:gap-12">
+            O título vira etiqueta e a ideia central mantém o tom de citação,
+            mas em escala bem abaixo da manchete do hero, para não disputar
+            com ela. O complemento desce deslocado para a direita. */}
+        <section className="w-full px-8 md:px-16 lg:px-20 py-14 md:py-20 bg-background">
+          <FadeIn className="max-w-4xl mx-auto flex flex-col gap-7 md:gap-9">
             <div className="flex items-center gap-4">
               <span className="h-px w-12 bg-amber" aria-hidden="true" />
               <h2 className="font-barlow-condensed text-[11px] md:text-xs tracking-[0.3em] uppercase text-text-muted">
@@ -150,8 +151,8 @@ export default function SonoDetail({ dict, locale, card }: Props) {
               </h2>
             </div>
             <p
-              className="font-playfair italic text-petrol leading-[1.22]"
-              style={{ fontSize: "clamp(24px, 3.3vw, 46px)" }}
+              className="font-playfair italic text-petrol leading-[1.35]"
+              style={{ fontSize: "clamp(19px, 2.1vw, 30px)" }}
             >
               {d.whyBody[0]}
             </p>
@@ -168,8 +169,8 @@ export default function SonoDetail({ dict, locale, card }: Props) {
         </section>
 
         {/* 4. COMO EU TE ACOMPANHO — a foto da Nágila em retrato entra na coluna
-            estreita, com uma moldura deslocada de canto. O texto sobe ao lado,
-            separado por filetes em vez de virar um parágrafo corrido. */}
+            estreita. O texto sobe ao lado, separado por filetes em vez de
+            virar um parágrafo corrido. */}
         <section className="w-full px-8 md:px-16 lg:px-20 py-20 md:py-28 bg-background-soft">
           <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
             <FadeIn direction="left" className="lg:col-span-5">
@@ -183,10 +184,6 @@ export default function SonoDetail({ dict, locale, card }: Props) {
                     className="object-cover object-top"
                   />
                 </div>
-                <span
-                  aria-hidden="true"
-                  className="hidden lg:block absolute -bottom-5 -right-5 w-28 h-28 border border-petrol/40"
-                />
               </div>
             </FadeIn>
 
@@ -287,26 +284,15 @@ export default function SonoDetail({ dict, locale, card }: Props) {
           </section>
         )}
 
-        {/* 7. FRASE EDITORIAL — pausa curta. Antes ocupava quase uma tela; agora
-            é só respiro entre o método e a prova social. */}
-        {d.chapterPhrase && (
-          <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24 bg-background-soft">
-            <FadeIn className="max-w-3xl mx-auto flex flex-col items-center text-center gap-6">
-              <Star className="w-5 h-5" />
-              <p
-                className="font-playfair italic text-petrol leading-[1.2] text-balance"
-                style={{ fontSize: "clamp(26px, 3.6vw, 46px)" }}
-              >
-                {d.chapterPhrase}
-              </p>
-            </FadeIn>
-          </section>
-        )}
-
         {/* 8. PROVA SOCIAL — mensagens reais de mães, com os prints, já
             cadastradas no dicionário desta consultoria. Reaproveita o mesmo
             componente da home, sem o botão que levaria para /consultorias. */}
-        <HomeTestimonials dict={dict} locale={locale} showCta={false} />
+        <HomeTestimonials
+          dict={dict}
+          locale={locale}
+          showCta={false}
+          title="O que as mães me contam depois"
+        />
 
         {/* 9. PLANOS — mesma hierarquia de antes (Completa em azul sólido,
             Express com contorno). Mudou só a composição: mais respiro, filete
@@ -434,11 +420,12 @@ export default function SonoDetail({ dict, locale, card }: Props) {
           </section>
         )}
 
-        {/* 11. CTA FINAL — fechamento com moldura fina, para o botão não ficar
-            solto no meio do vazio. Mensagem e link de WhatsApp inalterados. */}
-        <section className="w-full px-8 md:px-16 lg:px-20 py-20 md:py-28 bg-background-soft">
-          <FadeIn className="max-w-4xl mx-auto">
-            <div className="border border-cream-line px-8 md:px-16 py-14 md:py-20 flex flex-col items-center text-center gap-7">
+        {/* 11. CTA FINAL — fechamento aberto: sem caixa em volta, só a
+            estrela, o título, um filete âmbar e o botão, centralizados.
+            Mensagem e link de WhatsApp inalterados. */}
+        <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24 bg-background-soft">
+          <FadeIn className="max-w-2xl mx-auto">
+            <div className="flex flex-col items-center text-center gap-7">
               <Star className="w-6 h-6" />
               <h2
                 className="font-playfair italic text-text-primary leading-tight text-balance"

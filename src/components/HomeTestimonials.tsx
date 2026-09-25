@@ -9,6 +9,9 @@ interface Props {
   // Mostra o botão que leva para a página de consultorias.
   // Fica oculto quando o bloco já está dentro dessa própria página.
   showCta?: boolean;
+  // Título alternativo. Sem ele, segue valendo o do dicionário, que é o que
+  // a home usa — então o padrão não muda para quem não passa a prop.
+  title?: string;
 }
 
 type Testimonial = NonNullable<
@@ -33,7 +36,7 @@ function Attribution({ author, source }: { author: string; source?: string }) {
 
 // Depoimentos reais (com print) reaproveitados da Consultoria de Sono.
 // Usado na home e dentro da página de consultorias.
-export default function HomeTestimonials({ dict, locale, showCta = true }: Props) {
+export default function HomeTestimonials({ dict, locale, showCta = true, title }: Props) {
   const sono = dict.services.cards.find((c) => c.slug === "sono");
   const d = sono?.detail;
   if (!d?.testimonials || d.testimonials.length === 0) return null;
@@ -65,7 +68,7 @@ export default function HomeTestimonials({ dict, locale, showCta = true }: Props
             className="font-playfair italic text-text-primary leading-tight"
             style={{ fontSize: "clamp(26px, 3.2vw, 44px)" }}
           >
-            {d.testimonialsTitle}
+            {title ?? d.testimonialsTitle}
           </h2>
           {d.testimonialsNote && (
             <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(15px, 1.3vw, 17px)" }}>
