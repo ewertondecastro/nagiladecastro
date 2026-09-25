@@ -122,19 +122,20 @@
           "plans": [
             {
               "name": "Consultoria Completa",
-              "duration": "Acompanhamento de 75 dias",
+              "duration": "Acompanhamento de até 60 dias",
               "highlight": true,
-              "summary": "Um acompanhamento individual para estruturar o sono do seu filho a fundo, com direção próxima.",
-              "forWhom": "Para famílias que precisam de acompanhamento em ajustes, regressões e consolidação da rotina.",
+              "summary": "Um acompanhamento individual para famílias que querem suporte próximo durante a implementação, com orientação e ajustes conforme a resposta da criança.",
+              "forWhom": "Para famílias que querem ter alguém ao lado durante o processo, especialmente nos momentos em que a prática pede ajustes e uma direção mais próxima.",
               "includes": [
-                "60 dias de acompanhamento ativo + 15 dias de bônus de segurança",
-                "Encontro 1: análise da anamnese e direção inicial, até 48h após o recebimento da anamnese preenchida",
-                "3 encontros individuais por videochamada ao longo do acompanhamento, marcados conforme a necessidade do caso, gravados e disponibilizados mediante solicitação",
-                "Suporte por WhatsApp durante todo o ciclo, com resposta em até 24h",
-                "Até 3 chamadas de vídeo pontuais para situações específicas",
-                "Plano de ação personalizado, entregue até 24h após o Encontro 1",
-                "Relatório Final, entregue até 48h após o último encontro",
-                "Bônus: Manual da Família e e-book Casa, Rotina & Tempo"
+                "Anamnese detalhada, preenchida antes do início do acompanhamento",
+                "3 encontros individuais por videochamada ao longo do acompanhamento, gravados e disponibilizados mediante solicitação",
+                "Plano de ação personalizado, entregue em até 24h após o primeiro encontro",
+                "45 dias de acompanhamento ativo pelo WhatsApp",
+                "Até 15 dias adicionais de acompanhamento, quando necessários para a consolidação do processo",
+                "Ajustes da estratégia ao longo da implementação, conforme a resposta da criança e a evolução da família",
+                "Até 3 chamadas pontuais por vídeo para momentos em que você precise de uma orientação mais próxima durante a implementação",
+                "Relatório final, entregue em até 48h após o último encontro",
+                "Materiais de apoio incluídos: Manual da Família + e-book Casa, Rotina & Tempo"
               ],
               "ctaLabel": "Falar sobre a Completa",
               "ctaWhatsappText": "Olá, Nágila! Tenho interesse na Consultoria de Sono Completa e quero saber mais."
