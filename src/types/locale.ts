@@ -66,6 +66,12 @@ export interface ConsultoriaPlan {
   forWhom?: string;
   includes: string[];
   highlight?: boolean;
+  // Bloco de destaque opcional, acima da lista de entregas. Só a Consultoria
+  // de Sono Completa preenche hoje; sem ele o card segue como está.
+  highlightsTitle?: string;
+  highlights?: { title: string; body: string }[];
+  // Subtítulo da lista de entregas, usado quando existe bloco de destaque.
+  includesTitle?: string;
   ctaLabel?: string;
   ctaWhatsappText?: string;
 }

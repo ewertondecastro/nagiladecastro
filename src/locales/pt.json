@@ -125,7 +125,23 @@
               "duration": "Acompanhamento de até 60 dias",
               "highlight": true,
               "summary": "Um acompanhamento individual para famílias que querem suporte próximo durante a implementação, com orientação e ajustes conforme a resposta da criança.",
-              "forWhom": "Para famílias que querem ter alguém ao lado durante o processo, especialmente nos momentos em que a prática pede ajustes e uma direção mais próxima.",
+              "forWhom": "Para famílias que querem acompanhamento próximo durante a implementação, com suporte para ajustar a estratégia conforme a resposta da criança.",
+              "highlightsTitle": "O diferencial da Completa",
+              "highlights": [
+                {
+                  "title": "Acompanhamento durante a implementação",
+                  "body": "Você tem suporte próximo enquanto coloca a estratégia em prática."
+                },
+                {
+                  "title": "Ajustes ao longo do processo",
+                  "body": "A estratégia pode ser ajustada conforme a resposta da criança e a evolução da família."
+                },
+                {
+                  "title": "Suporte nos momentos que pedem uma orientação mais próxima",
+                  "body": "Até 3 chamadas pontuais por vídeo durante o acompanhamento."
+                }
+              ],
+              "includesTitle": "Também estão incluídos",
               "includes": [
                 "Anamnese detalhada, preenchida antes do início do acompanhamento",
                 "3 encontros individuais por videochamada ao longo do acompanhamento, com gravação dos encontros",
@@ -144,7 +160,7 @@
               "name": "Consultoria Express",
               "duration": "Consulta individual e 10 dias de suporte",
               "summary": "Uma consulta individual para entender a fundo o que está acontecendo com o sono do seu filho e sair com uma estratégia personalizada e uma direção clara para colocar em prática.",
-              "forWhom": "Para famílias que querem clareza sobre o próprio caso e preferem conduzir a implementação com mais autonomia.",
+              "forWhom": "Para famílias que precisam de uma avaliação e um plano claro, mas não de acompanhamento próximo durante a implementação.",
               "includes": [
                 "Anamnese detalhada, preenchida antes da consulta",
                 "Consulta individual por videochamada, de 60 a 90 minutos",

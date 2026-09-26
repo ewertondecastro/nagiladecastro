@@ -314,6 +314,11 @@ export default function SonoDetail({ dict, locale, card }: Props) {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-stretch">
                 {d.plans.map((plan, i) => {
                   const hl = Boolean(plan.highlight);
+                  // Quando o plano traz o bloco de diferenciais, a lista de
+                  // entregas passa a ser a camada secundária: entra menor,
+                  // mais discreta e depois de um filete.
+                  const destaques = plan.highlights ?? [];
+                  const temDestaques = destaques.length > 0;
                   return (
                     <div
                       key={i}
@@ -362,25 +367,99 @@ export default function SonoDetail({ dict, locale, card }: Props) {
                         </p>
                       )}
 
-                      <ul className="flex flex-col gap-4 mt-9 flex-1">
-                        {plan.includes.map((item, j) => (
-                          <li
-                            key={j}
-                            className={`font-barlow leading-relaxed flex gap-3.5 ${
-                              hl ? "text-background" : "text-text-primary"
+                      {temDestaques && (
+                        <div className="mt-7 flex flex-col gap-4">
+                          {plan.highlightsTitle && (
+                            <span
+                              className={`font-barlow-condensed text-[11px] tracking-[0.25em] uppercase ${
+                                hl ? "text-amber" : "text-petrol"
+                              }`}
+                            >
+                              {plan.highlightsTitle}
+                            </span>
+                          )}
+                          <ul className="flex flex-col">
+                            {destaques.map((h, k) => (
+                              <li
+                                key={k}
+                                className={`flex flex-col gap-1.5 ${
+                                  k > 0
+                                    ? `mt-4 pt-4 border-t ${
+                                        hl ? "border-background/15" : "border-cream-line"
+                                      }`
+                                    : ""
+                                }`}
+                              >
+                                <span
+                                  className={`font-barlow font-semibold leading-snug ${
+                                    hl ? "text-background" : "text-text-primary"
+                                  }`}
+                                  style={{ fontSize: "clamp(16px, 1.4vw, 18px)" }}
+                                >
+                                  {h.title}
+                                </span>
+                                <span
+                                  className={`font-barlow leading-relaxed ${
+                                    hl ? "text-background/80" : "text-text-secondary"
+                                  }`}
+                                  style={{ fontSize: "clamp(14px, 1.2vw, 16px)" }}
+                                >
+                                  {h.body}
+                                </span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+
+                      <div
+                        className={`flex flex-col flex-1 ${
+                          temDestaques
+                            ? `mt-8 pt-7 gap-4 border-t ${
+                                hl ? "border-background/20" : "border-cream-line"
+                              }`
+                            : "mt-9"
+                        }`}
+                      >
+                        {temDestaques && plan.includesTitle && (
+                          <span
+                            className={`font-barlow-condensed text-[11px] tracking-[0.25em] uppercase ${
+                              hl ? "text-background/60" : "text-text-muted"
                             }`}
-                            style={{ fontSize: "clamp(15px, 1.3vw, 17px)" }}
                           >
-                            <img
-                              src="/images/brand/star-mark.png"
-                              alt=""
-                              aria-hidden="true"
-                              className="w-3.5 h-3.5 mt-1.5 shrink-0"
-                            />
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
+                            {plan.includesTitle}
+                          </span>
+                        )}
+                        <ul className={`flex flex-col flex-1 ${temDestaques ? "gap-3" : "gap-4"}`}>
+                          {plan.includes.map((item, j) => (
+                            <li
+                              key={j}
+                              className={`font-barlow leading-relaxed flex gap-3.5 ${
+                                hl
+                                  ? temDestaques
+                                    ? "text-background/85"
+                                    : "text-background"
+                                  : "text-text-primary"
+                              }`}
+                              style={{
+                                fontSize: temDestaques
+                                  ? "clamp(14px, 1.2vw, 15.5px)"
+                                  : "clamp(15px, 1.3vw, 17px)",
+                              }}
+                            >
+                              <img
+                                src="/images/brand/star-mark.png"
+                                alt=""
+                                aria-hidden="true"
+                                className={`shrink-0 ${
+                                  temDestaques ? "w-3 h-3 mt-1.5" : "w-3.5 h-3.5 mt-1.5"
+                                }`}
+                              />
+                              <span>{item}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
 
                       <a
                         href={whatsAppUrl(plan.ctaWhatsappText ?? d.ctaWhatsappText)}
