@@ -311,7 +311,10 @@ export default function SonoDetail({ dict, locale, card }: Props) {
                 </h2>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-stretch">
+              {/* items-start: cada card fica com a altura do próprio conteúdo. Com
+                  altura igual, a Express — que tem menos itens — ganhava um
+                  vão grande antes do botão. */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-start">
                 {d.plans.map((plan, i) => {
                   const hl = Boolean(plan.highlight);
                   // Quando o plano traz o bloco de diferenciais, a lista de
@@ -322,7 +325,7 @@ export default function SonoDetail({ dict, locale, card }: Props) {
                   return (
                     <div
                       key={i}
-                      className={`flex flex-col h-full px-8 py-10 md:px-10 md:py-12 transition-colors duration-300 motion-reduce:transition-none ${
+                      className={`flex flex-col px-8 py-10 md:px-10 md:py-12 transition-colors duration-300 motion-reduce:transition-none ${
                         hl
                           ? "bg-petrol"
                           : "bg-background border border-cream-line hover:border-petrol"
@@ -347,20 +350,26 @@ export default function SonoDetail({ dict, locale, card }: Props) {
                       </h3>
                       <span aria-hidden="true" className="block h-px w-12 mt-7 bg-amber" />
 
-                      <p
-                        className={`font-barlow mt-7 leading-relaxed ${
-                          hl ? "text-background/90" : "text-text-secondary"
-                        }`}
-                        style={{ fontSize: "clamp(16px, 1.4vw, 18px)" }}
-                      >
-                        {plan.summary}
-                      </p>
+                      {/* Quando o plano tem bloco de diferenciais, a frase de
+                          posicionamento logo abaixo já cumpre esse papel, e o
+                          resumo viraria repetição. O campo continua no
+                          dicionário, então os outros cards seguem iguais. */}
+                      {!temDestaques && (
+                        <p
+                          className={`font-barlow mt-7 leading-relaxed ${
+                            hl ? "text-background/90" : "text-text-secondary"
+                          }`}
+                          style={{ fontSize: "clamp(16px, 1.4vw, 18px)" }}
+                        >
+                          {plan.summary}
+                        </p>
+                      )}
 
                       {plan.forWhom && (
                         <p
-                          className={`font-playfair italic mt-5 leading-relaxed ${
-                            hl ? "text-amber" : "text-petrol"
-                          }`}
+                          className={`font-playfair italic leading-relaxed ${
+                            temDestaques ? "mt-7" : "mt-5"
+                          } ${hl ? "text-amber" : "text-petrol"}`}
                           style={{ fontSize: "clamp(15px, 1.3vw, 17px)" }}
                         >
                           {plan.forWhom}
@@ -430,7 +439,7 @@ export default function SonoDetail({ dict, locale, card }: Props) {
                             {plan.includesTitle}
                           </span>
                         )}
-                        <ul className={`flex flex-col flex-1 ${temDestaques ? "gap-3" : "gap-4"}`}>
+                        <ul className={`flex flex-col ${temDestaques ? "gap-3" : "gap-4"}`}>
                           {plan.includes.map((item, j) => (
                             <li
                               key={j}
