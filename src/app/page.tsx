@@ -18,11 +18,6 @@ export async function generateMetadata(): Promise<Metadata> {
     description: dict.meta.description,
     alternates: {
       canonical: "/",
-      languages: {
-        "pt-BR": "/",
-        "en-US": "/en",
-        "es-ES": "/es",
-      },
     },
     openGraph: {
       title: dict.meta.title,

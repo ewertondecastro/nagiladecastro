@@ -8,7 +8,6 @@ export const metadata: Metadata = {
     "Nágila Decastro: esposa, mãe de duas meninas, educadora em casa e consultora de mães em Cape Cod, Massachusetts.",
   alternates: {
     canonical: "/sobre",
-    languages: { "pt-BR": "/sobre", "en-US": "/en/sobre", "es-ES": "/es/sobre" },
   },
 };
 

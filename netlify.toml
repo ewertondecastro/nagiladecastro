@@ -19,13 +19,13 @@
 
 [[redirects]]
   from = "/en/mentorias/homeschool"
-  to = "/en/consultorias/primeiros-passos"
+  to = "/consultorias/primeiros-passos"
   status = 301
   force = true
 
 [[redirects]]
   from = "/es/mentorias/homeschool"
-  to = "/es/consultorias/primeiros-passos"
+  to = "/consultorias/primeiros-passos"
   status = 301
   force = true
 
@@ -37,13 +37,13 @@
 
 [[redirects]]
   from = "/en/mentorias/*"
-  to = "/en/consultorias/:splat"
+  to = "/consultorias/:splat"
   status = 301
   force = true
 
 [[redirects]]
   from = "/es/mentorias/*"
-  to = "/es/consultorias/:splat"
+  to = "/consultorias/:splat"
   status = 301
   force = true
 
@@ -55,12 +55,91 @@
 
 [[redirects]]
   from = "/en/mentorias"
-  to = "/en/consultorias"
+  to = "/consultorias"
   status = 301
   force = true
 
 [[redirects]]
   from = "/es/mentorias"
-  to = "/es/consultorias"
+  to = "/consultorias"
   status = 301
+  force = true
+
+
+# Inglês e espanhol desativados por ora: o site público é só em português.
+# Status 302 porque a desativação é temporária — os dicionários en.json e
+# es.json continuam no projeto e as rotas estão no histórico do git.
+# Cada página vai para a equivalente em PT; o que não tem equivalente cai
+# na home. As regras específicas vêm antes das curingas.
+
+[[redirects]]
+  from = "/en/consultorias/*"
+  to = "/consultorias/:splat"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/en/consultorias"
+  to = "/consultorias"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/en/sobre"
+  to = "/sobre"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/en/recursos"
+  to = "/recursos"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/es/consultorias/*"
+  to = "/consultorias/:splat"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/es/consultorias"
+  to = "/consultorias"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/es/sobre"
+  to = "/sobre"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/es/recursos"
+  to = "/recursos"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/en/*"
+  to = "/"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/en"
+  to = "/"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/es/*"
+  to = "/"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/es"
+  to = "/"
+  status = 302
   force = true

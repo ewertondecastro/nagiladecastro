@@ -25,11 +25,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: card.description,
     alternates: {
       canonical: `/consultorias/${params.slug}`,
-      languages: {
-        "pt-BR": `/consultorias/${params.slug}`,
-        "en-US": `/en/consultorias/${params.slug}`,
-        "es-ES": `/es/consultorias/${params.slug}`,
-      },
     },
   };
 }

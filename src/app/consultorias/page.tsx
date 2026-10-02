@@ -8,7 +8,6 @@ export const metadata: Metadata = {
     "Consultoria de sono, primeiros passos da alfabetização e educação parental com direção. Três caminhos, uma raiz: cuidar da mãe e da casa.",
   alternates: {
     canonical: "/consultorias",
-    languages: { "pt-BR": "/consultorias", "en-US": "/en/consultorias", "es-ES": "/es/consultorias" },
   },
 };
 
