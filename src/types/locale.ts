@@ -66,6 +66,9 @@ export interface ConsultoriaPlan {
   forWhom?: string;
   includes: string[];
   highlight?: boolean;
+  // Oferta secundária: não concorre com a principal, ocupa menos espaço e
+  // entra em escala menor. Hoje só a Sessão de Retorno Parental usa.
+  secondary?: boolean;
   // Bloco de destaque opcional, acima da lista de entregas. Só a Consultoria
   // de Sono Completa preenche hoje; sem ele o card segue como está.
   highlightsTitle?: string;

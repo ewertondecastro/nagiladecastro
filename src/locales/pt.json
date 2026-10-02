@@ -316,44 +316,43 @@
           "backToHome": "Voltar ao início",
           "recordingNote": "Todo encontro por Meet é gravado e fica disponível para os dois pais acompanharem, cada um no seu tempo.",
           "chapterPhrase": "Educar com direção aquieta a casa.",
-          "plansTitle": "Duas formas de começar",
+          "plansTitle": "Como podemos trabalhar juntas",
           "plans": [
             {
               "name": "Consultoria Parental Completa",
-              "duration": "Acompanhamento de 60 dias + 15 dias de bônus",
+              "duration": "Acompanhamento de até 60 dias",
               "highlight": true,
               "summary": "Para reestruturar a dinâmica da casa a fundo: autoridade, rotina e comportamento, com acompanhamento próximo até a mudança se firmar.",
               "forWhom": "Para famílias que precisam de acompanhamento em ajustes e consolidação.",
               "includes": [
-                "Diagnóstico inicial da família pelas 5 dimensões (anamnese)",
-                "4 encontros individuais por Meet, gravados e disponibilizados para os dois pais",
-                "15 dias finais de suporte para consolidar e encerrar",
-                "Plano educacional personalizado, entregue em PDF",
-                "Suporte por WhatsApp durante todo o ciclo, com resposta em até 24h",
-                "Até 3 chamadas de vídeo pontuais para situações específicas",
-                "Encontro final de reavaliação e preparação para a autonomia",
-                "Relatório Final (PDF)",
-                "Manual da Família",
-                "Bônus: E-book Casa, Rotina & Tempo e Flash Cards de Emoções e Domínio Próprio"
+                "Anamnese completa da família, preenchida antes do início do acompanhamento",
+                "1 encontro inicial de 60 a 90 minutos + até 3 encontros de acompanhamento ao longo do processo, conforme necessidade, com gravação dos encontros",
+                "Plano de ação parental personalizado em PDF",
+                "45 dias de acompanhamento pelo WhatsApp, 7 dias por semana",
+                "Até 15 dias adicionais, sem custo, quando eu identificar necessidade de continuidade do acompanhamento",
+                "Ajustes da estratégia durante a implementação",
+                "Até 3 chamadas pontuais por vídeo durante o acompanhamento",
+                "Relatório final em PDF",
+                "Materiais de apoio incluídos: Manual da Família + e-book Casa, Rotina & Tempo + Flashcards de Emoções e Domínio Próprio"
               ],
               "ctaLabel": "Falar sobre a Completa",
               "ctaWhatsappText": "Olá, Nágila! Tenho interesse na Educação Parental Completa e quero saber mais."
             },
             {
-              "name": "Consultoria Parental Express",
-              "duration": "Acompanhamento de 40 dias",
-              "summary": "Para uma questão parental delimitada, com um plano claro para vocês aplicarem com autonomia.",
-              "forWhom": "Para famílias organizadas, com boa capacidade de execução independente.",
+              "name": "Sessão de Retorno Parental",
+              "duration": "Exclusiva para ex-clientes",
+              "secondary": true,
+              "summary": "Para ex-clientes que estão diante de uma nova situação pontual e precisam de orientação sem iniciar um novo acompanhamento completo.",
+              "forWhom": "Exclusiva para famílias que já passaram por uma Consultoria de Educação Parental comigo.",
               "includes": [
-                "Diagnóstico focado na questão apresentada",
-                "1 encontro individual por Meet, gravado e disponibilizado",
-                "Plano educacional personalizado, entregue em PDF",
-                "40 dias de suporte por WhatsApp, com resposta em até 48h",
-                "Relatório Final (PDF)",
-                "Manual da Família"
+                "Formulário curto de atualização, preenchido antes do encontro",
+                "1 encontro individual de até 90 minutos",
+                "Gravação do encontro",
+                "Resumo personalizado em PDF com os principais direcionamentos",
+                "5 dias de suporte pelo WhatsApp sobre a questão trabalhada"
               ],
-              "ctaLabel": "Falar sobre a Express",
-              "ctaWhatsappText": "Olá, Nágila! Tenho interesse na Educação Parental Express e quero saber mais."
+              "ctaLabel": "Falar sobre a Sessão de Retorno",
+              "ctaWhatsappText": "Olá, Nágila. Já fiz uma Consultoria de Educação Parental com você e gostaria de saber sobre a Sessão de Retorno Parental."
             }
           ],
           "howItWorks": {
@@ -385,8 +384,8 @@
               "answer": "Sim, os encontros são individuais por Meet. Todos ficam gravados e disponíveis para os dois pais, então quem não pôde estar na hora assiste depois, no tempo dele. Pra funcionar, basta que os dois adultos respondam do mesmo jeito nos pontos combinados."
             },
             {
-              "question": "Qual a diferença entre a Completa e a Express?",
-              "answer": "A Completa são 75 dias totais (60 dias + 15 de bônus) com diagnóstico pelas 5 dimensões, 4 encontros, suporte no ciclo todo e até 3 chamadas pontuais, pra reestruturar a casa a fundo. A Express são 40 dias focados numa questão delimitada, com 1 encontro, pra famílias que executam bem sozinhas."
+              "question": "Qual a diferença entre a Consultoria Completa e a Sessão de Retorno?",
+              "answer": "A Consultoria Completa é indicada para famílias que precisam olhar a dinâmica familiar de forma mais ampla e ter acompanhamento durante a implementação das mudanças. A Sessão de Retorno é exclusiva para famílias que já passaram por uma Consultoria de Educação Parental comigo e precisam de orientação para uma nova situação pontual, sem iniciar um novo acompanhamento completo."
             },
             {
               "question": "O que são as chamadas pontuais?",

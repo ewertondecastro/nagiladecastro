@@ -206,11 +206,24 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
                 {d.plansTitle ?? "Como podemos trabalhar juntas"}
               </h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-start">
+            {/* Quando existe uma oferta secundária, a grade vira de três
+                colunas: a principal ocupa duas e a secundária uma só, em
+                escala menor. Sem oferta secundária, segue lado a lado. */}
+            <div
+              className={`grid grid-cols-1 gap-6 md:gap-8 items-start ${
+                d.plans.some((p) => p.secondary) ? "md:grid-cols-3" : "md:grid-cols-2"
+              }`}
+            >
               {d.plans.map((plan, i) => (
                 <div
                   key={i}
-                  className={`flex flex-col gap-6 px-7 py-8 md:px-9 md:py-10 h-full ${
+                  className={`flex flex-col gap-6 ${
+                    plan.secondary
+                      ? "md:col-span-1 px-6 py-7 md:px-7 md:py-8"
+                      : `px-7 py-8 md:px-9 md:py-10 ${
+                          d.plans!.some((p) => p.secondary) ? "md:col-span-2" : ""
+                        }`
+                  } ${
                     plan.highlight
                       ? accent.band
                       : "bg-background border border-cream-line"
@@ -228,7 +241,11 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
                     )}
                     <h3
                       className={`font-playfair ${plan.highlight ? "text-background" : "text-text-primary"}`}
-                      style={{ fontSize: "clamp(24px, 2.6vw, 32px)" }}
+                      style={{
+                        fontSize: plan.secondary
+                          ? "clamp(20px, 2vw, 25px)"
+                          : "clamp(24px, 2.6vw, 32px)",
+                      }}
                     >
                       {plan.name}
                     </h3>
@@ -273,7 +290,11 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
                       <li
                         key={j}
                         className={`font-barlow leading-relaxed flex gap-3 ${plan.highlight ? "text-background" : "text-text-primary"}`}
-                        style={{ fontSize: "clamp(15px, 1.35vw, 18px)" }}
+                        style={{
+                          fontSize: plan.secondary
+                            ? "clamp(14px, 1.2vw, 16px)"
+                            : "clamp(15px, 1.35vw, 18px)",
+                        }}
                       >
                         <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-4 h-4 mt-1 shrink-0" />
                         <span>{item}</span>
