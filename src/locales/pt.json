@@ -144,7 +144,7 @@
               "includesTitle": "Também estão incluídos",
               "includes": [
                 "Anamnese detalhada, preenchida antes do início do acompanhamento",
-                "3 encontros individuais por videochamada ao longo do acompanhamento, com gravação dos encontros",
+                "1 encontro inicial de 60 a 90 minutos + até 2 encontros de acompanhamento ao longo do processo, conforme necessidade, com gravação dos encontros",
                 "Plano de ação personalizado, elaborado a partir da anamnese e refinado após o primeiro encontro, entregue em até 48 horas",
                 "45 dias de acompanhamento ativo pelo WhatsApp, com possibilidade de até 15 dias adicionais quando necessários para consolidação",
                 "Relatório final, entregue em até 48 horas após o último encontro",
@@ -247,7 +247,7 @@
             },
             {
               "question": "Qual a diferença entre a Completa e a Express?",
-              "answer": "Na Express, você recebe uma análise individualizada, um plano personalizado e 10 dias de suporte para colocar as orientações em prática com mais autonomia. Na Completa, eu sigo com você durante a implementação. São 45 dias de acompanhamento ativo, com possibilidade de até 15 dias adicionais quando necessários, 3 encontros individuais, suporte pelo WhatsApp e ajustes da estratégia conforme a resposta da criança e a evolução da família."
+              "answer": "Na Express, você recebe uma análise individualizada, um plano personalizado e 10 dias de suporte para colocar as orientações em prática com mais autonomia. Na Completa, eu sigo com você durante a implementação. São 45 dias de acompanhamento ativo, com possibilidade de até 15 dias adicionais quando necessários, 1 encontro inicial obrigatório de 60 a 90 minutos, até 2 encontros de acompanhamento conforme necessidade, suporte pelo WhatsApp e ajustes da estratégia conforme a resposta da criança e a evolução da família."
             },
             {
               "question": "O que são as chamadas de vídeo pontuais?",
@@ -255,7 +255,7 @@
             },
             {
               "question": "Como funciona pra começar?",
-              "answer": "O processo é simples. Depois que você decidir seguir com a consultoria, eu envio o contrato e as orientações iniciais. Após a assinatura, você recebe a anamnese para preencher. O primeiro encontro é agendado conforme a ordem de recebimento das anamneses preenchidas e a disponibilidade da agenda."
+              "answer": "O processo é simples. Depois que você decidir seguir com a consultoria, eu envio o contrato e as orientações de pagamento. Com o contrato assinado e o pagamento confirmado, você recebe a anamnese para preencher. O primeiro encontro é agendado conforme a ordem de recebimento das anamneses preenchidas e a disponibilidade da agenda."
             }
           ],
           "howItWorks": {
