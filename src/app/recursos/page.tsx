@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Recursos | Nágila Decastro",
   description:
     "Materiais práticos de maternidade, sono e educação em casa para você começar hoje.",
+  alternates: {
+    canonical: "/recursos",
+  },
 };
 
 export default async function RecursosPage() {
