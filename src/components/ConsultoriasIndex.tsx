@@ -31,19 +31,13 @@ export default function ConsultoriasIndex({
             {siteNav.consultorias}
           </span>
           <h1 className="font-playfair font-normal text-text-primary mt-5 mb-5" style={{ fontSize: "clamp(40px, 6vw, 72px)" }}>
-            {services.sectionTitle}
+            {services.indexTitle}
           </h1>
-          <p className="font-barlow text-text-secondary leading-relaxed mb-8" style={{ fontSize: "clamp(18px, 1.5vw, 22px)" }}>
+          {/* Sem CTA no topo: a visitante vê primeiro as áreas de
+              atendimento. O botão de WhatsApp fica só no fechamento. */}
+          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(18px, 1.5vw, 22px)" }}>
             {services.sectionSubtitle}
           </p>
-          <a
-            href={waHref}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200"
-          >
-            {waLabel}
-          </a>
         </FadeIn>
       </section>
 
@@ -58,6 +52,7 @@ export default function ConsultoriasIndex({
         locale={locale}
         showCta={false}
         title={services.indexTestimonialsTitle}
+        hideFeatured
       />
 
       {/* ── Fechamento: conduzir à ação ── */}

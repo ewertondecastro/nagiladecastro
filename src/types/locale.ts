@@ -174,6 +174,7 @@ export interface LocaleDict {
     othersLabel: string;
     // Textos exclusivos da página /consultorias. A home não os usa, então o
     // bloco de contato dela segue com a copy própria.
+    indexTitle: string;
     indexWhatsappText: string;
     indexClosingTitle1: string;
     indexClosingTitle2: string;

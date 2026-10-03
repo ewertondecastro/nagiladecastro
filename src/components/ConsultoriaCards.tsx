@@ -72,15 +72,6 @@ export default function ConsultoriaCards({ dict, locale, showFormats = false }: 
                     {card.formats}
                   </p>
                 )}
-                {showFormats && card.slug === "educacao-parental" && services.returnNote && (
-                  <Link
-                    href={consultoriaHref(locale, card.slug)}
-                    className="pointer-events-auto relative z-20 block border-t border-background/20 pt-5 mb-5 font-barlow text-background/70 leading-relaxed hover:text-background transition-colors duration-200"
-                    style={{ fontSize: "clamp(13px, 0.95vw, 14px)" }}
-                  >
-                    {services.returnNote}
-                  </Link>
-                )}
                 <div className="mt-auto flex flex-wrap gap-3 pointer-events-auto">
                   <a
                     href={whatsAppUrl(card.whatsappText)}
@@ -97,6 +88,15 @@ export default function ConsultoriaCards({ dict, locale, showFormats = false }: 
                     {card.learnMore}
                   </Link>
                 </div>
+                {showFormats && card.slug === "educacao-parental" && services.returnNote && (
+                  <Link
+                    href={consultoriaHref(locale, card.slug)}
+                    className="pointer-events-auto relative z-20 block mt-6 border-t border-background/20 pt-5 font-barlow text-background/70 leading-relaxed hover:text-background transition-colors duration-200"
+                    style={{ fontSize: "clamp(13px, 0.95vw, 14px)" }}
+                  >
+                    {services.returnNote}
+                  </Link>
+                )}
               </div>
             </div>
           ))}

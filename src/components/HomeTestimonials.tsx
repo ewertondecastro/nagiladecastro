@@ -12,6 +12,10 @@ interface Props {
   // Título alternativo. Sem ele, segue valendo o do dicionário, que é o que
   // a home usa — então o padrão não muda para quem não passa a prop.
   title?: string;
+  // Esconde o depoimento em destaque (o longo, com a sequência de prints).
+  // Usado na página de roteamento, onde a prova social precisa ser compacta.
+  // Os depoimentos seguem todos no dicionário e inteiros nas outras páginas.
+  hideFeatured?: boolean;
 }
 
 type Testimonial = NonNullable<
@@ -36,7 +40,13 @@ function Attribution({ author, source }: { author: string; source?: string }) {
 
 // Depoimentos reais (com print) reaproveitados da Consultoria de Sono.
 // Usado na home e dentro da página de consultorias.
-export default function HomeTestimonials({ dict, locale, showCta = true, title }: Props) {
+export default function HomeTestimonials({
+  dict,
+  locale,
+  showCta = true,
+  title,
+  hideFeatured = false,
+}: Props) {
   const sono = dict.services.cards.find((c) => c.slug === "sono");
   const d = sono?.detail;
   if (!d?.testimonials || d.testimonials.length === 0) return null;
@@ -52,7 +62,9 @@ export default function HomeTestimonials({ dict, locale, showCta = true, title }
   const eyebrow =
     locale === "pt" ? "Depoimentos" : locale === "en" ? "Testimonials" : "Testimonios";
 
-  const featured = d.testimonials.find((t: Testimonial) => t.featured);
+  const featured = hideFeatured
+    ? undefined
+    : d.testimonials.find((t: Testimonial) => t.featured);
   const others = d.testimonials.filter((t: Testimonial) => !t.featured);
 
   return (
@@ -111,9 +123,13 @@ export default function HomeTestimonials({ dict, locale, showCta = true, title }
 
         {/* Outras famílias */}
         {others.length > 0 && (
-          <FadeIn className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 pt-2 border-t border-cream-line">
+          <FadeIn
+            className={`grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 ${
+              featured ? "pt-2 border-t border-cream-line" : ""
+            }`}
+          >
             {others.map((t: Testimonial, i: number) => (
-              <div key={i} className="flex flex-col gap-5 pt-10">
+              <div key={i} className={`flex flex-col gap-5 ${featured ? "pt-10" : ""}`}>
                 <blockquote
                   className="font-playfair italic text-text-primary leading-relaxed"
                   style={{ fontSize: "clamp(17px, 1.45vw, 20px)" }}
