@@ -6,6 +6,9 @@ import type { LocaleDict, Locale } from "@/types/locale";
 interface Props {
   dict: LocaleDict;
   locale: Locale;
+  // Linha de formatos e o aviso da Sessão de Retorno. Ligados só na página
+  // /consultorias; na home os cards continuam como estão.
+  showFormats?: boolean;
 }
 
 function consultoriaHref(locale: Locale, slug: string): string {
@@ -29,7 +32,7 @@ const featuredTheme = [
 // Cartões das consultorias, com hierarquia: as duas primeiras (Sono e Educação
 // Parental) são as principais, do mesmo tamanho; da terceira em diante entram
 // como frentes secundárias. Reutilizado na home e na página de consultorias.
-export default function ConsultoriaCards({ dict, locale }: Props) {
+export default function ConsultoriaCards({ dict, locale, showFormats = false }: Props) {
   const { services } = dict;
   const featured = services.cards.slice(0, 2);
   const rest = services.cards.slice(2);
@@ -61,9 +64,23 @@ export default function ConsultoriaCards({ dict, locale }: Props) {
                   <span className="font-bold text-background">{card.titleLine1} </span>
                   <span className="italic text-background">{card.titleLine2}</span>
                 </h3>
-                <p className="font-barlow text-background/85 leading-relaxed mb-7" style={{ fontSize: "clamp(16px, 1.15vw, 18px)" }}>
+                <p className="font-barlow text-background/85 leading-relaxed mb-5" style={{ fontSize: "clamp(16px, 1.15vw, 18px)" }}>
                   {card.description}
                 </p>
+                {showFormats && card.formats && (
+                  <p className="font-barlow text-amber leading-relaxed mb-5" style={{ fontSize: "clamp(14px, 1vw, 15px)" }}>
+                    {card.formats}
+                  </p>
+                )}
+                {showFormats && card.slug === "educacao-parental" && services.returnNote && (
+                  <Link
+                    href={consultoriaHref(locale, card.slug)}
+                    className="pointer-events-auto relative z-20 block border-t border-background/20 pt-5 mb-5 font-barlow text-background/70 leading-relaxed hover:text-background transition-colors duration-200"
+                    style={{ fontSize: "clamp(13px, 0.95vw, 14px)" }}
+                  >
+                    {services.returnNote}
+                  </Link>
+                )}
                 <div className="mt-auto flex flex-wrap gap-3 pointer-events-auto">
                   <a
                     href={whatsAppUrl(card.whatsappText)}

@@ -14,10 +14,11 @@ export default function ConsultoriasIndex({
   locale: Locale;
 }) {
   const { services, siteNav, contact } = dict;
-  // Numa página de vendas o contato principal é o WhatsApp, não o DM.
-  const sono = services.cards[0];
-  const waHref = whatsAppUrl(sono?.whatsappText ?? contact.titleLine1);
-  const waLabel = sono?.contactCta ?? contact.cta;
+  // Numa página de vendas o contato principal é o WhatsApp, não o DM. A
+  // mensagem é neutra: esta página apresenta várias consultorias, então não
+  // pode declarar nenhuma delas por conta própria.
+  const waHref = whatsAppUrl(services.indexWhatsappText);
+  const waLabel = services.cards[0]?.contactCta ?? contact.cta;
 
   return (
     <main className="bg-background text-text-primary">
@@ -48,22 +49,27 @@ export default function ConsultoriasIndex({
 
       {/* ── Consultorias ── */}
       <section className="px-8 md:px-16 lg:px-20 pb-8 md:pb-16">
-        <ConsultoriaCards dict={dict} locale={locale} />
+        <ConsultoriaCards dict={dict} locale={locale} showFormats />
       </section>
 
       {/* ── Depoimentos (prova real) ── */}
-      <HomeTestimonials dict={dict} locale={locale} showCta={false} />
+      <HomeTestimonials
+        dict={dict}
+        locale={locale}
+        showCta={false}
+        title={services.indexTestimonialsTitle}
+      />
 
       {/* ── Fechamento: conduzir à ação ── */}
       <section className="px-8 md:px-16 lg:px-20 py-24 md:py-32 text-center bg-background">
         <FadeIn className="max-w-2xl mx-auto flex flex-col items-center gap-8">
           <div className="w-px h-14 bg-gradient-to-b from-transparent to-olive" aria-hidden="true" />
           <h2 className="font-playfair leading-tight" style={{ fontSize: "clamp(28px, 4vw, 48px)" }}>
-            <span className="font-normal text-text-primary block">{contact.titleLine1}</span>{" "}
-            <span className="italic text-olive block">{contact.titleLine2}</span>
+            <span className="font-normal text-text-primary block">{services.indexClosingTitle1}</span>{" "}
+            <span className="italic text-olive block">{services.indexClosingTitle2}</span>
           </h2>
           <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(16px, 1.3vw, 19px)" }}>
-            {contact.subtitle}
+            {services.indexClosingSubtitle}
           </p>
           <a
             href={waHref}

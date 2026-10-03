@@ -88,6 +88,9 @@ export interface ConsultoriaCard {
   learnMore: string;
   contactCta: string;
   whatsappText: string;
+  // Linha curta de contexto sobre os formatos da consultoria. Só aparece na
+  // página /consultorias; na home o card segue como está.
+  formats?: string;
   detail: ConsultoriaDetail;
 }
 
@@ -169,6 +172,14 @@ export interface LocaleDict {
     sectionSubtitle: string;
     featuredTag: string;
     othersLabel: string;
+    // Textos exclusivos da página /consultorias. A home não os usa, então o
+    // bloco de contato dela segue com a copy própria.
+    indexWhatsappText: string;
+    indexClosingTitle1: string;
+    indexClosingTitle2: string;
+    indexClosingSubtitle: string;
+    indexTestimonialsTitle: string;
+    returnNote: string;
     cards: ConsultoriaCard[];
   };
   products: {
