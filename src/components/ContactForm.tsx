@@ -102,9 +102,11 @@ export default function ContactForm({ dict }: Props) {
           <option value="" disabled>
             {contact.interestPlaceholder}
           </option>
+          {/* O value continua sendo a opção original, que é o que vai para a
+              planilha. Só o texto exibido pode ser substituído. */}
           {contact.interestOptions.map((opt) => (
             <option key={opt} value={opt}>
-              {opt}
+              {contact.interestOptionLabels?.[opt] ?? opt}
             </option>
           ))}
         </select>

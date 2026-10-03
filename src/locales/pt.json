@@ -37,6 +37,7 @@
     "attribution": "NAGILA DECASTRO"
   },
   "about": {
+    "consultoriasCta": "Conhecer as consultorias",
     "titleLine1": "Mãe de meninas,",
     "titleLine2": "educadora em casa,",
     "titleLine3": "consultora de mães.",
@@ -322,8 +323,10 @@
             "Famílias de fé que querem que a educação reflita o que creem, vivido em casa todos os dias",
             "Pais que querem intencionalidade na criação, sem rigidez e sem improviso"
           ],
-          "ctaLabel": "Quero começar",
-          "ctaWhatsappText": "Oi Nágila, vim pela página de Educação Parental e quero começar.",
+          "ctaLabel": "Quero conversar sobre minha família",
+          "ctaWhatsappText": "Olá, Nágila. Vi sua página de Educação Parental e gostaria de conversar sobre o que está acontecendo na minha família.",
+          "heroCtaLabel": "Quero conversar sobre minha família",
+          "heroCtaWhatsappText": "Olá, Nágila. Vi sua página de Educação Parental e gostaria de conversar sobre o que está acontecendo na minha família.",
           "backToHome": "Voltar ao início",
           "recordingNote": "Todo encontro por Meet é gravado e fica disponível para os dois pais acompanharem, cada um no seu tempo.",
           "chapterPhrase": "Educar com direção aquieta a casa.",
@@ -526,6 +529,9 @@
     "interestPlaceholder": "Selecione um assunto",
     "whatsappCta": "Falar comigo no WhatsApp",
     "whatsappText": "Olá, Nágila. Vim pelo seu site e gostaria de conversar sobre o que está acontecendo na minha família.",
+    "interestOptionLabels": {
+      "Sessão de Retorno Parental": "Sessão de Retorno Parental (exclusiva para ex-clientes)"
+    },
     "interestOptions": [
       "Consultoria de Sono",
       "Primeiros passos (alfabetização)",

@@ -155,6 +155,9 @@ export interface LocaleDict {
     attribution: string;
   };
   about: {
+    // Rótulo do botão que leva para /consultorias no fim da página Sobre.
+    // Separado de siteNav.consultorias, que é o item de navegação.
+    consultoriasCta: string;
     titleLine1: string;
     titleLine2: string;
     titleLine3: string;
@@ -230,6 +233,9 @@ export interface LocaleDict {
     // secundária, via contact.url.
     whatsappCta: string;
     whatsappText: string;
+    // Rótulos visíveis das opções de interesse. A chave é o valor enviado ao
+    // endpoint, que não muda; só o texto exibido é substituído.
+    interestOptionLabels?: Record<string, string>;
     interestOptions: string[];
     formSubmit: string;
     formSending: string;

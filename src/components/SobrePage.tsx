@@ -159,7 +159,7 @@ export default function SobrePage({
               href={`${p}/consultorias`}
               className="inline-flex items-center gap-2 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200"
             >
-              {siteNav.consultorias}
+              {about.consultoriasCta}
               <span aria-hidden="true">&rarr;</span>
             </Link>
             <a
