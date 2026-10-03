@@ -3,7 +3,6 @@ import Image from "next/image";
 import FadeIn from "./FadeIn";
 import SiteNav from "./SiteNav";
 import Footer from "./Footer";
-import HomeTestimonials from "./HomeTestimonials";
 import FaqAccordion from "./FaqAccordion";
 import MotionPrefs from "./MotionPrefs";
 import { whatsAppUrl } from "@/lib/whatsapp";
@@ -284,15 +283,9 @@ export default function SonoDetail({ dict, locale, card }: Props) {
           </section>
         )}
 
-        {/* 8. PROVA SOCIAL — mensagens reais de mães, com os prints, já
-            cadastradas no dicionário desta consultoria. Reaproveita o mesmo
-            componente da home, sem o botão que levaria para /consultorias. */}
-        <HomeTestimonials
-          dict={dict}
-          locale={locale}
-          showCta={false}
-          title="O que as mães me contam depois"
-        />
+        {/* A prova social fica concentrada na home e em /consultorias. Os
+            depoimentos continuam no dicionário desta consultoria e os prints
+            no projeto; só não são renderizados aqui. */}
 
         {/* 9. PLANOS — mesma hierarquia de antes (Completa em azul sólido,
             Express com contorno). Mudou só a composição: mais respiro, filete

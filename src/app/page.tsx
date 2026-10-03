@@ -47,7 +47,7 @@ export default async function Home() {
       <HomeTestimonials
         dict={dict}
         locale="pt"
-        eyebrow="Relatos da Consultoria de Sono"
+        eyebrow="Relatos de famílias"
         featuredDesktopOnly
       />
       <QuoteSection dict={dict} />
