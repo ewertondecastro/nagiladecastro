@@ -88,18 +88,26 @@ export default function ConsultoriaCards({ dict, locale, showFormats = false }: 
                     {card.learnMore}
                   </Link>
                 </div>
-                {showFormats && card.slug === "educacao-parental" && services.returnNote && (
-                  <Link
-                    href={consultoriaHref(locale, card.slug)}
-                    className="pointer-events-auto relative z-20 block mt-6 border-t border-background/20 pt-5 font-barlow text-background/70 leading-relaxed hover:text-background transition-colors duration-200"
-                    style={{ fontSize: "clamp(13px, 0.95vw, 14px)" }}
-                  >
-                    {services.returnNote}
-                  </Link>
-                )}
               </div>
             </div>
           ))}
+        </FadeIn>
+      )}
+
+      {/* Aviso da Sessão de Retorno: fora dos cards, logo abaixo da grade.
+          A primeira coluna vazia alinha o texto sob o card de Educação
+          Parental no desktop; no mobile ela some e o aviso entra entre a
+          Educação Parental e as frentes secundárias. */}
+      {showFormats && services.returnNote && (
+        <FadeIn className="max-w-7xl mx-auto mt-5 grid gap-6 md:grid-cols-2">
+          <div className="hidden md:block" aria-hidden="true" />
+          <Link
+            href={consultoriaHref(locale, "educacao-parental")}
+            className="block border-t border-cream-line pt-5 font-barlow text-text-muted leading-relaxed hover:text-plum transition-colors duration-200"
+            style={{ fontSize: "clamp(13px, 0.95vw, 14px)" }}
+          >
+            {services.returnNote}
+          </Link>
         </FadeIn>
       )}
 

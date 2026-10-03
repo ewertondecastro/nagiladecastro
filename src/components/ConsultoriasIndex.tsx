@@ -26,7 +26,9 @@ export default function ConsultoriasIndex({
 
       {/* ── Hero ── */}
       <section className="px-8 md:px-16 lg:px-20 pt-32 md:pt-40 pb-14 md:pb-20">
-        <FadeIn className="max-w-3xl">
+        {/* max-w-4xl só para o título caber em duas linhas no desktop; o
+            subtítulo mantém a medida de leitura anterior. */}
+        <FadeIn className="max-w-4xl">
           <span className="font-barlow-condensed text-[11px] tracking-[0.35em] uppercase text-olive">
             {siteNav.consultorias}
           </span>
@@ -35,7 +37,7 @@ export default function ConsultoriasIndex({
           </h1>
           {/* Sem CTA no topo: a visitante vê primeiro as áreas de
               atendimento. O botão de WhatsApp fica só no fechamento. */}
-          <p className="font-barlow text-text-secondary leading-relaxed" style={{ fontSize: "clamp(18px, 1.5vw, 22px)" }}>
+          <p className="font-barlow text-text-secondary leading-relaxed max-w-3xl" style={{ fontSize: "clamp(18px, 1.5vw, 22px)" }}>
             {services.sectionSubtitle}
           </p>
         </FadeIn>
