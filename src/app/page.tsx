@@ -44,7 +44,12 @@ export default async function Home() {
       <ChapterPhrase toneClass="text-olive" text="Aqui a meta é sair do escuro e agir com clareza." />
       <ServicesSection dict={dict} locale="pt" />
       <AboutSection dict={dict} />
-      <HomeTestimonials dict={dict} locale="pt" />
+      <HomeTestimonials
+        dict={dict}
+        locale="pt"
+        eyebrow="Relatos da Consultoria de Sono"
+        featuredDesktopOnly
+      />
       <QuoteSection dict={dict} />
       <FamilySection dict={dict} />
       <ContactSection dict={dict} />

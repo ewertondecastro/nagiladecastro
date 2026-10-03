@@ -27,6 +27,7 @@
       "Educação com intenção.",
       "Família com propósito."
     ],
+    "support": "Sono infantil e educação parental para mães que querem mais direção, rotina e autonomia dentro de casa.",
     "location": "CAPE COD, MASSACHUSETTS",
     "scrollLabel": "ROLE",
     "cta": "Quero dormir de novo"
@@ -522,6 +523,8 @@
     "orLabel": "ou",
     "interestLabel": "Interesse",
     "interestPlaceholder": "Selecione um assunto",
+    "whatsappCta": "Falar comigo no WhatsApp",
+    "whatsappText": "Olá, Nágila. Vim pelo seu site e gostaria de conversar sobre o que está acontecendo na minha família.",
     "interestOptions": [
       "Consultoria de Sono",
       "Primeiros passos (alfabetização)",

@@ -1,4 +1,5 @@
 import FadeIn from "./FadeIn";
+import { whatsAppUrl } from "@/lib/whatsapp";
 import ContactForm from "./ContactForm";
 import type { LocaleDict } from "@/types/locale";
 
@@ -46,17 +47,24 @@ export default function ContactSection({ dict }: Props) {
           </span>
           <span className="h-px flex-1 bg-cream-line" aria-hidden="true" />
         </div>
+        {/* O WhatsApp é o canal de venda do site inteiro, então fecha a home.
+            O Instagram continua ali, como segunda via discreta. */}
         <a
-          href={contact.url}
+          href={whatsAppUrl(contact.whatsappText)}
           target="_blank"
           rel="noopener noreferrer"
           className="group inline-flex items-center gap-3 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 border border-olive text-olive hover:bg-terracotta hover:text-background transition-colors duration-200"
         >
-          {contact.cta}
+          {contact.whatsappCta}
         </a>
-        <span className="font-playfair italic text-text-muted text-base md:text-lg">
+        <a
+          href={contact.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-playfair italic text-text-muted text-base md:text-lg hover:text-olive transition-colors duration-200"
+        >
           {contact.handle}
-        </span>
+        </a>
         <div className="w-px h-16 bg-gradient-to-t from-transparent to-olive" aria-hidden="true" />
       </FadeIn>
     </section>

@@ -86,14 +86,11 @@ export default function HeroSection({ dict, locale }: Props) {
             transition={{ duration: 0.7, delay: 0.8 }}
             className="mt-8 pl-4 border-l-2 border-background/40 md:border-olive"
           >
-            {hero.tagline.map((line, i) => (
-              <p
-                key={i}
-                className="font-barlow text-background/85 md:text-text-secondary text-base md:text-lg leading-relaxed"
-              >
-                {line}
-              </p>
-            ))}
+            {/* hero.tagline continua alimentando o rodapé; aqui o apoio é
+                uma frase só, que nomeia as duas frentes principais. */}
+            <p className="font-barlow text-background/85 md:text-text-secondary text-base md:text-lg leading-relaxed max-w-md">
+              {hero.support}
+            </p>
           </motion.div>
 
           {/* CTA */}

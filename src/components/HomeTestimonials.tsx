@@ -16,6 +16,11 @@ interface Props {
   // Usado na página de roteamento, onde a prova social precisa ser compacta.
   // Os depoimentos seguem todos no dicionário e inteiros nas outras páginas.
   hideFeatured?: boolean;
+  // Esconde o depoimento em destaque só abaixo do breakpoint md, por CSS.
+  // O desktop segue com a seção completa.
+  featuredDesktopOnly?: boolean;
+  // Rótulo acima do título. Sem ele, vale o padrão por idioma.
+  eyebrow?: string;
 }
 
 type Testimonial = NonNullable<
@@ -46,6 +51,8 @@ export default function HomeTestimonials({
   showCta = true,
   title,
   hideFeatured = false,
+  featuredDesktopOnly = false,
+  eyebrow,
 }: Props) {
   const sono = dict.services.cards.find((c) => c.slug === "sono");
   const d = sono?.detail;
@@ -59,8 +66,9 @@ export default function HomeTestimonials({
       ? "See consultations"
       : "Ver consultorías";
 
-  const eyebrow =
-    locale === "pt" ? "Depoimentos" : locale === "en" ? "Testimonials" : "Testimonios";
+  const eyebrowLabel =
+    eyebrow ??
+    (locale === "pt" ? "Depoimentos" : locale === "en" ? "Testimonials" : "Testimonios");
 
   const featured = hideFeatured
     ? undefined
@@ -74,7 +82,7 @@ export default function HomeTestimonials({
         <FadeIn className="max-w-2xl mx-auto text-center flex flex-col items-center gap-4">
           <span className="h-px w-10 bg-terracotta" aria-hidden="true" />
           <span className="font-barlow-condensed text-base md:text-lg tracking-[0.35em] uppercase text-terracotta">
-            {eyebrow}
+            {eyebrowLabel}
           </span>
           <h2
             className="font-playfair italic text-text-primary leading-tight"
@@ -91,7 +99,7 @@ export default function HomeTestimonials({
 
         {/* Destaque: a história completa de uma família, mês a mês */}
         {featured && (
-          <FadeIn className="flex flex-col gap-8">
+          <FadeIn className={`flex-col gap-8 ${featuredDesktopOnly ? "hidden md:flex" : "flex"}`}>
             <div className="max-w-3xl">
               <blockquote
                 className="font-playfair italic text-text-primary leading-[1.35]"
@@ -125,11 +133,20 @@ export default function HomeTestimonials({
         {others.length > 0 && (
           <FadeIn
             className={`grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 ${
-              featured ? "pt-2 border-t border-cream-line" : ""
+              !featured
+                ? ""
+                : featuredDesktopOnly
+                ? "md:pt-2 md:border-t md:border-cream-line"
+                : "pt-2 border-t border-cream-line"
             }`}
           >
             {others.map((t: Testimonial, i: number) => (
-              <div key={i} className={`flex flex-col gap-5 ${featured ? "pt-10" : ""}`}>
+              <div
+                key={i}
+                className={`flex flex-col gap-5 ${
+                  !featured ? "" : featuredDesktopOnly ? "md:pt-10" : "pt-10"
+                }`}
+              >
                 <blockquote
                   className="font-playfair italic text-text-primary leading-relaxed"
                   style={{ fontSize: "clamp(17px, 1.45vw, 20px)" }}

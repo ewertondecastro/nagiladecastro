@@ -139,6 +139,9 @@ export interface LocaleDict {
     firstName: string;
     lastName: string;
     tagline: string[];
+  // Texto de apoio do hero. O rodapé continua usando tagline, por isso são
+  // campos separados.
+  support: string;
     location: string;
     scrollLabel: string;
     cta: string;
@@ -219,6 +222,10 @@ export interface LocaleDict {
     orLabel: string;
     interestLabel: string;
     interestPlaceholder: string;
+    // CTA principal do fechamento da home. O Instagram segue como ação
+    // secundária, via contact.url.
+    whatsappCta: string;
+    whatsappText: string;
     interestOptions: string[];
     formSubmit: string;
     formSending: string;
