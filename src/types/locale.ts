@@ -51,6 +51,10 @@ export interface ConsultoriaDetail {
   // CTA opcional logo abaixo do texto de abertura. Só é renderizado quando a
   // página define o rótulo, então as consultorias que não preenchem seguem
   // com o hero como está hoje.
+  // Nota profissional discreta no fim da página. Opcional: só a Consultoria
+  // de Sono preenche. O campo disclaimer segue separado, usado pelo bloco de
+  // depoimentos na home e em /consultorias.
+  professionalNote?: string;
   heroCtaLabel?: string;
   heroCtaWhatsappText?: string;
   backToHome: string;

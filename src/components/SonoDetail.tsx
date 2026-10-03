@@ -497,6 +497,13 @@ export default function SonoDetail({ dict, locale, card }: Props) {
             <FadeIn className="max-w-4xl mx-auto flex flex-col gap-10 md:gap-14">
               <SectionTitle>{d.faqTitle ?? "Perguntas frequentes"}</SectionTitle>
               <FaqAccordion items={d.faq} />
+              {/* Nota profissional: observação secundária, no mesmo tom das
+                  outras notas discretas do site. */}
+              {d.professionalNote && (
+                <p className="font-barlow italic text-text-muted leading-relaxed text-[13px] md:text-sm">
+                  {d.professionalNote}
+                </p>
+              )}
             </FadeIn>
           </section>
         )}
