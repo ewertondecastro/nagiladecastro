@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Lora, Lato } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 // Tipografia oficial "Argila & Sálvia": Lora (títulos) + Lato (texto).
@@ -46,6 +47,16 @@ export default function RootLayout({
     <html lang="pt" suppressHydrationWarning>
       <body className={`${lora.variable} ${lato.variable} bg-background text-text-primary antialiased`}>
         {children}
+        {/* Microsoft Clarity: só no domínio real, para não contar localhost nem previews do Netlify. */}
+        <Script id="ms-clarity" strategy="afterInteractive">
+          {`if (["nagiladecastro.com", "www.nagiladecastro.com"].includes(location.hostname)) {
+  (function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+  })(window, document, "clarity", "script", "z3cl8q682y");
+}`}
+        </Script>
       </body>
     </html>
   );
