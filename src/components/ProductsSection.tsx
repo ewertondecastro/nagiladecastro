@@ -11,7 +11,7 @@ interface Props {
 }
 
 const ctaClass =
-  "self-start font-barlow-condensed text-xs tracking-widest uppercase px-6 py-3 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200";
+  "self-start font-barlow-condensed text-xs tracking-widest uppercase px-6 py-3 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200 rounded-full";
 
 function CardMedia({ item }: { item: ProductItem }) {
   const isFree = item.kind === "free";

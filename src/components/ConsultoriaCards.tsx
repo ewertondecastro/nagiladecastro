@@ -29,13 +29,11 @@ const featuredTheme = [
   },
 ];
 
-// Cartões das consultorias, com hierarquia: as duas primeiras (Sono e Educação
-// Parental) são as principais, do mesmo tamanho; da terceira em diante entram
-// como frentes secundárias. Reutilizado na home e na página de consultorias.
+// Cartões das consultorias: só Sono e Educação Parental. A Primeiros Passos
+// saiu daqui e aparece apenas na página Recursos.
 export default function ConsultoriaCards({ dict, locale, showFormats = false }: Props) {
   const { services } = dict;
   const featured = services.cards.slice(0, 2);
-  const rest = services.cards.slice(2);
 
   return (
     <>
@@ -83,7 +81,7 @@ export default function ConsultoriaCards({ dict, locale, showFormats = false }: 
                   </a>
                   <Link
                     href={consultoriaHref(locale, card.slug)}
-                    className={`relative z-20 font-barlow-condensed text-sm tracking-widest uppercase px-7 py-3.5 border bg-transparent transition-all duration-200 ${featuredTheme[i].outlineCta}`}
+                    className={`relative z-20 font-barlow-condensed text-sm tracking-widest uppercase px-7 py-3.5 border bg-transparent transition-all duration-200 rounded-full ${featuredTheme[i].outlineCta}`}
                   >
                     {card.learnMore}
                   </Link>
@@ -111,49 +109,6 @@ export default function ConsultoriaCards({ dict, locale, showFormats = false }: 
         </FadeIn>
       )}
 
-      {rest.length > 0 && (
-        <FadeIn className="max-w-7xl mx-auto mt-10">
-          <p className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-text-muted mb-5">
-            {services.othersLabel}
-          </p>
-          <div className="flex flex-col gap-3">
-            {rest.map((card) => (
-              <div
-                key={card.slug}
-                className="group relative flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 bg-background border border-cream-line px-6 py-5 transition-colors duration-200 ease-out hover:border-olive"
-              >
-                <Link
-                  href={consultoriaHref(locale, card.slug)}
-                  className="absolute inset-0 z-10"
-                  aria-label={`${card.titleLine1} ${card.titleLine2}`}
-                />
-                <div className="relative z-20 flex items-baseline gap-4 pointer-events-none">
-                  <span className="font-barlow-condensed text-[11px] tracking-[0.3em] uppercase text-olive/50 shrink-0">
-                    {card.number}
-                  </span>
-                  <h4 className="font-playfair leading-tight" style={{ fontSize: "clamp(19px, 1.6vw, 23px)" }}>
-                    <span className="font-bold text-text-primary">{card.titleLine1} </span>
-                    <span className="italic text-olive">{card.titleLine2}</span>
-                  </h4>
-                </div>
-                <div className="relative z-20 flex flex-wrap items-center gap-x-5 gap-y-1 shrink-0">
-                  <span className="font-barlow-condensed text-[11px] tracking-widest uppercase text-olive group-hover:text-terracotta transition-colors pointer-events-none">
-                    {card.learnMore} →
-                  </span>
-                  <a
-                    href={whatsAppUrl(card.whatsappText)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-barlow-condensed text-[11px] tracking-widest uppercase text-text-muted hover:text-olive transition-colors"
-                  >
-                    {card.contactCta}
-                  </a>
-                </div>
-              </div>
-            ))}
-          </div>
-        </FadeIn>
-      )}
     </>
   );
 }
