@@ -5,7 +5,10 @@ import SonoDetail from "@/components/SonoDetail";
 import type { Metadata } from "next";
 import type { ConsultoriaSlug } from "@/types/locale";
 
-const SLUGS: ConsultoriaSlug[] = ["sono", "primeiros-passos", "educacao-parental"];
+// Primeiros Passos fora do site por enquanto (vai ser reestruturada). O texto
+// continua no dicionário; /consultorias/primeiros-passos redireciona para
+// /recursos no netlify.toml.
+const SLUGS: ConsultoriaSlug[] = ["sono", "educacao-parental"];
 
 export function generateStaticParams() {
   return SLUGS.map((slug) => ({ slug }));

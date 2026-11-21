@@ -480,6 +480,12 @@ export default function SonoDetail({ dict, locale, card }: Props) {
                 })}
               </div>
 
+              {dict.services.paymentNote && (
+                <p className="text-center font-barlow text-text-secondary leading-relaxed text-[15px] -mt-4">
+                  {dict.services.paymentNote}
+                </p>
+              )}
+
               {d.recordingNote && (
                 <p className="flex gap-4 items-start max-w-2xl border-t border-cream-line pt-6 font-barlow text-text-muted leading-relaxed text-[15px]">
                   <Star className="w-3.5 h-3.5 mt-1 shrink-0" />

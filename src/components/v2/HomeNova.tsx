@@ -25,11 +25,6 @@ import type { ConsultoriaCard } from "@/types/locale";
 // Educação Parental em roxo ameixa. Textos sem promessa de resultado e
 // sem linguagem médica. A venda continua pelo WhatsApp.
 
-const WA = {
-  geral: whatsAppUrl(
-    "Olá, Nágila! Vim pelo seu site e gostaria de conversar sobre a minha família."
-  ),
-};
 
 
 const EASE = [0.22, 1, 0.36, 1] as const;
@@ -290,6 +285,9 @@ type Service = {
   tint: string;
   question: React.ReactNode;
   pains: string[];
+  // Como fica o dia a dia durante o processo. Sem prometer resultado.
+  imagine: string;
+  ctaLabel: string;
 };
 
 function buildServices(sono: ConsultoriaCard, parental: ConsultoriaCard): Service[] {
@@ -309,6 +307,9 @@ function buildServices(sono: ConsultoriaCard, parental: ConsultoriaCard): Servic
         "Dorme no colo e acorda no berço.",
         "Cada soneca depende de você.",
       ],
+      imagine:
+        "Imagine saber exatamente o que fazer quando ele acorda às 3 da manhã, sem chutar e sem culpa.",
+      ctaLabel: "Quero entender o sono do meu filho",
     },
     {
       id: "parental",
@@ -321,11 +322,14 @@ function buildServices(sono: ConsultoriaCard, parental: ConsultoriaCard): Servic
         </>
       ),
       pains: ["Você pede, ele ignora.", "Repete cinco vezes.", "Todo “não” vira discussão."],
+      imagine:
+        "Imagine parar de negociar cada passo e voltar a conduzir a sua casa com calma e firmeza.",
+      ctaLabel: "Quero parar de repetir mil vezes",
     },
   ];
 }
 
-function ServiceBand({ s, flip }: { s: Service; flip: boolean }) {
+function ServiceBand({ s, flip, paymentNote }: { s: Service; flip: boolean; paymentNote?: string }) {
   const c = s.card;
   const plan = c.detail.plans?.find((p) => p.highlight) ?? c.detail.plans?.[0];
   return (
@@ -374,8 +378,16 @@ function ServiceBand({ s, flip }: { s: Service; flip: boolean }) {
               ))}
             </ul>
           </Reveal>
-          <Reveal delay={0.18}>
-            <p className={`${sans} text-[16px] md:text-[17px] leading-[1.75] text-[#F4EFE6]/80 mt-8 max-w-[520px]`}>
+          <Reveal delay={0.16}>
+            <p
+              className={`${display} italic leading-[1.25] mt-8 max-w-[560px] text-[#F4EFE6]`}
+              style={{ fontSize: "clamp(22px, 2.1vw, 28px)" }}
+            >
+              {s.imagine}
+            </p>
+          </Reveal>
+          <Reveal delay={0.2}>
+            <p className={`${sans} text-[16px] md:text-[17px] leading-[1.75] text-[#F4EFE6]/80 mt-6 max-w-[520px]`}>
               {c.description}
             </p>
           </Reveal>
@@ -411,9 +423,12 @@ function ServiceBand({ s, flip }: { s: Service; flip: boolean }) {
               {c.formats && (
                 <p className={`${sans} text-[13px] text-[#5F564A] mt-4`}>{c.formats}</p>
               )}
+              {paymentNote && (
+                <p className={`${sans} text-[13px] text-[#5F564A] mt-2`}>{paymentNote}</p>
+              )}
               <div className="mt-7 flex flex-col gap-2">
                 <Button href={whatsAppUrl(c.whatsappText)} color={s.color}>
-                  {c.contactCta}
+                  {s.ctaLabel}
                 </Button>
                 <Link
                   href={`/consultorias/${c.slug}`}
@@ -430,7 +445,7 @@ function ServiceBand({ s, flip }: { s: Service; flip: boolean }) {
   );
 }
 
-function Services({ services }: { services: Service[] }) {
+function Services({ services, paymentNote }: { services: Service[]; paymentNote?: string }) {
   return (
     <>
       <section className="bg-[#F4EFE6] text-[#2D241E] pb-16 md:pb-24">
@@ -452,7 +467,7 @@ function Services({ services }: { services: Service[] }) {
         </div>
       </section>
       {services.map((s, i) => (
-        <ServiceBand key={s.id} s={s} flip={i % 2 === 1} />
+        <ServiceBand key={s.id} s={s} flip={i % 2 === 1} paymentNote={paymentNote} />
       ))}
     </>
   );
@@ -684,15 +699,20 @@ function Closing() {
         </Reveal>
         <Reveal delay={0.12}>
           <p className={`${sans} text-[16px] md:text-[18px] leading-[1.7] text-[#F4EFE6]/75 max-w-[540px] mx-auto mt-8`}>
-            Me conta o que está acontecendo na sua casa. Eu te digo qual é o
-            caminho e como a gente começa.
+            Escolha por onde começar. Em cada consultoria você vê como funciona,
+            o que está incluído e fala comigo quando se sentir pronta.
           </p>
         </Reveal>
         <Reveal delay={0.2}>
           <div className="mt-10 flex justify-center">
-            <Button href={WA.geral} color={C.terracotta}>
-              Conversar no WhatsApp
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <Button href="/consultorias/sono" color={C.petrol} external={false}>
+                Meu filho não dorme
+              </Button>
+              <Button href="/consultorias/educacao-parental" color={C.plum} external={false}>
+                Meu filho não me obedece
+              </Button>
+            </div>
           </div>
         </Reveal>
       </div>
@@ -703,9 +723,11 @@ function Closing() {
 export default function HomeNova({
   sono,
   parental,
+  paymentNote,
 }: {
   sono: ConsultoriaCard;
   parental: ConsultoriaCard;
+  paymentNote?: string;
 }) {
   const services = buildServices(sono, parental);
   return (
@@ -715,7 +737,7 @@ export default function HomeNova({
       <Ticker />
       <Manifesto />
       <Direction />
-      <Services services={services} />
+      <Services services={services} paymentNote={paymentNote} />
       <Method />
       <Proof />
       <About />

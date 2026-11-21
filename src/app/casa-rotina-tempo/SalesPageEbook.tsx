@@ -63,7 +63,7 @@ const FAQ = [
     a: "Sim. O PDF abre em qualquer celular, tablet ou computador. Você lê onde e quando quiser.",
   },
   {
-    q: "As ferramentas dá para preencher?",
+    q: "Dá para preencher as ferramentas?",
     a: "Dá. Você pode responder direto na tela ou imprimir as páginas de exercícios e escrever à mão.",
   },
   {
@@ -427,7 +427,7 @@ export default function SalesPageEbook() {
             <span className="italic block text-olive">direção, ritmo e paz</span>
           </h2>
           <p className="font-barlow text-text-secondary leading-relaxed mb-8" style={{ fontSize: "clamp(17px, 1.5vw, 21px)" }}>
-            Você recebe agora e a primeira manhã diferente pode ser amanhã.
+            Você recebe agora, e a primeira manhã diferente pode ser amanhã.
           </p>
           <div className="flex flex-col items-center gap-3">
             <CtaButton>Quero o e-book por {PRICE}</CtaButton>

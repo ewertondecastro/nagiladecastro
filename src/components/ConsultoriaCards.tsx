@@ -15,6 +15,12 @@ function consultoriaHref(locale: Locale, slug: string): string {
   return locale === "pt" ? `/consultorias/${slug}` : `/${locale}/consultorias/${slug}`;
 }
 
+// Botão de cada consultoria na linguagem da mãe.
+const CTA_BY_SLUG: Record<string, string> = {
+  sono: "Quero entender o sono do meu filho",
+  "educacao-parental": "Quero parar de repetir mil vezes",
+};
+
 // Cor própria de cada card principal: Sono em azul petróleo, Educação Parental
 // em roxo ameixa. Classes escritas por extenso porque o Tailwind lê o arquivo
 // como texto (classe montada em runtime não entra no CSS final).
@@ -70,6 +76,11 @@ export default function ConsultoriaCards({ dict, locale, showFormats = false }: 
                     {card.formats}
                   </p>
                 )}
+                {showFormats && services.paymentNote && (
+                  <p className="font-barlow text-background/70 leading-relaxed mb-5" style={{ fontSize: "clamp(14px, 1vw, 15px)" }}>
+                    {services.paymentNote}
+                  </p>
+                )}
                 <div className="mt-auto flex flex-wrap gap-3 pointer-events-auto">
                   <a
                     href={whatsAppUrl(card.whatsappText)}
@@ -77,7 +88,7 @@ export default function ConsultoriaCards({ dict, locale, showFormats = false }: 
                     rel="noopener noreferrer"
                     className="relative z-20 font-barlow-condensed text-sm tracking-widest uppercase px-7 py-3.5 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200 rounded-full"
                   >
-                    {card.contactCta}
+                    {CTA_BY_SLUG[card.slug] ?? card.contactCta}
                   </a>
                   <Link
                     href={consultoriaHref(locale, card.slug)}

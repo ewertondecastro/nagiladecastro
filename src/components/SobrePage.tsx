@@ -3,6 +3,7 @@ import Link from "next/link";
 import FadeIn from "./FadeIn";
 import SiteNav from "./SiteNav";
 import Footer from "./Footer";
+import { whatsAppUrl } from "@/lib/whatsapp";
 import type { LocaleDict, Locale } from "@/types/locale";
 
 function prefix(locale: Locale): string {
@@ -162,12 +163,12 @@ export default function SobrePage({
               <span aria-hidden="true">&rarr;</span>
             </Link>
             <a
-              href={contact.url}
+              href={whatsAppUrl(contact.whatsappText)}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 border border-olive text-olive hover:bg-terracotta hover:text-background transition-colors duration-200 rounded-full"
             >
-              {contact.cta}
+              {contact.whatsappCta}
             </a>
           </div>
         </FadeIn>

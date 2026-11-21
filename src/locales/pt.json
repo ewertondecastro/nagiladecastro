@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Nágila Decastro",
-    "description": "Esposa, mãe de duas meninas, educadora em casa (homeschool) e consultora de mães. Consultoria de sono, primeiros passos da alfabetização e educação parental com direção.",
+    "description": "Esposa, mãe de duas meninas, educadora em casa (homeschool) e consultora de mães. Consultoria de sono infantil e educação parental com direção.",
     "locale": "pt_BR"
   },
   "nav": {
@@ -44,7 +44,7 @@
     "body": [
       "Sou a Nágila, esposa do Ewerton, mãe da Helena e da Catharina e moradora de Cape Cod. Cada parto reescreveu o que eu entendia por descanso, por presença e por casa.",
       "Aprendi na pele que o sono do bebê sustenta o fôlego de uma família inteira. Quando uma mãe volta a dormir, ela volta a si.",
-      "Eduquei minhas duas filhas em casa desde o primeiro dia. Homeschool como um jeito de investir no tempo que não volta, o tempo de formar caráter no ritmo de cada filha.",
+      "Educo minhas duas filhas em casa desde o primeiro dia. Homeschool como um jeito de investir no tempo que não volta, o tempo de formar caráter no ritmo de cada filha.",
       "Hoje acompanho mães e famílias que querem mais do que sobreviver à maternidade, com formação séria por trás de cada orientação. Famílias que querem viver dentro disso com clareza, leveza e propósito."
     ],
     "credentials": {
@@ -65,7 +65,7 @@
     "titleLine2": "todos os dias.",
     "body": [
       "Ewerton chegou em 2017. Helena em 2021. Catharina em 2024.",
-      "Antes de qualquer mãe que eu acompanho, existe esta casa. É dessa casa que eu falo, é ali que tudo o que ensino foi vivido primeiro."
+      "Antes de qualquer mãe que eu acompanho, existe esta casa. É dessa casa que eu falo. É ali que tudo o que ensino foi vivido primeiro."
     ]
   },
   "services": {
@@ -79,6 +79,7 @@
     "indexClosingTitle2": "faz mais sentido?",
     "indexClosingSubtitle": "Me conte brevemente o que está acontecendo na sua família. Eu te ajudo a identificar qual caminho é mais adequado para o momento de vocês.",
     "indexTestimonialsTitle": "O que as famílias me contam depois",
+    "paymentNote": "Pagamento no Pix ou no cartão, em até 12x.",
     "returnNote": "Já passou por uma Consultoria de Educação Parental comigo? Se surgiu uma nova situação pontual, você pode solicitar uma Sessão de Retorno Parental.",
     "cards": [
       {
@@ -95,7 +96,7 @@
           "eyebrow": "CONSULTORIA · 01",
           "headlineLine1": "Sono que descansa",
           "headlineLine2": "a casa inteira.",
-          "intro": "Se você está aqui, é porque o sono não está acontecendo, nunca aconteceu direito, ou parou de funcionar depois de uma regressão. Pode ser que você nem lembre mais a última vez que dormiu uma noite inteira, e esteja exausta demais pra saber o que tentar agora.",
+          "intro": "Se você está aqui, é porque o sono não está acontecendo, nunca aconteceu direito ou parou de funcionar depois de uma regressão. Pode ser que você nem lembre mais da última vez que dormiu uma noite inteira, e esteja exausta demais pra saber o que tentar agora.",
           "whyTitle": "Por que isso importa",
           "whyBody": [
             "O sono do bebê sustenta o fôlego de toda a família. Mães privadas de sono perdem clareza, paciência e confiança em si, e a relação com o parceiro, com os outros filhos e com a própria fé vai pagando o preço silenciosamente.",
@@ -126,7 +127,7 @@
             "body": [
               "Não trabalho com fórmula pronta, e não existe um único método certo. A gente olha os caminhos possíveis e monta, junto com você, a abordagem que cabe na sua casa e no seu filho.",
               "Faço questão de deixar uma coisa clara: nem todo choro pede a mesma resposta.",
-              "O que eu te ensino é a diferenciar um choro do outro e a responder na medida certa: presença quando é necessidade, espaço quando é aprendizado. O que eu não faço é deixar uma necessidade real sem resposta."
+              "Eu te ensino a diferenciar um choro do outro e a responder na medida certa: presença quando é necessidade, espaço quando é aprendizado. O que eu não faço é deixar uma necessidade real sem resposta."
             ]
           },
           "plansTitle": "Como podemos trabalhar juntas",
@@ -247,19 +248,19 @@
             },
             {
               "question": "O método é deixar meu filho chorando?",
-              "answer": "Não. Cada abordagem de sono lida com o choro do seu jeito, e em qualquer uma delas existe espaço pra acolher seu filho. O que os pais precisam entender é que choro faz parte de todo processo de aprendizado: antes de falar, é assim que o bebê comunica incômodo e frustração. Meu trabalho é te ensinar a reconhecer o que cada choro está dizendo e a responder com presença e segurança. Se bastasse deixar a criança chorando sem esse entendimento, não haveria nada aqui pra eu te ensinar."
+              "answer": "Não. Cada abordagem de sono lida com o choro do próprio jeito, e em qualquer uma delas existe espaço pra acolher seu filho. O que os pais precisam entender é que choro faz parte de todo processo de aprendizado: antes de falar, é assim que o bebê comunica incômodo e frustração. Meu trabalho é te ensinar a reconhecer o que cada choro está dizendo e a responder com presença e segurança. Se bastasse deixar a criança chorando sem esse entendimento, não haveria nada aqui pra eu te ensinar."
             },
             {
               "question": "Ele vai passar a dormir a noite inteira?",
-              "answer": "Não prometo isso, e nenhum profissional honesto promete. O que eu construo com você é um caminho realista, no ritmo do seu filho. Também não prometo prazo fixo, cada criança responde no seu tempo. O que eu prometo é que ele não vai chorar sozinho: acolhimento e direção caminham juntos aqui."
+              "answer": "Não prometo isso, e nenhum profissional honesto promete. O que eu construo com você é um caminho realista, no ritmo do seu filho. Também não prometo prazo fixo: cada criança responde no seu tempo. O que eu te ensino é a nunca deixar uma necessidade real sem resposta. Acolhimento e direção caminham juntos aqui."
             },
             {
               "question": "E se o meu parceiro não estiver convencido?",
-              "answer": "Pra funcionar, basta que os dois adultos respondam do mesmo jeito nos pontos combinados. Na prática, o parceiro costuma mudar de ideia quando vê a primeira semana funcionando."
+              "answer": "Pra funcionar, basta que os dois adultos respondam do mesmo jeito nos pontos combinados. Na prática, o parceiro costuma mudar de ideia quando entende o porquê de cada passo."
             },
             {
               "question": "Qual a diferença entre a Completa e a Express?",
-              "answer": "Na Express, você recebe uma análise individualizada, um plano personalizado e 10 dias de suporte para colocar as orientações em prática com mais autonomia. Na Completa, eu sigo com você durante a implementação. São 45 dias de acompanhamento ativo, com possibilidade de até 15 dias adicionais quando necessários, 1 encontro inicial obrigatório de 60 a 90 minutos, até 2 encontros de acompanhamento conforme necessidade, suporte pelo WhatsApp e ajustes da estratégia conforme a resposta da criança e a evolução da família."
+              "answer": "Na Express, você recebe uma análise individualizada, um plano personalizado e 10 dias de suporte para colocar as orientações em prática com mais autonomia. Na Completa, eu sigo com você durante a implementação. São 45 dias de acompanhamento ativo, com possibilidade de até 15 dias adicionais quando necessário, 1 encontro inicial obrigatório de 60 a 90 minutos, até 2 encontros de acompanhamento conforme necessidade, suporte pelo WhatsApp e ajustes da estratégia conforme a resposta da criança e a evolução da família."
             },
             {
               "question": "O que são as chamadas de vídeo pontuais?",
@@ -302,10 +303,20 @@
           "headlineLine1": "Educar com direção,",
           "headlineLine2": "não no improviso.",
           "intro": "Educar virou apagar incêndio: a gente reage o dia inteiro, negocia sem parar e termina exausta, sem saber se está indo pra algum lugar. Como Educadora Parental Certificada e mãe que educa as próprias filhas, eu te ajudo a devolver direção à criação, escolhendo cada gesto com intenção.",
+          "scenesTitle": "Talvez a sua casa esteja assim",
+          "scenes": [
+            "Você pede pra guardar os brinquedos, e ele finge que não ouviu.",
+            "A hora do banho vira guerra. A de dormir, também.",
+            "No mercado, o “não” vira birra no chão, e todo mundo olha.",
+            "Antes das nove da manhã, você já repetiu a mesma coisa cinco vezes.",
+            "Você grita, se arrepende, e no dia seguinte tudo se repete.",
+            "Você e o seu marido não concordam sobre como agir, e a criança percebe."
+          ],
+          "scenesClosing": "Se você se reconheceu em alguma dessas cenas, não é falta de amor nem de esforço. É falta de direção. E direção se aprende.",
           "whyTitle": "Por que isso importa",
           "whyBody": [
             "A maioria das famílias hoje educa no improviso: reage ao comportamento dos filhos, copia o que viu na própria casa, terceiriza pra escola ou pra tela. O resultado é uma geração de pais cansados e crianças ansiosas, sem direção.",
-            "Uma casa com direção tem autoridade no lugar da negociação infinita, ordem e previsibilidade que dão segurança emocional ao filho, limites firmes colocados com respeito, e um caráter que se forma no dia a dia, gesto a gesto.",
+            "Uma casa com direção tem autoridade no lugar da negociação infinita, ordem e previsibilidade que dão segurança emocional ao filho, limites firmes colocados com respeito e um caráter que se forma no dia a dia, gesto a gesto.",
             "Direção é saber pra onde a família está indo e conduzir com firmeza e afeto, um gesto de cada vez."
           ],
           "journeyTitle": "Como eu te acompanho",
@@ -372,7 +383,7 @@
             "title": "As 5 dimensões que eu leio antes de mudar qualquer coisa",
             "steps": [
               "Autoridade: quem conduz a casa hoje, e o que esvaziou essa condução.",
-              "Rotina e hábitos: o desenho do dia, e onde ele cria conflito em vez de evitar.",
+              "Rotina e hábitos: o desenho do dia, e onde ele cria conflito em vez de evitá-lo.",
               "Vínculo e comunicação: como vocês falam com a criança e como ela responde.",
               "Comportamento da criança: o que se repete, em que hora, com quem, e o que está por trás.",
               "Ambiente físico e emocional: o que a casa comunica sem ninguém dizer nada."
@@ -381,8 +392,8 @@
           "methodNote": {
             "title": "O que isso não é",
             "body": [
-              "Não é terapia, e eu não trato disso como se fosse. O foco aqui é a condução dos pais e a dinâmica da casa, com método e acolhimento.",
-              "Quando o comportamento da criança ou o sofrimento da família indicam necessidade de avaliação especializada, eu digo com todas as letras e encaminho pro profissional certo, seja psicólogo infantil, psicólogo de adulto, neuropediatra, terapeuta ocupacional ou fonoaudiólogo.",
+              "Não é terapia, e eu não a trato como se fosse. O foco aqui é a condução dos pais e a dinâmica da casa, com método e acolhimento.",
+              "Quando o comportamento da criança ou o sofrimento da família indica necessidade de avaliação especializada, eu digo com todas as letras e encaminho pro profissional certo, seja psicólogo infantil, psicólogo de adulto, neuropediatra, terapeuta ocupacional ou fonoaudiólogo.",
               "Reconhecer esse limite protege a criança, protege a família e sustenta a confiança que vocês depositam aqui."
             ]
           },
@@ -406,7 +417,7 @@
             },
             {
               "question": "Você promete que meu filho vai obedecer?",
-              "answer": "Não prometo criança perfeita, nem prazo fixo. O que eu prometo é processo, acompanhamento e presença em cada etapa. O que vocês constroem aqui é uma casa com menos conflito, uma criança que coopera e pais que voltam a conduzir sem culpa."
+              "answer": "Não prometo criança perfeita, nem prazo fixo. O que eu prometo é processo, acompanhamento e presença em cada etapa. O resultado depende da aplicação em casa, e eu estou junto em cada ajuste."
             },
             {
               "question": "Como funciona pra começar?",
@@ -491,7 +502,7 @@
         "badge": "E-BOOK",
         "titleLine1": "Casa, rotina",
         "titleLine2": "e tempo",
-        "description": "E-book com 25 páginas sobre como desenhar uma rotina de casa que sustenta o resto: sono, educação, casamento, fé. Pra ler em uma noite, aplicar na semana.",
+        "description": "E-book com 33 páginas sobre como desenhar uma rotina de casa que sustenta o resto: sono, educação, casamento, fé. Pra ler em uma noite, aplicar na semana.",
         "cta": "Quero o e-book",
         "linkUrl": "/casa-rotina-tempo",
         "image": "/ebook/capa.webp"
@@ -517,7 +528,7 @@
   },
   "contact": {
     "titleLine1": "Se algo aqui tocou você,",
-    "titleLine2": "a conversa começa aqui.",
+    "titleLine2": "a conversa começa agora.",
     "subtitle": "Maternidade real, autocuidado intencional e a vida de uma casa que escolheu o tempo. Sem teatro, sem receita pronta.",
     "handle": "@nagila.decastro",
     "cta": "Me chama no DM",
@@ -534,7 +545,6 @@
     },
     "interestOptions": [
       "Consultoria de Sono",
-      "Primeiros passos (alfabetização)",
       "Educação Parental com direção",
       "Sessão de Retorno Parental",
       "Materiais e recursos",

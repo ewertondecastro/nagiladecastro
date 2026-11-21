@@ -55,7 +55,7 @@ const EMOTIONS = [
 const FAQ = [
   {
     q: "Como recebo o material?",
-    a: "Na hora do pagamento, direto no seu e-mail. É digital: sem espera, sem frete, acesso imediato.",
+    a: "Assim que o pagamento é aprovado, a Hotmart envia o acesso para o seu e-mail. É digital: sem frete e sem esperar entrega.",
   },
   {
     q: "Serve para qual idade?",
@@ -430,7 +430,7 @@ export default function SalesPageEmocoes() {
             educa as duas filhas em casa.
           </p>
           <p className="font-barlow text-text-secondary leading-relaxed mt-5" style={{ fontSize: "clamp(17px, 1.5vw, 21px)" }}>
-            O mesmo cuidado que ela usa todos os dias com a Helena e a Catharina,
+            O mesmo cuidado que ela tem todos os dias com a Helena e a Catharina,
             agora pronto para a sua casa, com leveza e ancorado na fé.
           </p>
         </motion.div>

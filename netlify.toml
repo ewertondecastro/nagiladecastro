@@ -8,24 +8,33 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
+# Primeiros Passos saiu do site por enquanto: a página antiga leva para
+# Recursos. Status 302 porque a consultoria deve voltar reestruturada.
+
+[[redirects]]
+  from = "/consultorias/primeiros-passos"
+  to = "/recursos"
+  status = 302
+  force = true
+
 # Mentorias viraram Consultorias. As regras específicas vêm antes das
 # curingas porque o Netlify usa a primeira que casar.
 
 [[redirects]]
   from = "/mentorias/homeschool"
-  to = "/consultorias/primeiros-passos"
+  to = "/recursos"
   status = 301
   force = true
 
 [[redirects]]
   from = "/en/mentorias/homeschool"
-  to = "/consultorias/primeiros-passos"
+  to = "/recursos"
   status = 301
   force = true
 
 [[redirects]]
   from = "/es/mentorias/homeschool"
-  to = "/consultorias/primeiros-passos"
+  to = "/recursos"
   status = 301
   force = true
 

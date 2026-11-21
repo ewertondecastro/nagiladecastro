@@ -121,6 +121,37 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
         </div>
       </section>
 
+      {/* Cenas do dia a dia: a mãe se reconhece antes da explicação. */}
+      {d.scenes && d.scenes.length > 0 && (
+        <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24 bg-plum text-background">
+          <FadeIn className="max-w-5xl mx-auto">
+            <img src="/images/brand/star-mark.png" alt="" aria-hidden="true" className="w-7 h-7 mb-6" />
+            <h2 className="font-playfair leading-tight" style={{ fontSize: "clamp(32px, 4.4vw, 60px)" }}>
+              {d.scenesTitle}
+            </h2>
+            <ul className="mt-10 md:mt-12 grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+              {d.scenes.map((scene) => (
+                <li
+                  key={scene}
+                  className="font-barlow rounded-[20px] border border-background/25 bg-background/[0.06] px-6 py-5 leading-relaxed"
+                  style={{ fontSize: "clamp(16px, 1.3vw, 19px)" }}
+                >
+                  {scene}
+                </li>
+              ))}
+            </ul>
+            {d.scenesClosing && (
+              <p
+                className="font-playfair italic leading-snug mt-10 md:mt-14 max-w-3xl"
+                style={{ fontSize: "clamp(22px, 2.4vw, 32px)" }}
+              >
+                {d.scenesClosing}
+              </p>
+            )}
+          </FadeIn>
+        </section>
+      )}
+
       {/* Why section */}
       <section className="w-full px-8 md:px-16 lg:px-20 py-16 md:py-24 bg-background-soft">
         <FadeIn className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
@@ -349,6 +380,11 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
                 </div>
               ))}
             </div>
+            {dict.services.paymentNote && (
+              <p className="text-center font-barlow text-text-secondary leading-relaxed text-[15px]">
+                {dict.services.paymentNote}
+              </p>
+            )}
           </FadeIn>
         </section>
       )}

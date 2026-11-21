@@ -32,6 +32,6 @@ export default async function Home() {
   const sono = dict.services.cards.find((c) => c.slug === "sono")!;
   const parental = dict.services.cards.find((c) => c.slug === "educacao-parental")!;
   return (
-    <HomeNova sono={sono} parental={parental} />
+    <HomeNova sono={sono} parental={parental} paymentNote={dict.services.paymentNote} />
   );
 }

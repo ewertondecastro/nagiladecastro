@@ -13,6 +13,10 @@ export interface ConsultoriaDetail {
   forWhomTitle: string;
   forWhomItems: string[];
   // Blocos opcionais: só aparecem na página quando preenchidos.
+  // Cenas do dia a dia para a mãe se reconhecer, logo depois do topo.
+  scenesTitle?: string;
+  scenes?: string[];
+  scenesClosing?: string;
   // Planos/formatos desta consultoria (ex.: Completa e Express no sono).
   plansTitle?: string;
   plans?: ConsultoriaPlan[];
@@ -182,6 +186,8 @@ export interface LocaleDict {
     sectionSubtitle: string;
     featuredTag: string;
     othersLabel: string;
+    // Formas de pagamento das consultorias, sem mostrar valor.
+    paymentNote?: string;
     // Textos exclusivos da página /consultorias. A home não os usa, então o
     // bloco de contato dela segue com a copy própria.
     indexTitle: string;
