@@ -6,6 +6,16 @@ import ChapterPhrase from "./ChapterPhrase";
 import { whatsAppUrl } from "@/lib/whatsapp";
 import type { LocaleDict, Locale, ConsultoriaCard } from "@/types/locale";
 
+// Foto do topo por consultoria. Só a Educação Parental tem por enquanto;
+// as outras seguem com o topo só de texto.
+const HERO_PHOTOS: Partial<Record<string, { src: string; alt: string; position: string }>> = {
+  "educacao-parental": {
+    src: "/images/v2/nagila-notebook-rosa.jpg",
+    alt: "Nágila Decastro em atendimento online",
+    position: "40% 35%",
+  },
+};
+
 interface Props {
   dict: LocaleDict;
   locale: Locale;
@@ -52,6 +62,8 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
   const d = card.detail;
   const accent = accentBySlug[card.slug] ?? accentBySlug["primeiros-passos"];
 
+  const heroPhoto = HERO_PHOTOS[card.slug];
+
   return (
     <main className="w-full bg-background min-h-screen">
       <SiteNav dict={dict} locale={locale} />
@@ -59,7 +71,14 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
 
       {/* Hero block */}
       <section className="w-full px-8 md:px-16 lg:px-20 pt-14 md:pt-20 pb-12 md:pb-16">
-        <FadeIn className="max-w-4xl mx-auto flex flex-col gap-8">
+        <div
+          className={
+            heroPhoto
+              ? "max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-14 items-center [&>*]:min-w-0"
+              : "max-w-4xl mx-auto"
+          }
+        >
+        <FadeIn className={`flex flex-col gap-8 ${heroPhoto ? "md:col-span-7" : ""}`}>
           <span className={`font-barlow-condensed text-xs tracking-[0.3em] ${accent.text} uppercase`}>
             {d.eyebrow}
           </span>
@@ -87,6 +106,19 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
             </a>
           )}
         </FadeIn>
+        {heroPhoto && (
+          <FadeIn delay={0.1} className="md:col-span-5">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-t-[999px] rounded-b-[28px] max-w-md mx-auto shadow-[0_40px_80px_-40px_rgba(45,36,30,0.35)]">
+              <img
+                src={heroPhoto.src}
+                alt={heroPhoto.alt}
+                className="absolute inset-0 w-full h-full object-cover"
+                style={{ objectPosition: heroPhoto.position }}
+              />
+            </div>
+          </FadeIn>
+        )}
+        </div>
       </section>
 
       {/* Why section */}
