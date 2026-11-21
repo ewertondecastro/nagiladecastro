@@ -182,7 +182,7 @@ export default function HomeTestimonials({
           <div className="flex justify-center">
             <Link
               href={`${p}/consultorias`}
-              className="font-barlow-condensed text-sm tracking-widest uppercase px-10 py-4 bg-terracotta text-background font-semibold hover:bg-amber hover:text-text-primary transition-colors duration-200"
+              className="font-barlow-condensed text-sm tracking-widest uppercase px-10 py-4 bg-terracotta text-background font-semibold hover:bg-amber hover:text-text-primary transition-colors duration-200 rounded-full"
             >
               {seeMore} →
             </Link>

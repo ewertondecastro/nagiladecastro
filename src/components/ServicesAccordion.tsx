@@ -74,13 +74,13 @@ export default function ServicesAccordion({
                         href={whatsAppUrl(card.whatsappText)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="font-barlow-condensed text-xs tracking-widest uppercase px-5 py-2.5 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200"
+                        className="font-barlow-condensed text-xs tracking-widest uppercase px-5 py-2.5 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200 rounded-full"
                       >
                         {card.contactCta}
                       </a>
                       <Link
                         href={consultoriaHref(locale, card.slug)}
-                        className="font-barlow-condensed text-xs tracking-widest uppercase px-5 py-2.5 border border-olive text-olive hover:bg-terracotta hover:text-background transition-all duration-200"
+                        className="font-barlow-condensed text-xs tracking-widest uppercase px-5 py-2.5 border border-olive text-olive hover:bg-terracotta hover:text-background transition-all duration-200 rounded-full"
                       >
                         {card.learnMore}
                       </Link>

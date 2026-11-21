@@ -42,16 +42,15 @@ export default function SobrePage({
           </FadeIn>
 
           <FadeIn direction="right" className="order-1 md:order-2">
-            <div className="relative aspect-[4/5] overflow-hidden rounded-sm bg-cream-line max-w-md mx-auto">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-t-[999px] rounded-b-[28px] bg-cream-line max-w-md mx-auto shadow-[0_40px_80px_-40px_rgba(45,36,30,0.35)]">
               <Image
-                src="/images/nagila.jpg"
+                src="/images/v2/nagila-consultora-rosa.jpg"
                 alt="Nágila Decastro"
                 fill
                 priority
                 className="object-cover object-top"
                 sizes="(max-width: 768px) 100vw, 45vw"
               />
-              <div className="absolute inset-x-0 bottom-0 h-1 bg-terracotta opacity-70" />
             </div>
           </FadeIn>
         </div>
@@ -157,7 +156,7 @@ export default function SobrePage({
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <Link
               href={`${p}/consultorias`}
-              className="inline-flex items-center gap-2 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200"
+              className="inline-flex items-center gap-2 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200 rounded-full"
             >
               {about.consultoriasCta}
               <span aria-hidden="true">&rarr;</span>
@@ -166,7 +165,7 @@ export default function SobrePage({
               href={contact.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 border border-olive text-olive hover:bg-terracotta hover:text-background transition-colors duration-200"
+              className="inline-flex items-center gap-2 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 border border-olive text-olive hover:bg-terracotta hover:text-background transition-colors duration-200 rounded-full"
             >
               {contact.cta}
             </a>

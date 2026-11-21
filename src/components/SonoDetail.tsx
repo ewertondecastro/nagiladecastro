@@ -51,7 +51,7 @@ export default function SonoDetail({ dict, locale, card }: Props) {
   const homeHref = locale === "pt" ? "/" : `/${locale}`;
 
   const ctaBase =
-    "inline-flex items-center justify-center text-center font-barlow-condensed text-sm tracking-widest uppercase font-semibold transition-colors duration-200 motion-reduce:transition-none focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4";
+    "inline-flex items-center justify-center text-center font-barlow-condensed text-sm tracking-widest uppercase font-semibold transition-colors duration-200 motion-reduce:transition-none focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 rounded-full";
 
   return (
     <MotionPrefs>
@@ -174,13 +174,13 @@ export default function SonoDetail({ dict, locale, card }: Props) {
           <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
             <FadeIn direction="left" className="lg:col-span-5">
               <div className="relative w-full max-w-xs sm:max-w-sm lg:max-w-none">
-                <div className="relative aspect-[4/5] w-full overflow-hidden">
+                <div className="relative aspect-[4/5] w-full overflow-hidden rounded-t-[999px] rounded-b-[28px]">
                   <Image
-                    src="/images/nagila.jpg"
-                    alt="Nágila Decastro"
+                    src="/images/v2/nagila-atendimento.jpg"
+                    alt="Nágila Decastro conversando durante um atendimento"
                     fill
                     sizes="(max-width: 1024px) 80vw, 40vw"
-                    className="object-cover object-top"
+                    className="object-cover object-[52%_30%]"
                   />
                 </div>
               </div>

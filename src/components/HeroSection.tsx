@@ -99,7 +99,7 @@ export default function HeroSection({ dict, locale }: Props) {
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.95 }}
-            className="mt-8 inline-flex items-center gap-2 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200 shadow-lg shadow-terracotta/20"
+            className="mt-8 inline-flex items-center gap-2 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200 shadow-lg shadow-terracotta/20 rounded-full"
           >
             {hero.cta}
             <span aria-hidden="true">→</span>

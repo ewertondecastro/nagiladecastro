@@ -44,7 +44,7 @@ export default function EntregaCasaRotinaTempo() {
 
         <a
           href={DOWNLOAD_URL}
-          className="inline-block font-barlow-condensed text-sm tracking-widest uppercase px-10 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200"
+          className="inline-block font-barlow-condensed text-sm tracking-widest uppercase px-10 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200 rounded-full"
         >
           Baixar o e-book (PDF)
         </a>

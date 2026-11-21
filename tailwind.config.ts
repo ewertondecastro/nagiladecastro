@@ -36,10 +36,10 @@ const config: Config = {
         "rose-soft": "#DCE1D4",
       },
       fontFamily: {
-        // classes mantidas, fontes trocadas por trás: Lora (títulos) + Lato (texto)
-        playfair: ["var(--font-playfair)", "Georgia", "serif"],
-        barlow: ["var(--font-barlow)", "system-ui", "sans-serif"],
-        "barlow-condensed": ["var(--font-barlow)", "system-ui", "sans-serif"],
+        // classes mantidas, fontes trocadas por trás: Instrument Serif (títulos) + Manrope (texto)
+        playfair: ["var(--font-v2-display)", "Georgia", "serif"],
+        barlow: ["var(--font-v2-sans)", "system-ui", "sans-serif"],
+        "barlow-condensed": ["var(--font-v2-sans)", "system-ui", "sans-serif"],
       },
       fontSize: {
         "10xl": ["10rem", { lineHeight: "1" }],

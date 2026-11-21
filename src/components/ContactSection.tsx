@@ -53,7 +53,7 @@ export default function ContactSection({ dict }: Props) {
           href={whatsAppUrl(contact.whatsappText)}
           target="_blank"
           rel="noopener noreferrer"
-          className="group inline-flex items-center gap-3 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 border border-olive text-olive hover:bg-terracotta hover:text-background transition-colors duration-200"
+          className="group inline-flex items-center gap-3 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 border border-olive text-olive hover:bg-terracotta hover:text-background transition-colors duration-200 rounded-full"
         >
           {contact.whatsappCta}
         </a>

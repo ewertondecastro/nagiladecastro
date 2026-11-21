@@ -135,7 +135,7 @@ export default function ContactForm({ dict }: Props) {
         <button
           type="submit"
           disabled={status === "sending"}
-          className="inline-flex items-center justify-center font-barlow-condensed text-sm tracking-[0.2em] uppercase px-10 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200 disabled:opacity-60"
+          className="inline-flex items-center justify-center font-barlow-condensed text-sm tracking-[0.2em] uppercase px-10 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200 disabled:opacity-60 rounded-full"
         >
           {status === "sending" ? contact.formSending : contact.formSubmit}
         </button>

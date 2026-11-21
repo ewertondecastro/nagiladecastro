@@ -56,7 +56,7 @@ export default function ResourcesVitrine({ dict, locale }: Props) {
                         draggable={false}
                       />
                     </div>
-                    <span className="absolute top-4 left-4 inline-block font-barlow-condensed text-[10px] tracking-[0.3em] uppercase px-3 py-1 bg-terracotta text-background">
+                    <span className="absolute top-4 left-4 inline-block font-barlow-condensed text-[10px] tracking-[0.3em] uppercase px-3 py-1 bg-terracotta text-background rounded-full">
                       {item.badge}
                     </span>
                   </div>
@@ -84,7 +84,7 @@ export default function ResourcesVitrine({ dict, locale }: Props) {
         <FadeIn className="mt-12 md:hidden">
           <Link
             href={recursosHref}
-            className="inline-flex items-center gap-2 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200"
+            className="inline-flex items-center gap-2 font-barlow-condensed text-sm tracking-widest uppercase px-8 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200 rounded-full"
           >
             {products.teaserCta}
             <span aria-hidden="true">&rarr;</span>

@@ -77,7 +77,7 @@ export default function ConsultoriaCards({ dict, locale, showFormats = false }: 
                     href={whatsAppUrl(card.whatsappText)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="relative z-20 font-barlow-condensed text-sm tracking-widest uppercase px-7 py-3.5 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200"
+                    className="relative z-20 font-barlow-condensed text-sm tracking-widest uppercase px-7 py-3.5 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200 rounded-full"
                   >
                     {card.contactCta}
                   </a>

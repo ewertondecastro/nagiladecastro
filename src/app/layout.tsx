@@ -1,23 +1,32 @@
 import type { Metadata } from "next";
-import { Lora, Lato } from "next/font/google";
+import { Instrument_Serif, Manrope, Playfair_Display } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 
-// Tipografia oficial "Argila & Sálvia": Lora (títulos) + Lato (texto).
-// Mantemos os nomes de variável antigos para não renomear classes no site.
-const lora = Lora({
+// Tipografia do visual novo: Instrument Serif (títulos delicados), Manrope
+// (textos) e Playfair Display pesada só nas palavras de impacto.
+// As classes antigas font-playfair e font-barlow apontam para essas fontes
+// no tailwind.config.ts, então as páginas mudam junto sem renomear nada.
+const display = Instrument_Serif({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: "400",
   style: ["normal", "italic"],
-  variable: "--font-playfair",
+  variable: "--font-v2-display",
   display: "swap",
 });
 
-const lato = Lato({
+const sans = Manrope({
   subsets: ["latin"],
-  weight: ["300", "400", "700"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-v2-sans",
+  display: "swap",
+});
+
+const bold = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["800", "900"],
   style: ["normal", "italic"],
-  variable: "--font-barlow",
+  variable: "--font-v2-bold",
   display: "swap",
 });
 
@@ -45,7 +54,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt" suppressHydrationWarning>
-      <body className={`${lora.variable} ${lato.variable} bg-background text-text-primary antialiased`}>
+      <body className={`${display.variable} ${sans.variable} ${bold.variable} bg-background text-text-primary antialiased`}>
         {children}
         {/* Microsoft Clarity: só no domínio real, para não contar localhost nem previews do Netlify. */}
         <Script id="ms-clarity" strategy="afterInteractive">

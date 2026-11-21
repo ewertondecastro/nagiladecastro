@@ -81,7 +81,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
               href={whatsAppUrl(d.heroCtaWhatsappText ?? d.ctaWhatsappText)}
               target="_blank"
               rel="noopener noreferrer"
-              className="self-start max-w-full font-barlow-condensed text-sm tracking-widest uppercase px-8 md:px-10 py-4 bg-terracotta text-background font-semibold text-center hover:bg-text-primary transition-colors duration-200"
+              className="self-start max-w-full font-barlow-condensed text-sm tracking-widest uppercase px-8 md:px-10 py-4 bg-terracotta text-background font-semibold text-center hover:bg-text-primary transition-colors duration-200 rounded-full"
             >
               {d.heroCtaLabel}
             </a>
@@ -448,7 +448,7 @@ export default function ConsultoriaDetail({ dict, locale, card }: Props) {
             href={whatsAppUrl(d.ctaWhatsappText)}
             target="_blank"
             rel="noopener noreferrer"
-            className="font-barlow-condensed text-sm tracking-widest uppercase px-10 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200"
+            className="font-barlow-condensed text-sm tracking-widest uppercase px-10 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200 rounded-full"
           >
             {d.ctaLabel}
           </a>

@@ -68,7 +68,7 @@ export default function GuiaSonoLanding({ dict }: { dict: LocaleDict }) {
     <button
       type="button"
       onClick={() => setOpen(true)}
-      className="inline-flex items-center justify-center font-barlow-condensed text-sm tracking-[0.2em] uppercase px-10 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-300 shadow-lg shadow-terracotta/20"
+      className="inline-flex items-center justify-center font-barlow-condensed text-sm tracking-[0.2em] uppercase px-10 py-4 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-300 shadow-lg shadow-terracotta/20 rounded-full"
     >
       {children}
     </button>

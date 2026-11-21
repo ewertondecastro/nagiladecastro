@@ -162,7 +162,7 @@ export default function LeadCaptureModal({ leadForm, item, locale, onClose }: Pr
             <button
               type="submit"
               disabled={status === "sending"}
-              className="w-full font-barlow-condensed text-xs tracking-widest uppercase px-5 py-3 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
+              className="w-full font-barlow-condensed text-xs tracking-widest uppercase px-5 py-3 bg-terracotta text-background font-semibold hover:bg-text-primary transition-colors duration-200 disabled:opacity-60 disabled:cursor-not-allowed rounded-full"
             >
               {status === "sending" ? leadForm.sending : leadForm.submit}
             </button>
