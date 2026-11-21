@@ -13,7 +13,7 @@ import { whatsAppUrl } from "@/lib/whatsapp";
 // ─── Configuração (troque quando precisar) ───────────────────────────
 // Deixe HOTMART_URL vazio para vender pelo WhatsApp (fluxo atual).
 // Preencha com o checkout do Hotmart para usá-lo no lugar.
-const HOTMART_URL = "";
+const HOTMART_URL = "https://pay.hotmart.com/Y107681149J?bid=1795278952099";
 const WHATSAPP_PURCHASE = whatsAppUrl(
   "Oi Nágila, vim pelo site e quero comprar o e-book Casa, Rotina e Tempo (2ª edição)."
 );
@@ -56,7 +56,7 @@ const TOOLS = [
 const FAQ = [
   {
     q: "Como recebo o e-book?",
-    a: "Depois da compra você recebe o arquivo em PDF, direto no seu contato. É digital: sem espera e sem frete.",
+    a: "Assim que o pagamento é aprovado, a Hotmart envia o acesso ao PDF para o seu e-mail. É digital: sem espera e sem frete.",
   },
   {
     q: "Consigo ler no celular?",
